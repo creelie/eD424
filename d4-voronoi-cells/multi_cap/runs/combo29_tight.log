@@ -1,0 +1,86 @@
+count29: certificate combo29_d8.npz, t/2 = 18.389858, point terms {'A': 0.282374, 'B': 0.215216, 'F': 0.041598}
+per-centre thresholds m_b by bin: A -1.088206, A -1.088207, B -1.088291, B -1.088305, B -1.088300, B -1.088291, F -1.088290
+23396 count vectors; the largest bounds (level 3.103305):
+   3.101463  bins (19, 0, 4, 0, 0, 5, 1)  types (19, 9, 1)
+   3.101463  bins (19, 0, 5, 0, 0, 4, 1)  types (19, 9, 1)
+   3.101463  bins (19, 0, 6, 0, 0, 3, 1)  types (19, 9, 1)
+   3.101463  bins (19, 0, 7, 0, 0, 2, 1)  types (19, 9, 1)
+   3.101462  bins (19, 0, 8, 0, 0, 1, 1)  types (19, 9, 1)
+   3.101462  bins (19, 0, 9, 0, 0, 0, 1)  types (19, 9, 1)
+parts of the bound at (19, 0, 4, 0, 0, 5, 1):
+   centres m_b    -31.558827
+   point terms    +7.343648
+   t/2            +18.389858
+   pairs AA       +1.718215
+   pairs AB       +2.175881
+   pairs AF       +0.504356
+   pairs BB       +0.604430
+   pairs BF       +0.254383
+   triples AAA    +1.030073
+   triples AAB    +1.660592
+   triples AAF    +0.100496
+   triples ABB    +0.695203
+   triples ABF    +0.085856
+   triples BBB    +0.075591
+   triples BBF    +0.021709
+   sum            +3.101463
+   grouped: per centre (m_b + point) -24.2152, t/2 +18.3899, pairs +5.2573, triples +3.6695
+count constraints active at the maximum:
+   N(2.05) = 19 is its lower end 19; relaxed by one the largest bound is 3.108176 at (18, 0, 5, 0, 0, 5, 1)
+   N(2.15) = 23 is its lower end 23; relaxed by one the largest bound is 3.101463 at (19, 0, 4, 0, 0, 5, 1)
+   N(2.2) = 23 is its lower end 23; relaxed by one the largest bound is 3.101463 at (19, 0, 4, 0, 0, 5, 1)
+the largest bound for each number of centres within 2.05, the other constraints kept:
+    8: 3.173820 at types (8, 16, 5)
+    9: 3.161804 at types (9, 15, 5)
+   10: 3.155123 at types (10, 18, 1)
+   11: 3.149681 at types (11, 17, 1)
+   12: 3.144167 at types (12, 16, 1)
+   13: 3.138555 at types (13, 15, 1)
+   14: 3.132822 at types (14, 14, 1)
+   15: 3.126942 at types (15, 13, 1)
+   16: 3.120891 at types (16, 12, 1)
+   17: 3.114644 at types (17, 11, 1)
+   18: 3.108176 at types (18, 10, 1)
+   19: 3.101463 at types (19, 9, 1)
+   20: 3.094479 at types (20, 8, 1)
+   21: 3.087200 at types (21, 7, 1)
+   22: 3.082019 at types (22, 2, 5)
+   23: 3.080894 at types (23, 1, 5)
+   24: 3.080362 at types (24, 0, 5)
+   25: 3.060308 at types (25, 0, 4)
+   26: 3.052246 at types (26, 0, 3)
+   27: 3.044626 at types (27, 0, 2)
+   28: 3.025900 at types (28, 0, 1)
+   29: 2.984518 at types (29, 0, 0)
+f against m_b on each bin (largest of f, its place, and the spread max - min of f):
+   bin 0 (A, 2.0000 to 2.0161): max f -1.088207 at d = 2.0000, m_b - max f 1.0e-06, spread 4.2e-06
+   bin 1 (A, 2.0161 to 2.0500): max f -1.088212 at d = 2.0161, m_b - max f 4.3e-06, spread 8.0e-05
+   bin 2 (B, 2.0500 to 2.1000): max f -1.088292 at d = 2.0500, m_b - max f 1.0e-06, spread 2.2e-04
+   bin 3 (B, 2.1000 to 2.1500): max f -1.088508 at d = 2.1000, m_b - max f 2.0e-04, spread 6.5e-05
+   bin 4 (B, 2.1500 to 2.2000): max f -1.088446 at d = 2.2000, m_b - max f 1.5e-04, spread 1.2e-04
+   bin 5 (B, 2.2000 to 2.3000): max f -1.088292 at d = 2.3000, m_b - max f 1.0e-06, spread 1.5e-04
+   bin 6 (F, 2.3000 to 2.4495): max f -1.088291 at d = 2.4495, m_b - max f 1.0e-06, spread 1.4e-04
+pair inequalities K + PAIR3 - Pi <= c2: largest value found and where (d, d', u; a = touching inner product)
+   AA threshold 1.004804e-02: 1.004304e-02 at (2.0000, 2.0000, -0.5594; a 0.5000); 1.004303e-02 at (2.0000, 2.0000, 0.0031; a 0.5000); 1.004303e-02 at (2.0000, 2.0000, -0.1956; a 0.5000);
+      within 1e-6 of the largest value on 0.1% of the samples; at d = 2.0000, d' = 2.0000 for u in [-1.000, -0.989], [-0.848, -0.792], [-0.631, 0.029], [0.500, 0.500]
+   AB threshold 1.272445e-02: 1.271946e-02 at (2.0000, 2.0500, -0.0131; a 0.5125); 1.271945e-02 at (2.0000, 2.3000, -0.1593; a 0.5750); 1.271945e-02 at (2.0000, 2.0500, 0.5125; a 0.5125);
+      within 1e-6 of the largest value on 0.0% of the samples; at d = 2.0000, d' = 2.0500 for u in [-0.873, -0.699], [-0.471, -0.423], [-0.021, -0.006], [0.513, 0.513]
+   AF threshold 2.654504e-02: 2.654004e-02 at (2.0000, 2.3399, -0.3898; a 0.5850); 2.653887e-02 at (2.0000, 2.4495, 0.1045; a 0.6124); 2.653887e-02 at (2.0000, 2.4495, -0.0427; a 0.6124);
+      within 1e-6 of the largest value on 0.0% of the samples; at d = 2.0000, d' = 2.3399 for u in [-0.402, -0.376]
+   BB threshold 1.678972e-02: 1.678472e-02 at (2.0500, 2.0500, 0.5241; a 0.5241); 1.678472e-02 at (2.3000, 2.3000, 0.6219; a 0.6219); 1.678457e-02 at (2.3000, 2.3000, -0.8094; a 0.6219);
+      within 1e-6 of the largest value on 0.0% of the samples; at d = 2.0500, d' = 2.0500 for u in [-0.556, -0.518], [-0.308, -0.179], [-0.013, 0.027], [0.524, 0.524]
+   BF threshold 2.826473e-02: 2.825973e-02 at (2.0500, 2.4495, 0.6176; a 0.6176); 2.825973e-02 at (2.3000, 2.4495, 0.0129; a 0.6470); 2.825973e-02 at (2.0500, 2.3000, 0.5824; a 0.5824);
+      within 1e-6 of the largest value on 0.0% of the samples; at d = 2.0500, d' = 2.4495 for u in [-0.602, -0.181], [0.191, 0.207], [0.618, 0.618]
+   FF threshold 4.352731e-02: 4.352230e-02 at (2.4495, 2.4495, 0.6667; a 0.6667); 4.352228e-02 at (2.4495, 2.4495, 0.0979; a 0.6667); 4.352228e-02 at (2.4495, 2.4495, -0.0438; a 0.6667);
+      within 1e-6 of the largest value on 0.1% of the samples; at d = 2.4495, d' = 2.4495 for u in [-1.000, -1.000], [-0.810, -0.544], [-0.406, 0.323], [0.667, 0.667]
+triple inequalities TRIPLE3 <= c3: largest value found, where (u12, u13, u23), and the Gram determinant there
+   AAA threshold +1.063027e-03: largest +1.061906e-03 at (0.0250, 0.5068, -0.8491) ['', '', ''], det -1.1e-16
+   AAB threshold +1.079007e-03: largest +1.077821e-03 at (0.3420, -0.3900, -0.9837) ['', '', ''], det 2.6e-02
+   AAF threshold +5.876966e-04: largest +5.828733e-04 at (-0.8707, -0.7255, 0.6052) ['', '', ''], det 1.1e-01
+   ABB threshold +1.016378e-03: largest +1.015161e-03 at (-0.6125, -0.9999, 0.6003) ['', '', ''], det 0.0e+00
+   ABF threshold +5.020802e-04: largest +5.003095e-04 at (0.5824, 0.5346, 0.5625) ['top', '', ''], det 4.1e-01
+   AFF threshold -7.447309e-04: largest -7.472383e-04 at (0.4800, -0.1830, 0.6029) ['', '', ''], det 2.7e-01
+   BBB threshold +8.998970e-04: largest +8.982066e-04 at (0.2476, 0.2476, 0.2476) ['', '', ''], det 8.5e-01
+   BBF threshold +6.030341e-04: largest +6.020009e-04 at (-0.9379, -0.6727, 0.3743) ['', '', ''], det 2.2e-16
+   BFF threshold -4.025770e-04: largest -4.059360e-04 at (0.5570, -0.8063, -0.8915) ['', '', ''], det 4.6e-02
+   FFF threshold +8.615185e-03: largest +8.613914e-03 at (0.6667, -0.8291, -0.8291) ['top', '', ''], det 9.7e-02

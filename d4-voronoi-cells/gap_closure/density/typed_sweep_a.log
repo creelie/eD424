@@ -1,0 +1,19 @@
+/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py:120: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', tol_gap_abs=1e-8, tol_gap_rel=1e-8, tol_feas=1e-8, max_iter=500)
+RESULT d=10 t1=0.50800 t2=0.61410: sampled Z 1.86811, corrected Z 2.01023 (below 0 excludes the code)
+Traceback (most recent call last):
+  File "/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py", line 182, in <module>
+    
+  File "/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py", line 161, in run
+    
+  File "/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py", line 120, in solve
+    opts = dict(tol_gap_abs=1e-7, tol_gap_rel=1e-7, tol_feas=1e-7, max_iter=500,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 687, in solve
+    return solve_func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 1148, in _solve
+    self.unpack_results(solution, solving_chain, inverse_data)
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 1453, in unpack_results
+    raise error.SolverError(
+cvxpy.error.SolverError: Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information.

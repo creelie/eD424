@@ -1,0 +1,19 @@
+28 with at most 15 centres within 2.0161 (case28_lo15.json), three-point degree 10, continued from round 1 of c28lo15_d10.log (RESUME=c28lo15_d10_r1.npz with RESUME_NOPRUNE=1, so every sample of that round, its new points included, is kept), KEEP_BASE=1, TCOPLANAR=32, TSYM=32, REFINE=150, three more rounds on four solver threads.  Started Wed Oct  7 08:32:50 UTC 2026
+resumed from c28lo15_d10_r1.npz, all samples kept
+fixed coplanar triples per kind: {'AAA': 1176, 'AAB': 1231, 'AAF': 1258, 'ABB': 1275, 'ABF': 1302, 'AFF': 1326, 'BBB': 1275, 'BBF': 1326, 'BFF': 1326, 'FFF': 1326}
+fixed triples per kind with the symmetric slices: {'AAA': 2642, 'AAB': 1906, 'AAF': 1931, 'ABB': 1966, 'ABF': 1302, 'AFF': 2022, 'BBB': 2760, 'BBF': 2011, 'BFF': 2013, 'FFF': 2807}
+   direct: 8988 variables, 117681 inequalities, 7389 psd rows in 56 cones, 83321406 nonzeros [59 s to build]
+   105 type-count vectors
+d3=10 round 1: NumericalError  bound 3.05883 (target 3.10330), corrected <= 3.15940  [9580 s]
+   viol: AA 6.7e-07, AB 1.1e-07, AF 1.3e-07, BB -1.9e-07, BF -4.0e-07, FF -4.7e-05, AAA 1.5e-05, AAB 8.4e-06, AAF 4.4e-05, ABB 5.0e-05, ABF 4.0e-05, AFF 2.7e-05, BBB 1.6e-05, BBF 9.4e-06, BFF 2.1e-05, FFF -3.7e-05
+   c2: {'AA': -0.063419, 'AB': -0.037016, 'AF': -0.031255, 'BB': -0.011641, 'BF': -0.006455, 'FF': -0.000186}
+   c3: {'AAA': 0.0035924, 'AAB': 0.0026228, 'AAF': 0.002461, 'ABB': 0.0016748, 'ABF': 0.0015253, 'AFF': 0.0013124, 'BBB': 0.0008012, 'BBF': 0.0006848, 'BFF': 0.0005736, 'FFF': 0.0006868}
+   direct: 8988 variables, 125941 inequalities, 7389 psd rows in 56 cones, 89745528 nonzeros [65 s to build]
+   105 type-count vectors
+d3=10 round 2: NumericalError  bound 3.05807 (target 3.10330), corrected <= 3.40545  [10086 s]
+   viol: AA 3.2e-07, AB 1.3e-07, AF 1.4e-07, BB -8.2e-07, BF -2.1e-06, FF -6.1e-05, AAA 2.9e-06, AAB 3.5e-06, AAF 3.0e-04, ABB 9.7e-06, ABF 1.4e-04, AFF 3.3e-05, BBB 6.8e-06, BBF -1.5e-06, BFF 1.8e-06, FFF -4.5e-05
+   c2: {'AA': -0.055514, 'AB': -0.032778, 'AF': -0.028352, 'BB': -0.010675, 'BF': -0.006401, 'FF': -0.001209}
+   c3: {'AAA': 0.0031733, 'AAB': 0.0023483, 'AAF': 0.0022475, 'ABB': 0.0015271, 'ABF': 0.0014221, 'AFF': 0.0012629, 'BBB': 0.0007709, 'BBF': 0.0006822, 'BFF': 0.0006035, 'FFF': 0.0007058}
+   direct: 8988 variables, 122200 inequalities, 7389 psd rows in 56 cones, 86912643 nonzeros [57 s to build]
+exit 143 at Wed Oct  7 14:10:10 UTC 2026
+stopped by hand at 14:10 UTC during round 3 (index 3): round 2 had a numerical error and a corrected bound of 3.40545, worse than round 1 (3.15940); restarted with the trace penalty as c28lo15c_d10.log

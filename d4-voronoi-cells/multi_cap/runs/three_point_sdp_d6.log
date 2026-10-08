@@ -1,0 +1,12 @@
+target 8 - A_* = 0.092855570; omega(1/2) = 0.00144541; degree 6; grid 24 x 24; solver CLARABEL; 4 rounds of refinement
+  two-point, round 1: sampled bound 0.069925 on 6168 triples (0s); largest violation on the fine check 3.21e-05; bound over the fine set 0.067221 = 72.4 per cent of the target
+  two-point, round 2: sampled bound 0.069478 on 8534 triples (0s); largest violation on the fine check 3.80e-07; bound over the fine set 0.069446 = 74.8 per cent of the target
+  two-point, round 3: sampled bound 0.069472 on 8543 triples (0s); largest violation on the fine check 1.17e-14; bound over the fine set 0.069472 = 74.8 per cent of the target
+  two-point, round 4: sampled bound 0.069472 on 8544 triples (0s); largest violation on the fine check 2.26e-08; bound over the fine set 0.069470 = 74.8 per cent of the target
+/home/claude/d44/D44/code/Code_4/multi_cap/three_point_sdp.py:154: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=solver, verbose=False)
+  three-point, round 1: sampled bound 0.091065 on 6168 triples (21s); largest violation on the fine check 2.93e-04; bound over the fine set 0.066329 = 71.4 per cent of the target
+  three-point, round 2: sampled bound 0.090495 on 9168 triples (36s); largest violation on the fine check 2.47e-05; bound over the fine set 0.088409 = 95.2 per cent of the target
+  three-point, round 3: sampled bound 0.090173 on 12168 triples (51s); largest violation on the fine check 9.86e-06; bound over the fine set 0.089342 = 96.2 per cent of the target
+  three-point, round 4: sampled bound 0.090144 on 12942 triples (46s); largest violation on the fine check 4.01e-07; bound over the fine set 0.090110 = 97.0 per cent of the target
+(sampled conditions, refined by the worst points of each check; an indication of the strength of the relaxation, not a proof)

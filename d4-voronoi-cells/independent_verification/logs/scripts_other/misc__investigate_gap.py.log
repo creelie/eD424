@@ -1,0 +1,31 @@
+$ (cd misc && investigate_gap.py)
+
+=== t=0.3000, formula theta_c=0.574684 ===
+<W,u1> at theta=tf: 1.0000000000  (should be 1)
+  theta=0.569684: total on-cap vertices=12, near-W vertices=0
+  theta=0.579684: total on-cap vertices=9, near-W vertices=0
+
+=== t=0.4600, formula theta_c=0.835620 ===
+<W,u1> at theta=tf: 1.0000000000  (should be 1)
+  theta=0.830620: total on-cap vertices=12, near-W vertices=0
+  theta=0.840620: total on-cap vertices=9, near-W vertices=0
+
+=== t=0.5000, formula theta_c=0.894106 ===
+<W,u1> at theta=tf: 1.0000000000  (should be 1)
+  theta=0.889106: total on-cap vertices=16, near-W vertices=0
+  theta=0.899106: total on-cap vertices=15, near-W vertices=0
+
+=== t=0.6000, formula theta_c=1.028031 ===
+<W,u1> at theta=tf: 1.0000000000  (should be 1)
+  theta=1.023031: total on-cap vertices=16, near-W vertices=0
+  theta=1.033031: total on-cap vertices=15, near-W vertices=0
+
+=== t=0.7000, formula theta_c=1.144599 ===
+<W,u1> at theta=tf: 1.0000000000  (should be 1)
+  theta=1.139599: total on-cap vertices=14, near-W vertices=0
+  theta=1.149599: total on-cap vertices=11, near-W vertices=0
+
+=== t=0.7853, formula theta_c=1.230865 ===
+<W,u1> at theta=tf: 1.0000000000  (should be 1)
+  theta=1.225865: total on-cap vertices=14, near-W vertices=0
+  theta=1.235865: total on-cap vertices=8, near-W vertices=0

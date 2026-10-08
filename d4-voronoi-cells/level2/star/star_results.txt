@@ -1,0 +1,9 @@
+d1=2 delta=4 prec=128 B=127//250 BL=127//250 value=3.011406517420815e15 status=dFeas seconds=347.7
+d1=4 delta=6 prec=128 B=127//250 BL=127//250 value=34.07267532413623 status=pdOpt seconds=622.0
+d1=4 delta=6 prec=128 B=127//250 BL=6141//10000 value=137.53348442408887 status=pdOpt seconds=725.0
+fast route (build_part_star.jl + ../fast/solve_fast.jl, 128-bit, gap 1e-6):
+d1=4 delta=6 B=127//250 BL=6141//10000 value=137.53344 status=pdOpt seconds=484 (matches the slow route)
+d1=6 delta=8 B=127//250 BL=6141//10000 value=36.15698 status=pdOpt seconds=1622 maxrss=3.6GB
+plain programme (../fast/build_part.jl, s=1/125), for comparison:
+d1=8 delta=10 value=26.72856 status=pdOpt seconds=1254 maxrss=2.9GB (the same as (6,8), 26.7286, in ../fast/README.md; (14,16) gives 24.5555)
+d1=10 delta=12 value=25.78047 status=pdOpt seconds=4743 maxrss=4.1GB (plain programme, s=1/125; one thread)

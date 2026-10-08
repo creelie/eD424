@@ -1,0 +1,7 @@
+$ python3 tilt_block.py
+1. exact LDL^T of the 72 x 72 tilt block: positive semidefinite = True, zero pivots 15, least positive pivot 5/66 (0.075758)
+2. spectrum (value: multiplicity): 0: 15, 0.083333: 8, 0.119871: 8, 0.383073: 4, 0.463463: 8, 0.5: 6, 0.666667: 6, 0.833333: 10, 1.33333: 3, 1.45026: 4
+3. exact kernel: dimension 15
+4. the six rotations lie in the kernel: True; rank of kernel + rotations = 15 (so they span a 6-dimensional part of it)
+5. the nine infinitesimal strains lie in the kernel: 0 of 9
+PASS: the tilt block is positive semidefinite, with a 15-dimensional kernel (6 rotations and 9 further flat directions, written to tilt_kernel.npy)

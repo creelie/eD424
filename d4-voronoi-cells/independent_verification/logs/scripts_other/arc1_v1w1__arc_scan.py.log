@@ -1,0 +1,10 @@
+$ (cd arc1_v1w1 && arc_scan.py)
+Scanning v1-w1 arc (t in [0, pi/2], full range needed -- not
+self-symmetric under any single generator found so far):
+  min so far: F=0.000133 at theta=0.0200, t=0.6656
+
+Scanning w1-v2 arc (t in [0, pi/4] suffices by midpoint symmetry):
+  min so far: F=0.000133 at theta=0.0200, t=0.7653, arc=w1-v2
+
+GLOBAL MIN over both reduced arcs (coarse grid): F=0.000133
+  at theta=0.020000, t=0.765260, arc=w1-v2

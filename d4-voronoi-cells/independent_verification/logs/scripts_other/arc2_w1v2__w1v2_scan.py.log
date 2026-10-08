@@ -1,0 +1,22 @@
+$ (cd arc2_w1v2 && w1v2_scan.py)
+t_samples: [0.02  0.051 0.082 0.113 0.144 0.175 0.206 0.237 0.268 0.3   0.331 0.362
+ 0.393 0.424 0.455 0.486 0.517 0.548 0.579 0.61  0.641 0.672 0.703 0.734
+ 0.765]
+num breakpoints found per t: [3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4]
+
+t=0.0200: breaks at theta=[np.float64(0.0412), np.float64(1.0511), np.float64(1.3747)]
+   candidates: universal=1.0472, W-curve=1.5706
+
+t=0.1753: breaks at theta=[np.float64(0.3453), np.float64(1.0433), np.float64(1.0511), np.float64(1.558)]
+   candidates: universal=1.0472, W-curve=1.5554
+
+t=0.3306: breaks at theta=[np.float64(0.63), np.float64(0.9068), np.float64(1.0511), np.float64(1.519)]
+   candidates: universal=1.0472, W-curve=1.5152
+
+t=0.4859: breaks at theta=[np.float64(0.8366), np.float64(1.0511), np.float64(1.4488)]
+   candidates: universal=1.0472, W-curve=1.4481
+
+t=0.6412: breaks at theta=[np.float64(0.7976), np.float64(1.0511), np.float64(1.0784), np.float64(1.3513)]
+   candidates: universal=1.0472, W-curve=1.3512
+
+distinct combinatorial types over 12x16 grid: 7

@@ -1,0 +1,13 @@
+$ python3 radial_count_check.py radial_certificates/radial_31.json
+certificate: M = 31, degree 12 in the angle, 4 in the distance; dmax = 12247449/5000000
+  [PASS] dmax exceeds sqrt 6: 12247449/5000000^2 = 6.0000002803
+  [PASS] A_0, ..., A_12 symmetric
+  [PASS] A_1, ..., A_12 positive semidefinite (exact LDL^T)
+  [PASS] A_0 positive definite (exact LDL^T): least pivot 1.464e-07
+  [PASS] [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T): t = 10.684161960813, last pivot 2.905e-15
+  Bernstein coefficients of K on the root box: largest |coefficient| 0.0692, error allowance 7.46e-15
+  [PASS] pair inequality K <= Pi on the admissible domain: 191740 boxes closed, 180310 dropped (d > d' or beyond u = a(d, d')), 54248 values of Pi in Arb [82 s]
+  [PASS] S(d) + K(d, d, 1)/2 - z . p(d) <= m on [2, dmax]: m = -0.072797, largest bound -0.072797, 356 intervals
+  [PASS] m < 0, so the bound falls with the count
+  [PASS] M m + t/2 < 9 pi^2/8 - 8: [3.0853743 +/- 2.12e-8] < [3.1033050 +/- 4.88e-8]
+PASS: every packing with at least 31 centres within sqrt 6 of a centre has T > 8 there [82 s]

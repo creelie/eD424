@@ -1,0 +1,16 @@
+$ python3 robust_ceiling.py
+degree of p_2: 16
+L2 = max|p_2'| on [1/2, 1/2+1e-3]  = 0.225720   (paper 0.226)
+qmin = min p_2/f on [-1,1/2]        = 2.6209e-04  (paper 2.62e-4)
+
+ceiling on kappa with B_3 = B_4 = 0 (pair terms alone), as a function of the
+rounding tolerance delta that the root-lattice step could conceivably allow:
+   delta    fmin(delta)    kappa ceiling
+ 3.0e-04     1.1240e-08        4.729e-14
+ 1.0e-03     1.2462e-07        5.243e-13
+ 1.0e-02     1.2123e-05        5.100e-11
+ 1.0e-01     8.6400e-04        3.635e-09
+ 2.5e-01     2.1973e-03        9.244e-09
+
+the paper's actual value, with B_3, B_4 included:  kappa = 2e-26
+the target:                                        kappa = 1e-2

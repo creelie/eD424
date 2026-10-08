@@ -1,0 +1,5 @@
+pt {'A': 0.2086468476165244, 'B': 0.14541885400732824, 'F': 0.03371508338546292} t/2 32.897790166320455
+at most 13 within 2.0161                    60214 vectors, largest 3.07924 at (13, 6, 9, 0, 0, 0, 0)
+at most 15 within 2.0161, 4 beyond 2.35      3178 vectors, largest 3.09042 at (15, 9, 0, 0, 0, 0, 4)
+at most 16 within 2.0161                    67342 vectors, largest 3.09607 at (16, 3, 9, 0, 0, 0, 0)
+16 within 2.0161, 1 beyond 2.35               575 vectors, largest 3.09605 at (16, 6, 5, 0, 0, 0, 1)

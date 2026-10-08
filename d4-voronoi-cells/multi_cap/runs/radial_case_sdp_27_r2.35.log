@@ -1,0 +1,11 @@
+leaf 1 [0 <= N(2.35) <= 23]
+    round 0: bound 3.10268, largest K - Pi between the samples 3.07e-06, against half the margin 5.57e-06
+    round 1: bound 3.10279, largest K - Pi between the samples -2.06e-06, against half the margin 4.37e-07
+    round 2: bound 3.10279, largest K - Pi between the samples -2.46e-06, against half the margin 4.27e-08
+    round 3: bound 3.10282, largest K - Pi between the samples -4.87e-06, against half the margin -2.37e-06
+leaf 2 [24 <= N(2.35) <= 27] (residual, not certified)
+wrote radial_certificates/case_27.json [595 s]
+
+real	9m55.945s
+user	7m45.368s
+sys	3m23.399s

@@ -1,0 +1,7 @@
+28 with at most 16 centres within 2.0161 (case28_lo16.json), three-point degree 10 with the trace penalty TRACE_REG=3e-4 (as c28lo15c_d10.log), continued from round 2 of c28lo15b_d10.log (RESUME=c28lo15b_d10_r2.npz, RESUME_NOPRUNE=1), KEEP_BASE=1, TCOPLANAR=32, TSYM=32, REFINE=150, three rounds on four solver threads.  At degree 8 the kernel is saturated near 15 close centres (c28lo16_d8.log, c28k15f4_d8.log); at degree 10 the samples left room at 15 close (3.05709 to 3.05883), but the solutions swung between the samples.  Started Wed Oct  7 20:08:11 UTC 2026
+resumed from c28lo15b_d10_r2.npz, all samples kept
+fixed coplanar triples per kind: {'AAA': 1176, 'AAB': 1231, 'AAF': 1258, 'ABB': 1275, 'ABF': 1302, 'AFF': 1326, 'BBB': 1275, 'BBF': 1326, 'BFF': 1326, 'FFF': 1326}
+fixed triples per kind with the symmetric slices: {'AAA': 2642, 'AAB': 1906, 'AAF': 1931, 'ABB': 1966, 'ABF': 1302, 'AFF': 2022, 'BBB': 2760, 'BBF': 2011, 'BFF': 2013, 'FFF': 2807}
+   direct: 8988 variables, 122200 inequalities, 7389 psd rows in 56 cones, 86912643 nonzeros [54 s to build]
+exit 137 at Wed Oct  7 23:50:58 UTC 2026
+[killed for memory at 23:50:58 UTC on 2026-10-07, 3 h 42 min into round 1 (no round finished, no certificate written): a convex-combination programme over the existing certificates (gap_closure/CM/c28_hull.py, added later) was started beside it and the container's memory limit was reached; not restarted, since the combination of the existing certificates already reached further than this run aimed to (see gap_closure/README.md)]

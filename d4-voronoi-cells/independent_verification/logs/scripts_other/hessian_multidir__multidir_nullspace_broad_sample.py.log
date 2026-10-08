@@ -1,0 +1,77 @@
+$ (cd hessian_multidir && multidir_nullspace_broad_sample.py)
+Active set (m=18): [0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 20, 21, 22, 23]
+========================================================================
+STEP 0: double-precision spectrum at 3 step sizes
+========================================================================
+  h=0.02: smallest 6 eigenvalues = [0.000172 0.000173 0.000174 0.000813 0.075326 0.075327]
+  h=0.01: smallest 6 eigenvalues = [3.9000e-05 4.5000e-05 4.6000e-05 2.1100e-04 7.5143e-02 7.5144e-02]
+  h=0.005: smallest 6 eigenvalues = [-5.0000e-06  1.8000e-05  2.1000e-05  5.7000e-05  7.5095e-02  7.5100e-02]
+  eigenvalue[0] shrink ratios: h=.02/.01=4.417  h=.01/.005=-7.510  (expect ~4 if exactly-zero true eigenvalue)
+  eigenvalue[1] shrink ratios: h=.02/.01=3.891  h=.01/.005=2.408  (expect ~4 if exactly-zero true eigenvalue)
+  eigenvalue[2] shrink ratios: h=.02/.01=3.767  h=.01/.005=2.180  (expect ~4 if exactly-zero true eigenvalue)
+  eigenvalue[3] shrink ratios: h=.02/.01=3.861  h=.01/.005=3.671  (expect ~4 if exactly-zero true eigenvalue)
+  eigenvalue[4] shrink ratios: h=.02/.01=1.002  h=.01/.005=1.001  (expect ~4 if exactly-zero true eigenvalue)
+
+CONCLUSION STEP 0: eigenvalues 0,1,2,3 all show the ~4x shrink
+signature; eigenvalue 4 (~0.075) does not shrink. Near-null space
+is (at least) 4-dimensional -- one more dimension than the prior
+script tested.
+
+Total test directions: 36
+
+  [basis eigenvector w0]  F(+s)=1.3019e-09  F(-s)=1.2997e-09  a4_est=0.025695  [t=29s]
+  [basis eigenvector w1]  F(+s)=1.3053e-09  F(-s)=1.3099e-09  a4_est=0.025828  [t=44s]
+  [basis eigenvector w2]  F(+s)=1.4653e-09  F(-s)=1.4626e-09  a4_est=0.028918  [t=59s]
+  [basis eigenvector w3]  F(+s)=1.5883e-08  F(-s)=1.5880e-08  a4_est=0.313708  [t=72s]
+  [(w0+w1)/sqrt2]  F(+s)=1.4627e-09  F(-s)=1.4647e-09  a4_est=0.028913  [t=86s]
+  [(w0-w1)/sqrt2]  F(+s)=1.3440e-09  F(-s)=1.3434e-09  a4_est=0.026543  [t=101s]
+  [(w0+w2)/sqrt2]  F(+s)=1.4223e-09  F(-s)=1.3928e-09  a4_est=0.027804  [t=115s]
+  [(w0-w2)/sqrt2]  F(+s)=1.4370e-09  F(-s)=1.4543e-09  a4_est=0.028557  [t=129s]
+  [(w0+w3)/sqrt2]  F(+s)=3.0361e-09  F(-s)=3.0336e-09  a4_est=0.059947  [t=143s]
+  [(w0-w3)/sqrt2]  F(+s)=4.1979e-09  F(-s)=4.2003e-09  a4_est=0.082945  [t=158s]
+  [(w1+w2)/sqrt2]  F(+s)=1.3896e-09  F(-s)=1.4195e-09  a4_est=0.027745  [t=173s]
+  [(w1-w2)/sqrt2]  F(+s)=1.4545e-09  F(-s)=1.4366e-09  a4_est=0.028553  [t=187s]
+  [(w1+w3)/sqrt2]  F(+s)=4.2049e-09  F(-s)=4.2052e-09  a4_est=0.083062  [t=202s]
+  [(w1-w3)/sqrt2]  F(+s)=3.0280e-09  F(-s)=3.0316e-09  a4_est=0.059848  [t=217s]
+  [(w2+w3)/sqrt2]  F(+s)=3.6731e-09  F(-s)=3.6715e-09  a4_est=0.072539  [t=231s]
+  [(w2-w3)/sqrt2]  F(+s)=3.6726e-09  F(-s)=3.6725e-09  a4_est=0.072544  [t=245s]
+  [random#0 coeffs=[-0.38, 0.495, -0.654, -0.427]]  F(+s)=1.5974e-09  F(-s)=1.6008e-09  a4_est=0.031587  [t=259s]
+  [random#1 coeffs=[-0.567, 0.314, -0.081, -0.757]]  F(+s)=4.6442e-09  F(-s)=4.6471e-09  a4_est=0.091765  [t=273s]
+  [random#2 coeffs=[0.367, -0.491, 0.48, -0.627]]  F(+s)=1.9100e-09  F(-s)=1.9038e-09  a4_est=0.037668  [t=287s]
+  [random#3 coeffs=[-0.319, 0.383, -0.766, -0.407]]  F(+s)=1.6049e-09  F(-s)=1.6039e-09  a4_est=0.031692  [t=301s]
+  [random#4 coeffs=[-0.031, 0.939, -0.044, 0.339]]  F(+s)=1.5112e-09  F(-s)=1.5117e-09  a4_est=0.029856  [t=316s]
+  [random#5 coeffs=[0.124, -0.805, 0.542, 0.21]]  F(+s)=1.2423e-09  F(-s)=1.2426e-09  a4_est=0.024543  [t=332s]
+  [random#6 coeffs=[0.332, 0.625, 0.693, -0.134]]  F(+s)=1.3187e-09  F(-s)=1.3197e-09  a4_est=0.026059  [t=348s]
+  [random#7 coeffs=[-0.288, 0.821, -0.096, 0.483]]  F(+s)=1.5362e-09  F(-s)=1.5292e-09  a4_est=0.030276  [t=364s]
+  [random#8 coeffs=[-0.54, 0.352, 0.684, 0.341]]  F(+s)=4.4446e-10  F(-s)=4.4444e-10  a4_est=0.008779  [t=380s]
+  [random#9 coeffs=[0.634, -0.663, 0.385, 0.103]]  F(+s)=1.4305e-09  F(-s)=1.4262e-09  a4_est=0.028214  [t=396s]
+  [random#10 coeffs=[0.055, 0.523, -0.142, -0.839]]  F(+s)=7.0433e-09  F(-s)=7.0468e-09  a4_est=0.139162  [t=411s]
+  [random#11 coeffs=[-0.461, 0.476, 0.73, 0.167]]  F(+s)=7.8652e-10  F(-s)=7.8809e-10  a4_est=0.015552  [t=427s]
+  [random#12 coeffs=[0.797, 0.441, -0.408, -0.061]]  F(+s)=1.4377e-09  F(-s)=1.4593e-09  a4_est=0.028613  [t=444s]
+  [random#13 coeffs=[0.614, -0.048, -0.276, 0.738]]  F(+s)=4.0160e-09  F(-s)=4.0142e-09  a4_est=0.079311  [t=461s]
+  [random#14 coeffs=[-0.166, 0.127, 0.792, -0.573]]  F(+s)=2.1503e-09  F(-s)=2.1583e-09  a4_est=0.042553  [t=477s]
+  [random#15 coeffs=[0.27, -0.732, 0.578, 0.241]]  F(+s)=1.3508e-09  F(-s)=1.3449e-09  a4_est=0.026624  [t=492s]
+  [random#16 coeffs=[0.765, -0.112, -0.629, -0.077]]  F(+s)=1.3953e-09  F(-s)=1.4061e-09  a4_est=0.027668  [t=507s]
+  [random#17 coeffs=[-0.289, -0.005, 0.937, -0.198]]  F(+s)=1.3919e-09  F(-s)=1.4132e-09  a4_est=0.027705  [t=522s]
+  [random#18 coeffs=[0.047, -0.195, 0.948, 0.248]]  F(+s)=1.3800e-09  F(-s)=1.3530e-09  a4_est=0.026992  [t=537s]
+  [random#19 coeffs=[-0.434, -0.428, -0.131, -0.782]]  F(+s)=5.5150e-09  F(-s)=5.5165e-09  a4_est=0.108953  [t=553s]
+
+========================================================================
+STEP 2 SUMMARY
+========================================================================
+min a4_est = 0.008779   max a4_est = 0.313708
+directions with negative a4_est: 0 / 36
+smallest a4_est found: 0.008779  at direction [random#8 coeffs=[-0.54, 0.352, 0.684, 0.341]]
+
+========================================================================
+STEP 3: re-confirm quartic scaling (s=0.0075 vs s=0.015) on a
+subsample spanning the range of a4_est found
+========================================================================
+  [random#8 coeffs=[-0.54, 0.352, 0.684, 0.341]]  a4_est(s=0.015)=0.008779  a4_est(s=0.0075)=0.009206  ratio=0.954 (expect ~1.0 if genuinely quartic, i.e. a4_est should be ~s-independent)  [t=568s]
+  [random#16 coeffs=[0.765, -0.112, -0.629, -0.077]]  a4_est(s=0.015)=0.027668  a4_est(s=0.0075)=0.028193  ratio=0.981 (expect ~1.0 if genuinely quartic, i.e. a4_est should be ~s-independent)  [t=585s]
+  [basis eigenvector w2]  a4_est(s=0.015)=0.028918  a4_est(s=0.0075)=0.029452  ratio=0.982 (expect ~1.0 if genuinely quartic, i.e. a4_est should be ~s-independent)  [t=600s]
+  [(w2+w3)/sqrt2]  a4_est(s=0.015)=0.072539  a4_est(s=0.0075)=0.073238  ratio=0.990 (expect ~1.0 if genuinely quartic, i.e. a4_est should be ~s-independent)  [t=616s]
+  [random#10 coeffs=[0.055, 0.523, -0.142, -0.839]]  a4_est(s=0.015)=0.139162  a4_est(s=0.0075)=0.140411  ratio=0.991 (expect ~1.0 if genuinely quartic, i.e. a4_est should be ~s-independent)  [t=631s]
+  [basis eigenvector w3]  a4_est(s=0.015)=0.313708  a4_est(s=0.0075)=0.316542  ratio=0.991 (expect ~1.0 if genuinely quartic, i.e. a4_est should be ~s-independent)  [t=647s]
+
+DONE. Total time: 647 s

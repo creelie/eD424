@@ -1,0 +1,9 @@
+$ (cd arc2_w1v2 && w1v2_explore.py)
+S*w1 == v2: True
+S*v2 == w1: True
+S*v1 == v1: True
+S*u0 == u0: True
+<Z*, u1(theta,t)> = 2*cos(theta)
+<W, u1(theta,t)> = sin(theta)*cos(t) + cos(theta)
+<Y, u1(theta,t)> = sin(theta)*cos(t)
+<A, u1(theta,t)> = cos(theta)

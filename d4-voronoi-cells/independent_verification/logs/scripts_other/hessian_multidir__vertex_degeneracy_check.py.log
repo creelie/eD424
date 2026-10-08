@@ -1,0 +1,9 @@
+$ (cd hessian_multidir && vertex_degeneracy_check.py)
+alpha idx 0 [0.70710678 0.70710678 0.         0.        ] beta idx 4 [0.70710678 0.         0.70710678 0.        ] gram 0.4999999999999999
+unique verts 24
+vertices on alpha facet: 6
+vertices on beta facet: 6
+vertices on BOTH (shared edge/ridge vertices): 3
+ shared vertex [ 1.4142 -0.      0.      0.    ] active facets: (0, 1, 4, 5, 8, 9)
+ shared vertex [0.7071 0.7071 0.7071 0.7071] active facets: (0, 4, 8, 12, 16, 20)
+ shared vertex [ 0.7071  0.7071  0.7071 -0.7071] active facets: (0, 4, 9, 12, 17, 21)

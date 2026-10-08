@@ -1,0 +1,139 @@
+Runs of typed4pt.py (floating point; a value below 0 after the correction would exclude the code).
+Each block: the command, then the lines the run printed (solver warnings removed).
+Val is the optimum on the samples; corrected adds the largest violation found between the samples
+times the number of pairs, triples or quadruples of each kind; viol lists those violations.
+kiss d d4 rounds n t: n directions with inner products at most t, three-point degree d,
+four-point degree d4 (-1: none); hole d d4 rounds nF dA dF: 24 directions within dA and nF within dF.
+
+$ typed4pt.py kiss 8 -1 1 25 0.5
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal_inaccurate Val=-2.7018e+00 corrected=1.7819e+00  viol {'AA': 3.4e-06, 'AAA': 0.0019}  [26 s]
+
+$ typed4pt.py kiss 8 -1 3 25 0.503
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal_inaccurate Val=-9.7343e-01 corrected=2.2640e+00  viol {'AA': 2.8e-07, 'AAA': 0.0014}  [22 s]
+d=8 d4=-1 round 2: optimal_inaccurate Val=-8.8395e-01 corrected=-6.0412e-01  viol {'AA': 3.2e-07, 'AAA': 0.00012}  [22 s]
+d=8 d4=-1 round 3: optimal_inaccurate Val=-8.7610e-01 corrected=-8.2292e-01  viol {'AA': 3e-07, 'AAA': 2.3e-05}  [25 s]
+
+$ typed4pt.py kiss 8 -1 3 25 0.505
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal_inaccurate Val=-3.0335e-01 corrected=2.6319e+00  viol {'AA': 3.2e-07, 'AAA': 0.0013}  [23 s]
+d=8 d4=-1 round 2: optimal_inaccurate Val=-2.6917e-01 corrected=-1.8115e-01  viol {'AA': 1.6e-07, 'AAA': 3.8e-05}  [22 s]
+d=8 d4=-1 round 3: optimal_inaccurate Val=-2.6663e-01 corrected=-2.5154e-01  viol {'AA': 1.9e-07, 'AAA': 6.5e-06}  [24 s]
+
+$ typed4pt.py kiss 8 -1 3 25 0.507
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal_inaccurate Val=-2.2643e-02 corrected=6.6910e-01  viol {'AA': 6.7e-08, 'AAA': 0.0003}  [29 s]
+d=8 d4=-1 round 2: optimal_inaccurate Val=-1.6269e-02 corrected=3.4501e-02  viol {'AA': 4.7e-08, 'AAA': 2.2e-05}  [21 s]
+d=8 d4=-1 round 3: optimal_inaccurate Val=-1.5601e-02 corrected=-9.6296e-03  viol {'AA': 1.5e-08, 'AAA': 2.6e-06}  [36 s]
+
+$ typed4pt.py kiss 8 -1 3 25 0.508
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal Val=-3.0682e-09 corrected=3.2891e-06  viol {'AA': 3.7e-11, 'AAA': 1.4e-09}  [23 s]
+d=8 d4=-1 round 2: optimal Val=4.4652e-09 corrected=1.9473e-07  viol {'AA': 4.5e-11, 'AAA': 7.7e-11}  [22 s]
+d=8 d4=-1 round 3: optimal Val=-2.0558e-09 corrected=4.1510e-08  viol {'AA': 1.7e-11, 'AAA': 1.7e-11}  [24 s]
+
+$ typed4pt.py kiss 8 -1 3 25 0.509
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal Val=8.7402e-11 corrected=2.5822e-08  viol {'AA': 9.4e-13, 'AAA': 1.1e-11}  [22 s]
+d=8 d4=-1 round 2: optimal Val=2.8016e-09 corrected=9.7844e-08  viol {'AA': 3.6e-11, 'AAA': 3.7e-11}  [22 s]
+d=8 d4=-1 round 3: optimal Val=2.5459e-09 corrected=9.8357e-08  viol {'AA': 4.2e-11, 'AAA': 3.6e-11}  [24 s]
+
+$ typed4pt.py kiss 8 -1 1 25 0.51
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal Val=2.3644e-10 corrected=1.8588e-08  viol {'AA': 2e-12, 'AAA': 7.7e-12}  [21 s]
+
+$ typed4pt.py kiss 8 -1 1 25 0.52
+   layout: 173 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal Val=5.7430e-10 corrected=2.0682e-08  viol {'AA': 2.6e-12, 'AAA': 8.4e-12}  [18 s]
+Tue Oct  6 21:20:37 UTC 2026
+
+$ typed4pt.py kiss 8 3 1 25 0.51
+   layout: 256 variables; quadruple kinds [(0, 0, 0, 0)] with [7500] samples
+d=8 d4=3 round 1: optimal Val=3.4695e-09 corrected=2.9151e-07  viol {'AA': 3.5e-12, 'AAA': 3.2e-11, 'AAAA': 1.7e-11}  [87 s]
+Tue Oct  6 21:22:50 UTC 2026
+
+$ WITH_S=1 typed4pt.py kiss 8 3 1 25 0.51
+   layout: 449 variables; quadruple kinds [(0, 0, 0, 0)] with [7500] samples
+d=8 d4=3 round 1: optimal Val=2.9700e-10 corrected=3.9028e-08  viol {'AA': 1.2e-13, 'AAA': 1.4e-12, 'AAAA': 2.8e-12}  [199 s]
+Tue Oct  6 21:27:35 UTC 2026
+
+$ NQUAD=4000 typed4pt.py kiss 8 5 8 25 0.51
+   layout: 607 variables; quadruple kinds [(0, 0, 0, 0)] with [10000] samples
+d=8 d4=5 round 1: optimal_inaccurate Val=-1.6577e+01 corrected=6.5207e+02  viol {'AA': 2.6e-07, 'AAA': 0.00029, 'AAAA': 0.053}  [389 s]
+d=8 d4=5 round 2: optimal_inaccurate Val=-1.2477e+00 corrected=1.2883e+02  viol {'AA': 1.1e-06, 'AAA': 8.3e-05, 'AAAA': 0.01}  [440 s]
+d=8 d4=5 round 3: optimal Val=7.9566e-11 corrected=5.8186e-08  viol {'AA': 7.9e-14, 'AAA': 5.1e-13, 'AAAA': 4.5e-12}  [410 s]
+Tue Oct  6 22:02:30 UTC 2026
+stopped after round 3 (value 0: the negative values of rounds 1 and 2 were gaps between samples) Tue Oct  6 22:02:31 UTC 2026
+
+$ NQUAD=4000 typed4pt.py kiss 8 3 5 25 0.508
+   layout: 256 variables; quadruple kinds [(0, 0, 0, 0)] with [10000] samples
+d=8 d4=3 round 1: optimal Val=6.7786e-11 corrected=4.7732e-08  viol {'AA': 1.9e-13, 'AAA': 1.7e-11, 'AAAA': 5.9e-13}  [106 s]
+d=8 d4=3 round 2: optimal Val=1.5436e-09 corrected=1.7021e-07  viol {'AA': 4.6e-12, 'AAA': 1.9e-11, 'AAAA': 9.8e-12}  [103 s]
+d=8 d4=3 round 3: optimal Val=3.0686e-10 corrected=5.5141e-09  viol {'AA': 2e-13, 'AAA': 6e-13, 'AAAA': 3e-13}  [112 s]
+d=8 d4=3 round 4: optimal Val=2.9513e-10 corrected=5.2777e-09  viol {'AA': 1.7e-13, 'AAA': 4.2e-13, 'AAAA': 3.1e-13}  [111 s]
+d=8 d4=3 round 5: optimal Val=7.2485e-10 corrected=2.8658e-08  viol {'AA': 1.1e-12, 'AAA': 2.3e-12, 'AAAA': 1.8e-12}  [109 s]
+Tue Oct  6 22:32:48 UTC 2026
+
+$ NQUAD=4000 typed4pt.py kiss 8 5 5 25 0.508
+   layout: 607 variables; quadruple kinds [(0, 0, 0, 0)] with [10000] samples
+d=8 d4=5 round 1: optimal_inaccurate Val=-2.1349e+01 corrected=4.2097e+02  viol {'AA': 2.1e-07, 'AAA': 0.00079, 'AAAA': 0.035}  [372 s]
+d=8 d4=5 round 2: optimal_inaccurate Val=-1.9551e+00 corrected=6.5553e+01  viol {'AA': 1.9e-07, 'AAA': 6.8e-05, 'AAAA': 0.0053}  [439 s]
+d=8 d4=5 round 3: optimal Val=-6.1665e-09 corrected=2.1795e-06  viol {'AA': 4.9e-12, 'AAA': 1e-10, 'AAAA': 1.5e-10}  [442 s]
+stopped after round 3 (value 0) Tue Oct  6 22:45:47 UTC 2026
+Tue Oct  6 22:45:47 UTC 2026
+
+$ typed4pt.py kiss 4 -1 3 25 0.500
+   layout: 39 variables; quadruple kinds [] with [] samples
+d=4 d4=-1 round 1: optimal Val=2.8550e-10 corrected=1.1978e-08  viol {'AA': 1.4e-12, 'AAA': 4.9e-12}  [4 s]
+d=4 d4=-1 round 2: optimal Val=7.3349e-11 corrected=1.1871e-09  viol {'AA': 1.6e-13, 'AAA': 4.6e-13}  [2 s]
+d=4 d4=-1 round 3: optimal Val=1.5927e-09 corrected=2.3595e-08  viol {'AA': 4.8e-12, 'AAA': 8.9e-12}  [3 s]
+
+$ typed4pt.py kiss 4 -1 3 25 0.502
+   layout: 39 variables; quadruple kinds [] with [] samples
+d=4 d4=-1 round 1: optimal Val=7.7131e-10 corrected=1.4393e-08  viol {'AA': 3.3e-12, 'AAA': 5.5e-12}  [3 s]
+d=4 d4=-1 round 2: optimal Val=1.6978e-09 corrected=2.3363e-08  viol {'AA': 4.3e-12, 'AAA': 8.9e-12}  [2 s]
+d=4 d4=-1 round 3: optimal Val=7.3113e-11 corrected=1.0124e-09  viol {'AA': 1.2e-13, 'AAA': 3.9e-13}  [2 s]
+
+$ typed4pt.py kiss 4 -1 3 25 0.504
+   layout: 39 variables; quadruple kinds [] with [] samples
+d=4 d4=-1 round 1: optimal Val=9.2421e-11 corrected=2.2231e-09  viol {'AA': 4.1e-13, 'AAA': 8.7e-13}  [3 s]
+d=4 d4=-1 round 2: optimal Val=1.5466e-10 corrected=2.4267e-09  viol {'AA': 2e-13, 'AAA': 9.6e-13}  [2 s]
+d=4 d4=-1 round 3: optimal Val=7.5225e-11 corrected=1.0744e-09  viol {'AA': 1.5e-13, 'AAA': 4.1e-13}  [3 s]
+
+$ NQUAD=3000 typed4pt.py kiss 4 3 4 25 0.5
+   layout: 122 variables; quadruple kinds [(0, 0, 0, 0)] with [7500] samples
+d=4 d4=3 round 1: optimal Val=3.2457e-10 corrected=5.7911e-08  viol {'AA': -1.9e-13, 'AAA': 2e-12, 'AAAA': 4.2e-12}  [64 s]
+d=4 d4=3 round 2: optimal Val=4.6300e-09 corrected=7.8073e-08  viol {'AA': -3.4e-12, 'AAA': 5.8e-12, 'AAAA': 4.8e-12}  [62 s]
+d=4 d4=3 round 3: optimal Val=2.8099e-09 corrected=1.2110e-07  viol {'AA': -6.5e-12, 'AAA': 4.2e-12, 'AAAA': 8.6e-12}  [66 s]
+d=4 d4=3 round 4: optimal Val=3.2050e-10 corrected=1.2639e-08  viol {'AA': -4.9e-13, 'AAA': 3.1e-13, 'AAAA': 9.2e-13}  [65 s]
+
+$ WITH_S=1 NQUAD=3000 typed4pt.py kiss 4 3 4 25 0.5
+   layout: 315 variables; quadruple kinds [(0, 0, 0, 0)] with [7500] samples
+d=4 d4=3 round 1: optimal Val=5.8020e-10 corrected=5.3413e-08  viol {'AA': -1.6e-13, 'AAA': 7.9e-13, 'AAAA': 4e-12}  [148 s]
+d=4 d4=3 round 2: optimal Val=3.1796e-10 corrected=1.4334e-08  viol {'AA': -7.8e-14, 'AAA': 8.8e-14, 'AAAA': 1.1e-12}  [152 s]
+d=4 d4=3 round 3: optimal Val=3.9797e-10 corrected=5.0403e-09  viol {'AA': -1.6e-13, 'AAA': 1.2e-13, 'AAAA': 3.5e-13}  [143 s]
+d=4 d4=3 round 4: optimal Val=2.5218e-10 corrected=1.3443e-09  viol {'AA': -2.1e-13, 'AAA': 6.1e-14, 'AAAA': 7.5e-14}  [144 s]
+
+$ NQUAD=3000 typed4pt.py kiss 4 5 4 25 0.5
+   layout: 473 variables; quadruple kinds [(0, 0, 0, 0)] with [7500] samples
+d=4 d4=5 round 1: optimal_inaccurate Val=-3.0948e+01 corrected=4.9122e+02  viol {'AA': 2.6e-07, 'AAA': 0.00052, 'AAAA': 0.041}  [270 s]
+d=4 d4=5 round 2: optimal_inaccurate Val=-9.0978e+00 corrected=1.7481e+02  viol {'AA': 1.6e-07, 'AAA': 0.00023, 'AAAA': 0.014}  [286 s]
+d=4 d4=5 round 3: optimal_inaccurate Val=-2.3161e+00 corrected=5.1124e+01  viol {'AA': 1.3e-07, 'AAA': 9.6e-05, 'AAAA': 0.0042}  [338 s]
+d=4 d4=5 round 4: optimal Val=-3.6363e-09 corrected=4.8175e-07  viol {'AA': 1.9e-13, 'AAA': 4.4e-13, 'AAAA': 3.8e-11}  [301 s]
+
+$ typed4pt.py hole 8 -1 2 1 2.0161 2.449489742783178
+24 within 2.0161 and 1 within 2.4495; T = [[0.50795 0.61403]
+ [0.61403 0.66667]]
+   layout: 1254 variables; quadruple kinds [] with [] samples
+d=8 d4=-1 round 1: optimal_inaccurate Val=1.5303e-08 corrected=1.3263e-06  viol {'AA': 8.6e-11, 'AB': -6.1e-11, 'AAA': 4.2e-10, 'AAB': 1.6e-09}  [77 s]
+d=8 d4=-1 round 2: optimal_inaccurate Val=8.5212e-08 corrected=1.1663e-06  viol {'AA': 4.4e-10, 'AB': -2.3e-09, 'AAA': 4.1e-10, 'AAB': 4.6e-10}  [72 s]
+
+$ typed4pt.py hole 8 3 1 1 2.0161 2.449489742783178
+24 within 2.0161 and 1 within 2.4495; T = [[0.50795 0.61403]
+ [0.61403 0.66667]]
+   layout: 2190 variables; quadruple kinds [(0, 0, 0, 0), (0, 0, 0, 1)] with [7500, 7500] samples
+d=8 d4=3 round 1: optimal_inaccurate Val=2.9445e-06 corrected=6.0631e-04  viol {'AA': 1.7e-09, 'AB': -1.4e-08, 'AAA': 3.8e-08, 'AAB': 1.2e-07, 'AAAA': 1.1e-08, 'AAAB': 1.8e-07}  [451 s]
+[stopped 21:23 in round 2: round 1 left the value at 0]
+Tue Oct  6 21:23:25 UTC 2026
+

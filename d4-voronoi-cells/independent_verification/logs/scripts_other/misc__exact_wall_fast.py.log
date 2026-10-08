@@ -1,0 +1,20 @@
+$ (cd misc && exact_wall_fast.py)
+Cached 208 candidate (a,b,c) triples
+theta=0.3:
+  predicted (exact, type-A) = [np.float64(0.1517), np.float64(1.4191)]
+  observed  (fp grid)       = [0.168, 1.429]
+theta=0.5:
+  predicted (exact, type-A) = [np.float64(0.2582), np.float64(1.3126)]
+  observed  (fp grid)       = [0.273, 1.324]
+theta=0.8:
+  predicted (exact, type-A) = [np.float64(0.4365), np.float64(0.6162), np.float64(0.9546), np.float64(1.1343)]
+  observed  (fp grid)       = [0.457, 0.641, 0.956, 1.14]
+theta=1.0:
+  predicted (exact, type-A) = [np.float64(0.2125), np.float64(0.5779), np.float64(0.9929), np.float64(1.3583)]
+  observed  (fp grid)       = [0.22, 0.588, 1.009, 1.377]
+theta=1.2:
+  predicted (exact, type-A) = [np.float64(0.0759), np.float64(0.7534), np.float64(0.8174), np.float64(1.4949)]
+  observed  (fp grid)       = [0.089, 0.772, 0.825, 1.508]
+theta=1.4:
+  predicted (exact, type-A) = [np.float64(0.0149), np.float64(0.5693), np.float64(1.0015), np.float64(1.5559)]
+  observed  (fp grid)       = [0.036, 0.588, 1.009, 1.561]

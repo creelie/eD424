@@ -1,0 +1,4 @@
+f_0 = 1 and f_k >= 0 for k >= 1: True
+real roots of f in [-1, 2/3] (Sturm): 0; f(0) = -0.0007079439706959707 < 0: so f < 0 on [-1, 2/3]: True
+degree 13; f(1) / f_0 = 6197184683/125000000 = 49.577477464
+PASS: at most 49 centres lie within sqrt 6 of any centre

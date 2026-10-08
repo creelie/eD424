@@ -1,0 +1,3 @@
+$ (cd arc2_w1v2 && w1v2_region_count.py)
+distinct combinatorial region types over 40x60 grid: 7
+min/max distinct types per t-slice: 4 5

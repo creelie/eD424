@@ -1,0 +1,68 @@
+statement (C) at 26 centres, case case26_all.json: combined certificate combo26_level_d8.npz, two-point degree 12/4, three-point degree 8; 17845 count vectors
+  [ok] dmax exceeds sqrt 6
+  [ok] A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  (t = 8.282667607, float t 8.282669772)
+  [ok] three-point blocks positive definite (exact LDL^T)  (35 blocks)
+  point terms: {'A': '0.237248', 'B': '0.076471', 'F': '0.090236'}
+  pair AA: float largest K + PAIR3 - Pi -2.329178e-02 (file c2 -2.329185e-02); threshold -2.327176e-02
+  pair AB: float largest K + PAIR3 - Pi -1.038348e-02 (file c2 -1.039879e-02); threshold -1.036330e-02
+  pair AF: float largest K + PAIR3 - Pi -1.505743e-02 (file c2 -1.505192e-02); threshold -1.503736e-02
+  pair BB: float largest K + PAIR3 - Pi -1.733338e-03 (file c2 -1.733343e-03); threshold -1.713338e-03
+  pair BF: float largest K + PAIR3 - Pi -4.532285e-03 (file c2 -4.413312e-03); threshold -4.512281e-03
+  pair FF: float largest K + PAIR3 - Pi -3.702309e-03 (file c2 -1.509593e-03); threshold -3.681549e-03
+  [ok] K + PAIR3_AA <= Pi + c2 on the admissible pairs  (398 boxes closed, 306 set aside, Pi in Arb at 354 corners)
+  [ok] K + PAIR3_AB <= Pi + c2 on the admissible pairs  (8293 boxes closed, 7976 set aside, Pi in Arb at 201 corners)
+  [ok] K + PAIR3_AF <= Pi + c2 on the admissible pairs  (139 boxes closed, 129 set aside, Pi in Arb at 0 corners)
+  [ok] K + PAIR3_BB <= Pi + c2 on the admissible pairs  (1117 boxes closed, 1024 set aside, Pi in Arb at 107 corners)
+  [ok] K + PAIR3_BF <= Pi + c2 on the admissible pairs  (44 boxes closed, 27 set aside, Pi in Arb at 0 corners)
+  [ok] K + PAIR3_FF <= Pi + c2 on the admissible pairs  (5 boxes closed, 0 set aside, Pi in Arb at 0 corners)
+  [ok] f <= m_b on every bin  (6323 intervals, least room 1.50e-10)
+  triple AAA: float largest 1.495333e-03 on 649660 samples; threshold 1.497925e-03; 425 monomials, symmetry 2
+  triple AAB: float largest 9.573107e-04 on 649576 samples; threshold 9.598990e-04; 425 monomials, symmetry 1
+  triple AAF: float largest 1.320087e-03 on 649567 samples; threshold 1.322105e-03; 425 monomials, symmetry 1
+  triple ABB: float largest 5.945645e-04 on 649313 samples; threshold 5.966748e-04; 425 monomials, symmetry 1
+  triple ABF: float largest 1.040978e-03 on 649299 samples; threshold 1.043879e-03; 425 monomials, symmetry 0
+  triple AFF: float largest 1.141615e-03 on 649302 samples; threshold 1.145076e-03; 425 monomials, symmetry 1
+  triple BBB: float largest 4.070524e-04 on 648923 samples; threshold 4.094797e-04; 425 monomials, symmetry 2
+  triple BBF: float largest 6.544102e-04 on 648919 samples; threshold 6.564131e-04; 425 monomials, symmetry 1
+  triple BFF: float largest 1.041112e-03 on 648934 samples; threshold 1.043982e-03; 425 monomials, symmetry 1
+      AAA level 10: 0 boxes verified, 334 to bisect [1 s]
+      AAB level 10: 0 boxes verified, 622 to bisect [1 s]
+      AAF level 10: 0 boxes verified, 624 to bisect [1 s]
+      AAA level 20: 14307 boxes verified, 74532 to bisect [37 s]
+      AAF level 20: 57274 boxes verified, 150270 to bisect [101 s]
+      AAB level 20: 38524 boxes verified, 231964 to bisect [117 s]
+      AAF level 30: 569978 boxes verified, 2556 to bisect [420 s]
+      ABB level 10: 0 boxes verified, 626 to bisect [1 s]
+      AAA level 30: 786241 boxes verified, 3826 to bisect [523 s]
+      ABF level 10: 0 boxes verified, 946 to bisect [1 s]
+      ABB level 20: 44861 boxes verified, 246896 to bisect [131 s]
+      ABF level 20: 90104 boxes verified, 84680 to bisect [102 s]
+      ABF level 30: 266469 boxes verified, 652 to bisect [201 s]
+      ABF level 40: 267406 boxes verified, 228 to bisect [204 s]
+      AFF level 10: 0 boxes verified, 624 to bisect [1 s]
+      AFF level 20: 41547 boxes verified, 34184 to bisect [46 s]
+      BBB level 10: 0 boxes verified, 340 to bisect [1 s]
+      BBB level 20: 17681 boxes verified, 80234 to bisect [43 s]
+      BBB level 30: 521417 boxes verified, 13346 to bisect [361 s]
+      BBB level 40: 537698 boxes verified, 172 to bisect [381 s]
+      BBF level 10: 0 boxes verified, 616 to bisect [1 s]
+      BBF level 20: 46768 boxes verified, 52746 to bisect [51 s]
+      BBF level 30: 164450 boxes verified, 2174 to bisect [109 s]
+      BBF level 40: 172995 boxes verified, 54098 to bisect [161 s]
+      BFF level 10: 0 boxes verified, 616 to bisect [1 s]
+      BFF level 20: 37979 boxes verified, 28232 to bisect [35 s]
+      AAB level 30: 2307357 boxes verified, 14472 to bisect [1624 s]
+      ABB level 30: 2583645 boxes verified, 52288 to bisect [1806 s]
+  [ok] TRIPLE3_AAA <= c3 on the admissible triples  (790521 boxes, largest centre value 1.4959e-03)
+  [ok] TRIPLE3_AAB <= c3 on the admissible triples  (2321734 boxes, largest centre value 9.5755e-04)
+  [ok] TRIPLE3_AAF <= c3 on the admissible triples  (577496 boxes, largest centre value 1.3201e-03)
+  [ok] TRIPLE3_ABB <= c3 on the admissible triples  (2634975 boxes, largest centre value 5.9466e-04)
+  [ok] TRIPLE3_ABF <= c3 on the admissible triples  (267408 boxes, largest centre value 1.0411e-03)
+  [ok] TRIPLE3_AFF <= c3 on the admissible triples  (117405 boxes, largest centre value 1.1411e-03)
+  [ok] TRIPLE3_BBB <= c3 on the admissible triples  (537784 boxes, largest centre value 4.0739e-04)
+  [ok] TRIPLE3_BBF <= c3 on the admissible triples  (178555 boxes, largest centre value 6.5424e-04)
+  [ok] TRIPLE3_BFF <= c3 on the admissible triples  (86751 boxes, largest centre value 1.0392e-03)
+  triple boxes in all: 7512629
+  17845 count vectors, 33 type-count vectors; largest bound 3.329050 at (15, 0, 9, 0, 0, 0, 2)
+  [ok] largest bound over the count vectors below 3.3352  (3.329050 < [3.3352000 +/- 3e-12])
+PASS: in case case26_all.json every packing set of 26 centres has U(Y) <= 3.329050 < 3.3352, so U(Y) < max(9 pi^2/8 - 8, 3.3352) for every packing set of 26 centres [2744 s]

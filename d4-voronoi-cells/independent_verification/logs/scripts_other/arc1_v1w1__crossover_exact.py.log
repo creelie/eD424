@@ -1,0 +1,4 @@
+$ (cd arc1_v1w1 && crossover_exact.py)
+[swap] 33 verts, 154 simplices, built in 88.4s
+[mixed] 45 verts, 223 simplices, built in 179.4s
+saved.

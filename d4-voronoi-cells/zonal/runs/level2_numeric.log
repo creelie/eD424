@@ -1,0 +1,9 @@
+$ python3 level2_numeric.py .../proofs/4_24 .../ps.txt.reduced.pkl
+60 blocks, 5298 unknowns [7 s]
+A_2K(empty) = 24.000000000000 (24);  A_2K({x}) = -1.000000000000 (-1 - sigma_1)
+pairs, 31 inner products in [-1, 1/2]: max |A_2K + sigma_2| = 1.9e-14 (sigma_2 up to 3.6e-03)
+3-point subsets of the root system (40): max |A_2K| = 2.2e-15
+4-point subsets of the root system (40): max |A_2K| = 2.4e-16
+random admissible 3-point configurations (300): max A_2K = -3.0e-06 (<= 0)
+random admissible 4-point configurations (300): max A_2K = -2.3e-05 (<= 0)
+[30 s]

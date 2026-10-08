@@ -1,0 +1,17 @@
+closed form of Pair against quadrature, 200 random points: largest difference 4.8e-16
+T at the root system (24 centres at distance 2): 7.906940
+start  0: T = 8.528853
+start  1: T = 8.895927
+start  2: the local solver ended at an infeasible point (discarded)
+start  3: T = 8.567685
+start  4: the local solver ended at an infeasible point (discarded)
+start  5: the local solver ended at an infeasible point (discarded)
+start  6: T = 8.427314
+start  7: the local solver ended at an infeasible point (discarded)
+start  8: the local solver ended at an infeasible point (discarded)
+start  9: T = 8.405632
+start 10: the local solver ended at an infeasible point (discarded)
+start 11: the local solver ended at an infeasible point (discarded)
+M = 26: least T over 5 local minima (of 12 starts) = 8.405632; distances of that configuration:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+(floating point and local optimisation: evidence about where the truncated bound fails, not a bound)

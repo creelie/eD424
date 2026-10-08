@@ -1,0 +1,22 @@
+$ (cd misc && exact_wall_typeA.py)
+Gram matrix G_I =
+⎡ 1   1/2  1/2   0 ⎤
+⎢                  ⎥
+⎢1/2   1    0   1/2⎥
+⎢                  ⎥
+⎢1/2   0    1   1/2⎥
+⎢                  ⎥
+⎣ 0   1/2  1/2   1 ⎦
+det(G_I) = 0
+
+======================================================================
+THE QUADRUPLE IS LINEARLY DEPENDENT
+======================================================================
+    The Gram matrix of the four chosen facet normals is singular,
+    so this quadruple determines no vertex by Cramer's rule: the
+    four hyperplanes meet in a line rather than a point, or not at
+    all.  That degeneracy is what this diagnostic was written to
+    detect, and it is why the vertex solvers elsewhere in the
+    package try every independent subset of the active facets
+    rather than taking the first four (see
+    arc1_v1w1/region4_exact_volume.py).

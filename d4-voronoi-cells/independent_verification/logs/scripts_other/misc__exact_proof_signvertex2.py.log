@@ -1,0 +1,26 @@
+$ (cd misc && exact_proof_signvertex2.py)
+(a) <W,r>=1 exactly for the 5 fixed '++' hyperplanes (excluding u0=+e1+e2 itself):
+   +e1+e3: 1  OK
+   +e1+e4: 1  OK
+   +e2+e3: 1  OK
+   +e2+e4: 1  OK
+   +e3+e4: 1  OK
+
+(b) <W,u1(theta,t)> = sin(t)*sin(theta) + cos(theta)
+
+(c) Equivalence  cos(theta)+sin(theta)sin(t)=1  <=>  sin(t)=tan(theta/2):
+    substituting sin(t)->tan(theta/2)=sin(theta)/(1+cos(theta)): cos(theta)+sin(theta)sin(t)-1 -> 0
+    CONFIRMED exactly: <W,u1>=1  <=>  sin(t) = tan(theta/2), for theta in (0,pi).
+
+(d) Endpoint t=pi/4 (Round 7's traced 'high branch' endpoint):
+    Solutions of sin(pi/4) = tan(theta/2): [2*atan(sqrt(2)/2)]
+      theta = 2*atan(sqrt(2)/2), numeric = 1.230959417341
+    cos(theta_sol) - 1/3 = 0  (0 means theta_sol = arccos(1/3) EXACTLY)
+    EXACT MATCH: theta = arccos(1/3), matching the numerically-traced 'high
+    branch' endpoint at t=pi/4 from eperp_v1w1_breakpoint_classification.py
+    to machine precision (was 1.2309594173... in both cases).
+
+(e) Endpoint t->0: sin(0)=0=tan(theta/2) => theta=0 (trivial, matches (0,0)).
+
+(f) Small-t asymptotics: sin(t)~t, tan(theta/2)~theta/2 => theta ~ 2t as t->0+,
+    matching the numerically observed ratio theta_c/t -> 2 as t->0 exactly.

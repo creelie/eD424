@@ -1,0 +1,10 @@
+Theorem 2.38: (G) along the push-outs of the root system
+  [PASS] T on the one-centre ray at delta = 0.1971 exceeds 8: T = [8.000015233 +/- 3.04e-10]
+  [PASS] T at the root system is 7.906940...: [7.906940156 +/- 2.18e-10]
+  [PASS] (1 + eta_B)^2 - 1 < 1/3 (the vertex pyramids stay inside the octahedral facets): 0.20681
+  [PASS] g(eta)/eta decreases on [0, eta_B]: its derivative is at most -2 + (8/3) eta < 0
+  [PASS] g(eta)/eta >= 2/5 on [0, eta_B]: 0.41379 at eta_B = 0.09855
+  [PASS] pyramid: 2 h^4 <= 128 eta^4, since (2 + eta)/(1 + eta) <= 2 for eta >= 0
+  so vol(V(Y) cap K(Y)) >= 8 + sum_i g(eta_i) >= 8 + (2/5) sum_i eta_i = 8 + sum_i delta_i / 5
+  [PASS] qhull, 53 random push-outs with T <= 8: vol(V cap K) - 8 - sum(delta)/5 >= 0: least 4.634e-03
+PASS: every push-out of the root system with T <= 8 has vol(V(Y) cap K(Y)) >= 8 + sum(delta_i)/5

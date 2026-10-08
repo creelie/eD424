@@ -1,0 +1,40 @@
+Thu Sep 24 02:51:48 UTC 2026
+    block 3 ('sos4', 1, 4): 74606 terms so far (459s, 3759 MB)
+merged s4_part.pkl              74606 terms in, total       0 ->   74606 nonzero
+    block 4 ('sos4', 1, 5): 74606 terms so far (90s, 1947 MB)
+merged s4_part.pkl              74606 terms in, total   74606 ->   74606 nonzero
+    block 0 ('sos4', 1, 1): 72303 terms so far (196s, 3593 MB)
+merged s4_part.pkl              72303 terms in, total   74606 ->   74606 nonzero
+    block 5 ('sos4', 10, 1): 53574 terms so far (185s, 1109 MB)
+merged s4_part.pkl              53574 terms in, total   74606 ->   74606 nonzero
+    block 22 ('sos4', 3, 5): 74606 terms so far (353s, 3074 MB)
+    block 23 ('sos4', 4, 1): 74606 terms so far (817s, 3078 MB)
+    block 24 ('sos4', 4, 2): 74606 terms so far (2454s, 3723 MB)
+    block 25 ('sos4', 4, 3): 74606 terms so far (3839s, 4681 MB)
+    block 26 ('sos4', 4, 4): 74606 terms so far (4408s, 4696 MB)
+    block 27 ('sos4', 4, 5): 74606 terms so far (4748s, 4696 MB)
+merged s4_part.pkl              74606 terms in, total   74606 ->   74606 nonzero
+    block 28 ('sos4', 5, 1): 60874 terms so far (146s, 1249 MB)
+    block 29 ('sos4', 5, 2): 67617 terms so far (1164s, 2414 MB)
+    block 30 ('sos4', 5, 3): 71348 terms so far (2049s, 2908 MB)
+    block 31 ('sos4', 5, 4): 71360 terms so far (2583s, 2912 MB)
+    block 32 ('sos4', 5, 5): 71360 terms so far (2894s, 2912 MB)
+    block 33 ('sos4', 6, 2): 71360 terms so far (3071s, 2912 MB)
+    block 34 ('sos4', 6, 3): 71360 terms so far (3733s, 2912 MB)
+    block 35 ('sos4', 6, 4): 71360 terms so far (4130s, 2912 MB)
+    block 36 ('sos4', 6, 5): 71360 terms so far (4330s, 2912 MB)
+    block 37 ('sos4', 7, 2): 71360 terms so far (4435s, 2912 MB)
+    block 38 ('sos4', 7, 3): 71360 terms so far (4804s, 2912 MB)
+    block 39 ('sos4', 7, 4): 71360 terms so far (5044s, 2912 MB)
+    block 40 ('sos4', 7, 5): 71360 terms so far (5171s, 2912 MB)
+    block 41 ('sos4', 8, 2): 71360 terms so far (5208s, 2912 MB)
+    block 42 ('sos4', 8, 3): 71360 terms so far (5360s, 2912 MB)
+    block 43 ('sos4', 8, 4): 71360 terms so far (5460s, 2912 MB)
+    block 44 ('sos4', 8, 5): 71360 terms so far (5512s, 2912 MB)
+merged s4_part.pkl              71360 terms in, total   74606 ->   74606 nonzero
+ALL GROUPS DONE
+
+real	218m35.967s
+user	157m18.419s
+sys	1m0.140s
+exit=0

@@ -1,0 +1,9 @@
+1. volume of the 24-cell: 8.000000000000
+   second differences of the exact volume against xi^T H xi, 8 directions: largest difference 6.3e-08
+2. derivative of |y_i - y_j|^2 against 8 (B xi)_ij on the 96 tight pairs: largest difference 1.5e-09
+3. spectrum of H in orthonormal coordinates (value x multiplicity):
+   -8.0000 x2, -6.1943 x8, -4.5993 x9, -2.0000 x4, 0.0000 x15, 0.1667 x16, 0.8610 x8, 1.0000 x12, 1.6667 x8, 1.9327 x9, 2.6667 x4, 4.0000 x1
+   H on the push-outs is the matrix Adj - 4I: True
+4. one centre pushed out, 0 <= eta <= 1: largest |vol - 25/3 + (1 - eta)^4/3| = 1.1e-14
+   400 push patterns: least of vol - 8 - (1/3) sum(1 - (1 - eta_i)^4) = -6.6e-15
+                      least of vol - 8 - (2/3) S + S^2/2              = -4.6e-15

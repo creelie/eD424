@@ -1,0 +1,8 @@
+$ (cd arc2_w1v2 && region_top_volmoving.py)
+vol_fixed_exact: 19/3 (expect 19/3)
+moving vertices solved: 8 distinct patterns, 3.4s
+summing 61 moving simplex terms, 90.1s
+vol_moving_top closed form: 5689 chars, 93.7s
+numeric check: 1.978342994374516
+direct hull volume: 8.311676327707756  (expect 19/3 + vol_moving = 8.311676327707849)
+saved.

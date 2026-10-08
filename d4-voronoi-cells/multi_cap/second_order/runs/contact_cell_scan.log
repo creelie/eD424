@@ -1,0 +1,13 @@
+$ python3 contact_cell_scan.py 10
+start  0: volume 7.965532, largest inner product 0.5795   [21s]
+start  1: volume 7.970009, largest inner product 0.6216   [33s]
+start  2: volume 7.970523, largest inner product 0.6067   [46s]
+start  3: volume 7.970523, largest inner product 0.6066   [60s]
+start  4: volume 7.970523, largest inner product 0.6066   [76s]
+start  5: volume 7.965544, largest inner product 0.5756   [94s]
+start  6: volume 7.965532, largest inner product 0.5794   [127s]
+start  7: volume 7.965532, largest inner product 0.5794   [152s]
+start  8: volume 7.970523, largest inner product 0.6067   [163s]
+start  9: volume 7.970523, largest inner product 0.6065   [175s]
+least contact-cell volume found over 24 unit directions, no packing constraint: 7.965532 (largest inner product 0.5794); the root system gives 8
+best minimiser: volume 7.96553184 without joggling, 7.96553183 as a quarter of the surface area; 24 facets, 99 vertices

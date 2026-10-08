@@ -1,0 +1,46 @@
+resumed from combo30p_d8_r1.npz, pruned to 5000 pair and 2500 triple samples per kind
+/home/claude/d4-voronoi-cells/gap_closure/C30/combo30p.py:145: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', max_iter=500)
+d3=8 round 1: optimal_inaccurate  bound 2.93378 (target 3.10330), corrected <= 3.81566  [2372 s]
+   viol: AA 5.2e-08, AB 8.3e-07, AF 3.3e-07, BB 8.3e-07, BF 1.8e-07, FF -9.9e-08, AAA 3.5e-05, AAB 2.2e-04, AAF 2.8e-04, ABB 8.5e-05, ABF 4.4e-04, AFF 5.7e-04, BBF 1.8e-04, BFF 6.4e-04, FFF 1.0e-04
+   c2: {'AA': 0.136316, 'AB': 0.044507, 'AF': 0.089836, 'BB': 0.014147, 'BF': -0.042625, 'FF': 1.117926}
+   c3: {'AAA': 0.150097, 'AAB': 0.1090283, 'AAF': -0.3747074, 'ABB': 0.0627915, 'ABF': -0.2047917, 'AFF': 0.6168205, 'BBF': -0.022895, 'BFF': -0.0585126, 'FFF': 1.1052662}
+Traceback (most recent call last):
+  File "/home/claude/d4-voronoi-cells/gap_closure/C30/combo30p.py", line 251, in <module>
+    main()
+  File "/home/claude/d4-voronoi-cells/gap_closure/C30/combo30p.py", line 201, in main
+    prob, L, X3, A, z, t, m, c2, c3, pvec = build_and_solve(d3, rounds, psamp, tsamp)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/d4-voronoi-cells/gap_closure/C30/combo30p.py", line 145, in build_and_solve
+    prob.solve(solver='CLARABEL', max_iter=500)
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 687, in solve
+    return solve_func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 1117, in _solve
+    data, solving_chain, inverse_data = self.get_problem_data(
+                                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 877, in get_problem_data
+    data, inverse_data = solving_chain.apply(self, verbose)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/reductions/chain.py", line 97, in apply
+    problem, inv = r.apply(problem)
+                   ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/reductions/dcp2cone/cone_matrix_stuffing.py", line 444, in apply
+    params_to_problem_data = extractor.affine(expr_list)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/utilities/coeff_extractor.py", line 71, in affine
+    return canonInterface.get_problem_matrix(op_list,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/cvxcore/python/canonInterface.py", line 297, in get_problem_matrix
+    return build_matrix(id_to_col, param_to_size, param_to_col, var_length, constr_length, linOps)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/cvxcore/python/cppbackend.py", line 102, in build_matrix
+    A = sp.csc_array((V, (I, J)), shape=output_shape)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/scipy/sparse/_compressed.py", line 58, in __init__
+    arrays = coo._coo_to_compressed(self._swap)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/scipy/sparse/_coo.py", line 404, in _coo_to_compressed
+    indices = np.empty_like(minor, dtype=idx_dtype)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 282. MiB for an array with shape (36954612,) and data type int64

@@ -1,0 +1,20 @@
+$ cd lean/cardinality && lake build Kiss26Main && lake env lean Kiss26Stat.lean
+start Mon Oct 5 15:04:39 UTC 2026
+✔ [12/14] Built Kiss26Data:c.o (10s)
+✔ [13/14] Built Kiss26Data:dynlib (1.9s)
+ℹ [14/14] Built Kiss26Main (9536s)
+info: Kiss26Main.lean:33:0: 'cert26_ii' depends on axioms: [propext, Classical.choice, Quot.sound, cert26_ii._native.native_decide.ax_1_1]
+Build completed successfully (14 jobs).
+
+real	159m9.254s
+user	152m1.145s
+sys	0m6.176s
+exit 0
+((974696439355924312410121 : Rat)/37778931862957161709568, 0, 1579)
+(0, 1795499)
+
+real	533m57.544s
+user	515m44.748s
+sys	0m11.324s
+exit 0
+end Tue Oct 6 02:37:45 UTC 2026

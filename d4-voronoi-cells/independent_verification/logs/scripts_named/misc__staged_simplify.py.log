@@ -1,0 +1,7 @@
+$ (cd misc && staged_simplify.py)
+group 0 (n=55 terms): cancel() OK in 0.0s, numeric@t0val=110.0000
+group 1 (n=34 terms): cancel() OK in 1.3s, numeric@t0val=29.5408
+group 2 (n=32 terms): cancel() OK in 41.1s, numeric@t0val=28.6074
+group 3 (n=20 terms): cancel() OK in 103.6s, numeric@t0val=11.4716
+group 4 (n=16 terms): cancel() OK in 91.4s, numeric@t0val=14.3663
+saved group_totals.pkl to /tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/data

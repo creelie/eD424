@@ -1,0 +1,10 @@
+$ python3 contact_valley.py
+t     vol - 8     (vol-8)/t^4  unrelaxed/t^4  Gram dev  vertices  facet 3-volumes     max <w_i,w_j>  antipodal  [time]
+0.05   4.44e-13     7.11e-08       0.0381    0.0167      96     [1.33316, 1.33385]   0.5081        8.8e-07   [73s]
+0.10   4.65e-13     4.65e-09       0.0349    0.0333      96     [1.33269, 1.33527]   0.5156        5.1e-07   [73s]
+0.20   4.21e-12     2.63e-09       0.0294    0.0664      96     [1.33109, 1.34007]   0.5290        7.1e-07   [66s]
+0.30   5.84e-11     7.21e-09       0.0248    0.0992      96     [1.32897, 1.34642]   0.5405        5.2e-06   [110s]
+0.45   2.58e-10     6.30e-09       0.0194    0.1475      96     [1.32556, 1.35663]   0.5541        1.1e-05   [97s]
+Hessian at the point for t = 0.3, smallest eigenvalues: -0.0000 0.0139 0.0140 0.0140 0.0140 0.0425 0.0425 0.0700 0.0700 0.0791
+(one zero: the curve of volume 8 through the point; the next six come from the rotations, whose
+ tangents at the point are not quite the ones removed at the root system)

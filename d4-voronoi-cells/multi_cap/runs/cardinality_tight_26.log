@@ -1,0 +1,29 @@
+cert_d10_t0.51468.npz: degree 10, t = 0.51468, B = 1 + f(1) + F(1,1,1) = 25.800000 (f(1) 0.000071, F(1,1,1) 24.799929)
+P1 = f + 3F(u,u,1) + 1 on [-1, t]: largest -1.782e-04 at u = 0.51468; the local maxima above -1e-4:
+P2 = F on the admissible triples: largest -8.8059e-06 (samples -4.0045e-05); distinct local maxima (sorted u <= v <= w):
+   -8.8059e-06 at (-0.4702, 0.5147, 0.5147) ['', 't', 't'], Gram determinant -2.2e-14
+   -1.5193e-04 at (-0.7405, 0.1951, 0.5147) ['', '', 't'], Gram determinant -2.2e-16
+   -1.5274e-04 at (-0.9431, -0.7704, 0.5147) ['', '', 't'], Gram determinant 5.2e-13
+   -1.5293e-04 at (-0.9992, -0.2657, 0.2262) ['', '', ''], Gram determinant -1.3e-15
+   -1.5457e-04 at (-0.9758, -0.1100, -0.1100) ['', '', ''], Gram determinant -2.2e-16
+   -1.7265e-04 at (-0.8026, -0.3141, -0.3141) ['', '', ''], Gram determinant -1.1e-16
+   -1.7689e-04 at (-0.7181, -0.4099, -0.1631) ['', '', ''], Gram determinant 1.9e-01
+   -1.7756e-04 at (-0.8219, -0.6965, 0.5147) ['', '', 't'], Gram determinant 1.6e-01
+at the inner products of the root system:
+   P1(-1.0) = -2.017e-04
+   P1(-0.5) = -2.953e-04
+   P1(+0.0) = -2.024e-04
+   P1(+0.5) = -1.372e-02
+   P2(-1.0, -0.5, 0.5) = -1.129e-02
+   P2(-1.0, -0.0, 0.0) = -8.492e-03
+   P2(-0.5, -0.5, -0.5) = -5.397e-03
+   P2(-0.5, -0.5, -0.0) = -5.778e-04
+   P2(-0.5, -0.5, 0.5) = -3.815e-04
+   P2(-0.5, 0.0, 0.5) = -3.502e-04
+   P2(-0.5, 0.5, 0.5) = -1.090e-03
+   P2(-0.0, 0.0, 0.0) = -1.785e-04
+   P2(-0.0, 0.5, 0.5) = -2.156e-03
+   P2(0.5, 0.5, 0.5) = -7.380e-04
+the final inequality (N-1)(1 - e1) - (N-1)(N-2) e2 > B - 1 at N = 26, with the proved e1 = 1e-06, e2 = 3e-04:
+   (N-1) = 25, (N-1) e1 = 0.000025, (N-1)(N-2) e2 = 0.174000, left side 24.825975 against B - 1 = 24.800000
+   with the floating-point maxima in place of e1, e2: left side 25.005284

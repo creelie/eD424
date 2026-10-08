@@ -1,0 +1,49 @@
+$ (cd arc2_w1v2 && interior_concavity_probe.py)
+=== Concavity-along-geodesics probe ===
+(negative/~0 => consistent with concavity; positive => VIOLATION, kills the idea)
+
+-- Geodesics from vertex v1 to random points on the far edge (w1,v2) --
+  [v1 -> edge(w1,v2) pt0] worst second-difference (should be <=0 if concave): 3.627e-04  (theta=1.55, s~0.15707963267948966)
+  [v1 -> edge(w1,v2) pt1] worst second-difference (should be <=0 if concave): 3.806e-04  (theta=1.55, s~0.19634954084936207)
+  [v1 -> edge(w1,v2) pt2] worst second-difference (should be <=0 if concave): 4.565e-04  (theta=1.55, s~0.23561944901923448)
+  [v1 -> edge(w1,v2) pt3] worst second-difference (should be <=0 if concave): 4.438e-04  (theta=1.55, s~0.19634954084936207)
+  [v1 -> edge(w1,v2) pt4] worst second-difference (should be <=0 if concave): 3.969e-04  (theta=1.55, s~0.19634954084936207)
+  [v1 -> edge(w1,v2) pt5] worst second-difference (should be <=0 if concave): 3.842e-04  (theta=1.55, s~0.19634954084936207)
+  [v1 -> edge(w1,v2) pt6] worst second-difference (should be <=0 if concave): 4.337e-04  (theta=1.55, s~0.19634954084936207)
+  [v1 -> edge(w1,v2) pt7] worst second-difference (should be <=0 if concave): 3.544e-04  (theta=1.55, s~0.15707963267948966)
+
+-- Geodesics from vertex w1 to random points on the far edge (v1,v2) --
+  [w1 -> edge(v1,v2) pt0] worst second-difference (should be <=0 if concave): 4.434e-04  (theta=1.55, s~0.19634954084936207)
+  [w1 -> edge(v1,v2) pt1] worst second-difference (should be <=0 if concave): 4.641e-04  (theta=1.55, s~0.23561944901923448)
+  [w1 -> edge(v1,v2) pt2] worst second-difference (should be <=0 if concave): 3.669e-04  (theta=1.55, s~0.15707963267948966)
+  [w1 -> edge(v1,v2) pt3] worst second-difference (should be <=0 if concave): 4.642e-04  (theta=1.55, s~0.23561944901923448)
+  [w1 -> edge(v1,v2) pt4] worst second-difference (should be <=0 if concave): 4.428e-04  (theta=1.55, s~0.19634954084936207)
+  [w1 -> edge(v1,v2) pt5] worst second-difference (should be <=0 if concave): 3.371e-04  (theta=1.55, s~0.15707963267948966)
+  [w1 -> edge(v1,v2) pt6] worst second-difference (should be <=0 if concave): 4.072e-04  (theta=1.55, s~0.19634954084936207)
+  [w1 -> edge(v1,v2) pt7] worst second-difference (should be <=0 if concave): 4.622e-04  (theta=1.55, s~0.23561944901923448)
+
+-- Geodesics from vertex v2 to random points on the far edge (v1,w1) --
+  [v2 -> edge(v1,w1) pt0] worst second-difference (should be <=0 if concave): 4.463e-04  (theta=1.55, s~0.23561944901923448)
+  [v2 -> edge(v1,w1) pt1] worst second-difference (should be <=0 if concave): 3.828e-04  (theta=1.55, s~0.19634954084936207)
+  [v2 -> edge(v1,w1) pt2] worst second-difference (should be <=0 if concave): 4.505e-04  (theta=1.55, s~0.23561944901923448)
+  [v2 -> edge(v1,w1) pt3] worst second-difference (should be <=0 if concave): 3.612e-04  (theta=1.55, s~0.15707963267948966)
+  [v2 -> edge(v1,w1) pt4] worst second-difference (should be <=0 if concave): 3.350e-04  (theta=1.55, s~0.15707963267948966)
+  [v2 -> edge(v1,w1) pt5] worst second-difference (should be <=0 if concave): 3.490e-04  (theta=1.55, s~0.15707963267948966)
+  [v2 -> edge(v1,w1) pt6] worst second-difference (should be <=0 if concave): 3.859e-04  (theta=1.55, s~0.19634954084936207)
+  [v2 -> edge(v1,w1) pt7] worst second-difference (should be <=0 if concave): 4.117e-04  (theta=1.55, s~0.19634954084936207)
+
+-- Fully generic chords: random interior point to random interior point --
+  [generic chord 0] worst second-difference (should be <=0 if concave): 1.218e-04  (theta=1.55, s~0.9225400497034423)
+  [generic chord 1] worst second-difference (should be <=0 if concave): 2.768e-10  (theta=0.1125, s~0.16812193526605795)
+  [generic chord 2] worst second-difference (should be <=0 if concave): 1.066e-05  (theta=1.55, s~0.4216571104824962)
+  [generic chord 3] worst second-difference (should be <=0 if concave): 6.111e-05  (theta=1.05, s~0.5824918642367437)
+  [generic chord 4] worst second-difference (should be <=0 if concave): 1.040e-06  (theta=1.1125, s~0.003928230786604869)
+  [generic chord 5] worst second-difference (should be <=0 if concave): 7.032e-06  (theta=0.9875, s~0.010690211570651347)
+  [generic chord 6] worst second-difference (should be <=0 if concave): 1.154e-05  (theta=1.05, s~0.23808882112963725)
+  [generic chord 7] worst second-difference (should be <=0 if concave): 1.490e-04  (theta=1.55, s~0.9355739208699138)
+  [generic chord 8] worst second-difference (should be <=0 if concave): 1.623e-05  (theta=1.55, s~0.33102200806597776)
+  [generic chord 9] worst second-difference (should be <=0 if concave): 3.167e-05  (theta=1.05, s~0.2757234151359442)
+
+OVERALL max violation found across all probes: 4.642e-04
+(if this is comfortably negative/zero across the board, concavity survives
+ this probe battery; a single clearly-positive value falsifies it)

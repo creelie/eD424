@@ -1,0 +1,31 @@
+$ (cd arc2_w1v2 && w1v2_region_setup.py)
+Ordering of the 4 curves' theta-values changes at t_cross, t*, t_3.
+Within each t-band the curve ORDER (bottom to top) is fixed, so the
+vertical strips between consecutive curves + the two edges (0,pi/2)
+are the candidate combinatorial regions. Checking each stack:
+
+t in (0, t_cross): curve order (low to high theta) = ['B', 'universal', 'C', 'W'], values = [np.float64(0.1792), 1.0472, np.float64(1.1706), np.float64(1.5667)]
+    band theta in (0,B): 10 active facets
+    band theta in (B,universal): 9 active facets
+    band theta in (universal,C): 5 active facets
+    band theta in (C,W): 8 active facets
+t in (t_cross, t*): curve order (low to high theta) = ['B', 'C', 'universal', 'W'], values = [np.float64(0.604), np.float64(0.915), 1.0472, np.float64(1.5198)]
+    band theta in (0,B): 10 active facets
+    band theta in (B,C): 9 active facets
+    band theta in (C,universal): 12 active facets
+    band theta in (universal,W): 8 active facets
+    band theta in (W,pi/2): 6 active facets
+t in (t*, t_3): curve order (low to high theta) = ['C', 'B', 'universal', 'W'], values = [np.float64(0.8169), np.float64(0.9492), 1.0472, np.float64(1.4182)]
+    band theta in (0,C): 10 active facets
+    band theta in (C,B): 12 active facets
+    band theta in (B,universal): 12 active facets
+    band theta in (universal,W): 8 active facets
+    band theta in (W,pi/2): 6 active facets
+t in (t_3, pi/4): curve order (low to high theta) = ['C', 'universal', 'B', 'W'], values = [np.float64(0.7895), 1.0472, np.float64(1.1397), np.float64(1.3096)]
+    band theta in (0,C): 10 active facets
+    band theta in (C,universal): 12 active facets
+    band theta in (universal,B): 10 active facets
+    band theta in (B,W): 8 active facets
+    band theta in (W,pi/2): 6 active facets
+
+total distinct combinatorial types found across the 4 t-bands' representative points: 7

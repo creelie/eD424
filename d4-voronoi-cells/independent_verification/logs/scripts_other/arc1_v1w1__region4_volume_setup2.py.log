@@ -1,0 +1,5 @@
+$ (cd arc1_v1w1 && region4_volume_setup2.py)
+num vertices: 34
+hull volume (scipy): 8.000833631774464
+num simplices (facets of the triangulated boundary): 156
+manual origin-cone decomposition volume: 8.000833631220946

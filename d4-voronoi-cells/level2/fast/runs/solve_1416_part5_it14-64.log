@@ -1,0 +1,207 @@
+MEM loaded rss=4.825352 GB threads=4 mode=fast prec=128 K=7 levels=7 cholK=8 cholL=10
+WARM start from the checkpoint after iteration 1 (/tmp/claude-0/-home-claude-d4-voronoi-cells/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/l2fast/ckpt_1416_it13.jls)
+ iter  time(s)           μ       P-obj       D-obj        gap    P-error    p-error    d-error        α_p        α_d       beta
+      CHOLSTAT min pivot^2/S_ii = 3.4869758034618144e-27 at row 3886
+    1    911.0   1.994e+18   4.586e+06   1.311e+11   1.00e+00   1.50e+07   0.00e+00   5.49e+22   2.03e-01   4.21e-01   3.00e-01
+      PROF R=1.3 Xinv=0.8 schur=703.6 cholS=32.2 res=34.6 pred=59.6 corr=63.3 alpha=12.9 rss=9.79GB
+      CKPT iteration 1 saved in 4.2 s
+      CHOLSTAT min pivot^2/S_ii = 1.060097852045265e-26 at row 3886
+    2   1843.6   1.918e+18   3.859e+06   1.653e+11   1.00e+00   1.20e+07   0.00e+00   3.18e+22   4.07e-01   3.51e-01   3.00e-01
+      PROF R=1.4 Xinv=0.8 schur=737.0 cholS=31.3 res=34.6 pred=58.9 corr=58.9 alpha=3.3 rss=9.80GB
+      CKPT iteration 2 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 4.128233245698656e-26 at row 3886
+    3   2746.1   1.389e+18   2.409e+06   1.998e+11   1.00e+00   7.09e+06   0.00e+00   2.06e+22   2.70e-01   4.51e-01   3.00e-01
+      PROF R=1.4 Xinv=0.6 schur=700.9 cholS=31.8 res=35.7 pred=63.3 corr=61.3 alpha=3.2 rss=9.80GB
+      CKPT iteration 3 saved in 3.3 s
+      CHOLSTAT min pivot^2/S_ii = 1.4137301129882204e-25 at row 3886
+    4   3640.8   1.258e+18   1.811e+06   2.539e+11   1.00e+00   5.17e+06   0.00e+00   1.13e+22   4.53e-01   2.58e-01   3.00e-01
+      PROF R=1.3 Xinv=0.7 schur=698.4 cholS=31.5 res=35.8 pred=60.1 corr=59.8 alpha=3.3 rss=9.87GB
+      CKPT iteration 4 saved in 3.4 s
+      CHOLSTAT min pivot^2/S_ii = 5.451332042832535e-25 at row 3886
+    5   4529.4   8.158e+17   1.076e+06   2.922e+11   1.00e+00   2.83e+06   0.00e+00   8.40e+21   2.71e-01   3.65e-01   3.00e-01
+      PROF R=1.4 Xinv=0.6 schur=695.3 cholS=31.3 res=34.5 pred=59.6 corr=58.7 alpha=3.4 rss=9.83GB
+      CKPT iteration 5 saved in 3.1 s
+      CHOLSTAT min pivot^2/S_ii = 1.6168014839011483e-24 at row 3886
+    6   5410.9   7.161e+17   8.184e+05   3.567e+11   1.00e+00   2.06e+06   0.00e+00   5.33e+21   4.80e-01   4.71e-01   3.00e-01
+      PROF R=1.4 Xinv=0.6 schur=688.3 cholS=31.8 res=35.0 pred=58.9 corr=58.7 alpha=3.2 rss=9.87GB
+      CKPT iteration 6 saved in 3.2 s
+      CHOLSTAT min pivot^2/S_ii = 1.0144195344660723e-23 at row 3886
+    7   6289.5   4.784e+17   4.411e+05   4.567e+11   1.00e+00   1.07e+06   0.00e+00   2.82e+21   4.64e-01   5.07e-01   3.00e-01
+      PROF R=1.4 Xinv=0.6 schur=682.7 cholS=31.1 res=35.1 pred=60.2 corr=60.3 alpha=3.4 rss=9.86GB
+      CKPT iteration 7 saved in 3.2 s
+      CHOLSTAT min pivot^2/S_ii = 6.721510457553505e-23 at row 3886
+    8   7172.6   3.326e+17   2.568e+05   5.954e+11   1.00e+00   5.74e+05   0.00e+00   1.39e+21   4.74e-01   3.71e-01   3.00e-01
+      PROF R=1.5 Xinv=0.6 schur=687.4 cholS=30.7 res=35.3 pred=60.2 corr=60.4 alpha=3.2 rss=9.86GB
+      CKPT iteration 8 saved in 3.4 s
+      CHOLSTAT min pivot^2/S_ii = 3.3849479791076144e-22 at row 3886
+    9   8054.6   2.161e+17   1.439e+05   7.271e+11   1.00e+00   3.02e+05   0.00e+00   8.73e+20   1.74e-01   1.90e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=682.7 cholS=31.0 res=36.1 pred=62.0 corr=60.7 alpha=3.3 rss=9.87GB
+      CKPT iteration 9 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 6.142137466923002e-22 at row 3886
+   10   8942.7   1.984e+17   1.384e+05   8.129e+11   1.00e+00   2.49e+05   0.00e+00   7.07e+20   4.62e-01   5.30e-01   3.00e-01
+      PROF R=1.5 Xinv=0.6 schur=694.4 cholS=31.9 res=34.6 pred=59.7 corr=58.2 alpha=3.2 rss=9.85GB
+      CKPT iteration 10 saved in 3.2 s
+      CHOLSTAT min pivot^2/S_ii = 4.10847832436395e-21 at row 3886
+   11   9817.0   1.397e+17   8.911e+04   1.079e+12   1.00e+00   1.34e+05   0.00e+00   3.32e+20   6.19e-01   2.62e-01   3.00e-01
+      PROF R=1.5 Xinv=0.6 schur=678.6 cholS=30.8 res=34.7 pred=60.3 corr=60.8 alpha=3.3 rss=9.86GB
+      CKPT iteration 11 saved in 3.3 s
+      CHOLSTAT min pivot^2/S_ii = 2.4612623419506485e-20 at row 3886
+   12  10702.9   6.402e+16   3.911e+04   1.251e+12   1.00e+00   5.11e+04   0.00e+00   2.45e+20   8.29e-02   6.46e-02   3.00e-01
+      PROF R=1.4 Xinv=0.7 schur=687.6 cholS=30.6 res=35.3 pred=62.2 corr=60.7 alpha=3.5 rss=9.85GB
+      CKPT iteration 12 saved in 3.4 s
+      CHOLSTAT min pivot^2/S_ii = 3.036059767821788e-20 at row 3886
+   13  11589.0   6.131e+16   4.731e+04   1.317e+12   1.00e+00   4.68e+04   0.00e+00   2.29e+20   2.59e-01   1.22e-01   3.00e-01
+      PROF R=1.5 Xinv=0.6 schur=690.0 cholS=30.9 res=34.6 pred=60.4 corr=60.9 alpha=3.3 rss=9.84GB
+      CKPT iteration 13 saved in 3.3 s
+      CHOLSTAT min pivot^2/S_ii = 5.49986653318067e-20 at row 3886
+   14  12482.5   4.941e+16   3.886e+04   1.431e+12   1.00e+00   3.47e+04   0.00e+00   2.01e+20   2.48e-01   1.57e-01   3.00e-01
+      PROF R=1.5 Xinv=0.7 schur=697.7 cholS=31.2 res=35.2 pred=59.5 corr=60.7 alpha=3.3 rss=9.86GB
+      CKPT iteration 14 saved in 3.4 s
+      CHOLSTAT min pivot^2/S_ii = 1.0179489829791702e-19 at row 3886
+   15  13385.0   4.093e+16   2.982e+04   1.585e+12   1.00e+00   2.61e+04   0.00e+00   1.70e+20   6.49e-01   4.58e-01   3.00e-01
+      PROF R=1.5 Xinv=0.6 schur=703.7 cholS=32.7 res=35.1 pred=61.2 corr=60.7 alpha=3.2 rss=9.87GB
+      CKPT iteration 15 saved in 3.2 s
+      CHOLSTAT min pivot^2/S_ii = 8.390570543099959e-19 at row 3886
+   16  14279.7   1.872e+16   1.100e+04   2.072e+12   1.00e+00   9.15e+03   0.00e+00   9.20e+19   1.59e-01   7.79e-02   3.00e-01
+      PROF R=1.4 Xinv=0.6 schur=699.2 cholS=31.6 res=34.8 pred=59.3 corr=60.8 alpha=3.3 rss=9.87GB
+      CKPT iteration 16 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 1.1445690862749228e-18 at row 3886
+   17  15178.7   1.689e+16   1.347e+04   2.208e+12   1.00e+00   7.69e+03   0.00e+00   8.49e+19   3.12e-01   1.43e-01   3.00e-01
+      PROF R=1.8 Xinv=0.6 schur=693.5 cholS=33.3 res=36.3 pred=62.9 corr=63.0 alpha=3.6 rss=9.82GB
+      CKPT iteration 17 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 2.1569289156928247e-18 at row 3886
+   18  16089.8   1.331e+16   1.512e+04   2.508e+12   1.00e+00   5.29e+03   0.00e+00   7.27e+19   3.00e-01   2.48e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=711.8 cholS=31.3 res=35.1 pred=60.8 corr=62.1 alpha=3.5 rss=9.80GB
+      CKPT iteration 18 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 4.866848981509577e-18 at row 3886
+   19  16996.4   1.083e+16   1.404e+04   3.261e+12   1.00e+00   3.70e+03   0.00e+00   5.47e+19   3.21e-01   1.80e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=695.2 cholS=32.9 res=37.3 pred=65.6 corr=65.7 alpha=3.6 rss=9.85GB
+      CKPT iteration 19 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 1.036147334864838e-17 at row 3886
+   20  17884.7   8.256e+15   1.098e+04   4.025e+12   1.00e+00   2.51e+03   0.00e+00   4.48e+19   4.71e-01   3.54e-01   3.00e-01
+      PROF R=1.6 Xinv=0.8 schur=693.5 cholS=30.5 res=33.9 pred=60.1 corr=60.1 alpha=3.5 rss=9.83GB
+      CKPT iteration 20 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 3.988351251861012e-17 at row 3886
+   21  18767.8   5.363e+15   7.114e+03   5.620e+12   1.00e+00   1.33e+03   0.00e+00   2.90e+19   1.78e-01   6.79e-02   3.00e-01
+      PROF R=1.5 Xinv=0.6 schur=681.0 cholS=31.9 res=35.1 pred=63.4 corr=61.9 alpha=3.6 rss=9.87GB
+      CKPT iteration 21 saved in 3.9 s
+      CHOLSTAT min pivot^2/S_ii = 5.3262375357632266e-17 at row 3886
+   22  19674.4   4.914e+15   9.261e+03   6.531e+12   1.00e+00   1.09e+03   0.00e+00   2.70e+19   3.91e-01   1.62e-01   3.00e-01
+      PROF R=1.8 Xinv=0.7 schur=704.5 cholS=31.5 res=35.1 pred=62.3 corr=62.1 alpha=3.9 rss=9.87GB
+      CKPT iteration 22 saved in 4.2 s
+      CHOLSTAT min pivot^2/S_ii = 1.1338625794116357e-16 at row 3886
+   23  20610.6   3.674e+15   9.692e+03   1.058e+13   1.00e+00   6.65e+02   0.00e+00   2.26e+19   1.80e-01   2.48e-01   3.00e-01
+      PROF R=1.8 Xinv=0.6 schur=723.6 cholS=36.0 res=38.7 pred=63.4 corr=63.8 alpha=3.5 rss=9.86GB
+      CKPT iteration 23 saved in 3.8 s
+      CHOLSTAT min pivot^2/S_ii = 2.0746227132418387e-16 at row 3886
+   24  21520.5   3.361e+15   9.689e+03   8.875e+13   1.00e+00   5.45e+02   0.00e+00   1.70e+19   3.08e-02   5.04e-02   3.00e-01
+      PROF R=1.4 Xinv=0.6 schur=710.2 cholS=31.4 res=35.6 pred=62.2 corr=60.4 alpha=3.6 rss=9.87GB
+      CKPT iteration 24 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 2.316255015405011e-16 at row 3886
+   25  22411.5   3.385e+15   8.047e+03   1.480e+15   1.00e+00   5.29e+02   0.00e+00   1.62e+19   3.02e-01   3.20e-01   3.00e-01
+      PROF R=1.5 Xinv=0.6 schur=688.0 cholS=33.5 res=36.1 pred=62.4 corr=61.3 alpha=3.4 rss=9.87GB
+      CKPT iteration 25 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 5.434455683716105e-16 at row 3886
+   26  23325.6   2.800e+15   6.100e+03   2.960e+15   1.00e+00   3.69e+02   0.00e+00   1.10e+19   3.76e-01   4.93e-01   3.00e-01
+      PROF R=1.6 Xinv=0.6 schur=712.7 cholS=32.5 res=37.5 pred=61.4 corr=60.3 alpha=3.4 rss=9.86GB
+      CKPT iteration 26 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 1.7343224830673023e-15 at row 3886
+   27  24217.2   2.218e+15   4.229e+03   6.810e+15   1.00e+00   2.30e+02   0.00e+00   5.57e+18   4.03e-01   5.33e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=690.2 cholS=31.8 res=35.8 pred=63.8 corr=60.3 alpha=3.3 rss=9.88GB
+      CKPT iteration 27 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 3.579589407729603e-15 at row 3890
+   28  25146.7   1.737e+15   2.599e+03   1.237e+16   1.00e+00   1.37e+02   0.00e+00   2.60e+18   6.75e-01   8.07e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=716.0 cholS=34.6 res=37.2 pred=66.6 corr=65.0 alpha=3.8 rss=9.87GB
+      CKPT iteration 28 saved in 3.8 s
+      CHOLSTAT min pivot^2/S_ii = 5.155763324252597e-15 at row 3890
+   29  26085.6   8.358e+14   9.273e+02   2.028e+16   1.00e+00   4.46e+01   0.00e+00   5.02e+17   6.77e-01   5.74e-01   3.00e-01
+      PROF R=1.5 Xinv=0.7 schur=737.3 cholS=33.2 res=35.9 pred=60.6 corr=62.1 alpha=3.4 rss=9.85GB
+      CKPT iteration 29 saved in 3.7 s
+      CHOLSTAT min pivot^2/S_ii = 5.840247018474698e-15 at row 3890
+   30  27003.7   3.647e+14   3.381e+02   2.673e+16   1.00e+00   1.44e+01   0.00e+00   2.14e+17   6.01e-01   7.12e-01   3.00e-01
+      PROF R=1.7 Xinv=0.7 schur=717.4 cholS=32.7 res=35.4 pred=60.3 corr=62.0 alpha=3.7 rss=9.88GB
+      CKPT iteration 30 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 6.809748958836367e-15 at row 3890
+   31  27928.8   2.083e+14   1.530e+02   3.561e+16   1.00e+00   5.74e+00   0.00e+00   6.16e+16   6.85e-01   5.65e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=717.7 cholS=32.6 res=35.5 pred=65.8 corr=63.6 alpha=3.5 rss=9.87GB
+      CKPT iteration 31 saved in 3.7 s
+      CHOLSTAT min pivot^2/S_ii = 8.21443405850856e-15 at row 3890
+   32  28862.7   9.104e+13   6.563e+01   4.236e+16   1.00e+00   1.81e+00   0.00e+00   2.68e+16   6.04e-01   6.61e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=727.2 cholS=34.4 res=37.3 pred=64.5 corr=60.6 alpha=3.6 rss=9.86GB
+      CKPT iteration 32 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 1.0522732666032537e-14 at row 3890
+   33  29805.2   5.105e+13   4.040e+01   4.269e+16   1.00e+00   7.16e-01   0.00e+00   9.09e+15   5.66e-01   4.68e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=731.3 cholS=35.8 res=35.8 pred=63.9 corr=65.6 alpha=3.7 rss=9.83GB
+      CKPT iteration 33 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 1.274450828872447e-14 at row 3890
+   34  30759.7   2.949e+13   3.089e+01   3.801e+16   1.00e+00   3.10e-01   0.00e+00   4.84e+15   5.02e-01   4.26e-01   3.00e-01
+      PROF R=1.6 Xinv=0.8 schur=738.9 cholS=33.4 res=36.4 pred=68.2 corr=67.1 alpha=3.9 rss=9.83GB
+      CKPT iteration 34 saved in 3.9 s
+      CHOLSTAT min pivot^2/S_ii = 1.4948599290932153e-14 at row 3890
+   35  31706.2   1.888e+13   2.717e+01   3.133e+16   1.00e+00   1.54e-01   0.00e+00   2.78e+15   5.46e-01   3.50e-01   3.00e-01
+      PROF R=1.9 Xinv=0.7 schur=735.6 cholS=33.5 res=36.1 pred=66.2 corr=64.3 alpha=3.6 rss=9.88GB
+      CKPT iteration 35 saved in 3.9 s
+      CHOLSTAT min pivot^2/S_ii = 1.7901792278863088e-14 at row 3890
+   36  32631.9   1.163e+13   2.512e+01   2.592e+16   1.00e+00   7.01e-02   0.00e+00   1.81e+15   5.33e-01   3.91e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=715.5 cholS=33.7 res=36.4 pred=67.1 corr=62.8 alpha=3.6 rss=9.87GB
+      CKPT iteration 36 saved in 3.9 s
+      CHOLSTAT min pivot^2/S_ii = 2.2829910618166623e-14 at row 3890
+   37  33537.7   7.445e+12   2.418e+01   2.001e+16   1.00e+00   3.27e-02   0.00e+00   1.10e+15   6.32e-01   3.69e-01   3.00e-01
+      PROF R=1.5 Xinv=0.7 schur=701.1 cholS=32.7 res=36.0 pred=62.9 corr=62.6 alpha=3.9 rss=9.88GB
+      CKPT iteration 37 saved in 3.9 s
+      CHOLSTAT min pivot^2/S_ii = 3.3040001647218384e-14 at row 3890
+   38  34485.5   4.534e+12   2.363e+01   1.541e+16   1.00e+00   1.20e-02   0.00e+00   6.94e+14   5.15e-01   4.24e-01   3.00e-01
+      PROF R=1.7 Xinv=0.8 schur=738.5 cholS=32.2 res=35.7 pred=65.9 corr=65.0 alpha=3.4 rss=9.85GB
+      CKPT iteration 38 saved in 3.8 s
+      CHOLSTAT min pivot^2/S_ii = 4.4692024689244325e-14 at row 3890
+   39  35417.7   3.030e+12   2.346e+01   1.095e+16   1.00e+00   5.84e-03   0.00e+00   4.00e+14   6.20e-01   5.75e-01   3.00e-01
+      PROF R=1.7 Xinv=0.7 schur=724.1 cholS=33.4 res=37.2 pred=64.3 corr=62.8 alpha=3.7 rss=9.87GB
+      CKPT iteration 39 saved in 3.8 s
+      CHOLSTAT min pivot^2/S_ii = 6.162424251579992e-14 at row 3890
+   40  36375.9   1.738e+12   2.336e+01   6.710e+15   1.00e+00   2.22e-03   0.00e+00   1.70e+14   6.30e-01   5.69e-01   3.00e-01
+      PROF R=1.6 Xinv=0.9 schur=749.5 cholS=33.2 res=35.9 pred=63.4 corr=65.8 alpha=3.5 rss=9.87GB
+      CKPT iteration 40 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 7.697598153334627e-14 at row 3890
+   41  37289.2   1.007e+12   2.328e+01   4.156e+15   1.00e+00   8.22e-04   0.00e+00   7.34e+13   6.84e-01   5.35e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=707.3 cholS=33.5 res=35.7 pred=64.5 corr=62.4 alpha=3.4 rss=9.82GB
+      CKPT iteration 41 saved in 3.4 s
+      CHOLSTAT min pivot^2/S_ii = 8.55290599282424e-14 at row 3890
+   42  38245.1   5.982e+11   2.322e+01   2.664e+15   1.00e+00   2.60e-04   0.00e+00   3.41e+13   6.34e-01   5.21e-01   3.00e-01
+      PROF R=1.8 Xinv=0.7 schur=725.7 cholS=36.6 res=41.3 pred=71.0 corr=70.5 alpha=4.3 rss=9.88GB
+      CKPT iteration 42 saved in 4.3 s
+      CHOLSTAT min pivot^2/S_ii = 8.327059706498059e-14 at row 3890
+   43  39263.4   3.710e+11   2.318e+01   1.715e+15   1.00e+00   9.51e-05   0.00e+00   1.63e+13   6.44e-01   6.19e-01   3.00e-01
+      PROF R=1.7 Xinv=0.8 schur=785.2 cholS=37.3 res=40.0 pred=72.2 corr=71.9 alpha=4.2 rss=9.87GB
+      CKPT iteration 43 saved in 4.3 s
+      CHOLSTAT min pivot^2/S_ii = 7.710607066217171e-14 at row 3890
+   44  40285.6   2.086e+11   2.314e+01   9.862e+14   1.00e+00   3.38e-05   0.00e+00   6.23e+12   7.00e-01   6.86e-01   3.00e-01
+      PROF R=1.6 Xinv=0.7 schur=789.3 cholS=36.7 res=40.8 pred=73.2 corr=70.7 alpha=4.4 rss=9.87GB
+      CKPT iteration 44 saved in 4.3 s
+      CHOLSTAT min pivot^2/S_ii = 7.095425666927737e-14 at row 3890
+   45  41280.3   1.078e+11   2.310e+01   5.203e+14   1.00e+00   1.02e-05   0.00e+00   1.96e+12   6.18e-01   7.48e-01   3.00e-01
+      PROF R=1.7 Xinv=0.9 schur=763.0 cholS=37.1 res=40.5 pred=72.2 corr=70.7 alpha=3.7 rss=9.88GB
+      CKPT iteration 45 saved in 3.9 s
+      CHOLSTAT min pivot^2/S_ii = 6.953247067325757e-14 at row 3890
+   46  42257.6   5.150e+10   2.308e+01   2.506e+14   1.00e+00   3.88e-06   0.00e+00   4.93e+11   7.32e-01   5.68e-01   3.00e-01
+      PROF R=1.7 Xinv=0.7 schur=756.6 cholS=34.8 res=37.8 pred=68.4 corr=69.0 alpha=3.8 rss=9.88GB
+      CKPT iteration 46 saved in 4.1 s
+      CHOLSTAT min pivot^2/S_ii = 6.791935057213655e-14 at row 3890
+   47  43604.3   3.085e+10   2.306e+01   1.516e+14   1.00e+00   1.04e-06   0.00e+00   2.13e+11   1.00e+00   8.35e-01   3.00e-01
+      PROF R=2.2 Xinv=1.0 schur=845.8 cholS=51.6 res=105.8 pred=166.5 corr=164.7 alpha=4.4 rss=9.87GB
+      CKPT iteration 47 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 6.523520674331701e-14 at row 3890
+   48  44613.2   1.280e+10   2.304e+01   6.319e+13   1.00e+00   1.15e-20   0.00e+00   3.51e+10   1.00e+00   1.00e+00   3.00e-01
+      PROF R=1.7 Xinv=0.8 schur=777.9 cholS=35.1 res=39.2 pred=78.1 corr=68.3 alpha=3.7 rss=9.81GB
+      CKPT iteration 48 saved in 3.9 s
+      CHOLSTAT min pivot^2/S_ii = 6.4231887283142e-14 at row 3890
+   49  45616.6   3.840e+09   2.304e+01   1.896e+13   1.00e+00   1.38e-20   0.00e+00   6.56e-13   1.00e+00   1.00e+00   3.00e-01
+      PROF R=2.0 Xinv=0.7 schur=763.2 cholS=33.3 res=37.9 pred=87.9 corr=69.7 alpha=4.1 rss=9.83GB
+      CKPT iteration 49 saved in 4.6 s
+      CHOLSTAT min pivot^2/S_ii = 6.416419536926526e-14 at row 3890
+   50  46646.1   1.152e+09   2.303e+01   5.687e+12   1.00e+00   9.88e-21   0.00e+00   9.56e-14   1.00e+00   1.00e+00   1.00e-01
+      PROF R=1.7 Xinv=0.7 schur=785.9 cholS=36.3 res=43.8 pred=75.9 corr=75.6 alpha=4.4 rss=9.82GB
+      CKPT iteration 50 saved in 4.2 s
+      CHOLSTAT min pivot^2/S_ii = 6.415728489292526e-14 at row 3890
+   51  47774.8   1.154e+08   2.303e+01   5.697e+11   1.00e+00   1.34e-20   0.00e+00   2.87e-15   1.00e+00   1.00e+00   1.00e-01
+      PROF R=2.3 Xinv=0.9 schur=793.5 cholS=36.4 res=42.0 pred=95.7 corr=149.2 alpha=3.9 rss=9.81GB
+      CKPT iteration 51 saved in 3.8 s

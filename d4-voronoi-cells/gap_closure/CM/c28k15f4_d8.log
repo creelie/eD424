@@ -1,0 +1,13 @@
+28 with at most 15 centres within 2.0161 and exactly 4 beyond 2.35 (case28_k15f4.json; with at most 24 within 2.35 this is 4 or more beyond), the one case with 15 close that the check at smaller margins leaves; there the certificate of prop:count28-few gives 3.104750 at (15, 0, 8, 0, 0, 1, 4).  Three-point degree 8, three rounds, from its samples (RESUME=c28lo13b_d8_r1.npz, KEEP_BASE=1, TCOPLANAR=24, TSYM=24, REFINE=100, THREADS=4).  Started Wed Oct  7 19:10:28 UTC 2026
+resumed from c28lo13b_d8_r1.npz, pruned to 5000 pair and 2500 triple samples per kind
+fixed coplanar triples per kind: {'AAA': 630, 'AAB': 686, 'AAF': 701, 'ABB': 703, 'ABF': 730, 'AFF': 741, 'BBB': 741, 'BBF': 741, 'BFF': 741, 'FFF': 741}
+fixed triples per kind with the symmetric slices: {'AAA': 1465, 'AAB': 1064, 'AAF': 1075, 'ABB': 1092, 'ABF': 730, 'AFF': 1125, 'BBB': 1580, 'BBF': 1121, 'BFF': 1124, 'FFF': 1585}
+   direct: 4646 variables, 89789 inequalities, 4299 psd rows in 48 cones, 42244169 nonzeros [23 s to build]
+   19 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 3.08978 (target 3.10330), corrected <= 3.77805  [3269 s]
+   viol: AA 1.5e-07, AB 3.1e-07, AF 1.1e-07, BB -1.6e-07, BF -3.3e-07, FF -2.3e-08, AAA 3.7e-07, AAB 4.1e-05, AAF 1.5e-05, ABB 2.9e-04, ABF 9.1e-05, AFF 5.4e-06, BBB 1.4e-04, BBF 4.0e-04, BFF 1.2e-04, FFF 6.2e-07
+   c2: {'AA': 0.01591, 'AB': 0.006607, 'AF': 0.033241, 'BB': -0.000955, 'BF': -0.003742, 'FF': 0.512856}
+   c3: {'AAA': 0.0098189, 'AAB': 0.0077257, 'AAF': -0.0312011, 'ABB': 0.0055535, 'ABF': -0.0163775, 'AFF': 0.0529923, 'BBB': 0.0033141, 'BBF': -0.0015616, 'BFF': -0.0335076, 'FFF': 0.4972475}
+   direct: 4646 variables, 111313 inequalities, 4299 psd rows in 48 cones, 53393940 nonzeros [29 s to build]
+exit 143 at Wed Oct  7 20:07:59 UTC 2026
+[stopped by hand at 20:08 UTC on 2026-10-07 in round 2: the certificate of prop:count28-few with its own sampled thresholds (c28lo13_d8b.log, round 1; c28_sampled_eval.py, c28_sampled_eval.log) already gives 3.09042 over these vectors (and 3.09607 at most 16 close, against 3.09593 for c28lo16_d8.log), so a certificate built for the case gains about 6e-4 on the samples, far less than the 1.45e-3 by which that certificate misses the level there with the thresholds of the check at smaller margins (3.104750).  At degree 8 the kernel is saturated near 15 close centres]

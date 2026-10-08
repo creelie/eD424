@@ -1,0 +1,14 @@
+$ lean D4SecondCode.lean   # 2026-09-27, Lean 4.34.0-rc2
+'D4SecondCode.on_sphere' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondCode.on_sphere._native.native_decide.ax_1_1]
+'D4SecondCode.slack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondCode.slack_bound._native.native_decide.ax_1_1]
+'D4SecondCode.far_from_roots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondCode.far_from_roots._native.native_decide.ax_1_1]
+exit 0; elapsed 0.7 s

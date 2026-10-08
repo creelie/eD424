@@ -1,0 +1,2 @@
+$ (cd arc1_v1w1 && locate_wall.py)
+theta=0.8: found 0 transitions over 60 samples

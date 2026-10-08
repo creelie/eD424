@@ -1,0 +1,36 @@
+$ python3 explicit_eps0.py ../third_party/llm24-certificate/proofs/LasserreSphericalCodes/proofs/4_24
+A. sizes of the sum-of-squares terms whose weight can change sign
+    S_{3,1} <= 1.87162e+7
+    S_{3,2} <= 1.80813e+7
+    S_{3,3} <= 2.65100e+6
+    S_{4,1} <= 1.21897e+9
+    S_{4,2} <= 2.03959e+6
+    S_{4,3} <= 88995.9
+    S_{4,4} <= 956.266
+    S_{4,5} <= 50.5478
+    S_{4,6} <= 2.34368
+B. the two-point polynomial
+  PASS  p_2 = (u+1)(u+1/2)^2 u^2 (u-1/2) q(u) exactly, deg q = 10
+  PASS  -q >= q_min = 0.000262008 > 0 on [-1, 1/2]
+C. the robust root-lattice step at delta = 3/10000
+  PASS  every k x k minor (k <= 5) of 2g is within less than 1 of that of 2G
+  PASS  then d(W) <= 0.0112709 < 1/48, the radius of the rigidity estimate
+E. assembly: a pair at distance >= delta from {-1,-1/2,0,1/2} has p_2 >= 2.94494e-12
+    B_3 <= 8.7499e+7, B_4 <= 7.3316e+9, |p_2'| <= 0.22572 near 1/2
+    E(24, kappa) <= 2.34247e-12 at kappa* = 2 e-26
+  PASS  E(24, kappa*) < 2.945e-12: every inner product of 24 such directions is within delta of the set
+  PASS  E(25, kappa*) < 1: no 25 directions with inner products <= 1/2 + kappa*
+  PASS  kappa* < delta (the pairs above 1/2 are within delta of 1/2)
+  PASS  epsilon_0 = 2 kappa* = 4 e-26: 1/2 - 2/(2 + epsilon_0)^2 <= kappa*
+  PASS  estimate (a): ||eps|| <= 2.1283 (1 + delta) S + 9.483 ||eps||^2, hence ||eps|| <= 2.3674 (1 + delta) S <= 2.38 (1 + delta) S for S <= 4e-3
+  PASS  at every S = sum delta_i in (0, 24 epsilon_0] the bracket is positive (0.666667): vol > 8; at S = 0 the root system
+D. facet by facet at S = 4e-3: R = 1.06263, theta_max = 0.02138, a_in = 0.89755, a_out = 0.96404; losses/S: volume 0.0392, moment 0.3907, caps 1.56e-04, hull 0.1162
+  PASS  the same holds whenever d(W) <= 1/48 and 0 < S <= 4e-3 (bracket 0.1355 >= 0.1 at S = 4e-3; Theta <= 0.01351)
+  PASS  the bracket decreases in S on a grid of step 1e-5 up to 4e-3 (each loss is increasing in S)
+    bracket at S = 1e-3: 0.5868
+    bracket at S = 2e-3: 0.4829
+    bracket at S = 3e-3: 0.3392
+    bracket at S = 4.5e-3: 0.0030
+    bracket at S = 4.6e-3: -0.0264
+elapsed 12 s
+PASS: epsilon_0 = 4.00e-26 works in the near-contact theorem

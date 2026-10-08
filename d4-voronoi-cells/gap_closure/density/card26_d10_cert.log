@@ -1,0 +1,7 @@
+/home/claude/d4-voronoi-cells/multi_cap/cardinality_sdp.py:114: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', verbose=verbose, **opts)
+  d=10 t=0.51468 certificate round 1: least slack on sample 2.378e-04 (69s); on fine check: (i) -9.998e-01  (ii) -4.304e-03
+  d=10 t=0.51468 certificate round 2: least slack on sample 1.943e-04 (123s); on fine check: (i) -9.998e-01  (ii) -1.386e-04
+  d=10 t=0.51468 certificate round 3: least slack on sample 1.786e-04 (180s); on fine check: (i) -9.998e-01  (ii) 1.089e-04
+  d=10 t=0.51468 certificate round 4: least slack on sample 1.782e-04 (235s); on fine check: (i) -9.998e-01  (ii) 1.566e-04
+saved

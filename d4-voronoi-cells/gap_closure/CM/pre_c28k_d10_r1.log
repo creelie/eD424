@@ -1,0 +1,23 @@
+statement (C) at 28 centres, case case28_all.json: combined certificate c28k_d10_r1.npz, two-point degree 12/4, three-point degree 10; 74550 count vectors
+  [ok] dmax exceeds sqrt 6
+  [ok] A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  (t = 10.844832862, float t 10.844832861)
+  [ok] three-point blocks positive definite (exact LDL^T)  (43 blocks)
+  point terms: {'A': '0.973627', 'B': '0.146793', 'F': '0.050663'}
+  pair AA: float largest K + PAIR3 - Pi -1.239295e-01 (file c2 -1.239391e-01); threshold -1.239095e-01
+  pair AB: float largest K + PAIR3 - Pi -6.327702e-02 (file c2 -6.327997e-02); threshold -6.325702e-02
+  pair AF: float largest K + PAIR3 - Pi -5.600347e-02 (file c2 -5.601135e-02); threshold -5.598344e-02
+  pair BB: float largest K + PAIR3 - Pi -6.292965e-03 (file c2 -6.290738e-03); threshold -6.272965e-03
+  pair BF: float largest K + PAIR3 - Pi -2.012930e-03 (file c2 -2.008387e-03); threshold -1.992930e-03
+  pair FF: float largest K + PAIR3 - Pi 4.564820e-03 (file c2 4.601475e-03); threshold 4.584820e-03
+  triple AAA: float largest 7.161904e-03 on 649660 samples; threshold 7.168423e-03; 756 monomials, symmetry 2
+  triple AAB: float largest 4.861819e-03 on 649656 samples; threshold 4.864367e-03; 756 monomials, symmetry 1
+  triple AAF: float largest 4.581079e-03 on 649567 samples; threshold 4.584989e-03; 756 monomials, symmetry 1
+  triple ABB: float largest 3.877032e-03 on 649516 samples; threshold 3.879104e-03; 756 monomials, symmetry 1
+  triple ABF: float largest 3.486652e-03 on 649349 samples; threshold 3.497084e-03; 756 monomials, symmetry 0
+  triple AFF: float largest 2.296743e-03 on 649302 samples; threshold 2.298816e-03; 756 monomials, symmetry 1
+  triple BBB: float largest 1.747014e-03 on 649325 samples; threshold 1.749036e-03; 756 monomials, symmetry 2
+  triple BBF: float largest 1.601597e-03 on 649158 samples; threshold 1.603964e-03; 756 monomials, symmetry 1
+  triple BFF: float largest 1.617259e-03 on 649009 samples; threshold 1.622192e-03; 756 monomials, symmetry 1
+  triple FFF: float largest 1.374298e-03 on 648938 samples; threshold 1.376684e-03; 756 monomials, symmetry 2
+  74550 count vectors, 105 type-count vectors; largest bound 6.476609 at (6, 0, 17, 0, 0, 5, 0)
+PRECHECK (floating point, no branch and bound): the thresholds give 6.476609 against 9 pi^2/8 - 8 = [3.1033050 +/- 4.88e-8] [908 s]

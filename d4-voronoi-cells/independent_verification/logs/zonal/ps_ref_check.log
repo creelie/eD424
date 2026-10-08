@@ -1,0 +1,34 @@
+Thu Sep 24 05:14:31 UTC 2026
+ok  lambda=[0, 0]   k1=0 k2=0  1 coefficients
+ok  lambda=[1, 0]   k1=0 k2=0  1 coefficients
+ok  lambda=[2, 0]   k1=0 k2=0  3 coefficients
+ok  lambda=[2, 0]   k1=2 k2=0  3 coefficients
+ok  lambda=[2, 0]   k1=2 k2=2  4 coefficients
+ok  lambda=[2, 1]   k1=1 k2=1  5 coefficients
+ok  lambda=[2, 2]   k1=0 k2=0  12 coefficients
+ok  lambda=[3, 0]   k1=0 k2=0  3 coefficients
+ok  lambda=[3, 0]   k1=2 k2=0  3 coefficients
+ok  lambda=[3, 0]   k1=2 k2=2  6 coefficients
+ok  lambda=[3, 1]   k1=1 k2=1  8 coefficients
+ok  lambda=[3, 2]   k1=0 k2=0  14 coefficients
+ok  lambda=[4, 0]   k1=0 k2=0  6 coefficients
+ok  lambda=[4, 0]   k1=2 k2=0  6 coefficients
+ok  lambda=[4, 0]   k1=2 k2=2  15 coefficients
+ok  lambda=[4, 0]   k1=4 k2=0  6 coefficients
+ok  lambda=[4, 0]   k1=4 k2=2  15 coefficients
+ok  lambda=[4, 0]   k1=4 k2=4  10 coefficients
+ok  lambda=[4, 1]   k1=1 k2=1  18 coefficients
+ok  lambda=[4, 1]   k1=3 k2=1  18 coefficients
+ok  lambda=[4, 1]   k1=3 k2=3  17 coefficients
+ok  lambda=[5, 0]   k1=0 k2=0  6 coefficients
+ok  lambda=[5, 0]   k1=2 k2=0  6 coefficients
+ok  lambda=[5, 0]   k1=2 k2=2  19 coefficients
+ok  lambda=[5, 0]   k1=4 k2=0  6 coefficients
+ok  lambda=[5, 0]   k1=4 k2=2  19 coefficients
+ok  lambda=[5, 0]   k1=4 k2=4  18 coefficients
+27 entries, 0 mismatches
+
+real	0m3.263s
+user	0m2.074s
+sys	0m0.004s
+exit=0

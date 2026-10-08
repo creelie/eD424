@@ -1,0 +1,2 @@
+MEM loaded rss=4.838132 GB threads=4 mode=fast prec=128 K=7 levels=7 cholK=8 cholL=10
+WARM start from the checkpoint after iteration 1 (/tmp/claude-0/-home-claude-d4-voronoi-cells/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/l2fast/ckpt_1416_it13.jls)

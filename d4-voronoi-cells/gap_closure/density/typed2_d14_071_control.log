@@ -1,0 +1,2 @@
+  d=14 t1=0.50800 t2=0.71000 n=24 round 1: optimal, sampled Z 0.19176, corrected Z 1.70913; A 12.2609, max g on [-1,t1] 4.39e-06 (+1), g on [-1,t2] -9.997e-01 (a2 -9.997e-01), F111 2.14e-02 (b1 2.13e-02), F112 2.15e-02 (b2 2.14e-02) [300+300+3584+4116 samples, 382 s]
+  sampled Z above 0: no certificate of degree 14

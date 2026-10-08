@@ -1,0 +1,45 @@
+$ (cd misc && arc_profile.py)
+Profile of F(theta) along the v1-w1 arc at fixed t=0.79 (near the
+grid-observed minimum-location), theta from 0.02 to pi/2-0.01:
+  theta=0.0200  F=0.000133
+  theta=0.0595  F=0.001181
+  theta=0.0990  F=0.003272
+  theta=0.1385  F=0.006409
+  theta=0.1780  F=0.010595
+  theta=0.2175  F=0.015831
+  theta=0.2570  F=0.022116
+  theta=0.2966  F=0.029447
+  theta=0.3361  F=0.037814
+  theta=0.3756  F=0.047204
+  theta=0.4151  F=0.057599
+  theta=0.4546  F=0.068971
+  theta=0.4941  F=0.081282
+  theta=0.5336  F=0.094483
+  theta=0.5731  F=0.108510
+  theta=0.6126  F=0.123279
+  theta=0.6521  F=0.138681
+  theta=0.6916  F=0.154574
+  theta=0.7311  F=0.170774
+  theta=0.7706  F=0.187047
+  theta=0.8102  F=0.203114
+  theta=0.8497  F=0.218706
+  theta=0.8892  F=0.233545
+  theta=0.9287  F=0.247303
+  theta=0.9682  F=0.259570
+  theta=1.0077  F=0.269825
+  theta=1.0472  F=0.277402
+  theta=1.0867  F=0.281696
+  theta=1.1262  F=0.283446
+  theta=1.1657  F=0.283702
+  theta=1.2052  F=0.283089  <-- DECREASE
+  theta=1.2447  F=0.281985  <-- DECREASE
+  theta=1.2842  F=0.280660  <-- DECREASE
+  theta=1.3238  F=0.279291  <-- DECREASE
+  theta=1.3633  F=0.277992  <-- DECREASE
+  theta=1.4028  F=0.276837  <-- DECREASE
+  theta=1.4423  F=0.275878  <-- DECREASE
+  theta=1.4818  F=0.275150  <-- DECREASE
+  theta=1.5213  F=0.274676  <-- DECREASE
+  theta=1.5608  F=0.274469  <-- DECREASE
+
+Strictly non-decreasing throughout: False

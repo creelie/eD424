@@ -1,0 +1,27 @@
+$ (cd arc1_v1w1 && classify_bands.py)
+4a (0,W) t<t2                theta=0.2873 t=0.3000  nverts= 34  -> TYPE0
+4b (0,Y) t>t2                theta=0.4015 t=0.6000  nverts= 34  -> TYPE0
+R1a (W,U) t<t1               theta=0.6231 t=0.1000  nverts= 32  -> TYPE1
+region2 (U,Y) t<t1           theta=1.0994 t=0.1000  nverts= 29  -> TYPE2
+R1c (Y,A) t<t1               theta=1.3586 t=0.1000  nverts= 34  -> TYPE3
+P (W,Y) t1<t<t2              theta=0.7505 t=0.3000  nverts= 32  -> TYPE1
+R2b (Y,U) t1<t<t2            theta=0.9868 t=0.3000  nverts= 37  -> TYPE4
+M (U,A) t1<t<t3              theta=1.2862 t=0.3000  nverts= 34  -> TYPE3
+M (U,A) t2<t<t3 chk          theta=1.2296 t=0.5500  nverts= 34  -> TYPE3
+Q (Y,W) t2<t<t3              theta=0.8887 t=0.5500  nverts= 37  -> TYPE5
+R (W,U) t2<t<t3              theta=1.0052 t=0.5500  nverts= 37  -> TYPE4
+S (Y,U) t>t3                 theta=0.9181 t=0.7000  nverts= 37  -> TYPE5
+T (U,W) t>t3                 theta=1.0959 t=0.7000  nverts= 36  -> TYPE6
+N (W,A) t>t3                 theta=1.2252 t=0.7000  nverts= 34  -> TYPE3
+top (A,pi/2) t small         theta=1.5683 t=0.1000  nverts= 32  -> TYPE7
+top (A,pi/2) t large         theta=1.4383 t=0.7000  nverts= 32  -> TYPE7
+
+Total distinct types found among these samples: 8
+  TYPE0: nverts=34
+  TYPE1: nverts=32
+  TYPE2: nverts=29
+  TYPE3: nverts=34
+  TYPE4: nverts=37
+  TYPE5: nverts=37
+  TYPE6: nverts=36
+  TYPE7: nverts=32

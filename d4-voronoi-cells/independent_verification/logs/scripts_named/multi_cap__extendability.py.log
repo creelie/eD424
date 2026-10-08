@@ -1,0 +1,25 @@
+$ (cd multi_cap && extendability.py)
+The extendability criterion
+==============================================================
+[PASS] root configuration: circumradius sqrt(2), g = 1/sqrt(2), saturated
+       circumradius 1.41421356 (sqrt 2 = 1.41421356)   g 0.707108 (cos 45 deg = 0.707107)
+       cell volume 8.00000000   1/g = 1.414212
+[PASS] root system minus one root: circumradius exactly 2, g = 1/2, extendable
+       circumradius 2.00000000   g 0.500001   cell volume 8.33333333 (25/3 = 8.33333333)
+       the deleted root extends it: max inner product with the other 23 is 0.500000
+[PASS] the three forms of the criterion agree on random configurations
+       configurations tested: 2, agreements: 2
+[PASS] root configuration has Gram values in {-1,-1/2,0,1/2}
+       off-diagonal values: [np.float64(-1.0), np.float64(-0.5), np.float64(-0.0), np.float64(0.5)]
+[PASS] the chain of Corollary 7.39 holds numerically
+       m <= 22: covering bound 8.046376 > 8
+       m  = 24: root configuration, volume exactly 8
+       m  = 23 extendable: 8.333333 > 8 (root system minus one root)
+       m  = 24 covering bound for comparison: 7.798989
+[PASS] search for a saturated 23-point configuration found none
+       starting configurations: 24 deletions, 0 greedy random packings, 0 annealed random starts;
+       24 of the 24 reached a valid contact configuration
+       largest g attained: 0.500003; saturation would need g > 1/2
+       this is numerical exploration, not a proof
+==============================================================
+6 of 6 checks passed

@@ -1,0 +1,2 @@
+$ (cd core && hp_volume.py)
+reference volume (expect 8): 7.9999999999999999999999999999999999999999999999999

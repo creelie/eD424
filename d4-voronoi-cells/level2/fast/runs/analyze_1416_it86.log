@@ -1,0 +1,19 @@
+iteration 22   B = K(0,0) = 24.5555235766   (B - 24 = 0.555524)
+P2 formula vs constraint matrices at the 17 pair samples: max difference 6.35e-40
+P2 at -1, -1/2, 0, 1/2, 1/2+s: 9.3450e-09  4.1852e-07  5.8165e-09  1.5148e-03  1.7664e-10
+sum of P2 over the 276 pairs of D4 = 0.145459  (must be <= B - 24 = 0.555524)
+slope at the end: P2'(b) = -0.22300
+min of P2 on the grid: 1.766e-10 at u = 0.5080
+local minima of P2:
+   u = -0.86931   P2 = 2.2006e-09
+   u = -0.73193   P2 = 1.6426e-09
+   u = -0.45657   P2 = 1.0551e-09
+   u = -0.27943   P2 = 5.5469e-10
+   u = +0.00217   P2 = 7.2565e-10
+   u = +0.24405   P2 = 6.4466e-09
+c = min P2(u)/dist(u,roots)^2 = 0.00000 at u = -0.2794
+   near root in [-1.00, -0.750]: c = 0.00000 at u = -0.8693
+   near root in [-0.75, -0.250]: c = 0.00000 at u = -0.2794
+   near root in [-0.25, 0.250]: c = 0.00000 at u = 0.2440
+   near root in [0.25, 0.508]: c = 0.00001 at u = 0.2500
+(B - 24)/c = 48725371.67154   (the Gram route needs sum_{i<j} dist^2 < 0.2535 on 24-point codes)

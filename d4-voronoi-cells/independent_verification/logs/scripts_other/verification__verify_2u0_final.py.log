@@ -1,0 +1,2 @@
+$ (cd verification && verify_2u0_final.py)
+<Z*, r> = 1 exactly for all 8 roots +e1+-e3, +e1+-e4, +e2+-e3, +e2+-e4: True

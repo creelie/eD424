@@ -1,0 +1,74 @@
+73 orbit structures, 16 starts each
+C2(0,1) k=6 P1x5 P2x3              params  26  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=7 P1x3 P2x3              params  27  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=7 P1x5 P2x2              params  28  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=8 P1x1 P2x3              params  28  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=8 P1x3 P2x2              params  29  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=8 P1x5 P2x1              params  30  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=9 P1x1 P2x2              params  30  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=9 P1x3 P2x1              params  31  feasible   3/16  best g  0.50000000  (at slack 0.01:  0.561304)  deletion
+C2(0,1) k=9 P1x5 P2x0              params  32  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=10 P1x1 P2x1             params  32  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=10 P1x3 P2x0             params  33  feasible   1/16  best g  0.50000000  (at slack 0.01:  0.659933)  deletion
+C2(0,1) k=11 P1x1 P2x0             params  34  feasible   1/16  best g  0.50000000  (at slack 0.01:  0.611258)  deletion
+C3(0,1) k=4 P1x5 P2x2              params  19  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,1) k=5 P1x2 P2x2              params  19  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,1) k=5 P1x5 P2x1              params  21  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,1) k=6 P1x2 P2x1              params  21  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,1) k=6 P1x5 P2x0              params  23  feasible  12/16  best g  0.50000000  (at slack 0.01:  0.610906)  deletion
+C3(0,1) k=7 P1x2 P2x0              params  23  feasible   0/16  best g -1.00000000  (at slack 0.01:  0.654472)  none feasible
+C3(0,2) k=4 P1x5 P2x2              params  19  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,2) k=5 P1x2 P2x2              params  19  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,2) k=5 P1x5 P2x1              params  21  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,2) k=6 P1x2 P2x1              params  21  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C3(0,2) k=6 P1x5 P2x0              params  23  feasible  11/16  best g  0.50000000  (at slack 0.01:  0.611202)  deletion
+C3(0,2) k=7 P1x2 P2x0              params  23  feasible   0/16  best g -1.00000000  (at slack 0.01:  0.654472)  none feasible
+C4(0,1) k=4 P1x3 P2x1              params  16  feasible   9/16  best g  0.50000000  (at slack 0.01:  0.514782)  deletion
+C4(0,1) k=5 P1x3 P2x0              params  18  feasible   8/16  best g  0.50000000  (at slack 0.01:  0.514782)  deletion
+C4(0,3) k=4 P1x3 P2x1              params  16  feasible   5/16  best g  0.50000000  (at slack 0.01:  0.514782)  deletion
+C4(0,3) k=5 P1x3 P2x0              params  18  feasible  13/16  best g  0.50000000  (at slack 0.01:  0.514782)  deletion
+C5(0,1) k=3 P1x3 P2x1              params  13  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C5(0,1) k=4 P1x3 P2x0              params  15  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C5(0,2) k=3 P1x3 P2x1              params  13  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C5(0,2) k=4 P1x3 P2x0              params  15  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C5(0,3) k=3 P1x3 P2x1              params  13  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C5(0,3) k=4 P1x3 P2x0              params  15  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C5(0,4) k=3 P1x3 P2x1              params  13  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C5(0,4) k=4 P1x3 P2x0              params  15  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C6(0,1) k=2 P1x5 P2x1              params  12  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C6(0,1) k=3 P1x5 P2x0              params  14  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C6(0,5) k=2 P1x5 P2x1              params  12  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C6(0,5) k=3 P1x5 P2x0              params  14  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C6(2,3) k=3 P1x1 P2x1              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C6(3,4) k=3 P1x1 P2x1              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C7(0,1) k=3 P1x2 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C7(0,2) k=3 P1x2 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C7(0,3) k=3 P1x2 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C7(0,4) k=3 P1x2 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C7(0,5) k=3 P1x2 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C7(0,6) k=3 P1x2 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C9(0,1) k=2 P1x5 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C9(0,2) k=2 P1x5 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C9(0,4) k=2 P1x5 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C9(0,5) k=2 P1x5 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C9(0,7) k=2 P1x5 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C9(0,8) k=2 P1x5 P2x0              params  11  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C10(0,1) k=2 P1x3 P2x0             params   9  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C10(0,3) k=2 P1x3 P2x0             params   9  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C10(0,7) k=2 P1x3 P2x0             params   9  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C10(0,9) k=2 P1x3 P2x0             params   9  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,1) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,2) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,3) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,4) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,5) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,6) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,7) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,8) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,9) k=2 P1x1 P2x0             params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C11(0,10) k=2 P1x1 P2x0            params   7  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+reflection fixed=1 pairs=11        params  35  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+reflection fixed=3 pairs=10        params  36  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+reflection fixed=5 pairs=9         params  37  feasible   1/16  best g  0.50000000  (at slack 0.01:  0.552963)  deletion
+reflection fixed=7 pairs=8         params  38  feasible   0/16  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+diag(1,-1,-1,-1) fixed=1 pairs=11  params  33  feasible   5/16  best g  0.50000000  (at slack 0.01:  0.611420)  deletion

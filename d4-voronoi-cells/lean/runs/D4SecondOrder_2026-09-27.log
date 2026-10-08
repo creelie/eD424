@@ -1,0 +1,37 @@
+$ lean D4SecondOrder.lean   (Sun Sep 27 05:26:47 UTC 2026)
+Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)
+'D4SecondOrder.pure_push_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4SecondOrder.one_centre_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4SecondOrder.root_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.root_system._native.native_decide.ax_1_1]
+'D4SecondOrder.bases_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.bases_orthogonal._native.native_decide.ax_1_1]
+'D4SecondOrder.form_on_pushouts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.form_on_pushouts._native.native_decide.ax_1_1]
+'D4SecondOrder.eta_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.eta_identity._native.native_decide.ax_1_1]
+'D4SecondOrder.certificate_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.certificate_data._native.native_decide.ax_1_1]
+'D4SecondOrder.copositive_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.copositive_certificate._native.native_decide.ax_1_1]
+'D4SecondOrder.one_centre_rays' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.one_centre_rays._native.native_decide.ax_1_1]
+'D4SecondOrder.tilt_block' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.tilt_block._native.native_decide.ax_1_1]
+exit status 0, 16 s

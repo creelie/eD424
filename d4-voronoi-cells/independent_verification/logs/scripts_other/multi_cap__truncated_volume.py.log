@@ -1,0 +1,5 @@
+$ (cd multi_cap && truncated_volume.py)
+quadrature with 400000 points: full volume at the root system 8.00000 (exact 8), at a deletion 8.33341 (exact 25/3 = 8.33333)
+truncated at R = 1.264911 (angle 37.7612 deg): root system 7.96841, deletion 8.14068
+   delta  min angle  min trunc. vol  exact vol there endpoints deletions
+ 0.05000    56.6330         8.12944          8.24287         7         0   [636s]

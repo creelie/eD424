@@ -1,0 +1,4 @@
+$ (cd misc && interaction_test3.py)
+trials=2000  negative F_joint count=0
+min F_joint found: 0.00420738
+  at m=2 idx=[0 7] thetas=[0.063 0.093]

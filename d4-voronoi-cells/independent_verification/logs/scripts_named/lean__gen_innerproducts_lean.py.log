@@ -1,0 +1,2 @@
+$ (cd lean && gen_innerproducts_lean.py)
+wrote D4InnerProducts.lean: 17 coefficients, least common denominator of 15741 digits

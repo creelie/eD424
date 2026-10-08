@@ -1,0 +1,16 @@
+$ cd lean/cardinality && time lake build KissMain8 KissMain10
+Sun Sep 27 02:08:24 UTC 2026
+✔ [7/12] Built KissDomain:dynlib (62ms)
+✔ [8/12] Built KissChecks (606ms)
+✔ [9/12] Built KissChecks:c.o (81ms)
+✔ [10/12] Built KissChecks:dynlib (49ms)
+ℹ [11/12] Built KissMain8 (423s)
+info: KissMain8.lean:22:0: 'cert8_ii' depends on axioms: [propext, Classical.choice, Quot.sound, cert8_ii._native.native_decide.ax_1_1]
+ℹ [12/12] Built KissMain10 (15052s)
+info: KissMain10.lean:22:0: 'cert10_ii' depends on axioms: [propext, Classical.choice, Quot.sound, cert10_ii._native.native_decide.ax_1_1]
+Build completed successfully (12 jobs).
+
+real	250m53.357s
+user	246m8.093s
+sys	5m24.504s
+Sun Sep 27 06:19:17 UTC 2026

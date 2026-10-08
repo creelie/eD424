@@ -1,0 +1,5 @@
+neighbours at distance 2.400, 2.400; 2R = 2 sqrt(3/2) = 2.449490
+distance between them: 2.000000000  (a valid packing: >= 2)
+angle between their directions: 49.2486 degrees; inner product 0.652778
+at the all-contact corner both sit at distance 2, 1.666667 apart: not a packing,
+and the directions are not a contact configuration (inner product 0.6528 > 1/2)

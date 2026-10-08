@@ -1,0 +1,37 @@
+$ python3 cell_hull_search.py 0 64 gap
+root system: vol(V(Y) ∩ K(Y)) = 8.0000000000
+   start 10000: vol 8.00000494  feasibility 4.8e-10  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [4s]
+   start 10003: vol 8.00000145  feasibility 2.6e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [4s]
+   start 10012: vol 8.00000317  feasibility 1.1e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [14s]
+   start 10010: vol 8.00010441  feasibility -2.1e-06  distances 2.0000..2.0002  direction deviation 0.0001  T 7.90703  [26s]
+   start 10008: vol 8.00024040  feasibility 3.8e-06  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90716  [28s]
+   start 10018: vol 8.00000081  feasibility 6.4e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [38s]
+   start 10019: vol 8.00000000  feasibility 1.3e-11  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [39s]
+   start 10025: vol 8.00000788  feasibility 1.4e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90695  [45s]
+   start 10027: vol 8.00000194  feasibility 9.8e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [47s]
+   start 10024: vol 8.00000327  feasibility 1.5e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [50s]
+   start 10043: vol 8.00010205  feasibility 2.2e-11  distances 2.0000..2.0002  direction deviation 0.0000  T 7.90703  [65s]
+   start 10048: vol 8.00003218  feasibility 5.5e-11  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90697  [74s]
+   start 10050: vol 8.00000223  feasibility 1.6e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [77s]
+   start 10051: vol 8.00000173  feasibility 1.3e-08  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [78s]
+   start 10009: vol 8.00000121  feasibility 5.3e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [79s]
+   start 10041: vol 8.00000000  feasibility 2.3e-12  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [83s]
+   start 10059: vol 8.00001868  feasibility 1.8e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90696  [86s]
+   start 10057: vol 8.00003145  feasibility 1.0e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90697  [93s]
+   start 10058: vol 8.00002208  feasibility 1.1e-09  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90696  [94s]
+   start 10060: vol 8.00000000  feasibility 3.7e-13  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [131s]
+   start 10056: vol 8.00000000  feasibility 1.8e-11  distances 2.0000..2.0000  direction deviation 0.0000  T 7.90694  [146s]
+20 of 64 starts ended at a packing in the gap T <= 8  [146s]
+   vol 8.00000000 (vol - 8 = +2.89e-11)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000000 (vol - 8 = +3.52e-10)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000000 (vol - 8 = +4.40e-10)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000000 (vol - 8 = +1.64e-09)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000081 (vol - 8 = +8.08e-07)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000121 (vol - 8 = +1.21e-06)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000145 (vol - 8 = +1.45e-06)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000173 (vol - 8 = +1.73e-06)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000194 (vol - 8 = +1.94e-06)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000223 (vol - 8 = +2.23e-06)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000317 (vol - 8 = +3.17e-06)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+   vol 8.00000327 (vol - 8 = +3.27e-06)  distances 2.0000..2.0000, 24 within 2.02  direction deviation 0.0000  T 7.90694  near start
+least value found: 8.00000000

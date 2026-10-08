@@ -1,0 +1,75 @@
+$ (cd arc1_v1w1 && region2_tighter.py)
+======================================================================
+Region 2: full derivation + box-covering exact Bernstein certificate
+======================================================================
+representative point (theta,t)=(1.0587,0.01): 29 vertices, 5 moving, 24 fixed
+114 boundary simplices: 85 fixed-only, 29 moving
+fixed vertices matched exactly (incl. Z*=2u0): 24/24
+EXACT fixed-only volume contribution: 29/4 (expected 29/4)
+moving vertices solved exactly: 5 distinct patterns (5 instances)
+vol_mov2 closed form: 1232 chars, numeric check 1.0198003392317052 (expected approx 1.0198003392316994)
+mapped to (u,v): N 515 chars, D 531 chars, 41.6s total so far
+exact new fact: theta=pi/3 meets the Y-curve at t_cross=0.169918 (sin(pi/3)(sin t+cos t)=1)
+
+domain: v in (0,0.085164), u in (0.577350, u_max(v)); certifying via 50 boxes
+  box  0: v=[0.00010,0.00180] u=[0.57745,0.91857] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  1: v=[0.00180,0.00350] u=[0.57745,0.88850] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  2: v=[0.00350,0.00520] u=[0.57745,0.86598] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  3: v=[0.00520,0.00690] u=[0.57745,0.84744] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  4: v=[0.00690,0.00860] u=[0.57745,0.83146] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  5: v=[0.00860,0.01030] u=[0.57745,0.81731] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  6: v=[0.01030,0.01199] u=[0.57745,0.80454] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  7: v=[0.01199,0.01369] u=[0.57745,0.79287] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  8: v=[0.01369,0.01539] u=[0.57745,0.78210] N:ok(0/81 zero) D:ok(0/81 zero)
+  box  9: v=[0.01539,0.01709] u=[0.57745,0.77207] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 10: v=[0.01709,0.01879] u=[0.57745,0.76269] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 11: v=[0.01879,0.02049] u=[0.57745,0.75386] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 12: v=[0.02049,0.02219] u=[0.57745,0.74552] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 13: v=[0.02219,0.02389] u=[0.57745,0.73760] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 14: v=[0.02389,0.02559] u=[0.57745,0.73007] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 15: v=[0.02559,0.02729] u=[0.57745,0.72289] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 16: v=[0.02729,0.02899] u=[0.57745,0.71602] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 17: v=[0.02899,0.03069] u=[0.57745,0.70943] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 18: v=[0.03069,0.03239] u=[0.57745,0.70311] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 19: v=[0.03239,0.03409] u=[0.57745,0.69703] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 20: v=[0.03409,0.03578] u=[0.57745,0.69117] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 21: v=[0.03578,0.03748] u=[0.57745,0.68552] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 22: v=[0.03748,0.03918] u=[0.57745,0.68006] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 23: v=[0.03918,0.04088] u=[0.57745,0.67478] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 24: v=[0.04088,0.04258] u=[0.57745,0.66967] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 25: v=[0.04258,0.04428] u=[0.57745,0.66472] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 26: v=[0.04428,0.04598] u=[0.57745,0.65991] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 27: v=[0.04598,0.04768] u=[0.57745,0.65525] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 28: v=[0.04768,0.04938] u=[0.57745,0.65072] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 29: v=[0.04938,0.05108] u=[0.57745,0.64631] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 30: v=[0.05108,0.05278] u=[0.57745,0.64202] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 31: v=[0.05278,0.05448] u=[0.57745,0.63785] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 32: v=[0.05448,0.05618] u=[0.57745,0.63379] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 33: v=[0.05618,0.05788] u=[0.57745,0.62982] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 34: v=[0.05788,0.05957] u=[0.57745,0.62596] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 35: v=[0.05957,0.06127] u=[0.57745,0.62219] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 36: v=[0.06127,0.06297] u=[0.57745,0.61851] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 37: v=[0.06297,0.06467] u=[0.57745,0.61492] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 38: v=[0.06467,0.06637] u=[0.57745,0.61140] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 39: v=[0.06637,0.06807] u=[0.57745,0.60797] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 40: v=[0.06807,0.06977] u=[0.57745,0.60461] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 41: v=[0.06977,0.07147] u=[0.57745,0.60133] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 42: v=[0.07147,0.07317] u=[0.57745,0.59812] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 43: v=[0.07317,0.07487] u=[0.57745,0.59497] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 44: v=[0.07487,0.07657] u=[0.57745,0.59189] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 45: v=[0.07657,0.07827] u=[0.57745,0.58887] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 46: v=[0.07827,0.07997] u=[0.57745,0.58592] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 47: v=[0.07997,0.08167] u=[0.57745,0.58302] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 48: v=[0.08167,0.08336] u=[0.57745,0.58018] N:ok(0/81 zero) D:ok(0/81 zero)
+  box 49: v=[0.08336,0.08506] u=[0.57740,0.57745] N:ok(0/81 zero) D:ok(0/81 zero)
+
+ALL BOXES CERTIFIED (exact rational arithmetic, no floating point).
+
+======================================================================
+[CERTIFICATE, region 2, modulo a thin quantified margin] F_Omega > 0
+established for chamber C001, v1-w1 arc, essentially all of
+pi/3 < theta < arcsin(1/(sin t+cos t)), 0 < t < t_cross=0.169918...
+This is the SECOND (of 9) regions now certified, after region 4.
+Regions 0,1,3,5,6,7,8 and the w1-v2 arc remain completely untouched.
+Conjecture (Direction-of-Deviation Positivity) remains OPEN overall.
+======================================================================

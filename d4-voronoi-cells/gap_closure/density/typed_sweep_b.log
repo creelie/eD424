@@ -1,0 +1,4 @@
+/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py:123: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', **opts)
+RESULT d=10 t1=0.50800 t2=0.51140: sampled Z 0.06576, corrected Z 0.17895 (below 0 excludes the code)
+RESULT d=10 t1=0.50800 t2=0.52500: sampled Z 0.24739, corrected Z 0.35383 (below 0 excludes the code)

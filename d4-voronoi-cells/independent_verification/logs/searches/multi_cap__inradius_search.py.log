@@ -1,0 +1,14 @@
+$ (cd multi_cap && inradius_search.py 300 7)
+[200/300] feasible 64, deletion-type 64, best g 0.500000000, 238s
+
+starts: 300 (seed 7); feasible to 1e-9: 94; with the inner-product multiset of a deletion: 94
+   random   : feasible 0, deletion-type 0
+   deletion : feasible 80, deletion-type 80
+   partial  : feasible 14, deletion-type 14
+largest g reached: 0.500000000  (1/2 at every deletion)
+starts with g > 1/2 + 1e-7: 0
+final g, rounded to 1e-3, over the feasible endpoints:
+   0.500: 94
+best endpoint: largest inner product 0.500000000, multiset {-1.0: 11, -0.5: 88, 0.0: 66, 0.5: 88}
+RESULT: no saturated configuration found; every feasible endpoint has g <= 1/2.
+total time 341s

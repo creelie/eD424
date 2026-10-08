@@ -1,0 +1,11 @@
+$ (cd swap_configs && swap_exact_vertices.py)
+vertex 0/33 done, elapsed 4.2s
+vertex 5/33 done, elapsed 16.8s
+vertex 10/33 done, elapsed 22.3s
+vertex 15/33 done, elapsed 25.8s
+vertex 20/33 done, elapsed 25.9s
+vertex 25/33 done, elapsed 33.2s
+vertex 30/33 done, elapsed 36.0s
+ALL 33 exact vertices computed in 36.1s
+saved exact_verts.
+max numeric cross-check error at theta=0.3: 2.7194799110210365e-16

@@ -1,0 +1,20 @@
+$ (cd misc && curve_tracker.py)
+Found 2 leftover track(s) (excluding pi/3 and sign-vertex curves):
+
+Track 0: 60 points, t range [0.0100,0.7849], theta range [0.7854,1.4303]
+    t=0.0100 theta=1.430310
+    t=0.0231 theta=1.358961
+    t=0.0363 theta=1.307824
+    ...
+    t=0.7586 theta=0.785756
+    t=0.7718 theta=0.785491
+    t=0.7849 theta=0.785398
+
+Track 1: 52 points, t range [0.1019,0.7718], theta range [1.2437,1.5656]
+    t=0.1019 theta=1.565592
+    t=0.1151 theta=1.564161
+    t=0.1282 theta=1.562556
+    ...
+    t=0.7455 theta=1.267341
+    t=0.7586 theta=1.255638
+    t=0.7718 theta=1.243668

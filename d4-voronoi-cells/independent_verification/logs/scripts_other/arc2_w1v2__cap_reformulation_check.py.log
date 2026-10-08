@@ -1,0 +1,47 @@
+$ (cd arc2_w1v2 && cap_reformulation_check.py)
+========================================================================
+1-2.  structure of Q and of the octahedral facet F
+========================================================================
+  vol(24-cell)            = 8.000000000092   (expect 8)
+  vol(Q)                  = 8.333333333330   (expect 25/3 = 8.333333333333)
+  vol(Q cap {p>=1})       = 0.333333333282   (expect 1/3)
+  vol(K cap {p>=1})       = 0.333333333282   (same: the other 15
+                                          constraints are slack there)
+  the three frame roots orthogonal to u0 (orthonormal):
+    [[0.707107, -0.707107, 0.0, 0.0], [0.0, 0.0, 0.707107, 0.707107], [0.0, 0.0, 0.707107, -0.707107]]
+  Gram matrix = [[1.0, 0.0, 0.0], [0.0, 1.0, -0.0], [0.0, -0.0, 1.0]]
+  facet vertices u0 +- v_i are vertices of the 24-cell: True
+  vol_3(F)                = 1.333333333333   (expect 4/3)
+
+========================================================================
+3-5.  cap reformulation, closed form, and the lower bound
+========================================================================
+  max |defect - (1/3 - cap_Q)|            = 1.019e-09   (expect ~0)
+  max |cap_K(direct) - cap_K(closed form)| = 7.601e-11   (expect ~0)
+  violations of defect >= 1/3 - cap_K      = 0 of 200
+  min (defect - lower bound)               = 2.369e-08
+
+========================================================================
+6.  the threshold
+========================================================================
+  (2c-1)^4 - c^2(2c^2-1) = (x - 1)*(14*x**3 - 18*x**2 + 7*x - 1)
+  real root c0           = 0.7410861370765169375829
+  theta* = arccos(c0)    = 0.736109713634197638 rad = 42.1759798498231519 deg
+  directions/tilts below theta* where the closed-form bound fails: 0 of 4000
+
+========================================================================
+7.  the pyramid's cap is empty for theta >= pi/2
+========================================================================
+  max <x,u1> over sampled pyramid points, theta in [pi/2,pi] = 0.650641580
+  (<= 1 always: the cap is empty, so above a right angle only the
+   24-cell's own cap matters)
+
+========================================================================
+8.  numerical maximum of the 24-cell's own cap  (EVIDENCE, not proof)
+========================================================================
+  max_u vol(24-cell cap)  = 0.058874503   at u = [-0.499998, 0.500003, -0.500001, -0.499998]
+  1/3 divided by that     = 5.6618   (the factor quoted in the paper)
+
+NOTE: item 8 is a numerical search, reported in the paper as evidence
+about the range theta >= pi/2 and explicitly NOT as a proof; the
+conjecture is not closed there.

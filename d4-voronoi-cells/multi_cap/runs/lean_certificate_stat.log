@@ -1,0 +1,12 @@
+Mon Sep 14 14:17:07 UTC 2026
+ℹ [8/10] Replayed D4CertMain
+info: D4CertMain.lean:13:0: 449
+info: D4CertMain.lean:14:0: 'domain_ok' depends on axioms: [propext, Classical.choice, Quot.sound, domain_ok._native.native_decide.ax_1_1]
+ℹ [9/10] Built D4CertStat (2611s)
+info: D4CertStat.lean:9:0: (0, 421881)
+Build completed successfully (10 jobs).
+
+real	43m31.788s
+user	43m31.383s
+sys	0m0.994s
+Mon Sep 14 15:00:39 UTC 2026

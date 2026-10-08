@@ -1,0 +1,46 @@
+local_counts.py on case28_all.json at three-point degree 6, one round, one solver thread (run as the scratch copy of this script, the same code), 2026-10-07.
+
+== BANDS=0.2,0.3,0.4,0.45,0.5,0.55 ==
+Wed Oct  7 04:46:46 UTC 2026
+bands [0.2, 0.3, 0.4, 0.45, 0.5, 0.55]; kappa {'AA0.20': 12, 'AA0.30': 12, 'AA0.40': 10, 'AA0.45': 9, 'AA0.50': 9, 'AA0.55': 0, 'AB0.20': 20, 'AB0.30': 17, 'AB0.40': 15, 'AB0.45': 13, 'AB0.50': 12, 'AB0.55': 12, 'AF0.20': 23, 'AF0.30': 19, 'AF0.40': 17, 'AF0.45': 16, 'AF0.50': 13, 'AF0.55': 12, 'BA0.20': 12, 'BA0.30': 12, 'BA0.40': 10, 'BA0.45': 9, 'BA0.50': 9, 'BA0.55': 8, 'BB0.20': 21, 'BB0.30': 17, 'BB0.40': 15, 'BB0.45': 13, 'BB0.50': 12, 'BB0.55': 12, 'BF0.20': 25, 'BF0.30': 19, 'BF0.40': 17, 'BF0.45': 16, 'BF0.50': 13, 'BF0.55': 12, 'FA0.20': 12, 'FA0.30': 12, 'FA0.40': 10, 'FA0.45': 9, 'FA0.50': 9, 'FA0.55': 8, 'FB0.20': 21, 'FB0.30': 17, 'FB0.40': 15, 'FB0.45': 13, 'FB0.50': 12, 'FB0.55': 12, 'FF0.20': 25, 'FF0.30': 20, 'FF0.40': 17, 'FF0.45': 16, 'FF0.50': 13, 'FF0.55': 12}
+   direct: 3906 variables, 103342 inequalities, 2253 psd rows in 40 cones, 31525753 nonzeros [17 s to build]
+   105 type-count vectors
+status optimal_inaccurate value 3.23114 (target 3.10330)
+band multipliers: {'AA0.55': 0.00326}
+class weights (sum 1.0000):
+   {'A': 24, 'B': 0, 'F': 4} 0.6024
+   {'A': 25, 'B': 0, 'F': 3} 0.3143
+   {'A': 24, 'B': 1, 'F': 3} 0.0826
+   {'A': 24, 'B': 4, 'F': 0} 0.0005
+   {'A': 11, 'B': 16, 'F': 1} 0.0000
+   {'A': 24, 'B': 2, 'F': 2} 0.0000
+pair AA (top 0.5241), neighbours per centre: [-1.00,-0.50) 3.02; [-0.50,0.00) 11.52; [0.50,0.52) 8.46
+   near the top: mean p 2.0003 q 2.0003 u 0.5001
+pair AF (top 0.6176), neighbours per centre (F of an A / A of an F): [-1.00,-0.50) 0.78/4.71; [-0.50,0.00) 1.95/11.72; [0.00,0.20) 0.01/0.06; [0.60,0.62) 1.25/7.52
+   near the top: mean p 2.0000 q 2.4495 u 0.6124
+pair FF (top 0.6667), neighbours per centre: [-1.00,-0.50) 0.51; [-0.50,0.00) 1.02; [0.00,0.20) 1.44; [0.65,0.67) 0.03
+   near the top: mean p 2.4495 q 2.4495 u 0.6667
+
+== BANDS=0.56,0.58,0.59,0.6,0.61 ==
+Wed Oct  7 05:17:47 UTC 2026
+bands [0.56, 0.58, 0.59, 0.6, 0.61]; kappa {'AA0.56': 0, 'AA0.58': 0, 'AA0.59': 0, 'AA0.60': 0, 'AA0.61': 0, 'AB0.56': 12, 'AB0.58': 12, 'AB0.59': 10, 'AB0.60': 0, 'AB0.61': 0, 'AF0.56': 12, 'AF0.58': 12, 'AF0.59': 12, 'AF0.60': 12, 'AF0.61': 12, 'BA0.56': 8, 'BA0.58': 8, 'BA0.59': 8, 'BA0.60': 0, 'BA0.61': 0, 'BB0.56': 12, 'BB0.58': 12, 'BB0.59': 10, 'BB0.60': 10, 'BB0.61': 10, 'BF0.56': 12, 'BF0.58': 12, 'BF0.59': 12, 'BF0.60': 12, 'BF0.61': 12, 'FA0.56': 8, 'FA0.58': 8, 'FA0.59': 8, 'FA0.60': 7, 'FA0.61': 7, 'FB0.56': 12, 'FB0.58': 12, 'FB0.59': 10, 'FB0.60': 10, 'FB0.61': 10, 'FF0.56': 12, 'FF0.58': 12, 'FF0.59': 12, 'FF0.60': 12, 'FF0.61': 12}
+   direct: 3897 variables, 103333 inequalities, 2253 psd rows in 40 cones, 31404810 nonzeros [17 s to build]
+   105 type-count vectors
+status optimal value 3.22891 (target 3.10330)
+band multipliers: {'AA0.56': 0.00386, 'AA0.58': 0.00386, 'AA0.59': 0.00386, 'AA0.60': 0.00386, 'AA0.61': 0.00386, 'AB0.60': 0.00386, 'AB0.61': 0.00386, 'BA0.60': 0.00386, 'BA0.61': 0.00386, 'FA0.60': 0.0011, 'FA0.61': 0.0}
+class weights (sum 1.0000):
+   {'A': 24, 'B': 0, 'F': 4} 0.6210
+   {'A': 25, 'B': 0, 'F': 3} 0.2896
+   {'A': 24, 'B': 1, 'F': 3} 0.0890
+   {'A': 24, 'B': 4, 'F': 0} 0.0003
+   {'A': 11, 'B': 16, 'F': 1} 0.0000
+   {'A': 10, 'B': 16, 'F': 2} 0.0000
+pair AA (top 0.5241), neighbours per centre: [-1.00,-0.50) 3.03; [-0.50,0.00) 11.51; [0.50,0.52) 8.46
+   near the top: mean p 2.0003 q 2.0003 u 0.5001
+pair AF (top 0.6176), neighbours per centre (F of an A / A of an F): [-1.00,-0.50) 0.77/4.59; [-0.50,0.00) 1.99/11.92; [0.55,0.60) 0.09/0.56; [0.60,0.62) 1.16/6.93
+   near the top: mean p 2.0000 q 2.4458 u 0.6114
+pair FF (top 0.6667), neighbours per centre: [-1.00,-0.50) 0.53; [-0.50,0.00) 0.99; [0.00,0.20) 1.40; [0.65,0.67) 0.09
+   near the top: mean p 2.4495 q 2.4495 u 0.6667
+Wed Oct  7 05:49:33 UTC 2026
+
+== without bands: the same programme is the whole case of c28hiA_d6.log at this degree, 3.23113 (the run without bands here was stopped once the first run showed no band multiplier in use) ==

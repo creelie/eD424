@@ -1,0 +1,28 @@
+$ (cd multi_cap && cell600.py)
+vertices: 120
+compatible vertices per vertex: 107 to 107   (so 12 to 12 lie closer than 60 degrees, which is the edge graph of the 600-cell)
+inner products occurring: [-1.0, -0.809017, -0.5, -0.309017, 0.0, 0.309017, 0.5, 0.809017, 1.0]
+
+2000000 random maximal subsets, by size:
+    size 10: 1
+    size 12: 8
+    size 13: 486
+    size 14: 17389
+    size 15: 167892
+    size 16: 535184
+    size 17: 686554
+    size 18: 418268
+    size 19: 140437
+    size 20: 29518
+    size 21: 3932
+    size 22: 325
+    size 24: 6
+
+  of size 23: 0
+  of size 23 or more with an inner product outside {-1,-1/2,0,1/2}: 0
+
+reading: a maximal subset of size 23 would be a saturated contact
+configuration unless it sat inside one of the inscribed 24-cells,
+and no maximal subset of size 23 was produced at all: the sizes
+stop at 22 and resume at 24. This is sampling, not enumeration,
+and is reported as such.

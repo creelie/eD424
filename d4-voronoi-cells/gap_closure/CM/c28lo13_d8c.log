@@ -1,0 +1,13 @@
+28 with at most 13 centres within 2.0161 (case28_lo13.json), three-point degree 8, continued from round 1 of c28lo13_d8b.log (RESUME=c28lo13b_d8_r1.npz, KEEP_BASE=1, TCOPLANAR=24, TSYM=24, REFINE=100), two more rounds.  Started Wed Oct  7 00:44:56 UTC 2026
+resumed from c28lo13b_d8_r1.npz, pruned to 5000 pair and 2500 triple samples per kind
+fixed coplanar triples per kind: {'AAA': 630, 'AAB': 686, 'AAF': 701, 'ABB': 703, 'ABF': 730, 'AFF': 741, 'BBB': 741, 'BBF': 741, 'BFF': 741, 'FFF': 741}
+fixed triples per kind with the symmetric slices: {'AAA': 1465, 'AAB': 1064, 'AAF': 1075, 'ABB': 1092, 'ABF': 730, 'AFF': 1125, 'BBB': 1580, 'BBF': 1121, 'BFF': 1124, 'FFF': 1585}
+   direct: 5898 variables, 91471 inequalities, 4299 psd rows in 48 cones, 42266415 nonzeros [20 s to build]
+   105 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 3.07941 (target 3.10330), corrected <= 3.10486  [5206 s]
+   viol: AA 5.2e-08, AB -4.0e-11, AF 3.9e-08, BB -9.4e-10, BF -1.1e-08, FF -6.0e-10, AAA 1.6e-07, AAB 9.0e-07, AAF 1.2e-05, ABB 2.4e-06, ABF 6.6e-06, AFF 1.1e-06, BBB 1.4e-05, BBF 1.1e-05, BFF 1.5e-06, FFF 4.9e-07
+   c2: {'AA': 0.077286, 'AB': 0.083067, 'AF': 0.090416, 'BB': 0.084567, 'BF': 0.089632, 'FF': 0.094185}
+   c3: {'AAA': 0.0007993, 'AAB': 0.0005466, 'AAF': 0.0003065, 'ABB': 0.000456, 'ABF': 0.0002967, 'AFF': 0.0001375, 'BBB': 0.0005303, 'BBF': 0.0004633, 'BFF': 0.0004633, 'FFF': 0.000782}
+   direct: 5898 variables, 112896 inequalities, 4299 psd rows in 48 cones, 53433959 nonzeros [37 s to build]
+PEAK_RSS_GB 7.11 exit -15 wall 5524 s
+[stopped at Wed Oct  7 02:17:02 UTC 2026 in round 2 to give the processors to the exact check of c28lo13b_d8_r1.npz; round 1 here was worse than that certificate]

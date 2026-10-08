@@ -1,0 +1,9 @@
+$ (cd swap_configs && swap_exact_volume.py)
+n simplices: 157
+  simplex 0/157  t=0.1s
+  simplex 40/157  t=20.7s
+  simplex 80/157  t=152.0s
+  simplex 120/157  t=199.0s
+all determinants computed in 575.6s
+signed sum assembled, t=0.0s
+simplify() did not settle within 300s; saving the raw signed sum, which is what the later stages consume

@@ -1,0 +1,31 @@
+$ (cd hessian_multidir && triality_search2.py)
+Group order: 1152
+Stabilizer of u0 order: 48
+Orbit of v1 under stabilizer, size: 6
+Does orbit contain w1? True
+Does orbit contain v2? True
+Does orbit contain -w1? True
+Does orbit contain -v2? True
+   [-0.707  0.707  0.     0.   ]
+   [ 0.     0.    -0.707 -0.707]
+   [ 0.     0.    -0.707  0.707]
+   [ 0.     0.     0.707 -0.707]
+   [0.    0.    0.707 0.707]
+   [ 0.707 -0.707  0.     0.   ]
+
+Found g with g(u0)=u0, g(v1)=w1:
+[[ 0.5  0.5  0.5  0.5]
+ [ 0.5  0.5 -0.5 -0.5]
+ [ 0.5 -0.5  0.5 -0.5]
+ [ 0.5 -0.5 -0.5  0.5]]
+g @ u0 = [0.707107 0.707107 0.       0.      ]  (should equal u0)
+g @ v1 = [0.       0.       0.707107 0.707107]  (should equal w1)
+g orthogonal check, g@g.T:
+ [[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]
+ [0. 0. 0. 1.]]
+det(g) = -1.0
+g maps 24-root set to itself: True
+number of 'other' roots (excluding u0): 23
+g maps {other 23 roots} to itself as a set: True

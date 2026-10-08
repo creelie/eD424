@@ -1,0 +1,7 @@
+$ (cd arc1_v1w1 && arc_scan3.py)
+v1-w1 arc (interior): min F=0.259866 at theta=1.0000, t=1.4208
+w1-v2 arc (interior, t<=pi/4 by symmetry): min F=0.259349 at theta=1.0000, t=0.1000
+
+Overall worst: w1-v2 arc, F=0.259349 at theta=1.0000, t=0.1000
+Refining locally...
+Refined minimum: F=-0.00000000 at theta=0.000016, t=0.122231

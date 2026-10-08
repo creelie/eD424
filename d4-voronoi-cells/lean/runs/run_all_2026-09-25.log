@@ -1,0 +1,81 @@
+== D4Stress.lean
+'D4Stress.card_roots' does not depend on any axioms
+'D4Stress.roots_nodup' does not depend on any axioms
+'D4Stress.roots_norm' does not depend on any axioms
+'D4Stress.roots_inner' does not depend on any axioms
+'D4Stress.roots_contact' does not depend on any axioms
+'D4Stress.roots_degree' does not depend on any axioms
+'D4Stress.card_W' does not depend on any axioms
+'D4Stress.tight_count' does not depend on any axioms
+'D4Stress.cval_multiplicities' does not depend on any axioms
+'D4Stress.cval_range' does not depend on any axioms
+'D4Stress.weights_positive' does not depend on any axioms
+'D4Stress.equilibrium' does not depend on any axioms
+'D4Stress.pair_ceiling' does not depend on any axioms
+'D4Stress.deletion_shortfall' does not depend on any axioms
+'D4Stress.deletion_surplus' does not depend on any axioms
+'D4Stress.tight_count24' does not depend on any axioms
+'D4Stress.equilibrium24' does not depend on any axioms
+== D4Meet.lean
+'D4Meet.card_roots' does not depend on any axioms
+'D4Meet.roots_nodup' does not depend on any axioms
+'D4Meet.support_wellposed' does not depend on any axioms
+'D4Meet.support_fibres' does not depend on any axioms
+'D4Meet.couples_cover' does not depend on any axioms
+'D4Meet.two_supports_leave_a_couple' does not depend on any axioms
+'D4Meet.two_roots_leave_a_couple' does not depend on any axioms
+'D4Meet.bad_triples_count' does not depend on any axioms
+'D4Meet.bad_triples_distinct' does not depend on any axioms
+'D4Meet.bad_triples_star_or_triangle' does not depend on any axioms
+'D4Meet.bad_triples_split' does not depend on any axioms
+'D4Meet.bad_root_triple_count' does not depend on any axioms
+'D4Meet.tight_triangle_count' does not depend on any axioms
+'D4Meet.tight_triangle_count_div' does not depend on any axioms
+'D4Meet.no_tight_quadruple' does not depend on any axioms
+'D4Meet.starTriple_tight' does not depend on any axioms
+'D4Meet.kept21_card' does not depend on any axioms
+'D4Meet.kept21_lower_block' does not depend on any axioms
+'D4Meet.kept21_upper_block' does not depend on any axioms
+'D4Meet.had2_permutes' does not depend on any axioms
+'D4Meet.had2_isometry' does not depend on any axioms
+'D4Meet.had2_triangle_to_star' does not depend on any axioms
+'D4Meet.deletion_tight_pairs' does not depend on any axioms
+== D4Certificate.lean
+'f_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F0_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F1_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F2_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F3_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F4_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F5_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F6_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F7_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F8_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bound_exceeds' depends on axioms: [propext, Classical.choice, Quot.sound]
+== D4InnerProducts.lean
+'D4InnerProducts.p2_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.q_nonzero_at_the_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.division_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.sturm_no_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+== D4RootLattices.lean
+'D4RootLattices.main' depends on axioms: [propext, D4RootLattices.main._native.native_decide.ax_1_1]
+'D4RootLattices.max_roots' depends on axioms: [propext, D4RootLattices.max_roots._native.native_decide.ax_1_1]
+'D4RootLattices.rank4_top_counts' depends on axioms: [propext,
+ D4RootLattices.rank4_top_counts._native.native_decide.ax_1_1]
+'D4RootLattices.candidates_count' depends on axioms: [propext,
+ D4RootLattices.candidates_count._native.native_decide.ax_1_1]
+== D4Closure.lean
+'D4Closure.holes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.inversion_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.four_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.centroid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.verts_are_vertices' does not depend on any axioms
+'D4Closure.three_pairs_each' depends on axioms: [propext]
+'D4Closure.orthogonal_pairs' depends on axioms: [propext]
+'D4Closure.no_kill_one_two' depends on axioms: [propext]
+'D4Closure.killing_triples' depends on axioms: [propext]
+all six files check
+
+real	3m0.448s
+user	2m31.173s
+sys	0m35.623s

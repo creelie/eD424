@@ -1,0 +1,37 @@
+$ (cd arc2_w1v2 && full_triangle_symmetry.py)
+=== Basic checks (exact, Q(sqrt2)) ===
+S^2 == Id: True
+H^2 == Id: True
+S fixes u0: True
+H fixes u0: True
+S is a root-system automorphism: True
+H is a root-system automorphism: True
+
+=== Generate the group <S,H> ===
+Group order: 6  (expect 6, i.e. S_3)
+Every element fixes u0 and is a root automorphism: True
+Distinct permutations of (v1,w1,v2) realised: 6  (expect 6, all of S_3)
+
+=== The key consequence: M = S*H maps arc2's parametrisation onto arc1's, symbolically ===
+M(dev_w1v2(t)) - dev_v1w1(t) simplified (symbolic t): Matrix([[0, 0, 0, 0]])
+Exactly zero for all t: True
+
+=== Numerical sanity check: breakpoint alignment across the full second-arc domain ===
+(spans the C-bounded, middle, and B-bounded sub-parts of the band, and region top)
+  t=0.02: breakpoints match=True  max|defect diff| over scan=9.32e-10
+  t=0.08: breakpoints match=True  max|defect diff| over scan=9.28e-10
+  t=0.15: breakpoints match=True  max|defect diff| over scan=9.18e-10
+  t=0.25: breakpoints match=True  max|defect diff| over scan=7.07e-10
+  t=0.40: breakpoints match=True  max|defect diff| over scan=8.20e-10
+  t=0.65: breakpoints match=True  max|defect diff| over scan=9.67e-10
+  t=0.70: breakpoints match=True  max|defect diff| over scan=9.68e-10
+  t=0.75: breakpoints match=True  max|defect diff| over scan=6.96e-10
+  t=0.78: breakpoints match=True  max|defect diff| over scan=6.81e-10
+All sampled t-values show exact breakpoint alignment: True
+
+CONCLUSION: the second arc requires no certificate of its own -- it is exactly
+the first arc, via the S_3 symmetry group verified above. Conjecture
+(Direction-of-Deviation Positivity, RESTATED) is proved in full on the
+fundamental triangle's boundary. The triangle's interior is untouched by
+this argument; it is covered instead by the cap inequality of Section 13,
+which gives the sign over the whole deviation sphere at once.

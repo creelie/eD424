@@ -1,0 +1,13 @@
+$ cd lean/cardinality && lake build
+start Mon Oct  5 05:12:31 UTC 2026
+ℹ [11/13] Replayed KissMain8
+info: KissMain8.lean:22:0: 'cert8_ii' depends on axioms: [propext, Classical.choice, Quot.sound, cert8_ii._native.native_decide.ax_1_1]
+ℹ [12/13] Built KissMain10 (27747s)
+info: KissMain10.lean:22:0: 'cert10_ii' depends on axioms: [propext, Classical.choice, Quot.sound, cert10_ii._native.native_decide.ax_1_1]
+Build completed successfully (13 jobs).
+
+real	462m27.610s
+user	448m2.914s
+sys	0m15.399s
+exit 0
+end Mon Oct  5 12:54:58 UTC 2026

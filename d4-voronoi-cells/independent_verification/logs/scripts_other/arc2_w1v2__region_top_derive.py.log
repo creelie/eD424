@@ -1,0 +1,15 @@
+$ (cd arc2_w1v2 && region_top_derive.py)
+rep point theta=1.5652 t=0.1500: 32 verts, 8 moving, 24 fixed
+140 boundary simplices: 79 fixed-only, 61 moving
+fixed vertices matched exactly: 24/24  unmatched: 0
+EXACT fixed-only volume contribution: 19/3
+
+on-cap patterns (8):
+  ('+e1+e3', '+e1+e4', '+e1-e2', 'u1')
+  ('+e1+e3', '+e1+e4', '+e3+e4', 'u1')
+  ('+e1+e3', '+e1-e2', '-e2+e3', 'u1')
+  ('+e1+e3', '+e3+e4', '-e2+e3', 'u1')
+  ('+e1+e4', '+e1-e2', '-e2+e4', 'u1')
+  ('+e1+e4', '+e3+e4', '-e2+e4', 'u1')
+  ('+e1-e2', '-e2+e3', '-e2+e4', 'u1')
+  ('+e3+e4', '-e2+e3', '-e2+e4', 'u1')

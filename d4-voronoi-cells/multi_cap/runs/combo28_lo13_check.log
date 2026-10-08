@@ -1,0 +1,74 @@
+statement (C) at 28 centres, case case28_lo13.json: combined certificate c28lo13b_d8_r1.npz, two-point degree 12/4, three-point degree 8; 60214 count vectors
+  [ok] dmax exceeds sqrt 6
+  [ok] A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  (t = 65.795580334, float t 65.795580333)
+  [ok] three-point blocks positive definite (exact LDL^T)  (35 blocks)
+  point terms: {'A': '0.208647', 'B': '0.145419', 'F': '0.033715'}
+  pair AA: float largest K + PAIR3 - Pi 5.813446e-02 (file c2 5.813425e-02); threshold 5.813947e-02
+  pair AB: float largest K + PAIR3 - Pi 6.430800e-02 (file c2 6.430800e-02); threshold 6.431300e-02
+  pair AF: float largest K + PAIR3 - Pi 7.160842e-02 (file c2 7.160821e-02); threshold 7.161343e-02
+  pair BB: float largest K + PAIR3 - Pi 6.596511e-02 (file c2 6.596460e-02); threshold 6.597015e-02
+  pair BF: float largest K + PAIR3 - Pi 7.086813e-02 (file c2 7.086644e-02); threshold 7.087321e-02
+  pair FF: float largest K + PAIR3 - Pi 7.557776e-02 (file c2 7.557772e-02); threshold 7.558276e-02
+  [ok] K + PAIR3_AA <= Pi + c2 on the admissible pairs  (3167158 boxes closed, 2513403 set aside, Pi in Arb at 3167109 corners)
+  [ok] K + PAIR3_AB <= Pi + c2 on the admissible pairs  (65434 boxes closed, 66823 set aside, Pi in Arb at 3154 corners)
+  [ok] K + PAIR3_AF <= Pi + c2 on the admissible pairs  (30745 boxes closed, 31040 set aside, Pi in Arb at 0 corners)
+  [ok] K + PAIR3_BB <= Pi + c2 on the admissible pairs  (3707 boxes closed, 3034 set aside, Pi in Arb at 434 corners)
+  [ok] K + PAIR3_BF <= Pi + c2 on the admissible pairs  (12306 boxes closed, 11795 set aside, Pi in Arb at 0 corners)
+  [ok] K + PAIR3_FF <= Pi + c2 on the admissible pairs  (6 boxes closed, 0 set aside, Pi in Arb at 0 corners)
+  [ok] f <= m_b on every bin  (3698 intervals, least room 3.68e-10)
+  triple AAA: float largest 8.320207e-04 on 649660 samples; threshold 8.325950e-04; 425 monomials, symmetry 2
+  triple AAB: float largest 5.616402e-04 on 649656 samples; threshold 5.623316e-04; 425 monomials, symmetry 1
+  triple AAF: float largest 3.215639e-04 on 649567 samples; threshold 3.222705e-04; 425 monomials, symmetry 1
+  triple ABB: float largest 4.640639e-04 on 649516 samples; threshold 4.646916e-04; 425 monomials, symmetry 1
+  triple ABF: float largest 3.201323e-04 on 649349 samples; threshold 3.215218e-04; 425 monomials, symmetry 0
+  triple AFF: float largest 1.493794e-04 on 649302 samples; threshold 1.503529e-04; 425 monomials, symmetry 1
+  triple BBB: float largest 5.425782e-04 on 649325 samples; threshold 5.435452e-04; 425 monomials, symmetry 2
+  triple BBF: float largest 4.824154e-04 on 649158 samples; threshold 4.838167e-04; 425 monomials, symmetry 1
+  triple BFF: float largest 4.809436e-04 on 649009 samples; threshold 4.819378e-04; 425 monomials, symmetry 1
+  triple FFF: float largest 7.688680e-04 on 648938 samples; threshold 7.793708e-04 (refined 7.688708e-04, extra 1e-05); 425 monomials, symmetry 2
+      AAA level 10: 0 boxes verified, 334 to bisect [2 s]
+      AAF level 10: 0 boxes verified, 622 to bisect [2 s]
+      AAB level 10: 0 boxes verified, 620 to bisect [2 s]
+      AAA level 20: 13806 boxes verified, 83270 to bisect [69 s]
+      AAF level 20: 40447 boxes verified, 229298 to bisect [214 s]
+      AAB level 20: 36229 boxes verified, 258276 to bisect [239 s]
+      AAA level 30: 1249248 boxes verified, 109120 to bisect [1954 s]
+      ABB level 10: 0 boxes verified, 626 to bisect [2 s]
+      ABB level 20: 39931 boxes verified, 237040 to bisect [245 s]
+      AAF level 30: 1675850 boxes verified, 56274 to bisect [2695 s]
+      ABF level 10: 0 boxes verified, 944 to bisect [3 s]
+      ABF level 20: 87560 boxes verified, 420418 to bisect [468 s]
+      ABB level 30: 2303505 boxes verified, 22784 to bisect [3633 s]
+      AFF level 10: 0 boxes verified, 618 to bisect [2 s]
+      AAB level 30: 3634415 boxes verified, 143886 to bisect [5775 s]
+      BBB level 10: 0 boxes verified, 342 to bisect [2 s]
+      AFF level 20: 49110 boxes verified, 188342 to bisect [217 s]
+      BBB level 20: 18054 boxes verified, 76100 to bisect [71 s]
+      BBB level 30: 562045 boxes verified, 48308 to bisect [838 s]
+      BBF level 10: 0 boxes verified, 618 to bisect [2 s]
+      BBF level 20: 49648 boxes verified, 205434 to bisect [240 s]
+      ABF level 30: 2708528 boxes verified, 540 to bisect [4351 s]
+      BFF level 10: 0 boxes verified, 620 to bisect [2 s]
+      AFF level 30: 1004626 boxes verified, 5814 to bisect [1579 s]
+      BFF level 20: 55702 boxes verified, 154858 to bisect [193 s]
+      AFF level 40: 1010185 boxes verified, 1904 to bisect [1594 s]
+      FFF level 10: 0 boxes verified, 340 to bisect [2 s]
+      FFF level 20: 23502 boxes verified, 48430 to bisect [63 s]
+      FFF level 30: 156343 boxes verified, 8384 to bisect [222 s]
+      BFF level 30: 771667 boxes verified, 13222 to bisect [1163 s]
+      BBF level 30: 1189830 boxes verified, 11346 to bisect [1785 s]
+  [ok] TRIPLE3_AAA <= c3 on the admissible triples  (1398262 boxes, largest centre value 8.3209e-04)
+  [ok] TRIPLE3_AAB <= c3 on the admissible triples  (3815579 boxes, largest centre value 5.6183e-04)
+  [ok] TRIPLE3_AAF <= c3 on the admissible triples  (1757352 boxes, largest centre value 3.2177e-04)
+  [ok] TRIPLE3_ABB <= c3 on the admissible triples  (2326107 boxes, largest centre value 4.6419e-04)
+  [ok] TRIPLE3_ABF <= c3 on the admissible triples  (2708726 boxes, largest centre value 3.2066e-04)
+  [ok] TRIPLE3_AFF <= c3 on the admissible triples  (1013476 boxes, largest centre value 1.4979e-04)
+  [ok] TRIPLE3_BBB <= c3 on the admissible triples  (631319 boxes, largest centre value 5.4305e-04)
+  [ok] TRIPLE3_BBF <= c3 on the admissible triples  (1201297 boxes, largest centre value 4.8331e-04)
+  [ok] TRIPLE3_BFF <= c3 on the admissible triples  (791968 boxes, largest centre value 4.8144e-04)
+  [ok] TRIPLE3_FFF <= c3 on the admissible triples  (161136 boxes, largest centre value 7.6874e-04)
+  triple boxes in all: 15805222
+  60214 count vectors, 105 type-count vectors; largest bound 3.100609 at (13, 0, 11, 0, 0, 0, 4)
+  [ok] largest bound over the count vectors below 9 pi^2/8 - 8  (3.100609 < [3.1033050 +/- 4.88e-8])
+PASS: in case case28_lo13.json every packing set of 28 centres has U(Y) <= 3.100609 < 9 pi^2/8 - 8, so T(Y) > 8 [13799 s]
+Wed Oct  7 08:22:09 UTC 2026

@@ -1,0 +1,7 @@
+resumed from combo30_d6_r3.npz, pruned to 5000 pair and 2500 triple samples per kind
+/home/claude/d4-voronoi-cells/gap_closure/C30/combo30p.py:145: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', max_iter=500)
+d3=6 round 1: optimal_inaccurate  bound 3.09949 (target 3.10330), corrected <= 3.11029  [1164 s]
+   viol: AA -6.0e-07, AB -1.6e-07, AF 5.1e-05, BB -5.2e-06, BF 5.0e-05, FF -1.2e-07, AAA 2.6e-07, AAB 6.3e-07, AAF 4.4e-07, ABB 4.5e-06, ABF 4.8e-06, AFF 2.1e-06, BBF 1.4e-06, BFF 2.3e-06, FFF 1.9e-06
+   c2: {'AA': 0.021182, 'AB': 0.027566, 'AF': -0.012182, 'BB': 0.037858, 'BF': 0.01063, 'FF': 0.461823}
+   c3: {'AAA': 0.0022103, 'AAB': 0.0079139, 'AAF': 0.0026095, 'ABB': 0.0136233, 'ABF': -0.0194689, 'AFF': -0.0584191, 'BBF': -0.0422123, 'BFF': 0.0308118, 'FFF': 0.4318598}

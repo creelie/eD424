@@ -1,0 +1,29 @@
+$ python3 d4_independent_check.py
+1. Table 2, covering bound (pi m/3) tan^3 r_m
+   m=22:   8.0463759   paper 8.046376
+   m=23:   7.9167276   paper 7.916728
+   m=24:   7.7989895   paper 7.798989
+
+3. eq:second-order-value, the four pair-bound numbers
+   deletion, R=r_23:    7.99788488   paper 7.997885
+   deletion, R=r_*  :    8.03434034   paper 8.034340
+   roots,    R=r_24 :    7.85873805   paper 7.858738
+   roots,    R=r_*  :     7.9069401   paper 7.906940
+   (v1.7.0 printed 7.907070 for the last one; 7.906940 is the value, as in sec:closure)
+
+4. lem:rigidity-spectrum
+   singular values / multiplicities: 0.000000x6, 1.000000x29, 1.581139x8, 1.732051x21, 2.000000x8
+   paper: 0, 1, sqrt(5/2), sqrt3, 2 with multiplicities 6, 29, 8, 21, 8
+
+7. NEW.  diag of the projection onto im(Lambda): all equal to 0.687500000000 = 66/96 = 11/16
+   (forced by W(F4) acting transitively on the 96 edges of the 24-cell)
+   => ||g||_inf <= (sqrt11/4)||g||_2 and ||g||_1 >= (4/sqrt11)||g||_2 on im
+   => thm:local-uniqueness isolation radius 2/sqrt(577)=0.0832611 improves to 2/sqrt(397)=0.1003771
+   => estimate (a) of thm:near-contact: 192/71=2.70422 improves to 2.11981
+
+6. the two crossovers of the pair terms, and 8. two ideas measured
+   root system pushed out evenly : sum delta = 0.15511  (paper 0.155)
+   one centre pushed out         : delta     = 0.197054  (paper 0.197)
+   same, with the distance-aware truncation radius: 0.147332   -> a gain of 5.0%
+   The explicit neighbourhood of thm:near-contact ends at sum delta = 6e-5, so a factor of
+   about 2500 separates it from the crossing either way.

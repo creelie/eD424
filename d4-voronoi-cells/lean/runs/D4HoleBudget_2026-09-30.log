@@ -1,0 +1,12 @@
+== D4HoleBudget.lean  2026-09-30 13:46 UTC
+'D4HoleBudget.q_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.design4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.roots_frame' depends on axioms: [propext]
+'D4HoleBudget.h_at_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.h_signs_all_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.table_iii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.cap_below_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	0m8.962s
+user	0m6.796s
+sys	0m1.940s

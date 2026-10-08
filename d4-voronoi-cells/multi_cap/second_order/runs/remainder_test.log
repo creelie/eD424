@@ -1,0 +1,7 @@
+300 feasible packings tested, S in [0.0032, 0.4837], ||tau|| up to 2.1754 (relative to S: up to 5.828)
+(R) remainder vol - 8 - (2/3)S - (1/2)H:  min = -5.393e-05  at S=0.3617, kind 2, ||tau||=0.0141, H=-0.0114
+    negative in 11 cases; their S range: 0.0032 .. 0.4001
+(D) vol - 8 - (2/3)S + (1/2)S^2:            min = +1.041e-07  at S=0.0085, kind 0, ||tau||=0.0485
+    negative in 0 cases
+remainder / S^3: min -0.004, max +0.166  (one-centre ray exactly: +1/6 - S/48)
+H(xi,xi)/S^2 on the tested packings: min -1.0000  (cone bound -1)

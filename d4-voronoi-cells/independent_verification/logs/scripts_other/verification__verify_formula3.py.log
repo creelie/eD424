@@ -1,0 +1,25 @@
+$ (cd verification && verify_formula3.py)
+       t    theta_c(bisect)   theta_c(formula)     abs diff
+ 0.02000     0.039996994112     0.039992002399     4.99e-06
+ 0.06023     0.120246684709     0.120245047457     1.64e-06
+ 0.10046     0.199920537646     0.199919580300     9.57e-07
+ 0.14069     0.278645122485     0.278644464386     6.58e-07
+ 0.18093     0.356071030195     0.356070544175     4.86e-07
+ 0.22116     0.431877985843     0.431877613685     3.72e-07
+ 0.26139     0.505780077733     0.505779787668     2.90e-07
+ 0.30162     0.577529341487     0.577529114055     2.27e-07
+ 0.34185     0.646917598133     0.646917420378     1.78e-07
+ 0.38208     0.713776657107     0.713776519844     1.37e-07
+ 0.42231     0.777977105183     0.777977001573     1.04e-07
+ 0.46255     0.839425964388     0.839425889139     7.52e-08
+ 0.50278  no crossing found near formula value 0.898063
+ 0.54301  no crossing found near formula value 0.953860
+ 0.58324  no crossing found near formula value 1.006810
+ 0.62347  no crossing found near formula value 1.056931
+ 0.66370  no crossing found near formula value 1.104258
+ 0.70394  no crossing found near formula value 1.148840
+ 0.74417  no crossing found near formula value 1.190737
+ 0.78440  no crossing found near formula value 1.230016
+
+max abs diff over all sampled t: 4.992e-06
+At t=pi/4: 1.2309594173407745  vs arccos(1/3)= 1.2309594173407747  diff= 2.220446049250313e-16

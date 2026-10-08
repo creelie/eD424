@@ -1,0 +1,6 @@
+$ (cd arc2_w1v2 && region_top_map.py)
+mapped to (u,v): 2762 chars, 0.5s
+substituted u(w,v): 3241 chars, 2.8s
+substituted v=(sqrt2-1)v2: 10480 chars, 3.6s
+N: 6910 chars, D: 3565 chars, 3.7s
+saved ND.

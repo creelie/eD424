@@ -1,0 +1,117 @@
+$ (cd arc1_v1w1 && region6_derive.py)
+[region6] rep point theta=1.0959 t=0.7000: 36 verts, 14 moving, 22 fixed
+[region6] fixed-vertex check across 4 samples: 0/22 differ, 22/22 matched to full set
+[region6] 164 boundary simplices: 64 fixed-only, 100 moving
+[region6] fixed vertices matched exactly: 22/22
+[region6] EXACT fixed-only volume: 16/3
+[region6] moving vertices solved: 14 distinct patterns (14 instances), 10.6s
+[region6]   term 1/100: det_time=0.01s cancel_time=0.00s term_size=76 total_t=10.6s
+[region6]   term 2/100: det_time=0.00s cancel_time=0.00s term_size=57 total_t=10.6s
+[region6]   term 3/100: det_time=0.01s cancel_time=0.01s term_size=57 total_t=10.7s
+[region6]   term 4/100: det_time=0.01s cancel_time=0.01s term_size=316 total_t=10.7s
+[region6]   term 5/100: det_time=0.03s cancel_time=0.41s term_size=724 total_t=11.1s
+[region6]   term 6/100: det_time=0.01s cancel_time=0.00s term_size=59 total_t=11.1s
+[region6]   term 7/100: det_time=0.03s cancel_time=0.50s term_size=316 total_t=11.7s
+[region6]   term 8/100: det_time=0.00s cancel_time=0.01s term_size=76 total_t=11.7s
+[region6]   term 9/100: det_time=0.02s cancel_time=0.21s term_size=297 total_t=11.9s
+[region6]   term 10/100: det_time=0.00s cancel_time=0.02s term_size=61 total_t=11.9s
+[region6]   term 11/100: det_time=0.08s cancel_time=2.62s term_size=947 total_t=14.6s
+[region6]   term 12/100: det_time=0.00s cancel_time=0.01s term_size=83 total_t=14.6s
+[region6]   term 13/100: det_time=0.00s cancel_time=0.00s term_size=57 total_t=14.7s
+[region6]   term 14/100: det_time=0.00s cancel_time=0.00s term_size=59 total_t=14.7s
+[region6]   term 15/100: det_time=0.01s cancel_time=0.00s term_size=59 total_t=14.7s
+[region6]   term 16/100: det_time=0.01s cancel_time=0.01s term_size=4 total_t=14.7s
+[region6]   term 17/100: det_time=0.00s cancel_time=0.00s term_size=59 total_t=14.7s
+[region6]   term 18/100: det_time=0.03s cancel_time=0.26s term_size=1157 total_t=15.0s
+[region6]   term 19/100: det_time=0.02s cancel_time=0.07s term_size=158 total_t=15.1s
+[region6]   term 20/100: det_time=0.04s cancel_time=0.05s term_size=4 total_t=15.2s
+[region6]   term 21/100: det_time=0.05s cancel_time=0.10s term_size=210 total_t=15.3s
+[region6]   term 22/100: det_time=0.01s cancel_time=0.05s term_size=297 total_t=15.4s
+[region6]   term 23/100: det_time=0.00s cancel_time=0.01s term_size=4 total_t=15.4s
+[region6]   term 24/100: det_time=0.01s cancel_time=0.03s term_size=1 total_t=15.4s
+[region6]   term 25/100: det_time=0.01s cancel_time=0.01s term_size=1 total_t=15.5s
+[region6]   term 26/100: det_time=0.01s cancel_time=0.01s term_size=58 total_t=15.5s
+[region6]   term 27/100: det_time=0.00s cancel_time=0.00s term_size=4 total_t=15.5s
+[region6]   term 28/100: det_time=0.02s cancel_time=0.03s term_size=204 total_t=15.5s
+[region6]   term 29/100: det_time=0.03s cancel_time=0.78s term_size=411 total_t=16.3s
+[region6]   term 30/100: det_time=0.02s cancel_time=0.96s term_size=581 total_t=17.3s
+[region6]   term 31/100: det_time=0.02s cancel_time=11.51s term_size=505 total_t=28.9s
+[region6]   term 32/100: det_time=0.07s cancel_time=62.26s term_size=680 total_t=91.2s
+[region6]   term 33/100: det_time=0.01s cancel_time=0.02s term_size=204 total_t=91.2s
+[region6]   term 34/100: det_time=0.05s cancel_time=98.75s term_size=680 total_t=190.0s
+[region6]   term 35/100: det_time=0.01s cancel_time=0.01s term_size=203 total_t=190.1s
+[region6]   term 36/100: det_time=0.03s cancel_time=1.20s term_size=862 total_t=191.3s
+[region6]   term 37/100: det_time=0.01s cancel_time=0.00s term_size=1 total_t=191.3s
+[region6]   term 38/100: det_time=0.07s cancel_time=4.53s term_size=819 total_t=195.9s
+[region6]   term 39/100: det_time=0.01s cancel_time=0.02s term_size=1 total_t=196.0s
+[region6]   term 40/100: det_time=0.02s cancel_time=0.05s term_size=297 total_t=196.0s
+[region6]   term 41/100: det_time=0.01s cancel_time=0.06s term_size=1 total_t=196.1s
+[region6]   term 42/100: det_time=0.04s cancel_time=6.95s term_size=479 total_t=203.1s
+[region6]   term 43/100: det_time=0.01s cancel_time=0.00s term_size=51 total_t=203.1s
+[region6]   term 44/100: det_time=0.01s cancel_time=0.01s term_size=51 total_t=203.1s
+[region6]   term 45/100: det_time=0.01s cancel_time=0.01s term_size=63 total_t=203.2s
+[region6]   term 46/100: det_time=0.02s cancel_time=0.11s term_size=502 total_t=203.3s
+[region6]   term 47/100: det_time=0.02s cancel_time=0.07s term_size=534 total_t=203.4s
+[region6]   term 48/100: det_time=0.02s cancel_time=0.40s term_size=525 total_t=203.8s
+[region6]   term 49/100: det_time=0.09s cancel_time=35.76s term_size=1460 total_t=239.7s
+[region6]   term 50/100: det_time=0.07s cancel_time=1.57s term_size=2124 total_t=241.3s
+[region6]   term 51/100: det_time=0.07s cancel_time=55.09s term_size=1402 total_t=296.5s
+[region6]   term 52/100: det_time=0.04s cancel_time=0.45s term_size=567 total_t=297.0s
+[region6]   term 53/100: det_time=0.04s cancel_time=1.70s term_size=1596 total_t=298.8s
+[region6]   term 54/100: det_time=0.02s cancel_time=0.02s term_size=64 total_t=298.8s
+[region6]   term 55/100: det_time=0.01s cancel_time=0.02s term_size=4 total_t=298.8s
+[region6]   term 56/100: det_time=0.00s cancel_time=0.00s term_size=4 total_t=298.8s
+[region6]   term 57/100: det_time=0.01s cancel_time=0.02s term_size=1 total_t=298.9s
+[region6]   term 58/100: det_time=0.00s cancel_time=0.00s term_size=57 total_t=298.9s
+[region6]   term 59/100: det_time=0.00s cancel_time=0.00s term_size=4 total_t=298.9s
+[region6]   term 60/100: det_time=0.05s cancel_time=15.41s term_size=876 total_t=314.3s
+[region6]   term 61/100: det_time=0.04s cancel_time=62.74s term_size=886 total_t=377.1s
+[region6]   term 62/100: det_time=0.07s cancel_time=6.58s term_size=398 total_t=383.8s
+[region6]   term 63/100: det_time=0.04s cancel_time=1.70s term_size=1385 total_t=385.5s
+[region6]   term 64/100: det_time=0.04s cancel_time=0.39s term_size=670 total_t=385.9s
+[region6]   term 65/100: det_time=0.03s cancel_time=6.72s term_size=499 total_t=392.7s
+[region6]   term 66/100: det_time=0.03s cancel_time=0.81s term_size=502 total_t=393.5s
+[region6]   term 67/100: det_time=0.02s cancel_time=1.88s term_size=508 total_t=395.4s
+[region6]   term 68/100: det_time=0.01s cancel_time=0.12s term_size=200 total_t=395.6s
+[region6]   term 69/100: det_time=0.01s cancel_time=0.02s term_size=156 total_t=395.6s
+[region6]   term 70/100: det_time=0.01s cancel_time=0.04s term_size=152 total_t=395.7s
+[region6]   term 71/100: det_time=0.02s cancel_time=0.01s term_size=1 total_t=395.7s
+[region6]   term 72/100: det_time=0.00s cancel_time=0.00s term_size=51 total_t=395.7s
+[region6]   term 73/100: det_time=0.01s cancel_time=0.10s term_size=4 total_t=395.8s
+[region6]   term 74/100: det_time=0.04s cancel_time=5.48s term_size=537 total_t=401.3s
+[region6]   term 75/100: det_time=0.02s cancel_time=0.23s term_size=296 total_t=401.6s
+[region6]   term 76/100: det_time=0.03s cancel_time=0.04s term_size=1 total_t=401.7s
+[region6]   term 77/100: det_time=0.04s cancel_time=0.36s term_size=58 total_t=402.1s
+[region6]   term 78/100: det_time=0.03s cancel_time=0.34s term_size=861 total_t=402.4s
+[region6]   term 79/100: det_time=0.04s cancel_time=0.94s term_size=845 total_t=403.4s
+[region6]   term 80/100: det_time=0.02s cancel_time=0.02s term_size=200 total_t=403.5s
+[region6]   term 81/100: det_time=0.00s cancel_time=0.03s term_size=184 total_t=403.5s
+[region6]   term 82/100: det_time=0.01s cancel_time=0.01s term_size=51 total_t=403.5s
+[region6]   term 83/100: det_time=0.01s cancel_time=0.00s term_size=51 total_t=403.5s
+[region6]   term 84/100: det_time=0.02s cancel_time=0.02s term_size=156 total_t=403.6s
+[region6]   term 85/100: det_time=0.00s cancel_time=0.00s term_size=4 total_t=403.6s
+[region6]   term 86/100: det_time=0.04s cancel_time=0.07s term_size=143 total_t=403.7s
+[region6]   term 87/100: det_time=0.04s cancel_time=2.43s term_size=684 total_t=406.2s
+[region6]   term 88/100: det_time=0.06s cancel_time=0.06s term_size=639 total_t=406.3s
+[region6]   term 89/100: det_time=0.05s cancel_time=0.07s term_size=1 total_t=406.4s
+[region6]   term 90/100: det_time=0.03s cancel_time=0.06s term_size=59 total_t=406.5s
+[region6]   term 91/100: det_time=0.04s cancel_time=0.10s term_size=412 total_t=406.6s
+[region6]   term 92/100: det_time=0.03s cancel_time=0.96s term_size=845 total_t=407.6s
+[region6]   term 93/100: det_time=0.03s cancel_time=0.05s term_size=200 total_t=407.7s
+[region6]   term 94/100: det_time=0.04s cancel_time=7.98s term_size=884 total_t=415.7s
+[region6]   term 95/100: det_time=0.03s cancel_time=1.27s term_size=156 total_t=417.0s
+[region6]   term 96/100: det_time=0.03s cancel_time=13.71s term_size=666 total_t=430.8s
+[region6]   term 97/100: det_time=0.04s cancel_time=8.32s term_size=813 total_t=439.2s
+[region6]   term 98/100: det_time=0.02s cancel_time=0.01s term_size=1 total_t=439.2s
+[region6]   term 99/100: det_time=0.02s cancel_time=3.87s term_size=362 total_t=443.1s
+[region6]   term 100/100: det_time=0.01s cancel_time=0.07s term_size=140 total_t=443.2s
+[region6] all 100 raw terms built, 443.2s
+[region6]   tree level 1: 50 nodes, max size 3300 chars, 445.5s
+[region6]   tree level 2: 25 nodes, max size 6809 chars, 448.4s
+[region6]   tree level 3: 13 nodes, max size 8555 chars, 451.8s
+[region6]   tree level 4: 7 nodes, max size 9606 chars, 454.6s
+[region6]   tree level 5: 4 nodes, max size 13740 chars, 457.2s
+[region6]   tree level 6: 2 nodes, max size 19088 chars, 459.2s
+[region6]   tree level 7: 1 nodes, max size 22650 chars, 460.3s
+[region6] vol_moving closed form: 22650 chars, 460.6s, numeric check 2.9484596477771703 vs direct-vol_fixed=2.948459647777198
+vol_fixed: 16/3

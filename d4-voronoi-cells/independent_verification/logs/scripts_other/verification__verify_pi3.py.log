@@ -1,0 +1,5 @@
+$ (cd verification && verify_pi3.py)
+Checking t=pi/3 breakpoint across the FULL t range (60 samples),
+and which facet(s) enter/leave the active set there:
+pi/3 is a breakpoint for ALL 60 sampled t values: True
+Facets involved in the pi/3 transition across all t (union): ['+e1-e3', '+e1-e4', '+e2+e3', '+e2+e4', '+e2-e3', '+e2-e4']

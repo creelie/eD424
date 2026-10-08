@@ -1,0 +1,7 @@
+$ (cd misc && fix_facet_list.py)
+Inner products of the transitioning vertex with all 24 directions:
+  u1(moving): <v,dir>=1.00000504   (close to 1: False)
+  +e2+e3: <v,dir>=1.00000000   (close to 1: True)
+  +e2-e3: <v,dir>=1.00000000   (close to 1: True)
+  +e2+e4: <v,dir>=1.00000000   (close to 1: True)
+  +e2-e4: <v,dir>=1.00000000   (close to 1: True)

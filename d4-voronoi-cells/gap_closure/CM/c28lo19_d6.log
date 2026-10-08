@@ -1,0 +1,8 @@
+28 with at most 19 centres within 2.0161 (case28_lo19.json: case28_all.json with N(2.0161) <= 19, the count above which local search finds no code of 28 directions, 22 or more of them pairwise within 0.50795 and the rest within 0.61403 of those and 0.66667 of each other), three-point degree 6, one round, to see whether the bound falls below the whole case at the same degree; started Tue Oct  6 17:20:19 UTC 2026
+   direct: 3852 variables, 67288 inequalities, 2253 psd rows in 40 cones, 17785456 nonzeros [6 s to build]
+   105 type-count vectors
+d3=6 round 1: optimal  bound 3.20482 (target 3.10330), corrected <= 3.47708  [1170 s]
+   viol: AA 2.0e-05, AB 4.2e-06, AF 6.3e-06, BB 9.3e-06, BF 1.0e-05, FF 1.8e-06, AAA 3.5e-05, AAB 4.7e-05, AAF 9.9e-05, ABB 7.5e-05, ABF 1.7e-04, AFF 1.7e-04, BBB 3.0e-05, BBF 6.0e-05, BFF 5.5e-05, FFF 2.6e-05
+   c2: {'AA': 0.055411, 'AB': 0.055173, 'AF': 0.055681, 'BB': 0.05823, 'BF': 0.059303, 'FF': 0.059352}
+   c3: {'AAA': -0.000169, 'AAB': 2.3e-05, 'AAF': 0.0001392, 'ABB': 8.83e-05, 'ABF': 0.0001854, 'AFF': 0.000327, 'BBB': 2.66e-05, 'BBF': 9.12e-05, 'BFF': 0.0001599, 'FFF': 0.0001919}
+PEAK_RSS_GB 2.62 exit 0 wall 1174 s

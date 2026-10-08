@@ -1,0 +1,10 @@
+$ python3 cell_hull_search.py 8 0
+root system: vol(V(Y) ∩ K(Y)) = 8.0000000000
+   start     2: vol 0.95487022  feasibility -3.4e+00  distances 0.9812..2.3530  direction deviation 0.7221  T 10.29763  [198s]
+   start     4: vol 5.10651269  feasibility -2.0e-02  distances 1.9970..2.4498  direction deviation 0.7441  T 10.82243  [301s]
+   start     3: vol 2.39472958  feasibility -3.2e+00  distances 1.1732..2.6824  direction deviation 0.7060  T 8.55079  [638s]
+   start     5: vol 3.40705956  feasibility -3.4e+00  distances 1.6601..3.0411  direction deviation 0.7864  T 9.55182  [689s]
+   start     0: vol 4.75038133  feasibility -3.6e-06  distances 2.0000..2.4495  direction deviation 0.7283  T 10.81878  [751s]
+   start     6: vol 4.96001445  feasibility -4.5e-03  distances 1.9993..2.4494  direction deviation 0.9176  T 10.82446  [771s]
+   start     7: vol 2.90298631  feasibility -3.8e+00  distances 1.5296..2.5170  direction deviation 0.8236  T 9.05220  [773s]
+(stopped after 7 of 8 starts; start 1 did not finish)

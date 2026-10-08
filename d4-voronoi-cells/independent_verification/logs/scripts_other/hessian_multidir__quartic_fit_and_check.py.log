@@ -1,0 +1,10 @@
+$ (cd hessian_multidir && quartic_fit_and_check.py)
+Loaded 166 directional samples (unit vectors v, target Q(v)=a4_est(v)).
+Fitting 35 quartic coefficients (overdetermination: 4.74x).
+Least-squares fit: matrix rank 35/35, relative residual norm = 0.0091
+Max abs pointwise residual: 0.002235 (values range 0.0064 to 0.3137)
+
+Running validated Gram-matrix/SDP check on the fitted quartic...
+SDP result: status=SOS_FOUND  max_t=0.006582985539764027
+
+INTERPRETATION: a PSD Gram matrix was found for the LEAST-SQUARES-FITTED quartic approximant to F's quartic behaviour at A_18. This is additional numerical evidence (not a proof: the fit comes from noisy high-precision finite-difference samples, not an exact symbolic derivation) that the fitted quartic is non-negative on the entire near-null subspace, not just at the sampled rays. It does not put Conjecture (Multi-Direction Positivity) at A_18 on an elementary footing: what settles that conjecture is the classification cited in Corollary 7.31.

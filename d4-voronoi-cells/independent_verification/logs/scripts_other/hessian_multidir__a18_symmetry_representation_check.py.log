@@ -1,0 +1,18 @@
+$ (cd hessian_multidir && a18_symmetry_representation_check.py)
+Recomputing 54x54 Hessian and near-null eigenspace (h=0.02)...
+
+=== Step 1: character of the 4D near-null representation ===
+Trace value counts: Counter({0: 18, 1: 16, -2: 12, 4: 2})
+Sample raw traces: [np.float64(-2.0), np.float64(0.0), np.float64(1.0), np.float64(4.0)]
+
+=== Step 2: commutant dimension (Schur decomposition check) ===
+Commutant dimension: 2  (1=>irreducible 4D rep or 4 inequiv factors summing weirdly; if reducible into pieces X of dims d_i with mult m_i, commutant=sum(m_i^2))
+
+=== Step 3: direct a4-invariance spot check ===
+a4(v) = 0.023218
+  g#3: a4(g.v) = 0.023295   diff = 7.70e-05
+  g#10: a4(g.v) = 0.023196   diff = 2.18e-05
+  g#17: a4(g.v) = 0.023206   diff = 1.23e-05
+  g#24: a4(g.v) = 0.023214   diff = 3.60e-06
+  g#31: a4(g.v) = 0.023170   diff = 4.77e-05
+  g#38: a4(g.v) = 0.023159   diff = 5.92e-05

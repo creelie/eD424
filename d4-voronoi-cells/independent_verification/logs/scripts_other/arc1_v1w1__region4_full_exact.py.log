@@ -1,0 +1,5 @@
+$ (cd arc1_v1w1 && region4_full_exact.py)
+Solved 12 distinct moving-vertex patterns exactly (of 12 on-cap vertex instances).
+Computing exact fixed-only volume contribution (expect exactly 5)...
+  exact vol_fixed = 5
+done part 1

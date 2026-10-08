@@ -1,0 +1,22 @@
+$ (cd misc && interaction_test.py)
+Available unit-root Gram values from i0 and example partner indices:
+  gram=-1.000  count=1  example partner=3
+  gram=-0.500  count=8  example partner=6
+  gram=-0.000  count=6  example partner=1
+  gram=+0.500  count=8  example partner=4
+
+Testing additivity F_joint(theta,theta) vs F_single(i0,theta)+F_single(j,theta) 
+for one representative partner at each Gram value, theta=0.3 and theta=0.5:
+
+gram=-1.000 theta=0.30: F1=0.030184 F2=0.030122 sum=0.060306 F_joint=0.060306  interaction=-0.000000  rel=-0.0000%
+gram=-1.000 theta=0.50: F1=0.083921 F2=0.082879 sum=0.166800 F_joint=0.166800  interaction=-0.000000  rel=-0.0000%
+
+gram=-0.500 theta=0.30: F1=0.030184 F2=0.030184 sum=0.060368 F_joint=0.060368  interaction=-0.000000  rel=-0.0000%
+gram=-0.500 theta=0.50: F1=0.083921 F2=0.083921 sum=0.167842 F_joint=0.167842  interaction=-0.000000  rel=-0.0000%
+
+gram=-0.000 theta=0.30: F1=0.030184 F2=0.030122 sum=0.060306 F_joint=0.062286  interaction=+0.001980  rel=+3.2829%
+gram=-0.000 theta=0.50: F1=0.083921 F2=0.082879 sum=0.166800 F_joint=0.173025  interaction=+0.006226  rel=+3.7325%
+
+gram=+0.500 theta=0.30: F1=0.030184 F2=0.030184 sum=0.060368 F_joint=0.082753  interaction=+0.022384  rel=+37.0799%
+gram=+0.500 theta=0.50: F1=0.083921 F2=0.083921 sum=0.167842 F_joint=0.213370  interaction=+0.045528  rel=+27.1256%
+

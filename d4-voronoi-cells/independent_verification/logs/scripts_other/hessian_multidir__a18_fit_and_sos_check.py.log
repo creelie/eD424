@@ -1,0 +1,41 @@
+$ (cd hessian_multidir && a18_fit_and_sos_check.py)
+[1/5] Computing 54x54 joint Hessian at A_18 (h=0.02) and its near-null subspace...
+      smallest 6 eigenvalues: [0.0001719  0.00017318 0.00017352 0.00081308 0.07532645 0.07532669]
+[2/5] Building the aligned (u_x0, u_y) basis via Reynolds projectors + intertwiner...
+      intertwiner SVD smallest singular values: [9.79795897e+00 9.79795897e+00 7.00601088e-10]
+      max alignment error against target (std3 (x) det) action: 1.92e-10
+      orthonormality of (u_x0, u_y) confirmed.
+
+[3/5] Evaluating a4 at 7 directions via high-precision (mpmath, 40-digit) volume,
+      at TWO independent step sizes each:
+  (+1,+0,+0,+0): a4(s=0.02)=0.311875  a4(s=0.01)=0.315628  diff=1.20%  [28.3s]
+  (+0,+1,+0,+0): a4(s=0.02)=0.027280  a4(s=0.01)=0.030749  diff=12.72%  [28.1s]
+  (+0,+1,+1,+1): a4(s=0.02)=0.025591  a4(s=0.01)=0.029088  diff=13.66%  [28.6s]
+  (+1,+1,+0,+0): a4(s=0.02)=0.071952  a4(s=0.01)=0.074274  diff=3.23%  [28.2s]
+  (+1,+1,+1,+1): a4(s=0.02)=0.038441  a4(s=0.01)=0.041031  diff=6.74%  [29.0s]
+  (+1,-1,+1,+1): a4(s=0.02)=0.009682  a4(s=0.01)=0.012319  diff=27.24%  [28.9s]
+  (+2,+1,+1,+1): a4(s=0.02)=0.103429  a4(s=0.01)=0.105781  diff=2.27%  [29.5s]
+
+[4/5] Least-squares fits:
+  sigma=0.02 fit: c1..c5 = [ 0.31191011 -0.05157253  0.2306606   0.02729174  0.04919266]  residual max = 0.00014104077399267057
+  sigma=0.01 fit: c1..c5 = [ 0.31565909 -0.04947545  0.23022314  0.03075882  0.056252  ]  residual max = 0.00012413116213445818
+  combined 14-pt fit: c1..c5 = [ 0.3137846  -0.05052399  0.23044187  0.02902528  0.05272233]  residual max = 0.0019097491161275681
+
+[5/5] SOS/Gram-matrix check (re-validating against textbook cases first):
+Validation (a): (x0^2+x1^2+x2^2+x3^2)^2  -- must find SOS
+  status: SOS_FOUND  max_t: 0.9999999877932292
+
+Validation (b): Choi-Lam polynomial -- must NOT find SOS
+  status: NOT_FOUND  max_t: -0.04262189976367506
+
+Both validations passed: this SDP code correctly separates a
+known-SOS quartic from a known nonnegative-but-non-SOS quartic.
+  [sigma=0.02] status=SOS_FOUND  max_t=0.0085062763001838
+  [sigma=0.01] status=SOS_FOUND  max_t=0.013087532026242648
+  [combined 14-pt] status=SOS_FOUND  max_t=0.01079827996224457
+
+Done. This leaves the elementary route to Conjecture
+(Multi-Direction Positivity) at A_18 short of a proof:
+these are finite-difference numerical fits on an exactly-known-correct
+5-dimensional family, with a feasible but thin-margin SOS certificate --
+not an exact symbolic derivation and not an unconditional proof.

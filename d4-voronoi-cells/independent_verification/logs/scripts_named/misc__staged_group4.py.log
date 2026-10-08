@@ -1,0 +1,6 @@
+$ (cd misc && staged_group4.py)
+group 4: 16 terms
+summed raw in 0.0s
+cancel() done in 84.0s
+numeric@t0val=14.366292
+saved.

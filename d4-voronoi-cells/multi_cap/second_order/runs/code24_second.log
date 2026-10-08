@@ -1,0 +1,12 @@
+$ python3 code24_second.py 64
+62 of 64 starts reached a code of slack 0.03  [13s]
+near the root system: 3 minimisers, least slack 3.33e-16
+far from it: 59 minimisers; least slacks:
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)
+   slack 0.016978  (largest inner product 0.516978, Gram deviation from D4 0.5170)

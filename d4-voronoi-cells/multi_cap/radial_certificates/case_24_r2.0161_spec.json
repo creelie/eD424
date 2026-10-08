@@ -1,0 +1,1 @@
+{"split": ["20161/10000", 11], "children": [{}, {"residual": true}], "antipodal": true, "margins": [[2e-5, 3e-5], [2e-5, 2.5e-5]]}

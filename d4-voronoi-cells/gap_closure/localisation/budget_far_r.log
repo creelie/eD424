@@ -1,0 +1,39 @@
+start  0: T = 8.12733, sum of push-outs 0.3866, distance to a root system 0.2185, max inner product 0.5298
+start  1: T = 8.12733, sum of push-outs 0.4170, distance to a root system 0.2115, max inner product 0.5581
+start  2: T = 8.12733, sum of push-outs 0.3861, distance to a root system 0.2188, max inner product 0.5294
+start  3: T = 8.12733, sum of push-outs 0.3860, distance to a root system 0.2187, max inner product 0.5294
+start  4: T = 8.12733, sum of push-outs 0.5164, distance to a root system 0.3394, max inner product 0.5625
+start  5: T = 11.10330, sum of push-outs 1046.0360, distance to a root system 3.3250, max inner product 0.9785  (infeasible)
+start  6: T = 8.12733, sum of push-outs 0.3950, distance to a root system 0.2073, max inner product 0.5423
+start  7: T = 8.12733, sum of push-outs 0.3897, distance to a root system 0.2029, max inner product 0.5361
+start  8: T = 8.12733, sum of push-outs 0.5164, distance to a root system 0.3394, max inner product 0.5625
+start  9: T = 8.12733, sum of push-outs 0.4088, distance to a root system 0.2099, max inner product 0.5551
+start 10: T = 8.12733, sum of push-outs 0.3912, distance to a root system 0.2131, max inner product 0.5322
+start 11: T = 8.12733, sum of push-outs 0.3945, distance to a root system 0.2178, max inner product 0.5432
+eta = 0.12733, rmax = 2.2500: largest distance found 0.3394 over 11 feasible ends
+start  0: T = 8.12733, sum of push-outs 0.3866, distance to a root system 0.2185, max inner product 0.5298
+start  1: T = 11.10330, sum of push-outs 266.1043, distance to a root system 3.3310, max inner product 0.9633  (infeasible)
+start  2: T = 11.10330, sum of push-outs 12539.9067, distance to a root system 4.4844, max inner product 0.9936  (infeasible)
+start  3: T = 8.12733, sum of push-outs 0.3860, distance to a root system 0.2187, max inner product 0.5294
+start  4: T = 8.12733, sum of push-outs 0.5643, distance to a root system 0.3776, max inner product 0.5774
+start  5: T = 8.12733, sum of push-outs 0.4190, distance to a root system 0.2454, max inner product 0.5583
+start  6: T = 8.12733, sum of push-outs 0.3949, distance to a root system 0.2072, max inner product 0.5422
+start  7: T = 11.10330, sum of push-outs 98518.2786, distance to a root system 2.7812, max inner product 0.9781  (infeasible)
+start  8: T = 10.22568, sum of push-outs 121.0892, distance to a root system 3.2314, max inner product 0.9832  (infeasible)
+start  9: T = 8.12733, sum of push-outs 0.4085, distance to a root system 0.2102, max inner product 0.5529
+start 10: T = 11.07983, sum of push-outs 62.1062, distance to a root system 3.0389, max inner product 0.9803  (infeasible)
+start 11: T = 8.12733, sum of push-outs 0.3956, distance to a root system 0.2146, max inner product 0.5428
+eta = 0.12733, rmax = 2.3500: largest distance found 0.3776 over 7 feasible ends
+start  0: T = 8.12733, sum of push-outs 0.3866, distance to a root system 0.2185, max inner product 0.5298
+start  1: T = 11.03569, sum of push-outs 109.7799, distance to a root system 3.2625, max inner product 0.9806  (infeasible)
+start  2: T = 8.12733, sum of push-outs 0.3860, distance to a root system 0.2187, max inner product 0.5294
+start  3: T = 8.12733, sum of push-outs 0.3860, distance to a root system 0.2187, max inner product 0.5294
+start  4: T = 8.12733, sum of push-outs 0.5643, distance to a root system 0.3776, max inner product 0.5774
+start  5: T = 8.12733, sum of push-outs 0.4190, distance to a root system 0.2454, max inner product 0.5583
+start  6: T = 11.10330, sum of push-outs 4261.6897, distance to a root system 2.7186, max inner product 0.9670  (infeasible)
+start  7: T = 11.10330, sum of push-outs 967.2201, distance to a root system 2.8589, max inner product 0.9590  (infeasible)
+start  8: T = 8.12733, sum of push-outs 0.5643, distance to a root system 0.3776, max inner product 0.5774
+start  9: T = 8.12733, sum of push-outs 0.4088, distance to a root system 0.2099, max inner product 0.5551
+start 10: T = 8.12733, sum of push-outs 0.3912, distance to a root system 0.2131, max inner product 0.5322
+start 11: T = 8.12733, sum of push-outs 0.3945, distance to a root system 0.2178, max inner product 0.5432
+eta = 0.12733, rmax = 2.4440: largest distance found 0.3776 over 9 feasible ends

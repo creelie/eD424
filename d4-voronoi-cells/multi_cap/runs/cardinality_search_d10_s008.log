@@ -1,0 +1,7 @@
+$ python3 cardinality_sdp.py 10 0.508 5 24.96
+  d=10 t=0.50800 certificate round 1: least slack on sample 7.258e-05 (43s); on fine check: (i) -9.999e-01  (ii) -5.182e-03
+  d=10 t=0.50800 certificate round 2: least slack on sample 2.171e-05 (65s); on fine check: (i) -1.000e+00  (ii) -4.047e-04
+  d=10 t=0.50800 certificate round 3: least slack on sample 1.857e-05 (88s); on fine check: (i) -1.000e+00  (ii) -2.286e-05
+  d=10 t=0.50800 certificate round 4: least slack on sample 1.630e-05 (122s); on fine check: (i) -1.000e+00  (ii) -7.828e-06
+  d=10 t=0.50800 certificate round 5: least slack on sample 1.517e-05 (136s); on fine check: (i) -1.000e+00  (ii) 1.504e-05
+saved

@@ -1,0 +1,4 @@
+leaf 1 [0 <= N(2.0161) <= 23, 0 <= N(2.03) <= 25]
+    round 0: bound 3.34411, largest K - Pi between the samples 4.81e-05
+    round 1: bound 3.34453, largest K - Pi between the samples 2.47e-05
+    round 2: bound 3.34453, largest K - Pi between the samples 1.12e-05

@@ -1,0 +1,33 @@
+Thu Sep 24 01:48:20 UTC 2026
+✔ [0/6] Ran job computation
+✔ [1/6] Ran d4cell600:extraDep
+ℹ [2/6] Built D4Cell600Enum (135s)
+info: D4Cell600Enum.lean:360:0: 'D4Cell600.card_verts' does not depend on any axioms
+info: D4Cell600Enum.lean:361:0: 'D4Cell600.verts_nodup' does not depend on any axioms
+info: D4Cell600Enum.lean:362:0: 'D4Cell600.verts_norm' does not depend on any axioms
+info: D4Cell600Enum.lean:363:0: 'D4Cell600.verts_inner' does not depend on any axioms
+info: D4Cell600Enum.lean:364:0: 'D4Cell600.degree_twelve' does not depend on any axioms
+info: D4Cell600Enum.lean:365:0: 'D4Cell600.rootlike_partners' does not depend on any axioms
+info: D4Cell600Enum.lean:366:0: 'D4Cell600.cells_count' does not depend on any axioms
+info: D4Cell600Enum.lean:367:0: 'D4Cell600.cells_card' does not depend on any axioms
+info: D4Cell600Enum.lean:368:0: 'D4Cell600.cells_nodup' does not depend on any axioms
+info: D4Cell600Enum.lean:369:0: 'D4Cell600.cells_in_range' does not depend on any axioms
+info: D4Cell600Enum.lean:370:0: 'D4Cell600.cells_rootlike' depends on axioms: [propext]
+info: D4Cell600Enum.lean:371:0: 'D4Cell600.five_cells_through_each' does not depend on any axioms
+info: D4Cell600Enum.lean:372:0: 'D4Cell600.count_consistent' does not depend on any axioms
+ℹ [3/6] Built D4Cell600Enum:c.o (with exports) (1.4s)
+ℹ [4/6] Built D4Cell600Enum:dynlib (44ms)
+ℹ [5/6] Built D4Cell600Main (12s)
+info: D4Cell600Main.lean:32:0: 'D4Cell600.no_25' depends on axioms: [propext, Quot.sound, D4Cell600.no_25._native.native_decide.ax_1_1]
+info: D4Cell600Main.lean:33:0: 'D4Cell600.five_24' depends on axioms: [propext, Quot.sound, D4Cell600.five_24._native.native_decide.ax_1_1]
+info: D4Cell600Main.lean:34:0: 'D4Cell600.all_23_in_cells' depends on axioms: [propext,
+ Quot.sound,
+ D4Cell600.all_23_in_cells._native.native_decide.ax_1_1]
+✔ [6/6] Ran d4cell600/D4Cell600Enum:default
+Build completed successfully (6 jobs).
+
+real	2m29.081s
+user	2m5.977s
+sys	0m26.858s
+exit=0
+Thu Sep 24 01:50:49 UTC 2026

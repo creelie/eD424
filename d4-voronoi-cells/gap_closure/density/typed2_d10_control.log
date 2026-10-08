@@ -1,0 +1,3 @@
+  d=10 t1=0.50800 t2=0.50800 n=24 round 1: optimal, sampled Z -2.23445, corrected Z 10.22855; A 30.0000, max g on [-1,t1] 2.03e-06 (+1), g on [-1,t2] -1.000e+00 (a2 -1.000e+00), F111 -1.01e-02 (b1 -1.10e-02), F112 -1.01e-02 (b2 -1.10e-02) [300+300+3584+4102 samples, 106 s]
+  d=10 t1=0.50800 t2=0.50800 n=24 round 2: optimal, sampled Z -2.11113, corrected Z -1.21977; A 30.0000, max g on [-1,t1] 2.70e-06 (+1), g on [-1,t2] -1.000e+00 (a2 -1.000e+00), F111 -1.10e-02 (b1 -1.10e-02), F112 -1.10e-02 (b2 -1.10e-02) [1100+1100+7184+7702 samples, 286 s]
+  corrected Z below 0: the code is excluded in floating point

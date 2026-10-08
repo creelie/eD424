@@ -1,0 +1,4 @@
+identity D^2 = a^2 + 12e: worst relative error 5.9e-14
+bound: worst F^2 / bound over random trials = 0.999594 (must be <= 1)
+maxfrob_best_s0.008.npy: sum_{i<j}(u-r)^2 = 0.13770  F = 0.15122  bound on F = 0.15156
+6h^2 >= 0.05197016; c* = 3059/10000 = 0.3059: rigorous max F^2 <= 0.05122745  -> PASS

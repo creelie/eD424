@@ -1,0 +1,149 @@
+(1) second order: min_tau [H(tau,eta) - H(0,eta)] on the cone, sum delta = 1
+   eta pattern  0: H(0,eta) = +0.04167, min gain from tilting = +0.000e+00
+   eta pattern  1: H(0,eta) = -1.00000, min gain from tilting = +0.000e+00
+   eta pattern  2: H(0,eta) = -0.50000, min gain from tilting = +0.000e+00
+   eta pattern  3: H(0,eta) = -0.03845, min gain from tilting = -2.572e-02
+   eta pattern  4: H(0,eta) = -0.05320, min gain from tilting = -4.440e-02
+   eta pattern  5: H(0,eta) = -0.02925, min gain from tilting = -5.485e-02
+   eta pattern  6: H(0,eta) = -0.07263, min gain from tilting = -6.372e-02
+   eta pattern  7: H(0,eta) = -0.10755, min gain from tilting = -5.281e-02
+   eta pattern  8: H(0,eta) = -0.30914, min gain from tilting = -2.262e-02
+   eta pattern  9: H(0,eta) = -0.02054, min gain from tilting = -5.276e-02
+   eta pattern 10: H(0,eta) = -0.05746, min gain from tilting = -4.611e-02
+   eta pattern 11: H(0,eta) = -0.04198, min gain from tilting = -6.183e-02
+   eta pattern 12: H(0,eta) = -0.12195, min gain from tilting = -3.884e-02
+   eta pattern 13: H(0,eta) = -0.08551, min gain from tilting = -5.424e-02
+   eta pattern 14: H(0,eta) = -0.26720, min gain from tilting = -3.834e-02
+   eta pattern 15: H(0,eta) = -0.07641, min gain from tilting = -4.129e-02
+   eta pattern 16: H(0,eta) = -0.21355, min gain from tilting = -4.800e-02
+   eta pattern 17: H(0,eta) = -0.04037, min gain from tilting = -7.034e-02
+   eta pattern 18: H(0,eta) = -0.23885, min gain from tilting = -6.406e-02
+   eta pattern 19: H(0,eta) = -0.15335, min gain from tilting = -3.605e-02
+   eta pattern 20: H(0,eta) = -0.09995, min gain from tilting = -7.841e-02
+   eta pattern 21: H(0,eta) = -0.20746, min gain from tilting = -1.166e-01
+   eta pattern 22: H(0,eta) = -0.14846, min gain from tilting = -4.531e-02
+   eta pattern 23: H(0,eta) = -0.07620, min gain from tilting = -4.304e-02
+   eta pattern 24: H(0,eta) = -0.19893, min gain from tilting = -6.841e-02
+   eta pattern 25: H(0,eta) = -0.02450, min gain from tilting = -3.622e-02
+   eta pattern 26: H(0,eta) = -0.09686, min gain from tilting = -7.367e-02
+   eta pattern 27: H(0,eta) = -0.31166, min gain from tilting = -4.706e-02
+   eta pattern 28: H(0,eta) = -0.06213, min gain from tilting = -4.061e-02
+   eta pattern 29: H(0,eta) = -0.09462, min gain from tilting = -3.971e-02
+   eta pattern 30: H(0,eta) = -0.09902, min gain from tilting = -2.904e-02
+   eta pattern 31: H(0,eta) = -0.04507, min gain from tilting = -6.279e-02
+   eta pattern 32: H(0,eta) = -0.15375, min gain from tilting = -4.881e-02
+   eta pattern 33: H(0,eta) = -0.10036, min gain from tilting = -6.422e-02
+   eta pattern 34: H(0,eta) = -0.05096, min gain from tilting = -4.228e-02
+   eta pattern 35: H(0,eta) = -0.07424, min gain from tilting = -6.654e-02
+   eta pattern 36: H(0,eta) = -0.07116, min gain from tilting = -5.106e-02
+   eta pattern 37: H(0,eta) = -0.02890, min gain from tilting = -3.660e-02
+   eta pattern 38: H(0,eta) = -0.14172, min gain from tilting = -2.672e-02
+   eta pattern 39: H(0,eta) = -0.23602, min gain from tilting = -5.023e-02
+   over all patterns, the most a tilt can lower the form: -1.166e-01  (0 means never)
+
+(2) exact volumes: random feasible packings near D4 vs their un-tilted versions
+   VIOLATION: S=0.0216 ||tau||=0.0005  vol tilted 8.01438375 < untilted 8.01438376
+   VIOLATION: S=0.0873 ||tau||=0.0004  vol tilted 8.05801895 < untilted 8.05801909
+   VIOLATION: S=0.1196 ||tau||=0.0003  vol tilted 8.07850769 < untilted 8.07850907
+   VIOLATION: S=0.0191 ||tau||=0.0003  vol tilted 8.01274533 < untilted 8.01274540
+   VIOLATION: S=0.1743 ||tau||=0.0007  vol tilted 8.11443870 < untilted 8.11444602
+   VIOLATION: S=0.1208 ||tau||=0.0007  vol tilted 8.07977205 < untilted 8.07977823
+   VIOLATION: S=0.1433 ||tau||=0.0002  vol tilted 8.09464606 < untilted 8.09464643
+   VIOLATION: S=0.1415 ||tau||=0.0002  vol tilted 8.09364104 < untilted 8.09364161
+   VIOLATION: S=0.0151 ||tau||=0.0003  vol tilted 8.01007141 < untilted 8.01007142
+   VIOLATION: S=0.0332 ||tau||=0.0006  vol tilted 8.02214977 < untilted 8.02214978
+   VIOLATION: S=0.0883 ||tau||=0.0001  vol tilted 8.05886659 < untilted 8.05886666
+   VIOLATION: S=0.2905 ||tau||=0.0026  vol tilted 8.19313233 < untilted 8.19315165
+   VIOLATION: S=0.3044 ||tau||=0.0069  vol tilted 8.20187618 < untilted 8.20191174
+   VIOLATION: S=0.0237 ||tau||=0.0000  vol tilted 8.01575921 < untilted 8.01575923
+   VIOLATION: S=0.0044 ||tau||=0.0000  vol tilted 8.00294658 < untilted 8.00294658
+   VIOLATION: S=0.0707 ||tau||=0.0003  vol tilted 8.04692724 < untilted 8.04692741
+   VIOLATION: S=0.3097 ||tau||=0.0004  vol tilted 8.20520406 < untilted 8.20520689
+   VIOLATION: S=0.1646 ||tau||=0.0012  vol tilted 8.10996103 < untilted 8.10996180
+   VIOLATION: S=0.2430 ||tau||=0.0002  vol tilted 8.16003934 < untilted 8.16004103
+   VIOLATION: S=0.0039 ||tau||=0.0000  vol tilted 8.00259514 < untilted 8.00259514
+   VIOLATION: S=0.2570 ||tau||=0.0071  vol tilted 8.17155185 < untilted 8.17158564
+   VIOLATION: S=0.0931 ||tau||=0.0006  vol tilted 8.06191089 < untilted 8.06191120
+   VIOLATION: S=0.0069 ||tau||=0.0001  vol tilted 8.00463374 < untilted 8.00463374
+   VIOLATION: S=0.0810 ||tau||=0.0001  vol tilted 8.05371465 < untilted 8.05371502
+   VIOLATION: S=0.0331 ||tau||=0.0003  vol tilted 8.02195444 < untilted 8.02195468
+   VIOLATION: S=0.0429 ||tau||=0.0005  vol tilted 8.02862902 < untilted 8.02862914
+   VIOLATION: S=0.0422 ||tau||=0.0004  vol tilted 8.02812494 < untilted 8.02812506
+   VIOLATION: S=0.0084 ||tau||=0.0001  vol tilted 8.00562166 < untilted 8.00562168
+   VIOLATION: S=0.1027 ||tau||=0.0002  vol tilted 8.06756144 < untilted 8.06756269
+   VIOLATION: S=0.2077 ||tau||=0.0005  vol tilted 8.13729476 < untilted 8.13729787
+   VIOLATION: S=0.0032 ||tau||=0.0001  vol tilted 8.00211392 < untilted 8.00211393
+   VIOLATION: S=0.0120 ||tau||=0.0001  vol tilted 8.00799473 < untilted 8.00799475
+   VIOLATION: S=0.0139 ||tau||=0.0000  vol tilted 8.00929018 < untilted 8.00929019
+   VIOLATION: S=0.0714 ||tau||=0.0001  vol tilted 8.04756069 < untilted 8.04756069
+   VIOLATION: S=0.0109 ||tau||=0.0000  vol tilted 8.00727491 < untilted 8.00727491
+   VIOLATION: S=0.0172 ||tau||=0.0000  vol tilted 8.01147880 < untilted 8.01147880
+   VIOLATION: S=0.0427 ||tau||=0.0001  vol tilted 8.02842691 < untilted 8.02842694
+   VIOLATION: S=0.0619 ||tau||=0.0005  vol tilted 8.04124904 < untilted 8.04125027
+   VIOLATION: S=0.0224 ||tau||=0.0003  vol tilted 8.01496075 < untilted 8.01496078
+   VIOLATION: S=0.0261 ||tau||=0.0001  vol tilted 8.01736572 < untilted 8.01736582
+   VIOLATION: S=0.1153 ||tau||=0.0003  vol tilted 8.07691671 < untilted 8.07691735
+   VIOLATION: S=0.1097 ||tau||=0.0003  vol tilted 8.07287880 < untilted 8.07287957
+   VIOLATION: S=0.0293 ||tau||=0.0000  vol tilted 8.01950580 < untilted 8.01950580
+   VIOLATION: S=0.0085 ||tau||=0.0000  vol tilted 8.00566932 < untilted 8.00566933
+   VIOLATION: S=0.0766 ||tau||=0.0003  vol tilted 8.05081604 < untilted 8.05081617
+   VIOLATION: S=0.0427 ||tau||=0.0006  vol tilted 8.02844595 < untilted 8.02844620
+   VIOLATION: S=0.0065 ||tau||=0.0000  vol tilted 8.00431325 < untilted 8.00431326
+   VIOLATION: S=0.0263 ||tau||=0.0000  vol tilted 8.01753163 < untilted 8.01753164
+   VIOLATION: S=0.0173 ||tau||=0.0001  vol tilted 8.01154542 < untilted 8.01154544
+   VIOLATION: S=0.1857 ||tau||=0.0002  vol tilted 8.12219810 < untilted 8.12219925
+   VIOLATION: S=0.1700 ||tau||=0.0010  vol tilted 8.11373222 < untilted 8.11373317
+   VIOLATION: S=0.0067 ||tau||=0.0000  vol tilted 8.00443162 < untilted 8.00443162
+   VIOLATION: S=0.0137 ||tau||=0.0000  vol tilted 8.00913089 < untilted 8.00913090
+   VIOLATION: S=0.0169 ||tau||=0.0001  vol tilted 8.01124256 < untilted 8.01124257
+   VIOLATION: S=0.1138 ||tau||=0.0003  vol tilted 8.07527076 < untilted 8.07527109
+   VIOLATION: S=0.1180 ||tau||=0.0004  vol tilted 8.07820938 < untilted 8.07821055
+   VIOLATION: S=0.1765 ||tau||=0.0003  vol tilted 8.11631566 < untilted 8.11631573
+   VIOLATION: S=0.0331 ||tau||=0.0002  vol tilted 8.02190814 < untilted 8.02190846
+   VIOLATION: S=0.0082 ||tau||=0.0000  vol tilted 8.00545904 < untilted 8.00545904
+   VIOLATION: S=0.0172 ||tau||=0.0003  vol tilted 8.01144966 < untilted 8.01144984
+   VIOLATION: S=0.2067 ||tau||=0.0041  vol tilted 8.13773345 < untilted 8.13773409
+   VIOLATION: S=0.0051 ||tau||=0.0000  vol tilted 8.00342683 < untilted 8.00342683
+   VIOLATION: S=0.1975 ||tau||=0.0021  vol tilted 8.13201228 < untilted 8.13201861
+   VIOLATION: S=0.1415 ||tau||=0.0006  vol tilted 8.09395494 < untilted 8.09395557
+   VIOLATION: S=0.0441 ||tau||=0.0003  vol tilted 8.02929250 < untilted 8.02929277
+   VIOLATION: S=0.0072 ||tau||=0.0000  vol tilted 8.00476747 < untilted 8.00476747
+   VIOLATION: S=0.0302 ||tau||=0.0003  vol tilted 8.02017321 < untilted 8.02017323
+   VIOLATION: S=0.1206 ||tau||=0.0005  vol tilted 8.08049255 < untilted 8.08049255
+   VIOLATION: S=0.0295 ||tau||=0.0001  vol tilted 8.01965903 < untilted 8.01965907
+   VIOLATION: S=0.0133 ||tau||=0.0004  vol tilted 8.00887654 < untilted 8.00887671
+   VIOLATION: S=0.1419 ||tau||=0.0020  vol tilted 8.09460142 < untilted 8.09460969
+   VIOLATION: S=0.2817 ||tau||=0.0009  vol tilted 8.18840932 < untilted 8.18841176
+   VIOLATION: S=0.0233 ||tau||=0.0001  vol tilted 8.01555672 < untilted 8.01555674
+   VIOLATION: S=0.0187 ||tau||=0.0002  vol tilted 8.01244247 < untilted 8.01244254
+   VIOLATION: S=0.1857 ||tau||=0.0024  vol tilted 8.12414816 < untilted 8.12416205
+   VIOLATION: S=0.0501 ||tau||=0.0002  vol tilted 8.03338214 < untilted 8.03338219
+   VIOLATION: S=0.2861 ||tau||=0.0002  vol tilted 8.18483716 < untilted 8.18484108
+   VIOLATION: S=0.0583 ||tau||=0.0001  vol tilted 8.03870084 < untilted 8.03870118
+   VIOLATION: S=0.1320 ||tau||=0.0001  vol tilted 8.08743139 < untilted 8.08743176
+   VIOLATION: S=0.0200 ||tau||=0.0000  vol tilted 8.01334572 < untilted 8.01334575
+   VIOLATION: S=0.0101 ||tau||=0.0000  vol tilted 8.00672564 < untilted 8.00672565
+   VIOLATION: S=0.0067 ||tau||=0.0001  vol tilted 8.00445187 < untilted 8.00445187
+   VIOLATION: S=0.0855 ||tau||=0.0004  vol tilted 8.05707814 < untilted 8.05707841
+   VIOLATION: S=0.0408 ||tau||=0.0001  vol tilted 8.02716169 < untilted 8.02716170
+   VIOLATION: S=0.1565 ||tau||=0.0024  vol tilted 8.10441787 < untilted 8.10441900
+   VIOLATION: S=0.0052 ||tau||=0.0000  vol tilted 8.00347374 < untilted 8.00347374
+   VIOLATION: S=0.0169 ||tau||=0.0002  vol tilted 8.01128612 < untilted 8.01128612
+   VIOLATION: S=0.0264 ||tau||=0.0006  vol tilted 8.01761703 < untilted 8.01761707
+   VIOLATION: S=0.0076 ||tau||=0.0001  vol tilted 8.00506105 < untilted 8.00506105
+   VIOLATION: S=0.2877 ||tau||=0.0017  vol tilted 8.18835227 < untilted 8.18835849
+   VIOLATION: S=0.0561 ||tau||=0.0010  vol tilted 8.03732832 < untilted 8.03732842
+   VIOLATION: S=0.0137 ||tau||=0.0000  vol tilted 8.00912325 < untilted 8.00912327
+   VIOLATION: S=0.0092 ||tau||=0.0000  vol tilted 8.00613402 < untilted 8.00613402
+   VIOLATION: S=0.0109 ||tau||=0.0001  vol tilted 8.00727165 < untilted 8.00727166
+   VIOLATION: S=0.0338 ||tau||=0.0001  vol tilted 8.02250834 < untilted 8.02250839
+   VIOLATION: S=0.0088 ||tau||=0.0000  vol tilted 8.00586107 < untilted 8.00586108
+   VIOLATION: S=0.0689 ||tau||=0.0003  vol tilted 8.04596443 < untilted 8.04596457
+   VIOLATION: S=0.0942 ||tau||=0.0006  vol tilted 8.06281797 < untilted 8.06281803
+   VIOLATION: S=0.0043 ||tau||=0.0000  vol tilted 8.00287379 < untilted 8.00287379
+   VIOLATION: S=0.0882 ||tau||=0.0001  vol tilted 8.05869696 < untilted 8.05869708
+   VIOLATION: S=0.0204 ||tau||=0.0001  vol tilted 8.01359770 < untilted 8.01359772
+   VIOLATION: S=0.1489 ||tau||=0.0020  vol tilted 8.09895732 < untilted 8.09896048
+   VIOLATION: S=0.0092 ||tau||=0.0001  vol tilted 8.00612241 < untilted 8.00612242
+   237 feasible tilted packings tested; violations of vol(tilted) >= vol(untilted): 103
+   smallest value of vol(tilted) - vol(untilted): -3.556e-05

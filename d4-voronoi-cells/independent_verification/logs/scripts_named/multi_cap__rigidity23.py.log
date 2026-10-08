@@ -1,0 +1,16 @@
+$ (cd multi_cap && rigidity23.py)
+[PASS] the deletion leaves 23 directions and 88 tight pairs
+       directions 23, tight pairs 88
+       inner products with the deleted root: {-2: 1, -1: 8, 0: 6, 1: 8}
+[PASS] only the six stated pair types occur in T
+       types present: [(-2, -1), (-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1)]
+[PASS] the stress is strictly positive on every tight pair
+       weights used: [1, 2, 3]
+[PASS] the stress is in equilibrium: Y A = 0
+       exact integer arithmetic, 23 x 4 residual matrix is zero
+[PASS] motions holding every tight pair at equality are exactly the rotations
+       dim of the equality space 6, dim of the rotation space 6, rank of the two together 6
+==============================================================
+5 of 5 checks passed
+Every first-order motion of the deletion configuration through
+contact configurations is an infinitesimal rotation.

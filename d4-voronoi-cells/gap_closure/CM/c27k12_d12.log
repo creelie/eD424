@@ -1,0 +1,10 @@
+resumed from c27k10_d10_r2_thin.npz, all samples kept
+   direct: 12513 variables, 54493 inequalities, 11739 psd rows in 64 cones, 56985771 nonzeros [19 s to build]
+   50 type-count vectors
+d3=12 round 1: NumericalError  bound 3.11304 (target 3.10330), corrected <= 28.59001  [3878 s]
+   viol: AA 1.6e-07, AB 6.6e-08, AF 8.3e-08, BB -1.8e-07, BF -9.3e-07, FF -1.7e-05, AAA 1.0e-03, AAB 7.0e-03, AAF 8.0e-03, ABB 1.1e-02, ABF 1.3e-02, AFF 6.9e-03, BBB 9.6e-03, BBF 1.4e-02, BFF 1.6e-02, FFF 7.3e-03
+   c2: {'AA': -2.286666, 'AB': -1.158884, 'AF': -1.196821, 'BB': -0.027908, 'BF': -0.067904, 'FF': -0.112644}
+   c3: {'AAA': 0.1345377, 'AAB': 0.0904434, 'AAF': 0.0920139, 'ABB': 0.0462139, 'ABF': 0.0478645, 'AFF': 0.0496905, 'BBB': 0.0018588, 'BBF': 0.0036096, 'BFF': 0.0055336, 'FFF': 0.0087761}
+   direct: 12513 variables, 78499 inequalities, 11739 psd rows in 64 cones, 83093972 nonzeros [26 s to build]
+PEAK_RSS_GB 11.61 exit -15
+stopped at 10:09 UTC 2026-10-06 in round 2 (peak 11.61 GB), to free the container for 28 at degree 10; round 1 (3.11304 on samples) was already above 3.10330

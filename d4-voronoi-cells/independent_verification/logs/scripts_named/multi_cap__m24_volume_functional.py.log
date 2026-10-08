@@ -1,0 +1,7 @@
+$ (cd multi_cap && m24_volume_functional.py)
+pairs at 60: 96 triples with all u>0: Counter({(np.float64(0.5), np.float64(0.5), np.float64(0.5)): 96})
+check omega2 by direct 2D quad: 0.076076277066817
+n 130 omega3(1/2,1/2,1/2)= 0.011868690973401791
+n 260 omega3(1/2,1/2,1/2)= 0.011859645193627208
+n 520 omega3(1/2,1/2,1/2)= 0.011857429202842192
+CAP=0.7460119958  Phi(D4)=7.99993030  (should be 8)

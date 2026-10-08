@@ -1,0 +1,50 @@
+$ (cd multi_cap && multi_cap_reformulation.py)
+
+========================================================================
+(A) Q_D is bounded for every packing-valid D with |D| <= 5
+========================================================================
+    m=1:     24 packing-valid sets, 0 unbounded
+    count matches and all bounded at m=1                     PASS
+    m=2:    276 packing-valid sets, 0 unbounded
+    count matches and all bounded at m=2                     PASS
+    m=3:   2024 packing-valid sets, 0 unbounded
+    count matches and all bounded at m=3                     PASS
+    m=4:  10626 packing-valid sets, 0 unbounded
+    count matches and all bounded at m=4                     PASS
+    m=5:  42504 packing-valid sets, 0 unbounded
+    count matches and all bounded at m=5                     PASS
+
+========================================================================
+(B) at |D| = 6 exactly 24 packing-valid sets fail
+========================================================================
+    134596 packing-valid sets of size 6, 24 unbounded
+    134596 packing-valid sets at m=6                         PASS
+    exactly 24 of them unbounded                             PASS
+    first failure: [(1, 1, 0, 0), (1, -1, 0, 0), (1, 0, 1, 0), (1, 0, -1, 0), (1, 0, 0, 1), (1, 0, 0, -1)]
+    its complement lies in a closed half-space               PASS
+
+========================================================================
+(C) the multi-cap identity, on random configurations
+========================================================================
+    configurations checked: 26
+    max |vol(V) - (vol(Q_D) - vol(union of caps))|: 8.575e-09
+    identity holds to numerical tolerance                    PASS
+
+========================================================================
+(D) vol(Q_D) - 8 equals |D|/3 exactly when D has no adjacent pair
+========================================================================
+    excess is m/3 without adjacency and larger with it       PASS
+
+========================================================================
+(E) the term-by-term reduction fails in both directions
+========================================================================
+    vol(E_j) above its single-deviation value: 7 times
+    vol(E_j) below it:                         4 times
+    largest shortfall: 0.1135
+    both directions occur, so no term-by-term bound          PASS
+
+========================================================================
+SUMMARY
+========================================================================
+    11 checks, 11 passed, 0 failed
+    overall: PASS

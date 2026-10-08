@@ -1,0 +1,7 @@
+$ python3 omega_closed_form.py
+(1) d/du omega - omega' simplifies to 0
+(2) omega(1/3) = 0
+(3) algebraic part in tau: -(4*t**3 - 24*t + 11*sqrt(2))/96 ; equal to the stated form: True
+    gamma-terms: (9/32) r_* from prim(r_*) and -(9/64) gamma from K there; those of prim(gamma/2) cancel
+(4) largest differences from certificate_check.py: omega 5.18e-16, omega' 9.76e-16
+PASS

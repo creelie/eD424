@@ -1,0 +1,14 @@
+$ (cd multi_cap && three_point_sdp.py 8 30 CLARABEL 5)
+target 8 - A_* = 0.092855570; omega(1/2) = 0.00144541; degree 8; grid 30 x 24; solver CLARABEL; 5 rounds of refinement
+  two-point, round 1: sampled bound 0.072001 on 9648 triples (0s); largest violation on the fine check 7.18e-05; bound over the fine set 0.065947 = 71.0 per cent of the target
+  two-point, round 2: sampled bound 0.071221 on 12648 triples (0s); largest violation on the fine check 1.84e-06; bound over the fine set 0.071066 = 76.5 per cent of the target
+  two-point, round 3: sampled bound 0.071203 on 15648 triples (0s); largest violation on the fine check 1.21e-07; bound over the fine set 0.071193 = 76.7 per cent of the target
+  two-point, round 4: sampled bound 0.071201 on 18648 triples (0s); largest violation on the fine check 4.71e-08; bound over the fine set 0.071197 = 76.7 per cent of the target
+  two-point, round 5: sampled bound 0.071200 on 21648 triples (0s); largest violation on the fine check 1.83e-07; bound over the fine set 0.071184 = 76.7 per cent of the target
+  (CLARABEL failed; solving with SCS)
+/tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/multi_cap/three_point_sdp.py:195: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', eps=1e-9, max_iters=200000, verbose=False)
+  three-point, round 1: sampled bound 0.094637 on 9648 triples (891s); largest violation on the fine check 3.14e-04; bound over the fine set 0.068157 = 73.4 per cent of the target
+  (CLARABEL failed; solving with SCS)
+  three-point, round 2: sampled bound 0.094327 on 12648 triples (1180s); largest violation on the fine check 7.20e-05; bound over the fine set 0.088253 = 95.0 per cent of the target
+  (CLARABEL failed; solving with SCS)

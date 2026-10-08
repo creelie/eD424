@@ -1,0 +1,13 @@
+U(Y) < 418/125 for M = 25: two-point certificates, degree 12 in the angle and 4 in the distance, one per case
+  [PASS] dmax exceeds sqrt 6
+  [PASS] the case tree covers every packing (each split is into N(r) < c and N(r) >= c): 1 leaves
+  [PASS] one certificate per leaf, in order
+leaf 1: 0 <= N(2.0161) <= 24
+  [PASS]   edges as in the case
+  [PASS]   A_k and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T): t = 1.819065982
+  [PASS]   K <= Pi on the admissible domain: 162224 boxes closed, 20890 dropped, 152470 values of Pi in Arb [30 s]
+  [PASS]   f <= m_b on every bin: 198 intervals, least room 2.97e-07
+  [PASS]   s >= 0
+  [PASS]   largest sum_b n_b m_b over the case, plus t/2, below the target: [3.3273894 +/- 2.33e-8] < [3.3440000 +/- 3e-12]
+  with no assumption on the count vector: U(Y) <= [3.3273894 +/- 2.33e-8]
+PASS: every packing set of exactly 25 centres within sqrt 6 has union of caps U(Y) < 418/125 [31 s]

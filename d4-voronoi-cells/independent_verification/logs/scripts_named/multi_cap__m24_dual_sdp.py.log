@@ -1,0 +1,6 @@
+$ (cd multi_cap && m24_dual_sdp.py)
+tau = 8 - vol B(sqrt2) + 24 cap = 6.16507910; D4 value 96(w2-w3) = 6.16509910
+/tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/multi_cap/m24_dual_sdp.py:53: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  try: pr.solve(solver='CLARABEL',max_iter=400)
+status optimal_inaccurate maxtr 999.9989583092067
+d=6 3pt round 1: sampled 5.911291, maxviol 1.17e-03, corrected 5.803589, ratio 0.94136 (5628 triples, 14s)

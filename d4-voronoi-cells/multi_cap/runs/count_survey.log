@@ -1,0 +1,386 @@
+T at the root system (24 centres at distance 2): 7.906940
+M = 24
+  start  0: T = 7.906940,  0 centres on the sphere of radius sqrt 6
+  start  1: T = 9.574750, 13 centres on the sphere of radius sqrt 6
+  start  2: T = 9.026311,  9 centres on the sphere of radius sqrt 6
+  start  3: T = 7.906940,  0 centres on the sphere of radius sqrt 6
+  start  4: T = 9.713799, 13 centres on the sphere of radius sqrt 6
+  start  5: T = 9.714005, 10 centres on the sphere of radius sqrt 6
+  start  6: T = 7.906940,  0 centres on the sphere of radius sqrt 6
+  start  7: T = 10.959677,  2 centres on the sphere of radius sqrt 6
+  start  8: T = 8.636346,  6 centres on the sphere of radius sqrt 6
+  start  9: T = 7.906940,  0 centres on the sphere of radius sqrt 6
+  start 10: T = 9.680265, 11 centres on the sphere of radius sqrt 6
+  start 11: T = 11.066714,  2 centres on the sphere of radius sqrt 6
+M = 24: least T over 12 local minima (of 12 starts) = 7.906940, with 0 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000
+M = 25
+  start  0: T = 8.270286,  2 centres on the sphere of radius sqrt 6
+  start  1: T = 8.270286,  2 centres on the sphere of radius sqrt 6
+  start  2: T = 9.436562, 12 centres on the sphere of radius sqrt 6
+  start  3: T = 8.264115,  3 centres on the sphere of radius sqrt 6
+  start  4: T = 8.391570,  5 centres on the sphere of radius sqrt 6
+  start  5: T = 9.435879, 10 centres on the sphere of radius sqrt 6
+  start  6: T = 8.275803,  4 centres on the sphere of radius sqrt 6
+  start  7: T = 8.290709,  4 centres on the sphere of radius sqrt 6
+  start  8: T = 9.025905,  8 centres on the sphere of radius sqrt 6
+  start  9: T = 8.264115,  3 centres on the sphere of radius sqrt 6
+  start 10: T = 8.306345,  4 centres on the sphere of radius sqrt 6
+  start 11: T = 10.130560, 18 centres on the sphere of radius sqrt 6
+M = 25: least T over 12 local minima (of 12 starts) = 8.264115, with 3 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.2390 2.4495 2.4495 2.4495
+M = 26
+  start  0: T = 8.415241,  6 centres on the sphere of radius sqrt 6
+  start  1: T = 8.392576,  6 centres on the sphere of radius sqrt 6
+  start  2: T = 9.958298, 16 centres on the sphere of radius sqrt 6
+  start  3: T = 8.510206,  7 centres on the sphere of radius sqrt 6
+  start  4: T = 8.551272,  6 centres on the sphere of radius sqrt 6
+  start  5: T = 10.269524, 20 centres on the sphere of radius sqrt 6
+  start  6: T = 8.535229,  6 centres on the sphere of radius sqrt 6
+  start  7: T = 8.406596,  6 centres on the sphere of radius sqrt 6
+  start  8: T = 9.479811,  7 centres on the sphere of radius sqrt 6
+  start  9: T = 8.397868,  5 centres on the sphere of radius sqrt 6
+  start 10: T = 8.520080,  7 centres on the sphere of radius sqrt 6
+  start 11: T = 11.072974,  6 centres on the sphere of radius sqrt 6
+M = 26: least T over 12 local minima (of 12 starts) = 8.392576, with 6 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 27
+  start  0: T = 8.892041, 11 centres on the sphere of radius sqrt 6
+  start  1: T = 8.529207,  8 centres on the sphere of radius sqrt 6
+  start  2: T = 9.405920,  9 centres on the sphere of radius sqrt 6
+  start  3: T = 8.775497, 10 centres on the sphere of radius sqrt 6
+  start  4: T = 8.517089,  8 centres on the sphere of radius sqrt 6
+  start  5: T = 9.776499,  5 centres on the sphere of radius sqrt 6
+  start  6: T = 8.773850, 10 centres on the sphere of radius sqrt 6
+  start  7: T = 8.526532,  8 centres on the sphere of radius sqrt 6
+  start  8: T = 9.436104, 14 centres on the sphere of radius sqrt 6
+  start  9: T = 8.772461, 10 centres on the sphere of radius sqrt 6
+  start 10: T = 8.770259, 10 centres on the sphere of radius sqrt 6
+  start 11: T = 9.162423, 12 centres on the sphere of radius sqrt 6
+M = 27: least T over 12 local minima (of 12 starts) = 8.517089, with 8 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 28
+  start  0: T = 9.030217, 13 centres on the sphere of radius sqrt 6
+  start  1: T = 8.769898, 11 centres on the sphere of radius sqrt 6
+  start  2: T = 9.668824,  6 centres on the sphere of radius sqrt 6
+  start  3: T = 8.792353, 11 centres on the sphere of radius sqrt 6
+  start  4: T = 8.776083, 11 centres on the sphere of radius sqrt 6
+  start  5: T = 9.852643, 17 centres on the sphere of radius sqrt 6
+  start  6: T = 8.773710, 11 centres on the sphere of radius sqrt 6
+  start  7: T = 8.898501, 12 centres on the sphere of radius sqrt 6
+  start  8: T = 10.975401,  3 centres on the sphere of radius sqrt 6
+  start  9: T = 8.779954, 11 centres on the sphere of radius sqrt 6
+  start 10: T = 8.591677,  9 centres on the sphere of radius sqrt 6
+  start 11: T = 9.716002, 16 centres on the sphere of radius sqrt 6
+M = 28: least T over 12 local minima (of 12 starts) = 8.591677, with 9 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.1048 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 29
+  start  0: T = 9.163690, 15 centres on the sphere of radius sqrt 6
+  start  1: T = 8.904911, 13 centres on the sphere of radius sqrt 6
+  start  2: T = 10.953789,  3 centres on the sphere of radius sqrt 6
+  start  3: T = 9.036106, 14 centres on the sphere of radius sqrt 6
+  start  4: T = 8.781458, 12 centres on the sphere of radius sqrt 6
+  start  5: T = 9.852648, 19 centres on the sphere of radius sqrt 6
+  start  6: T = 9.026294, 14 centres on the sphere of radius sqrt 6
+  start  7: T = 8.776073, 11 centres on the sphere of radius sqrt 6
+  start  8: T = 9.857613, 18 centres on the sphere of radius sqrt 6
+  start  9: T = 9.031507, 14 centres on the sphere of radius sqrt 6
+  start 10: T = 8.783760, 12 centres on the sphere of radius sqrt 6
+  start 11: T = 9.574906, 17 centres on the sphere of radius sqrt 6
+M = 29: least T over 12 local minima (of 12 starts) = 8.776073, with 11 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.2842 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 30
+  start  0: T = 9.169594, 16 centres on the sphere of radius sqrt 6
+  start  1: T = 8.922991, 14 centres on the sphere of radius sqrt 6
+  start  2: T = 9.851301, 17 centres on the sphere of radius sqrt 6
+  start  3: T = 9.308133, 17 centres on the sphere of radius sqrt 6
+  start  4: T = 9.039767, 15 centres on the sphere of radius sqrt 6
+  start  5: T = 10.553206,  3 centres on the sphere of radius sqrt 6
+  start  6: T = 9.035398, 15 centres on the sphere of radius sqrt 6
+  start  7: T = 8.916964, 14 centres on the sphere of radius sqrt 6
+  start  8: T = 9.852710, 20 centres on the sphere of radius sqrt 6
+  start  9: T = 9.019076, 13 centres on the sphere of radius sqrt 6
+  start 10: T = 9.037737, 15 centres on the sphere of radius sqrt 6
+  start 11: T = 10.898370,  1 centres on the sphere of radius sqrt 6
+M = 30: least T over 12 local minima (of 12 starts) = 8.916964, with 14 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0001 2.0001 2.0001 2.0001 2.0001 2.0001 2.0001 2.0001 2.4494 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 31
+  start  0: T = 9.678609,  6 centres on the sphere of radius sqrt 6
+  start  1: T = 9.048114, 16 centres on the sphere of radius sqrt 6
+  start  2: T = 10.079455,  6 centres on the sphere of radius sqrt 6
+  start  3: T = 9.579113, 20 centres on the sphere of radius sqrt 6
+  start  4: T = 9.174653, 17 centres on the sphere of radius sqrt 6
+  start  5: T = 11.102286, 10 centres on the sphere of radius sqrt 6
+  start  6: T = 9.991606, 21 centres on the sphere of radius sqrt 6
+  start  7: T = 9.228077, 17 centres on the sphere of radius sqrt 6
+  start  8: the local solver ended outside the constraints (discarded)
+  start  9: T = 11.061029,  1 centres on the sphere of radius sqrt 6
+  start 10: T = 10.003278,  7 centres on the sphere of radius sqrt 6
+  start 11: T = 10.179493, 17 centres on the sphere of radius sqrt 6
+M = 31: least T over 11 local minima (of 12 starts) = 9.048114, with 16 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 32
+  start  0: T = 9.440492, 19 centres on the sphere of radius sqrt 6
+  start  1: T = 9.177618, 18 centres on the sphere of radius sqrt 6
+  start  2: T = 9.707110, 16 centres on the sphere of radius sqrt 6
+  start  3: T = 9.319373, 19 centres on the sphere of radius sqrt 6
+  start  4: T = 9.054444, 17 centres on the sphere of radius sqrt 6
+  start  5: T = 9.989925, 22 centres on the sphere of radius sqrt 6
+  start  6: T = 10.551021,  4 centres on the sphere of radius sqrt 6
+  start  7: T = 9.304921, 19 centres on the sphere of radius sqrt 6
+  start  8: T = 10.269524, 26 centres on the sphere of radius sqrt 6
+  start  9: T = 11.093040, 10 centres on the sphere of radius sqrt 6
+  start 10: T = 9.316279, 19 centres on the sphere of radius sqrt 6
+  start 11: T = 9.991973, 21 centres on the sphere of radius sqrt 6
+M = 32: least T over 12 local minima (of 12 starts) = 9.054444, with 17 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 33
+  start  0: T = 10.716774,  8 centres on the sphere of radius sqrt 6
+  start  1: T = 9.313001, 20 centres on the sphere of radius sqrt 6
+  start  2: T = 10.408490, 26 centres on the sphere of radius sqrt 6
+  start  3: T = 10.748179, 13 centres on the sphere of radius sqrt 6
+  start  4: T = 9.314746, 20 centres on the sphere of radius sqrt 6
+  start  5: T = 11.102818,  9 centres on the sphere of radius sqrt 6
+  start  6: T = 9.588193, 22 centres on the sphere of radius sqrt 6
+  start  7: T = 9.322748, 20 centres on the sphere of radius sqrt 6
+  start  8: T = 9.898393,  4 centres on the sphere of radius sqrt 6
+  start  9: T = 11.101008,  9 centres on the sphere of radius sqrt 6
+  start 10: T = 9.319615, 20 centres on the sphere of radius sqrt 6
+  start 11: T = 10.408487, 28 centres on the sphere of radius sqrt 6
+M = 33: least T over 12 local minima (of 12 starts) = 9.313001, with 20 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 34
+  start  0: T = 10.269558, 27 centres on the sphere of radius sqrt 6
+  start  1: T = 9.580941, 23 centres on the sphere of radius sqrt 6
+  start  2: T = 11.100287,  9 centres on the sphere of radius sqrt 6
+  start  3: T = 9.991610, 25 centres on the sphere of radius sqrt 6
+  start  4: T = 9.455375, 22 centres on the sphere of radius sqrt 6
+  start  5: T = 10.398488, 23 centres on the sphere of radius sqrt 6
+  start  6: T = 11.101880, 11 centres on the sphere of radius sqrt 6
+  start  7: T = 9.581032, 23 centres on the sphere of radius sqrt 6
+  start  8: T = 11.102488,  4 centres on the sphere of radius sqrt 6
+  start  9: T = 10.685573,  4 centres on the sphere of radius sqrt 6
+  start 10: T = 9.580149, 23 centres on the sphere of radius sqrt 6
+  start 11: T = 11.102934,  8 centres on the sphere of radius sqrt 6
+M = 34: least T over 12 local minima (of 12 starts) = 9.455375, with 22 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 35
+  start  0: T = 9.883612, 19 centres on the sphere of radius sqrt 6
+  start  1: T = 9.728364, 25 centres on the sphere of radius sqrt 6
+  start  2: T = 11.103297,  8 centres on the sphere of radius sqrt 6
+  start  3: T = 10.686414, 32 centres on the sphere of radius sqrt 6
+  start  4: T = 9.725442, 25 centres on the sphere of radius sqrt 6
+  start  5: T = 10.952946, 18 centres on the sphere of radius sqrt 6
+  start  6: T = 10.134916, 27 centres on the sphere of radius sqrt 6
+  start  7: T = 9.730835, 25 centres on the sphere of radius sqrt 6
+  start  8: T = 11.103072,  9 centres on the sphere of radius sqrt 6
+  start  9: T = 11.102399, 14 centres on the sphere of radius sqrt 6
+  start 10: T = 9.601651, 24 centres on the sphere of radius sqrt 6
+  start 11: T = 10.946006, 11 centres on the sphere of radius sqrt 6
+M = 35: least T over 12 local minima (of 12 starts) = 9.601651, with 24 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 36
+  start  0: T = 10.825378, 34 centres on the sphere of radius sqrt 6
+  start  1: T = 9.863259, 27 centres on the sphere of radius sqrt 6
+  start  2: T = 10.720988,  4 centres on the sphere of radius sqrt 6
+  start  3: T = 10.728356,  9 centres on the sphere of radius sqrt 6
+  start  4: T = 9.866605, 27 centres on the sphere of radius sqrt 6
+  start  5: T = 11.102018, 13 centres on the sphere of radius sqrt 6
+  start  6: T = 11.103185, 10 centres on the sphere of radius sqrt 6
+  start  7: T = 9.865891, 27 centres on the sphere of radius sqrt 6
+  start  8: T = 10.408487, 30 centres on the sphere of radius sqrt 6
+  start  9: T = 10.547451, 32 centres on the sphere of radius sqrt 6
+  start 10: T = 9.866022, 27 centres on the sphere of radius sqrt 6
+  start 11: T = 9.997348, 28 centres on the sphere of radius sqrt 6
+M = 36: least T over 12 local minima (of 12 starts) = 9.863259, with 27 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 37
+  start  0: T = 11.069941, 14 centres on the sphere of radius sqrt 6
+  start  1: T = 10.133668, 30 centres on the sphere of radius sqrt 6
+  start  2: T = 11.103296, 21 centres on the sphere of radius sqrt 6
+  start  3: the local solver ended outside the constraints (discarded)
+  start  4: T = 11.103175, 17 centres on the sphere of radius sqrt 6
+  start  5: T = 10.408650, 32 centres on the sphere of radius sqrt 6
+  start  6: T = 10.825378, 35 centres on the sphere of radius sqrt 6
+  start  7: T = 11.103156, 14 centres on the sphere of radius sqrt 6
+  start  8: T = 10.408491, 31 centres on the sphere of radius sqrt 6
+  start  9: T = 10.825378, 35 centres on the sphere of radius sqrt 6
+  start 10: T = 9.860274, 28 centres on the sphere of radius sqrt 6
+  start 11: T = 10.897027, 16 centres on the sphere of radius sqrt 6
+M = 37: least T over 11 local minima (of 12 starts) = 9.860274, with 28 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0001 2.0001 2.0001 2.0001 2.0001 2.0002 2.0002 2.0002 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 38
+  start  0: T = 11.103289, 21 centres on the sphere of radius sqrt 6
+  start  1: T = 10.271117, 32 centres on the sphere of radius sqrt 6
+  start  2: the local solver ended outside the constraints (discarded)
+  start  3: T = 11.093844, 14 centres on the sphere of radius sqrt 6
+  start  4: T = 10.130708, 31 centres on the sphere of radius sqrt 6
+  start  5: T = 10.603134, 12 centres on the sphere of radius sqrt 6
+  start  6: T = 10.825378, 36 centres on the sphere of radius sqrt 6
+  start  7: T = 10.408551, 33 centres on the sphere of radius sqrt 6
+  start  8: T = 11.103292, 18 centres on the sphere of radius sqrt 6
+  start  9: T = 10.825378, 36 centres on the sphere of radius sqrt 6
+  start 10: the local solver ended outside the constraints (discarded)
+  start 11: T = 10.851644, 25 centres on the sphere of radius sqrt 6
+M = 38: least T over 10 local minima (of 12 starts) = 10.130708, with 31 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 39
+  start  0: T = 10.546758, 34 centres on the sphere of radius sqrt 6
+  start  1: T = 10.961488, 34 centres on the sphere of radius sqrt 6
+  start  2: T = 10.964341, 38 centres on the sphere of radius sqrt 6
+  start  3: T = 10.784069, 34 centres on the sphere of radius sqrt 6
+  start  4: T = 10.412268, 31 centres on the sphere of radius sqrt 6
+  start  5: the local solver ended outside the constraints (discarded)
+  start  6: T = 10.626361, 33 centres on the sphere of radius sqrt 6
+  start  7: T = 10.304440, 33 centres on the sphere of radius sqrt 6
+  start  8: T = 10.686414, 36 centres on the sphere of radius sqrt 6
+  start  9: T = 10.825378, 37 centres on the sphere of radius sqrt 6
+  start 10: T = 10.249984, 32 centres on the sphere of radius sqrt 6
+  start 11: T = 10.573560, 31 centres on the sphere of radius sqrt 6
+M = 39: least T over 11 local minima (of 12 starts) = 10.249984, with 32 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0001 2.0001 2.0001 2.0001 2.0005 2.2394 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 40
+  start  0: the local solver ended outside the constraints (discarded)
+  start  1: T = 10.825378, 38 centres on the sphere of radius sqrt 6
+  start  2: T = 10.825378, 38 centres on the sphere of radius sqrt 6
+  start  3: T = 10.964341, 39 centres on the sphere of radius sqrt 6
+  start  4: T = 10.400123, 34 centres on the sphere of radius sqrt 6
+  start  5: the local solver ended outside the constraints (discarded)
+  start  6: T = 10.825378, 38 centres on the sphere of radius sqrt 6
+  start  7: T = 11.069082, 20 centres on the sphere of radius sqrt 6
+  start  8: no packing found
+  start  9: T = 11.103278, 33 centres on the sphere of radius sqrt 6
+  start 10: T = 10.686414, 37 centres on the sphere of radius sqrt 6
+  start 11: T = 10.722143, 37 centres on the sphere of radius sqrt 6
+M = 40: least T over 9 local minima (of 12 starts) = 10.400123, with 34 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.0000 2.0000 2.0000 2.2917 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 41
+  start  0: T = 10.825378, 39 centres on the sphere of radius sqrt 6
+  start  1: T = 10.671300, 37 centres on the sphere of radius sqrt 6
+  start  2: T = 10.964341, 40 centres on the sphere of radius sqrt 6
+  start  3: no packing found
+  start  4: T = 10.876957, 39 centres on the sphere of radius sqrt 6
+  start  5: T = 10.825378, 39 centres on the sphere of radius sqrt 6
+  start  6: T = 10.964341, 40 centres on the sphere of radius sqrt 6
+  start  7: T = 10.957975, 36 centres on the sphere of radius sqrt 6
+  start  8: no packing found
+  start  9: no packing found
+  start 10: T = 10.613687, 35 centres on the sphere of radius sqrt 6
+  start 11: no packing found
+M = 41: least T over 8 local minima (of 12 starts) = 10.613687, with 35 centres on the sphere of radius sqrt 6; distances:
+  2.0014 2.0037 2.0090 2.0845 2.4486 2.4494 2.4494 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 42
+  start  0: the local solver ended outside the constraints (discarded)
+  start  1: T = 10.776947, 38 centres on the sphere of radius sqrt 6
+  start  2: no packing found
+  start  3: no packing found
+  start  4: T = 10.808821, 39 centres on the sphere of radius sqrt 6
+  start  5: no packing found
+  start  6: no packing found
+  start  7: T = 10.825378, 40 centres on the sphere of radius sqrt 6
+  start  8: no packing found
+  start  9: the local solver ended outside the constraints (discarded)
+  start 10: no packing found
+  start 11: no packing found
+M = 42: least T over 3 local minima (of 12 starts) = 10.776947, with 38 centres on the sphere of radius sqrt 6; distances:
+  2.0000 2.0000 2.1550 2.4493 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 43
+  start  0: no packing found
+  start  1: T = 10.895389, 36 centres on the sphere of radius sqrt 6
+  start  2: no packing found
+  start  3: no packing found
+  start  4: no packing found
+  start  5: no packing found
+  start  6: no packing found
+  start  7: the local solver ended outside the constraints (discarded)
+  start  8: no packing found
+  start  9: no packing found
+  start 10: the local solver ended outside the constraints (discarded)
+  start 11: no packing found
+M = 43: least T over 1 local minima (of 12 starts) = 10.895389, with 36 centres on the sphere of radius sqrt 6; distances:
+  2.0295 2.1864 2.2490 2.2898 2.2910 2.2971 2.4139 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+M = 44
+  start  0: no packing found
+  start  1: no packing found
+  start  2: no packing found
+  start  3: no packing found
+  start  4: no packing found
+  start  5: no packing found
+  start  6: no packing found
+  start  7: no packing found
+  start  8: no packing found
+  start  9: no packing found
+  start 10: no packing found
+  start 11: no packing found
+M = 44: no feasible configuration found from 12 starts
+M = 45
+  start  0: no packing found
+  start  1: no packing found
+  start  2: no packing found
+  start  3: no packing found
+  start  4: no packing found
+  start  5: no packing found
+  start  6: no packing found
+  start  7: no packing found
+  start  8: no packing found
+  start  9: no packing found
+  start 10: no packing found
+  start 11: no packing found
+M = 45: no feasible configuration found from 12 starts
+M = 46
+  start  0: no packing found
+  start  1: no packing found
+  start  2: no packing found
+  start  3: no packing found
+  start  4: no packing found
+  start  5: no packing found
+  start  6: no packing found
+  start  7: no packing found
+  start  8: no packing found
+  start  9: no packing found
+  start 10: no packing found
+  start 11: no packing found
+M = 46: no feasible configuration found from 12 starts
+M = 47
+  start  0: no packing found
+  start  1: no packing found
+  start  2: no packing found
+  start  3: no packing found
+  start  4: no packing found
+  start  5: no packing found
+  start  6: no packing found
+  start  7: no packing found
+  start  8: no packing found
+  start  9: no packing found
+  start 10: no packing found
+  start 11: no packing found
+M = 47: no feasible configuration found from 12 starts
+M = 48
+  start  0: no packing found
+  start  1: no packing found
+  start  2: no packing found
+  start  3: no packing found
+  start  4: no packing found
+  start  5: no packing found
+  start  6: no packing found
+  start  7: no packing found
+  start  8: no packing found
+  start  9: no packing found
+  start 10: no packing found
+  start 11: no packing found
+M = 48: no feasible configuration found from 12 starts
+M = 49
+  start  0: no packing found
+  start  1: no packing found
+  start  2: no packing found
+  start  3: no packing found
+  start  4: no packing found
+  start  5: no packing found
+  start  6: no packing found
+  start  7: no packing found
+  start  8: no packing found
+  start  9: no packing found
+  start 10: no packing found
+  start 11: no packing found
+M = 49: no feasible configuration found from 12 starts
+(floating point and local optimisation: evidence about where the truncated bound fails, not a bound)

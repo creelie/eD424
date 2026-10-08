@@ -1,0 +1,9 @@
+$ (cd hessian_multidir && triality_exact.py)
+g g^T == I exactly: True
+g(u0) == u0 exactly: True
+g(v1) == w1 exactly: True
+g maps 24-root set to itself exactly: True
+g maps {other 23 roots} to itself exactly: True
+
+det check via cofactor-free method (product of eigen-signature not needed; use g g^T=I plus explicit 4x4 det formula):
+det(g) = -1

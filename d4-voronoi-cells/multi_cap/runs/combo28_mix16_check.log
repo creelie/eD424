@@ -1,0 +1,13 @@
+Thu Oct  8 01:41:00 UTC 2026
+exact check of the mixed certificate radial_certificates/combo28_mix16_d10.npz (a convex combination of earlier certificates at 28, each rounded to positive semidefinite; gap_closure/CM/c28_hull.py, target: at most 16 within 2.0161) on case28_lo16.json; margins 2e-6 (AA 5e-6), 2e-7 (AAA 4e-7 more, AAB 2e-7 more), 5e-7, BORDER=1
+statement (C) at 28 centres, case case28_lo16.json: combined certificate combo28_mix16_d10.npz, two-point degree 12/4, three-point degree 10; 67342 count vectors
+  [ok] dmax exceeds sqrt 6
+  [ok] A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  (t = 53.732111683, float t 53.732111682)
+  [ok] three-point blocks positive definite (exact LDL^T)  (43 blocks)
+  point terms: {'A': '0.280994', 'B': '0.154591', 'F': '0.045613'}
+  pair AA: float largest K + PAIR3 - Pi 3.178098e-02 (file c2 3.178098e-02); threshold 3.178598e-02
+  pair AB: float largest K + PAIR3 - Pi 4.200724e-02 (file c2 4.200724e-02); threshold 4.200924e-02
+  pair AF: float largest K + PAIR3 - Pi 4.908626e-02 (file c2 4.908626e-02); threshold 4.908826e-02
+  pair BB: float largest K + PAIR3 - Pi 4.903661e-02 (file c2 4.903661e-02); threshold 4.903861e-02
+  pair BF: float largest K + PAIR3 - Pi 5.397588e-02 (file c2 5.397591e-02); threshold 5.397792e-02
+  pair FF: float largest K + PAIR3 - Pi 5.908455e-02 (file c2 5.908455e-02); threshold 5.908655e-02

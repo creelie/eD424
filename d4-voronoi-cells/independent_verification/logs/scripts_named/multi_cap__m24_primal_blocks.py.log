@@ -1,0 +1,10 @@
+$ (cd multi_cap && m24_primal_blocks.py)
+D4 triple types: {(np.float64(-1.0), np.float64(-0.0), np.float64(0.0)): 72, (np.float64(-0.0), np.float64(0.5), np.float64(0.5)): 288, (np.float64(-0.5), np.float64(-0.5), np.float64(-0.0)): 288, (np.float64(-0.5), np.float64(-0.0), np.float64(0.5)): 576, (np.float64(-0.0), np.float64(0.0), np.float64(0.0)): 96, (np.float64(-1.0), np.float64(-0.5), np.float64(0.5)): 192, (np.float64(0.5), np.float64(0.5), np.float64(0.5)): 96, (np.float64(-0.5), np.float64(-0.5), np.float64(0.5)): 288, (np.float64(-0.5), np.float64(0.5), np.float64(0.5)): 96, (np.float64(-0.5), np.float64(-0.5), np.float64(-0.5)): 32}
+sanity d=6: D4 objective 6.165099 (tau 6.165079), min eig -2.01e-12, min lin -7.11e-15
+sanity d=8: D4 objective 6.165099 (tau 6.165079), min eig -2.14e-12, min lin -7.11e-15
+sanity d=12: D4 objective 6.165099 (tau 6.165079), min eig -2.27e-12, min lin -7.11e-15
+/tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/multi_cap/m24_primal_blocks.py:63: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  try: pr.solve(solver='CLARABEL',max_iter=300)
+   recheck: objective 5.984367, min eig -1.44e-04, min lin 1.82e-01
+d=6: primal min 5.984367 vs tau 6.165079 gap 0.18071 (optimal_inaccurate, 522 triples, 1s)
+   heaviest triples: [((np.float64(-0.261), np.float64(-0.261), np.float64(0.5)), 253.4), ((np.float64(-0.8), np.float64(-0.261), np.float64(0.5)), 248.3), ((np.float64(-0.43), np.float64(0.04), np.float64(0.5)), 165.6), ((np.float64(-0.261), np.float64(-0.261), np.float64(-0.261)), 90.6), ((np.float64(-0.8), np.float64(-0.8), np.float64(0.5)), 81.2), ((np.float64(-0.5), np.float64(-0.5), np.float64(0.5)), 80.3), ((np.float64(-0.8), np.float64(-0.261), np.float64(-0.044)), 78.4), ((np.float64(-0.261), np.float64(-0.104), np.float64(0.155)), 54.1)]

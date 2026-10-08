@@ -1,0 +1,35 @@
+$ (cd misc && derive_region4_vertices.py)
+u1(theta,t) = [sqrt(2)*(sin(theta)*cos(t) + cos(theta))/2, sqrt(2)*(-sin(theta)*cos(t) + cos(theta))/2, sqrt(2)*sin(t)*sin(theta)/2, sqrt(2)*sin(t)*sin(theta)/2]
+
+vertex on ['+e1-e2', '+e1-e3', '+e1-e4'] + u1:
+    z1 = sqrt(2)*(2*sin(t)*sin(theta) - sin(theta)*cos(t) + cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta)))
+    z2 = sqrt(2)*(-sin(theta)*cos(t) - cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta)))
+    z3 = sqrt(2)*(-sin(theta)*cos(t) - cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta)))
+    z4 = sqrt(2)*(-sin(theta)*cos(t) - cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta)))
+
+vertex on ['+e1+e3', '+e1+e4', '+e3+e4'] + u1:
+    z1 = sqrt(2)/2
+    z2 = sqrt(2)*(sin(t)*sin(theta) + sin(theta)*cos(t)/2 + cos(theta)/2 - 1)/(sin(theta)*cos(t) - cos(theta))
+    z3 = sqrt(2)/2
+    z4 = sqrt(2)/2
+
+vertex on ['+e2+e3', '+e2+e4', '+e3+e4'] + u1:
+    z1 = sqrt(2)*(-sin(t)*sin(theta) + sin(theta)*cos(t)/2 - cos(theta)/2 + 1)/(sin(theta)*cos(t) + cos(theta))
+    z2 = sqrt(2)/2
+    z3 = sqrt(2)/2
+    z4 = sqrt(2)/2
+
+======================================================================
+ALL 12 on-cap vertices for region 4 (generic small-theta region):
+['+e1-e2', '+e1-e3', '+e1-e4']: [sqrt(2)*(2*sin(t)*sin(theta) - sin(theta)*cos(t) + cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta))), sqrt(2)*(-sin(theta)*cos(t) - cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta))), sqrt(2)*(-sin(theta)*cos(t) - cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta))), sqrt(2)*(-sin(theta)*cos(t) - cos(theta) + 1)/(2*(sin(t)*sin(theta) + cos(theta)))]
+['+e1+e4', '+e1-e2', '+e1-e3']: [sqrt(2)*(-cos(t)*tan(theta) + 1 + 1/cos(theta))/2, sqrt(2)*(-cos(t)*tan(theta) - 1 + 1/cos(theta))/2, sqrt(2)*(-cos(t)*tan(theta) - 1 + 1/cos(theta))/2, sqrt(2)*(cos(t)*tan(theta) + 1 - 1/cos(theta))/2]
+['+e1-e3', '+e1-e4', '+e2-e3', '+e2-e4']: [sqrt(2)*(sin(t)*sin(theta) + 1/2)/(sin(t)*sin(theta) + cos(theta)), sqrt(2)*(sin(t)*sin(theta) + 1/2)/(sin(t)*sin(theta) + cos(theta)), sqrt(2)*(1/2 - cos(theta))/(sin(t)*sin(theta) + cos(theta)), sqrt(2)*(1/2 - cos(theta))/(sin(t)*sin(theta) + cos(theta))]
+['+e1+e3', '+e1-e2', '+e1-e4']: [sqrt(2)*(-cos(t)*tan(theta) + 1 + 1/cos(theta))/2, sqrt(2)*(-cos(t)*tan(theta) - 1 + 1/cos(theta))/2, sqrt(2)*(cos(t)*tan(theta) + 1 - 1/cos(theta))/2, sqrt(2)*(-cos(t)*tan(theta) - 1 + 1/cos(theta))/2]
+['+e1+e3', '+e1+e4', '+e1-e2']: [sqrt(2)*(-2*sin(t)*sin(theta) - sin(theta)*cos(t) + cos(theta) + 1)/(2*(-sin(t)*sin(theta) + cos(theta))), sqrt(2)*(sin(theta)*cos(t) + cos(theta) - 1)/(2*(sin(t)*sin(theta) - cos(theta))), sqrt(2)*(sin(theta)*cos(t) + cos(theta) - 1)/(2*(-sin(t)*sin(theta) + cos(theta))), sqrt(2)*(sin(theta)*cos(t) + cos(theta) - 1)/(2*(-sin(t)*sin(theta) + cos(theta)))]
+['+e1+e3', '+e1-e4', '+e2+e3', '+e2-e4']: [sqrt(2)/(2*cos(theta)), sqrt(2)/(2*cos(theta)), sqrt(2)*(2 - 1/cos(theta))/2, sqrt(2)*(-2 + 1/cos(theta))/2]
+['+e1+e3', '+e2+e3', '+e3+e4']: [sqrt(2)*(-sin(t)*tan(theta) + 1/cos(theta))/2, sqrt(2)*(-sin(t)*tan(theta) + 1/cos(theta))/2, sqrt(2)*(sin(t)*tan(theta) + 2 - 1/cos(theta))/2, sqrt(2)*(-sin(t)*tan(theta) + 1/cos(theta))/2]
+['+e1+e3', '+e1+e4', '+e3+e4']: [sqrt(2)/2, sqrt(2)*(sin(t)*sin(theta) + sin(theta)*cos(t)/2 + cos(theta)/2 - 1)/(sin(theta)*cos(t) - cos(theta)), sqrt(2)/2, sqrt(2)/2]
+['+e1+e4', '+e2+e4', '+e3+e4']: [sqrt(2)*(-sin(t)*tan(theta) + 1/cos(theta))/2, sqrt(2)*(-sin(t)*tan(theta) + 1/cos(theta))/2, sqrt(2)*(-sin(t)*tan(theta) + 1/cos(theta))/2, sqrt(2)*(sin(t)*tan(theta) + 2 - 1/cos(theta))/2]
+['+e2+e3', '+e2+e4', '+e3+e4']: [sqrt(2)*(-sin(t)*sin(theta) + sin(theta)*cos(t)/2 - cos(theta)/2 + 1)/(sin(theta)*cos(t) + cos(theta)), sqrt(2)/2, sqrt(2)/2, sqrt(2)/2]
+['+e1+e4', '+e1-e3', '+e2+e4', '+e2-e3']: [sqrt(2)/(2*cos(theta)), sqrt(2)/(2*cos(theta)), sqrt(2)*(-2 + 1/cos(theta))/2, sqrt(2)*(2 - 1/cos(theta))/2]
+['+e2+e3', '+e2+e4', '+e2-e3', '+e2-e4']: [sqrt(2)*(sin(theta)*cos(t) - cos(theta) + 1)/(sin(theta)*cos(t) + cos(theta)), sqrt(2), 0, 0]

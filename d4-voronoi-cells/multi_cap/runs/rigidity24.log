@@ -1,0 +1,12 @@
+[PASS] the root system has 24 directions and 96 tight pairs
+       directions 24, tight pairs 96, every degree [8]
+[PASS] the stress is strictly positive on every tight pair
+       weight 1 on each of the 96 pairs, -4 on the diagonal
+[PASS] the stress is in equilibrium: Y A = 0
+       exact integer arithmetic, 24 x 4 residual matrix is zero; the eight neighbours of a root sum to four times the root
+[PASS] motions holding every tight pair at equality are exactly the rotations
+       dim of the equality space 6, dim of the rotation space 6, rank of the two together 6
+==============================================================
+4 of 4 checks passed
+Every first-order motion of the root system through contact
+configurations is an infinitesimal rotation.

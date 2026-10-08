@@ -1,0 +1,4 @@
+48 vertices; pairs at 45 degrees form a graph with degrees [6]
+independent sets: size 25: 0, size 24: 2, size 23: 48
+the 2 sets of size 24 are copies of the root system; of the 48 sets of size 23, 0 lie outside every copy
+PASS: among the 48 vertices of the two dual 24-cells, every 23-point code of minimal angle 60 degrees is one of the two root systems less a vertex.

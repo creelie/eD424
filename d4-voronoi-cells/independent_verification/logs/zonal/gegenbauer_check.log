@@ -1,0 +1,22 @@
+Thu Sep 24 05:21:05 UTC 2026
+k= 0  Z_(k,0) = c * U_k(u) exactly: True   c = 1   c / (8^k/(k+1)^2) = 1
+k= 1  Z_(k,0) = c * U_k(u) exactly: True   c = 2   c / (8^k/(k+1)^2) = 1
+k= 2  Z_(k,0) = c * U_k(u) exactly: True   c = 64/9   c / (8^k/(k+1)^2) = 1
+k= 3  Z_(k,0) = c * U_k(u) exactly: True   c = 32   c / (8^k/(k+1)^2) = 1
+k= 4  Z_(k,0) = c * U_k(u) exactly: True   c = 4096/25   c / (8^k/(k+1)^2) = 1
+k= 5  Z_(k,0) = c * U_k(u) exactly: True   c = 8192/9   c / (8^k/(k+1)^2) = 1
+k= 6  Z_(k,0) = c * U_k(u) exactly: True   c = 262144/49   c / (8^k/(k+1)^2) = 1
+k= 7  Z_(k,0) = c * U_k(u) exactly: True   c = 32768   c / (8^k/(k+1)^2) = 1
+k= 8  Z_(k,0) = c * U_k(u) exactly: True   c = 16777216/81   c / (8^k/(k+1)^2) = 1
+k= 9  Z_(k,0) = c * U_k(u) exactly: True   c = 33554432/25   c / (8^k/(k+1)^2) = 1
+k=10  Z_(k,0) = c * U_k(u) exactly: True   c = 1073741824/121   c / (8^k/(k+1)^2) = 1
+k=11  Z_(k,0) = c * U_k(u) exactly: True   c = 536870912/9   c / (8^k/(k+1)^2) = 1
+k=12  Z_(k,0) = c * U_k(u) exactly: True   c = 68719476736/169   c / (8^k/(k+1)^2) = 1
+k=13  Z_(k,0) = c * U_k(u) exactly: True   c = 137438953472/49   c / (8^k/(k+1)^2) = 1
+k=14  Z_(k,0) = c * U_k(u) exactly: True   c = 4398046511104/225   c / (8^k/(k+1)^2) = 1
+PASS
+
+real	5m31.354s
+user	5m26.065s
+sys	0m0.256s
+exit=0

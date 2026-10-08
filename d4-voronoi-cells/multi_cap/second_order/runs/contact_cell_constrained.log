@@ -1,0 +1,45 @@
+$ python3 contact_cell_constrained.py 48 0.005 0.01 0.02 0.03 0.035
+gradient check: exact -0.05176737, central difference -0.05176746
+slack 0.005: 6 of 56 starts reached a code of this slack
+   volume 8.00000000  (vol - 8 = +5.75e-12)  Gram deviation from D4 0.0000  largest inner product 0.50001  random start
+   volume 8.00000000  (vol - 8 = +5.99e-12)  Gram deviation from D4 0.0000  largest inner product 0.50001  random start
+   volume 8.00000000  (vol - 8 = +6.00e-12)  Gram deviation from D4 0.0000  largest inner product 0.50001  random start
+   volume 8.00000000  (vol - 8 = +1.26e-11)  Gram deviation from D4 0.0000  largest inner product 0.50001  random start
+   volume 8.00000000  (vol - 8 = +3.35e-10)  Gram deviation from D4 0.0043  largest inner product 0.50161  near D4 start
+   volume 8.00000000  (vol - 8 = +1.09e-09)  Gram deviation from D4 0.0050  largest inner product 0.50247  random start
+   [131s]
+slack 0.010: 9 of 56 starts reached a code of this slack
+   volume 8.00000000  (vol - 8 = +6.13e-12)  Gram deviation from D4 0.0000  largest inner product 0.50000  random start
+   volume 8.00000000  (vol - 8 = +6.20e-12)  Gram deviation from D4 0.0000  largest inner product 0.50000  random start
+   volume 8.00000000  (vol - 8 = +7.52e-12)  Gram deviation from D4 0.0000  largest inner product 0.50001  random start
+   volume 8.00000000  (vol - 8 = +7.57e-12)  Gram deviation from D4 0.0000  largest inner product 0.50001  random start
+   volume 8.00000000  (vol - 8 = +7.86e-12)  Gram deviation from D4 0.0000  largest inner product 0.50000  random start
+   volume 8.00000000  (vol - 8 = +1.26e-11)  Gram deviation from D4 0.0000  largest inner product 0.50000  random start
+   [251s]
+slack 0.020: 55 of 56 starts reached a code of this slack
+   volume 8.06790735  (vol - 8 = +6.79e-02)  Gram deviation from D4 0.4472  largest inner product 0.52000  random start
+   volume 8.07579283  (vol - 8 = +7.58e-02)  Gram deviation from D4 0.4769  largest inner product 0.52000  random start
+   volume 8.07579283  (vol - 8 = +7.58e-02)  Gram deviation from D4 0.4769  largest inner product 0.52000  near D4 start
+   volume 8.07579283  (vol - 8 = +7.58e-02)  Gram deviation from D4 0.4769  largest inner product 0.52000  random start
+   volume 8.07579283  (vol - 8 = +7.58e-02)  Gram deviation from D4 0.4769  largest inner product 0.52000  random start
+   volume 8.07579283  (vol - 8 = +7.58e-02)  Gram deviation from D4 0.4769  largest inner product 0.52000  random start
+   least volume among minimisers away from D4 (Gram deviation > 0.05): 8.06790735 (deviation 0.4472)
+   [437s]
+slack 0.030: 56 of 56 starts reached a code of this slack
+   volume 7.99801870  (vol - 8 = -1.98e-03)  Gram deviation from D4 0.4053  largest inner product 0.53000  near D4 start
+   volume 7.99801870  (vol - 8 = -1.98e-03)  Gram deviation from D4 0.4053  largest inner product 0.53000  random start
+   volume 7.99801870  (vol - 8 = -1.98e-03)  Gram deviation from D4 0.4053  largest inner product 0.53000  near D4 start
+   volume 7.99801870  (vol - 8 = -1.98e-03)  Gram deviation from D4 0.4053  largest inner product 0.53000  random start
+   volume 7.99801870  (vol - 8 = -1.98e-03)  Gram deviation from D4 0.4053  largest inner product 0.53000  random start
+   volume 7.99801870  (vol - 8 = -1.98e-03)  Gram deviation from D4 0.4053  largest inner product 0.53000  random start
+   least volume among minimisers away from D4 (Gram deviation > 0.05): 7.99801870 (deviation 0.4053)
+   [965s]
+slack 0.035: 56 of 56 starts reached a code of this slack
+   volume 7.99287526  (vol - 8 = -7.12e-03)  Gram deviation from D4 0.3998  largest inner product 0.53500  random start
+   volume 7.99287526  (vol - 8 = -7.12e-03)  Gram deviation from D4 0.3998  largest inner product 0.53500  random start
+   volume 7.99287526  (vol - 8 = -7.12e-03)  Gram deviation from D4 0.3998  largest inner product 0.53500  random start
+   volume 7.99287526  (vol - 8 = -7.12e-03)  Gram deviation from D4 0.3998  largest inner product 0.53500  random start
+   volume 7.99287526  (vol - 8 = -7.12e-03)  Gram deviation from D4 0.3998  largest inner product 0.53500  random start
+   volume 7.99287526  (vol - 8 = -7.12e-03)  Gram deviation from D4 0.3998  largest inner product 0.53500  near D4 start
+   least volume among minimisers away from D4 (Gram deviation > 0.05): 7.99287526 (deviation 0.3998)
+   [1436s]

@@ -1,0 +1,8 @@
+independent 23-sets containing vertex 0: 115
+  => total over all vertices: 115 * 120 / 23 = 600
+  of those containing vertex 0, lying in no inscribed 24-cell: 0
+PASS
+
+real	0m1.787s
+user	0m1.767s
+sys	0m0.000s

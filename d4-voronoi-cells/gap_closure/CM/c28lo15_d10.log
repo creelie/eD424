@@ -1,0 +1,13 @@
+28 with at most 15 centres within 2.0161 (case28_lo15.json), three-point degree 10, from the samples of round 2 of c28s_d10.log (RESUME=c28s_d10_r2.npz, pruned), with KEEP_BASE=1, TCOPLANAR=32, TSYM=32, REFINE=150, three rounds, two solver threads beside the exact check at 28.  Started Wed Oct  7 05:49:43 UTC 2026
+resumed from c28s_d10_r2.npz, pruned to 5000 pair and 2500 triple samples per kind
+fixed coplanar triples per kind: {'AAA': 1176, 'AAB': 1231, 'AAF': 1258, 'ABB': 1275, 'ABF': 1302, 'AFF': 1326, 'BBB': 1275, 'BBF': 1326, 'BFF': 1326, 'FFF': 1326}
+fixed triples per kind with the symmetric slices: {'AAA': 2642, 'AAB': 1906, 'AAF': 1931, 'ABB': 1966, 'ABF': 1302, 'AFF': 2022, 'BBB': 2760, 'BBF': 2011, 'BFF': 2013, 'FFF': 2807}
+   direct: 8988 variables, 102179 inequalities, 7389 psd rows in 56 cones, 71795332 nonzeros [43 s to build]
+   105 type-count vectors
+d3=10 round 1: NumericalError  bound 3.05709 (target 3.10330), corrected <= 3.92182  [8399 s]
+   viol: AA 1.6e-06, AB 7.7e-07, AF 1.6e-06, BB 1.4e-07, BF -3.9e-08, FF -1.4e-05, AAA 1.5e-04, AAB 8.3e-05, AAF 3.7e-04, ABB 3.6e-04, ABF 3.1e-04, AFF 1.4e-04, BBB 2.2e-04, BBF 1.9e-04, BFF 8.6e-05, FFF -2.4e-05
+   c2: {'AA': -0.069375, 'AB': -0.039275, 'AF': -0.033817, 'BB': -0.009371, 'BF': -0.004962, 'FF': 0.000819}
+   c3: {'AAA': 0.0039682, 'AAB': 0.0028727, 'AAF': 0.0027348, 'ABB': 0.0017622, 'ABF': 0.001655, 'AFF': 0.0014739, 'BBB': 0.0007063, 'BBF': 0.0006522, 'BFF': 0.0005824, 'FFF': 0.0007191}
+   direct: 8988 variables, 117681 inequalities, 7389 psd rows in 56 cones, 83321406 nonzeros [54 s to build]
+exit 143 at Wed Oct  7 08:32:35 UTC 2026
+[stopped at 08:32 UTC on 2026-10-07 at the start of round 2, once the exact check at 28 had finished, to continue on four solver threads as c28lo15b from the round-1 samples, all kept]

@@ -1,0 +1,27 @@
+$ (cd arc1_v1w1 && breakpoint_curves2.py)
+Total fixed candidate vertices: 23
+
+(a,b,c)              #    labels
+(np.float64(-1.0), np.float64(-1.0), np.float64(0.0)) 1    ['-sqrt2*e1']
+(np.float64(-1.0), np.float64(0.0), np.float64(-1.0)) 1    ['(-1, -1, -1, -1)']
+(np.float64(-1.0), np.float64(0.0), np.float64(-0.0)) 2    ['(-1, -1, 1, -1)', '(-1, -1, -1, 1)']
+(np.float64(-1.0), np.float64(0.0), np.float64(1.0)) 1    ['(-1, -1, 1, 1)']
+(np.float64(-1.0), np.float64(1.0), np.float64(0.0)) 1    ['-sqrt2*e2']
+(np.float64(0.0), np.float64(-1.0), np.float64(-1.0)) 1    ['(-1, 1, -1, -1)']
+(np.float64(0.0), np.float64(-1.0), np.float64(-0.0)) 2    ['(-1, 1, 1, -1)', '(-1, 1, -1, 1)']
+(np.float64(0.0), np.float64(-1.0), np.float64(1.0)) 1    ['(-1, 1, 1, 1)']
+(np.float64(0.0), np.float64(0.0), np.float64(-1.0)) 2    ['-sqrt2*e3', '-sqrt2*e4']
+(np.float64(0.0), np.float64(0.0), np.float64(1.0)) 2    ['+sqrt2*e3', '+sqrt2*e4']
+(np.float64(-0.0), np.float64(1.0), np.float64(-1.0)) 1    ['(1, -1, -1, -1)']
+(np.float64(-0.0), np.float64(1.0), np.float64(-0.0)) 2    ['(1, -1, 1, -1)', '(1, -1, -1, 1)']
+(np.float64(-0.0), np.float64(1.0), np.float64(1.0)) 1    ['(1, -1, 1, 1)']
+(np.float64(1.0), np.float64(-1.0), np.float64(0.0)) 1    ['+sqrt2*e2']
+(np.float64(1.0), np.float64(-0.0), np.float64(-1.0)) 1    ['(1, 1, -1, -1)']
+(np.float64(1.0), np.float64(-0.0), np.float64(-0.0)) 2    ['(1, 1, 1, -1)', '(1, 1, -1, 1)']
+(np.float64(1.0), np.float64(-0.0), np.float64(1.0)) 1    ['(1, 1, 1, 1)']
+
+Now checking which classes give a real breakpoint curve in
+theta in (0,pi/2), t in [0,pi/2] via R(t)=sqrt(a^2+g(t)^2)>=1,
+g(t)=b*cos(t)+c*sin(t):
+  (-0.00,+1.00,+1.00) [(1, -1, 1, 1) type, x1]: curve exists, e.g. [(np.float64(0.001), np.float64(1.5261)), (np.float64(0.066), np.float64(1.2219)), (np.float64(0.132), np.float64(1.0989))] ... [(np.float64(1.504), np.float64(1.2219)), (np.float64(1.57), np.float64(1.5261))]
+  (+1.00,-0.00,+1.00) [(1, 1, 1, 1) type, x1]: curve exists, e.g. [(np.float64(0.001), np.float64(0.002)), (np.float64(0.066), np.float64(0.1324)), (np.float64(0.132), np.float64(0.2612))] ... [(np.float64(1.439), np.float64(1.5621)), (np.float64(1.504), np.float64(1.5686))]

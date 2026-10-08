@@ -1,0 +1,4 @@
+T at the root system: 7.906940
+all 24 centres at distance 2 + delta: T = 8 at delta = 0.00646, sum of the delta_i = 0.1551
+one centre at distance 2 + delta, 23 at 2: T = 8 at delta = 0.1971
+(floating point: where the pair terms of Lemma 2.15 reach 8, not a bound)

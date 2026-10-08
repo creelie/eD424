@@ -1,0 +1,12 @@
+leaf 1 [0 <= N(2.03) <= 25]
+    round 0: bound 3.35019, largest K - Pi between the samples 4.78e-05
+    round 1: bound 3.35044, largest K - Pi between the samples 2.27e-06
+    round 2: bound 3.35044, largest K - Pi between the samples -1.80e-06
+    margin 2e-06: bound 3.35044
+    round 0: bound 3.34981, largest K - Pi between the samples 5.06e-05
+    round 1: bound 3.35006, largest K - Pi between the samples 1.83e-05
+    round 2: bound 3.35006, largest K - Pi between the samples 1.33e-06
+    round 3: bound 3.35006, largest K - Pi between the samples -4.22e-07
+    round 4: bound 3.35006, largest K - Pi between the samples -7.87e-07
+leaf 2 [26 <= N(2.03) <= 26] (residual, not certified)
+wrote radial_certificates/density_26.json [803 s]

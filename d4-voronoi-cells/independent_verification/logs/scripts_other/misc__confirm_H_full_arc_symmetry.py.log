@@ -1,0 +1,21 @@
+$ (cd misc && confirm_H_full_arc_symmetry.py)
+Check H(v1)==w1, H(w1)==v1, H(u0)==u0:
+  True  True  True
+
+Direct check: F(theta, e_perp(t)) == F(theta, e_perp(pi/2 - t))
+(this should follow exactly from Lemma lem:hadamardsymmetry, since
+H(e_perp(t)) = e_perp(pi/2-t) exactly -- verifying that identity
+and its F-consequence together):
+  t=0.10 theta=0.30: F(t)=0.03012443 F(pi/2-t)=0.03012443 diff=1.02e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.25e-16]
+  t=0.10 theta=0.90: F(t)=0.23165321 F(pi/2-t)=0.23165321 diff=3.98e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.25e-16]
+  t=0.10 theta=1.30: F(t)=0.29572442 F(pi/2-t)=0.29572442 diff=3.99e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.25e-16]
+  t=0.30 theta=0.30: F(t)=0.03013492 F(pi/2-t)=0.03013492 diff=2.15e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.11e-16]
+  t=0.30 theta=0.90: F(t)=0.23444483 F(pi/2-t)=0.23444482 diff=4.13e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.11e-16]
+  t=0.30 theta=1.30: F(t)=0.28757256 F(pi/2-t)=0.28757256 diff=6.35e-12  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.11e-16]
+  t=0.50 theta=0.30: F(t)=0.03013847 F(pi/2-t)=0.03013847 diff=2.12e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=5.55e-17]
+  t=0.50 theta=0.90: F(t)=0.23730759 F(pi/2-t)=0.23730759 diff=4.47e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=5.55e-17]
+  t=0.50 theta=1.30: F(t)=0.28240053 F(pi/2-t)=0.28240053 diff=2.50e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=5.55e-17]
+  t=0.70 theta=0.30: F(t)=0.03013595 F(pi/2-t)=0.03013595 diff=1.07e-12  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.11e-16]
+  t=0.70 theta=0.90: F(t)=0.23749247 F(pi/2-t)=0.23749247 diff=1.54e-12  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.11e-16]
+  t=0.70 theta=1.30: F(t)=0.28034466 F(pi/2-t)=0.28034466 diff=2.44e-10  [H(e_perp(t))==e_perp(pi/2-t) vec-diff=1.11e-16]
+max diff overall: 4.47e-10

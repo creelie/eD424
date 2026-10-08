@@ -1,0 +1,12 @@
+$ python3 radial_case_sdp.py 24 --spec radial_certificates/case_24_r2.15_spec.json
+leaf 1 [0 <= N(2.15) <= 22]
+    round 0: bound 3.09244, largest K - Pi between the samples 1.95e-05
+    round 1: bound 3.09272, largest K - Pi between the samples 1.67e-05
+    round 2: bound 3.09273, largest K - Pi between the samples -1.73e-06
+    round 3: bound 3.09274, largest K - Pi between the samples 7.34e-05
+    round 4: bound 3.09275, largest K - Pi between the samples -1.40e-05
+leaf 2 [23 <= N(2.15) <= 24] (residual, not certified)
+wrote radial_certificates/case_24.json [911 s]
+real	15m12.385s
+user	11m22.638s
+sys	6m8.217s

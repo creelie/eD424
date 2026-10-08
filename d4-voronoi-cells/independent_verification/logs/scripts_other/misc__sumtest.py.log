@@ -1,0 +1,10 @@
+$ (cd misc && sumtest.py)
+computed 66 terms
+plain sum (no post-cancel), numeric value: 1.895009661053888  expected ~1.895
+after together() only: 1.895009661053846  (2.0s)
+after cancel() only: did not settle within 120s
+after together() then cancel(): did not settle within 120s
+
+Conclusion: the two routes that cancel the whole sum at once do
+not settle here, while the plain sum and together() agree to
+twelve digits in seconds. Cancel term by term, not at the end.

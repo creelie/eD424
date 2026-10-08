@@ -1,0 +1,20 @@
+$ (cd swap_configs && swap_vertex_labels.py)
+theta=0.1: n_verts=33  degree-hist=0x4,18x5,15x6
+theta=0.3: n_verts=33  degree-hist=0x4,18x5,15x6
+theta=0.5: n_verts=33  degree-hist=0x4,18x5,15x6
+theta=0.7: n_verts=33  degree-hist=0x4,18x5,15x6
+theta=0.9: n_verts=33  degree-hist=0x4,18x5,15x6
+theta=1.0: n_verts=33  degree-hist=0x4,18x5,15x6
+theta=0.1: 0 degree-4 vertices
+theta=0.3: 0 degree-4 vertices
+theta=0.5: 0 degree-4 vertices
+theta=0.7: 0 degree-4 vertices
+theta=0.9: 0 degree-4 vertices
+theta=1.0: 0 degree-4 vertices
+
+common degree-4 supports across all 6 thetas: 0
+union of degree-4 supports across all thetas: 0
+
+=== comparing full support sets (any degree) across thetas ===
+common support-sets across all 6 thetas: 27 out of 33
+union: 39

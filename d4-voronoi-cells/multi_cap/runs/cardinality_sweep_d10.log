@@ -1,0 +1,7 @@
+$ python3 cardinality_sdp.py sweep 10 2 0.5 0.505
+  d=10 t=0.50000 round 1: sampled bound 24.115026 (300+4816 pts, 34s) viol (i) 1.2e-06 (ii) 1.7e-02  -> bound at |C|=25 corrected: 33.418499
+  d=10 t=0.50000 round 2: sampled bound 24.132991 (1800+7816 pts, 78s) viol (i) 5.3e-07 (ii) 4.7e-03  -> bound at |C|=25 corrected: 26.739496
+RESULT d=10 t=0.5000 s=0.0000  sampled 24.13299  corrected@25 26.73950
+  d=10 t=0.50500 round 1: sampled bound 24.581350 (300+4800 pts, 32s) viol (i) 9.4e-07 (ii) 1.2e-02  -> bound at |C|=25 corrected: 31.188854
+  d=10 t=0.50500 round 2: sampled bound 24.618838 (1800+7800 pts, 71s) viol (i) 7.9e-07 (ii) 1.0e-03  -> bound at |C|=25 corrected: 25.192029
+RESULT d=10 t=0.5050 s=0.0050  sampled 24.61884  corrected@25 25.19203

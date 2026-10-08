@@ -1,0 +1,8 @@
+$ (cd arc2_w1v2 && w1v2_scan2.py)
+t=0.0200: breaks=[np.float64(0.03999), np.float64(1.0472), np.float64(1.37343)]  | U=1.04720 W=1.57060
+t=0.1000: breaks=[np.float64(0.19901), np.float64(1.0472), np.float64(1.1515), np.float64(1.56579)]  | U=1.04720 W=1.56579
+t=0.2000: breaks=[np.float64(0.39223), np.float64(1.01289), np.float64(1.0472), np.float64(1.55066)]  | U=1.04720 W=1.55066
+t=0.3000: breaks=[np.float64(0.57468), np.float64(0.92638), np.float64(1.0472), np.float64(1.52512)]  | U=1.04720 W=1.52512
+t=0.4636: breaks=[np.float64(0.841), np.float64(1.0472), np.float64(1.45948)]  | U=1.04720 W=1.45948
+t=0.6000: breaks=[np.float64(0.80299), np.float64(1.0472), np.float64(1.38)]  | U=1.04720 W=1.38000
+t=0.7500: breaks=[np.float64(0.78603), np.float64(1.0472), np.float64(1.19659), np.float64(1.26336)]  | U=1.04720 W=1.26336

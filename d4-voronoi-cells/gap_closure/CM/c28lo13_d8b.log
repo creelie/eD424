@@ -1,0 +1,19 @@
+28 with at most 13 centres within 2.0161 (case28_lo13.json), three-point degree 8, continued from round 4 of c28lo13_d8.log (RESUME=c28lo13_d8_r4.npz, samples pruned to the 5000 pair and 2500 triple samples per kind closest to violating, then the fixed grids TCOPLANAR=24, TSYM=24), with KEEP_BASE=1 (the starting pair grid stays through every pruning, the fix that ended the pair gaps at 29), three more rounds, REFINE=100.  Started Tue Oct  6 22:32:33 UTC 2026
+resumed from c28lo13_d8_r4.npz, pruned to 5000 pair and 2500 triple samples per kind
+fixed coplanar triples per kind: {'AAA': 630, 'AAB': 686, 'AAF': 701, 'ABB': 703, 'ABF': 730, 'AFF': 741, 'BBB': 741, 'BBF': 741, 'BFF': 741, 'FFF': 741}
+fixed triples per kind with the symmetric slices: {'AAA': 1465, 'AAB': 1064, 'AAF': 1075, 'ABB': 1092, 'ABF': 730, 'AFF': 1125, 'BBB': 1580, 'BBF': 1121, 'BFF': 1124, 'FFF': 1585}
+   direct: 5898 variables, 93566 inequalities, 4299 psd rows in 48 cones, 43474920 nonzeros [11 s to build]
+PEAK_RSS_GB 5.76 exit -9 wall 1912 s
+[killed for memory at about 23:04 UTC in round 1, when other runs were started beside it; restarted below]
+Restart, same settings: Tue Oct  6 23:15:35 UTC 2026
+resumed from c28lo13_d8_r4.npz, pruned to 5000 pair and 2500 triple samples per kind
+fixed coplanar triples per kind: {'AAA': 630, 'AAB': 686, 'AAF': 701, 'ABB': 703, 'ABF': 730, 'AFF': 741, 'BBB': 741, 'BBF': 741, 'BFF': 741, 'FFF': 741}
+fixed triples per kind with the symmetric slices: {'AAA': 1465, 'AAB': 1064, 'AAF': 1075, 'ABB': 1092, 'ABF': 730, 'AFF': 1125, 'BBB': 1580, 'BBF': 1121, 'BFF': 1124, 'FFF': 1585}
+   direct: 5898 variables, 93566 inequalities, 4299 psd rows in 48 cones, 43474920 nonzeros [13 s to build]
+   105 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 3.07929 (target 3.10330), corrected <= 3.09797  [3310 s]
+   viol: AA 2.2e-08, AB -2.0e-10, AF 1.2e-07, BB 5.4e-07, BF -8.2e-09, FF 4.6e-10, AAA 2.9e-07, AAB 1.5e-06, AAF 2.8e-06, ABB 2.8e-06, ABF 4.3e-06, AFF 2.4e-06, BBB 8.2e-06, BBF 7.7e-06, BFF 2.0e-05, FFF 3.2e-06
+   c2: {'AA': 0.058134, 'AB': 0.064308, 'AF': 0.071608, 'BB': 0.065965, 'BF': 0.070866, 'FF': 0.075578}
+   c3: {'AAA': 0.0008317, 'AAB': 0.0005604, 'AAF': 0.0003189, 'ABB': 0.0004614, 'ABF': 0.0003064, 'AFF': 0.000141, 'BBB': 0.0005348, 'BBF': 0.0004756, 'BFF': 0.0004618, 'FFF': 0.0007685}
+   direct: 5898 variables, 114553 inequalities, 4299 psd rows in 48 cones, 54340525 nonzeros [14 s to build]
+[stopped at about 00:40 UTC on 2026-10-07 in round 2 by a container restart; continued as c28lo13c from the round-1 samples, log c28lo13_d8c.log]

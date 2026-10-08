@@ -1,0 +1,11 @@
+$ (cd multi_cap && symmetric_search.py)
+73 orbit structures, 12 starts each
+C2(0,1) k=6 P1x5 P2x3              params  26  feasible   0/12  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=7 P1x3 P2x3              params  27  feasible   0/12  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=7 P1x5 P2x2              params  28  feasible   0/12  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=8 P1x1 P2x3              params  28  feasible   0/12  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=8 P1x3 P2x2              params  29  feasible   3/12  best g  0.50000000  (at slack 0.01:  0.560902)  deletion
+C2(0,1) k=8 P1x5 P2x1              params  30  feasible   0/12  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=9 P1x1 P2x2              params  30  feasible   0/12  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible
+C2(0,1) k=9 P1x3 P2x1              params  31  feasible   1/12  best g  0.50000000  (at slack 0.01:  0.559072)  deletion
+C2(0,1) k=9 P1x5 P2x0              params  32  feasible   0/12  best g -1.00000000  (at slack 0.01: -1.000000)  none feasible

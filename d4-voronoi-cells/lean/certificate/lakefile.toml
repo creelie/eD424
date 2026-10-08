@@ -1,0 +1,7 @@
+name = "d4certificate"
+defaultTargets = ["D4CertLib"]
+
+[[lean_lib]]
+name = "D4CertLib"
+roots = ["D4CertData", "D4CertDomain", "D4CertMain", "D4CertStat", "D4LabelledData", "D4LabelledDomain", "D4LabelledMain", "D4LabelledStat", "D4Omega", "D4OmegaMain", "D4OmegaRegionI"]
+precompileModules = true

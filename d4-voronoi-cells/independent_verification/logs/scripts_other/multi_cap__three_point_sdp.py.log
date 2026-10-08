@@ -1,0 +1,4 @@
+$ (cd multi_cap && three_point_sdp.py)
+target 8 - A_* = 0.092855570; omega(1/2) = 0.00144541; degree 8; grid 36 x 24; solver CLARABEL; 4 rounds of refinement
+  two-point, round 1: sampled bound 0.071450 on 13848 triples (1s); largest violation on the fine check 1.71e-05; bound over the fine set 0.070012 = 75.4 per cent of the target
+  two-point, round 2: sampled bound 0.071198 on 16848 triples (1s); largest violation on the fine check 2.24e-07; bound over the fine set 0.071179 = 76.7 per cent of the target

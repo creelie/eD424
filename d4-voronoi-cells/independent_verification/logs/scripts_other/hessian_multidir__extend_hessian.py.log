@@ -1,0 +1,12 @@
+$ (cd hessian_multidir && extend_hessian.py)
+  length 3: min eigenvalue = 0.275929  (F0=1.95e-10)
+  length 4: min eigenvalue = 0.180632  (F0=4.94e-10)
+  length 5: min eigenvalue = 0.168736  (F0=4.94e-10)
+  length 6: min eigenvalue = 0.167894  (F0=4.94e-10)
+  length 7: min eigenvalue = 0.167847  (F0=3.35e-10)
+  length 8: min eigenvalue = 0.167833  (F0=3.35e-10)
+
+cross-check length 8 at two more step sizes h (finite-difference robustness):
+  h=0.01: min eigenvalue = 0.167687
+  h=0.03: min eigenvalue = 0.168076
+  h=0.05: min eigenvalue = 0.168832

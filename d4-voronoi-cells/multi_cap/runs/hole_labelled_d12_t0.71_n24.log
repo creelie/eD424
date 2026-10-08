@@ -1,0 +1,1 @@
+  hole d=12 kappa=0.0080 tau=0.7100 n=24.000 round 1: optimal_inaccurate/AlmostSolved  Val=1.163e-02 (dual bound 1.163e-02) corrected=1.061e-01 trace=303.0 viol {'AA': '1.8e-06', 'AAA': '4.5e-05', 'AB': '3.1e-08', 'AAB': '1.3e-05'}  [8150+7728 rows, 1987s]

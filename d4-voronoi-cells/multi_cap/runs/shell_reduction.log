@@ -1,0 +1,37 @@
+[PASS] (1) the root directions of D4 have covering radius 45 degrees
+       max over roots of <theta, r/sqrt2> = (|t|_(1)+|t|_(2))/sqrt2 >= 1/sqrt2, since 2ab >= c^2+d^2 for a>=b>=c>=d>=0;
+       equality at theta = e_1 and theta = (1,1,1,1)/2; least value on 20000 random directions 0.720119 >= 0.707107
+       so a centre at distance d from c and 2 from every contact needs cos(angle) <= d/4 for all 24 contacts,
+       that is d >= 4/sqrt2 = 2 sqrt2: 24 contacts leave no centre in (2, 2 sqrt2), and every other half-space contains B(sqrt2), which contains the 24-cell
+[PASS] (2) Phi(m contacts) > 8 for every m <= 22 (Phi decreases in m; m = 22 gives 8.0464, certified above 8.044)
+       m =  0 contacts, nothing else within 2 sqrt2:  Phi >= 19.73404174
+       m =  5 contacts, nothing else within 2 sqrt2:  Phi >= 16.00427313
+       m = 10 contacts, nothing else within 2 sqrt2:  Phi >= 12.27450452
+       m = 11 contacts, nothing else within 2 sqrt2:  Phi >= 11.52855080
+       m = 16 contacts, nothing else within 2 sqrt2:  Phi >= 9.224413194
+       m = 20 contacts, nothing else within 2 sqrt2:  Phi >= 8.347337637
+       m = 21 contacts, nothing else within 2 sqrt2:  Phi >= 8.187591867
+       m = 22 contacts, nothing else within 2 sqrt2:  Phi >= 8.044151374
+       m = 23 contacts, nothing else within 2 sqrt2:  Phi >= 7.914582688
+       m = 24 contacts, nothing else within 2 sqrt2:  Phi >= 7.796916693
+       (m = 23 and 24 fall below 8: those need Theorems 7.40 and 7.25, see the paper)
+[PASS] (3) the distance criterion: thresholds (rigorous, ball arithmetic)
+       22 contacts +  1 at a common distance d:  Phi > 8 for d >= 2.16756
+       21 contacts +  2 at a common distance d:  Phi > 8 for d >= 2.07044
+       20 contacts +  3 at a common distance d:  Phi > 8 for d >= 2.04503
+       19 contacts +  4 at a common distance d:  Phi > 8 for d >= 2.03312
+       18 contacts +  6 at a common distance d:  Phi > 8 for d >= 2.05596
+       22 contacts +  2 at a common distance d:  Phi > 8 for d >= 2.23400
+       21 contacts +  3 at a common distance d:  Phi > 8 for d >= 2.12666
+       12 contacts + 12 at a common distance d:  Phi > 8 for d >= 2.02666
+       23 contacts +  1 at a common distance d:  Phi > 8 for d >= no d below 2 sqrt 2
+[PASS] (4a) the 49-ball example: covered by the distance criterion, although its all-contact corner has volume 6.594 < 8
+       Phi(48 centres at 2.6131) >= 18.335863; the true cell has volume 19.216
+[PASS] (4b) the far centre at 2.9 cuts the deletion cell outside B(sqrt 2) only
+       its half-space <x,u> <= 1.45 contains B(sqrt 2) since 1.45 > sqrt 2; cell volume 1328453/160000 = 8.302831
+
+all checks passed
+
+real	0m48.880s
+user	0m48.342s
+sys	0m0.059s

@@ -1,0 +1,10 @@
+$ (cd arc1_v1w1 && region6_certify.py)
+threshold (8-vol_fixed): 8/3
+mapped to (u,v): N 3127 chars, D 591 chars, 1.7s
+N degree (u=14,v=14)  D degree (u=12,v=13)
+u_lo_true: 0.5773502691896258  v3: 0.31783724519578205  v_hi_true: 0.41421356237309503
+v=0.3188 u=0.5781: N/D=0.276318
+v=0.3500 u=0.6005: N/D=0.280531
+v=0.4000 u=0.6335: N/D=0.283468
+v=0.4132 u=0.6416: N/D=0.283676
+saved.

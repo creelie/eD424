@@ -1,0 +1,53 @@
+$ lean D4NearContact.lean   (Sun Sep 27 03:08:08 UTC 2026)
+Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)
+135
+133
+'D4NearContact.division_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.division_exact._native.native_decide.ax_1_1]
+'D4NearContact.minus_q_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.minus_q_lower_bound._native.native_decide.ax_1_1]
+'D4NearContact.p2_factorisation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.p2_factorisation._native.native_decide.ax_1_1]
+'D4NearContact.f_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.f_lower_bound._native.native_decide.ax_1_1]
+'D4NearContact.minors_within_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.minors_within_one._native.native_decide.ax_1_1]
+'D4NearContact.dW_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.dW_bound._native.native_decide.ax_1_1]
+'D4NearContact.assembly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.assembly._native.native_decide.ax_1_1]
+'D4NearContact.rigidity_roots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.rigidity_roots._native.native_decide.ax_1_1]
+'D4NearContact.rigidity_constants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.rigidity_constants._native.native_decide.ax_1_1]
+'D4NearContact.bracket_at_Smax' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.bracket_at_Smax._native.native_decide.ax_1_1]
+'D4NearContact.bracket_at_Sl' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.bracket_at_Sl._native.native_decide.ax_1_1]
+'D4NearContact.bracket_decreasing_on_grid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.bracket_decreasing_on_grid._native.native_decide.ax_1_1]
+exit status 0, 20 s

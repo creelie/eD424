@@ -1,0 +1,7 @@
+$ (cd multi_cap && cell600_exact.py)
+(1) 600-cell: 120 vertices, 720 edges at 36 degrees, 12-regular; 71 root-compatible partners per vertex  [0.01s]
+(2) inscribed 24-cells: 25 (5 through each vertex), each an independent set with inner products in {-1,-1/2,0,1/2}  [0.05s]
+(3) independent sets through vertex 0: none of size 25, exactly 5 of size 24, and those are the five 24-cells through it  [22.49s]
+(4) independent sets of size 23 through vertex 0: 115 (so 600 in all, against 25 x 24 = 600); lying in no 24-cell: 0  [74.51s]
+graph and cell list written to cell600_graph.txt for cell600_enum.c
+PASS: every 23-point code of minimal angle 60 degrees among the vertices of the 600-cell is an inscribed 24-cell with one vertex deleted.

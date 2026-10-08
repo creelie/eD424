@@ -1,0 +1,8 @@
+27, whole case (case27_all.json), three-point degree 6, one round, as the base for the split by centres within 2.0161.  Started Tue Oct  6 20:19:04 UTC 2026
+   direct: 3027 variables, 66188 inequalities, 2253 psd rows in 40 cones, 17774291 nonzeros [6 s to build]
+   50 type-count vectors
+d3=6 round 1: optimal  bound 3.28290 (target 3.10330), corrected <= 3.52936  [986 s]
+   viol: AA 8.2e-06, AB 2.2e-07, AF 1.1e-06, BB 2.3e-08, BF 1.2e-06, FF 8.7e-07, AAA 5.8e-05, AAB 4.7e-05, AAF 9.9e-05, ABB 9.1e-05, ABF 1.7e-04, AFF 1.4e-04, BBB 2.6e-05, BBF 8.8e-05, BFF 1.0e-04, FFF 3.3e-05
+   c2: {'AA': 0.055069, 'AB': 0.055253, 'AF': 0.057004, 'BB': 0.05726, 'BF': 0.058975, 'FF': 0.060527}
+   c3: {'AAA': -4.45e-05, 'AAB': 0.0001057, 'AAF': 0.000174, 'ABB': 0.000184, 'ABF': 0.000245, 'AFF': 0.0003182, 'BBB': 0.0003475, 'BBF': 0.0003948, 'BFF': 0.0003163, 'FFF': 0.000112}
+PEAK_RSS_GB 2.47 exit 0 wall 989 s

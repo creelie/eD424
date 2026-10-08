@@ -1,0 +1,6133 @@
+Rc files read:
+  /etc/LatexMk
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "D4.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./D4.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty)
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./D4.aux) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+LaTeX Warning: Citation `BBB26' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Reference `rem:sums-not-unions' on page 1 undefined on input lin
+e 251.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 2
+51.
+
+
+LaTeX Warning: Reference `sec:radial-new' on page 1 undefined on input line 251
+.
+
+
+LaTeX Warning: Reference `sec:shell-new' on page 1 undefined on input line 251.
+
+
+
+LaTeX Warning: Reference `sec:root-aligned-new' on page 1 undefined on input li
+ne 251.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 251.
+
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 251.
+
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 25
+1.
+
+
+LaTeX Warning: Reference `thm:local-fewcontacts' on page 1 undefined on input l
+ine 251.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+251.
+
+
+LaTeX Warning: Reference `thm:main-general' on page 1 undefined on input line 2
+51.
+
+
+LaTeX Warning: Reference `thm:local-general' on page 1 undefined on input line 
+251.
+
+
+LaTeX Warning: Citation `LLM24' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 251.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 251.
+
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 251.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 251
+.
+
+
+LaTeX Warning: Reference `thm:local-uniqueness' on page 1 undefined on input li
+ne 251.
+
+
+LaTeX Warning: Reference `lem:rigidity-spectrum' on page 1 undefined on input l
+ine 251.
+
+
+LaTeX Warning: Reference `cor:m24-local' on page 1 undefined on input line 251.
+
+
+No file D4.toc.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+
+LaTeX Warning: Citation `KZ1872' on page 1 undefined on input line 261.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}]
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 276.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 2
+79.
+
+
+LaTeX Warning: Reference `thm:local-fewcontacts' on page 1 undefined on input l
+ine 282.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 288.
+
+
+LaTeX Warning: Citation `LLM24' on page 2 undefined on input line 292.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 293.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd) [2{/usr/share/texmf/fonts/enc/dvips/
+lm/lm-mathex.enc}]
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 3
+32.
+
+
+LaTeX Warning: Reference `sec:periodic' on page 1 undefined on input line 334.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 3
+37.
+
+
+LaTeX Warning: Reference `prop:cap-reformulation' on page 1 undefined on input 
+line 344.
+
+
+LaTeX Warning: Reference `lem:crosspolytope' on page 1 undefined on input line 
+356.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 360.
+
+
+LaTeX Warning: Reference `lem:radial-new' on page 1 undefined on input line 382
+.
+
+
+LaTeX Warning: Reference `lem:radial-form' on page 1 undefined on input line 38
+8.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 393.
+
+
+LaTeX Warning: Citation `Mus08' on page 3 undefined on input line 394.
+
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 39
+9.
+
+[3]
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 40
+8.
+
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 41
+6.
+
+
+LaTeX Warning: Reference `rem:sums-not-unions' on page 1 undefined on input lin
+e 421.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+427.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+429.
+
+
+LaTeX Warning: Reference `sec:deviation-domain' on page 1 undefined on input li
+ne 432.
+
+
+LaTeX Warning: Citation `LLM24' on page 4 undefined on input line 433.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 435.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 497.
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 4
+97.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 497.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 497.
+
+
+LaTeX Warning: Citation `dLV15' on page 4 undefined on input line 497.
+
+
+LaTeX Warning: Citation `LLM24' on page 4 undefined on input line 497.
+
+
+LaTeX Warning: Citation `LLM24data' on page 4 undefined on input line 497.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 497.
+
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 497.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 497.
+
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 4
+97.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+
+LaTeX Warning: Citation `BV08' on page 4 undefined on input line 497.
+
+
+LaTeX Warning: Citation `Mus08' on page 4 undefined on input line 497.
+
+[4]
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 50
+6.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 508.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 510.
+
+
+LaTeX Warning: Reference `prop:deletion-rigid' on page 1 undefined on input lin
+e 515.
+
+
+LaTeX Warning: Reference `lem:filled-couple' on page 1 undefined on input line 
+521.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 526.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 526.
+
+
+LaTeX Warning: Reference `cor:meet20' on page 1 undefined on input line 528.
+
+
+LaTeX Warning: Reference `prop:code-slack' on page 1 undefined on input line 53
+8.
+
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 540.
+
+
+LaTeX Warning: Reference `rem:m23-uniqueness' on page 1 undefined on input line
+ 543.
+
+
+LaTeX Warning: Reference `thm:local-general' on page 1 undefined on input line 
+577.
+
+
+LaTeX Warning: Reference `cor:remaining' on page 1 undefined on input line 577.
+
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 577.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 577.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 577.
+
+
+LaTeX Warning: Reference `thm:main-general' on page 1 undefined on input line 5
+77.
+
+
+LaTeX Warning: Reference `sec:density-derivation' on page 1 undefined on input 
+line 577.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 577.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 577.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 57
+7.
+
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 577.
+
+
+LaTeX Warning: Reference `thm:local-general' on page 1 undefined on input line 
+577.
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 577.
+
+
+LaTeX Warning: Reference `lem:h-limit' on page 1 undefined on input line 577.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 577.
+
+
+LaTeX Warning: Reference `thm:local-general' on page 1 undefined on input line 
+577.
+
+
+LaTeX Warning: Reference `thm:main-general' on page 1 undefined on input line 5
+77.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 577.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 577.
+
+
+LaTeX Warning: Citation `LLM24' on page 5 undefined on input line 577.
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 584.
+
+
+LaTeX Warning: Reference `lem:h-limit' on page 1 undefined on input line 588.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 588.
+
+[5]
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 594.
+
+
+LaTeX Warning: Reference `prop:truncated' on page 1 undefined on input line 598
+.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 599.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 601.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 605.
+
+
+LaTeX Warning: Citation `BV08' on page 6 undefined on input line 606.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 60
+7.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 620.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 621.
+
+
+LaTeX Warning: Citation `LLM24' on page 6 undefined on input line 623.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 623.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 624.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+625.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 62
+6.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 6
+28.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+629.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+632.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 633.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 636.
+
+
+LaTeX Warning: Reference `sec:multidir-scope-summary' on page 1 undefined on in
+put line 636.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 64
+3.
+
+
+LaTeX Warning: Reference `sec:multidir-scope-summary' on page 1 undefined on in
+put line 644.
+
+
+LaTeX Warning: Reference `sec:polar-surface' on page 1 undefined on input line 
+645.
+
+
+LaTeX Warning: Reference `sec:multi-cap' on page 1 undefined on input line 645.
+
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 6
+58.
+
+
+LaTeX Warning: Reference `sec:periodic' on page 1 undefined on input line 679.
+
+[6]
+
+LaTeX Warning: Reference `sec:shell-new' on page 1 undefined on input line 681.
+
+
+
+LaTeX Warning: Reference `sec:root-aligned-new' on page 1 undefined on input li
+ne 686.
+
+
+LaTeX Warning: Reference `sec:radial-new' on page 1 undefined on input line 692
+.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 698.
+
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 698.
+
+
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 698.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg)
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 704.
+
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 704.
+
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 70
+6.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+719.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+719.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 720.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 721.
+
+
+LaTeX Warning: Reference `thm:local-fewcontacts' on page 1 undefined on input l
+ine 730.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 730.
+
+
+LaTeX Warning: Reference `fig:corner' on page 1 undefined on input line 736.
+
+[7]
+
+LaTeX Warning: Citation `Thu10' on page 8 undefined on input line 754.
+
+
+LaTeX Warning: Citation `FT42' on page 8 undefined on input line 755.
+
+
+LaTeX Warning: Citation `Hal97' on page 8 undefined on input line 758.
+
+
+LaTeX Warning: Citation `Hal05' on page 8 undefined on input line 759.
+
+
+LaTeX Warning: Citation `Hal17' on page 8 undefined on input line 759.
+
+
+LaTeX Warning: Citation `KZ1872' on page 8 undefined on input line 761.
+
+
+LaTeX Warning: Citation `Vor08' on page 8 undefined on input line 764.
+
+
+LaTeX Warning: Citation `Mar03' on page 8 undefined on input line 766.
+
+
+LaTeX Warning: Citation `Bli29' on page 8 undefined on input line 769.
+
+
+LaTeX Warning: Citation `Rog64' on page 8 undefined on input line 770.
+
+
+LaTeX Warning: Citation `Gru87' on page 8 undefined on input line 771.
+
+
+LaTeX Warning: Citation `CS1988' on page 8 undefined on input line 772.
+
+
+LaTeX Warning: Citation `Bez10' on page 8 undefined on input line 773.
+
+[8 <./figures/fig_c_corner.png (PNG copy)>]
+
+LaTeX Warning: Citation `CE03' on page 9 undefined on input line 777.
+
+
+LaTeX Warning: Citation `Via17' on page 9 undefined on input line 781.
+
+
+LaTeX Warning: Citation `CKM17' on page 9 undefined on input line 783.
+
+
+LaTeX Warning: Citation `Li25' on page 9 undefined on input line 785.
+
+
+LaTeX Warning: Citation `CZ14' on page 9 undefined on input line 793.
+
+
+LaTeX Warning: Citation `CK07' on page 9 undefined on input line 795.
+
+
+LaTeX Warning: Citation `CK09' on page 9 undefined on input line 795.
+
+
+LaTeX Warning: Citation `Cox73' on page 9 undefined on input line 798.
+
+
+LaTeX Warning: Citation `Mus08' on page 9 undefined on input line 803.
+
+
+LaTeX Warning: Citation `SW52' on page 9 undefined on input line 806.
+
+
+LaTeX Warning: Citation `Mus18' on page 9 undefined on input line 810.
+
+
+LaTeX Warning: Citation `Zie95' on page 9 undefined on input line 816.
+
+
+LaTeX Warning: Citation `Gru03' on page 9 undefined on input line 816.
+
+
+LaTeX Warning: Citation `Hum90' on page 9 undefined on input line 817.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 81
+9.
+
+[9]
+
+LaTeX Warning: Citation `Cox73' on page 10 undefined on input line 895.
+
+
+LaTeX Warning: Citation `CS1988' on page 10 undefined on input line 895.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 897
+.
+
+
+LaTeX Warning: Reference `sec:argument-structure' on page 1 undefined on input 
+line 922.
+
+
+LaTeX Warning: Reference `lem:gram-new' on page 1 undefined on input line 922.
+
+
+LaTeX Warning: Reference `fig:cell24' on page 1 undefined on input line 924.
+
+
+LaTeX Warning: Reference `fig:cell24' on page 1 undefined on input line 926.
+
+
+LaTeX Warning: Reference `fig:cell24' on page 1 undefined on input line 927.
+
+
+LaTeX Warning: Reference `fig:cell24' on page 1 undefined on input line 929.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 93
+0.
+
+[10]
+
+LaTeX Warning: Reference `sec:shell-new' on page 1 undefined on input line 965.
+
+
+
+LaTeX Warning: Reference `app:notation' on page 1 undefined on input line 979.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 98
+8.
+
+
+LaTeX Warning: Reference `lem:hmin-new' on page 1 undefined on input line 994.
+
+
+LaTeX Warning: Reference `not:conventions-new' on page 1 undefined on input lin
+e 1008.
+
+
+LaTeX Warning: Reference `lem:hmin-new' on page 1 undefined on input line 1013.
+
+
+[11] [12 <./figures/fig_c_cell24.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:radial-new' on page 1 undefined on input line 102
+5.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1026
+.
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 1026
+.
+
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 1044.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1045
+.
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 1045
+.
+
+
+LaTeX Warning: Reference `sec:deviation-domain' on page 1 undefined on input li
+ne 1047.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 1047.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+057.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 107
+6.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 109
+0.
+
+[13]
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1114
+.
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 1114
+.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+122.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 112
+3.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1124
+.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1142
+.
+
+
+LaTeX Warning: Reference `lem:gram-new' on page 1 undefined on input line 1153.
+
+
+
+LaTeX Warning: Reference `lem:gram-new' on page 1 undefined on input line 1163.
+
+
+[14]
+
+LaTeX Warning: Reference `lem:denom-classes-new' on page 1 undefined on input l
+ine 1186.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 120
+0.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1216
+.
+
+
+LaTeX Warning: Reference `ex:cell1-new' on page 1 undefined on input line 1221.
+
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 122
+3.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 122
+6.
+
+
+LaTeX Warning: Reference `lem:m2-exact-new' on page 1 undefined on input line 1
+230.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 123
+4.
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 1239
+.
+
+[15]
+
+LaTeX Warning: Reference `lem:taylor-coeff-new' on page 1 undefined on input li
+ne 1259.
+
+
+LaTeX Warning: Reference `lem:mineig-new' on page 1 undefined on input line 125
+9.
+
+
+LaTeX Warning: Reference `prop:stage-two-positivity-new' on page 1 undefined on
+ input line 1268.
+
+
+LaTeX Warning: Reference `fig:two-stage' on page 1 undefined on input line 1275
+.
+
+
+LaTeX Warning: Reference `ex:cell1-new' on page 1 undefined on input line 1307.
+
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1314
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1314
+.
+
+
+LaTeX Warning: Citation `Far12' on page 16 undefined on input line 1345.
+
+
+LaTeX Warning: Reference `app:box-cover-algo' on page 1 undefined on input line
+ 1345.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1345
+.
+
+
+LaTeX Warning: Reference `app:bernstein-toy' on page 1 undefined on input line 
+1345.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+349.
+
+
+LaTeX Warning: Reference `prop:stage-two-positivity-new' on page 1 undefined on
+ input line 1349.
+
+
+LaTeX Warning: Reference `sec:hessian-def-new' on page 1 undefined on input lin
+e 1349.
+
+
+LaTeX Warning: Reference `sec:argument-structure' on page 1 undefined on input 
+line 1350.
+
+
+LaTeX Warning: Reference `sec:shell-new' on page 1 undefined on input line 1351
+.
+
+
+LaTeX Warning: Reference `sec:root-aligned-new' on page 1 undefined on input li
+ne 1352.
+
+
+LaTeX Warning: Reference `sec:radial-new' on page 1 undefined on input line 135
+4.
+
+
+LaTeX Warning: Reference `sec:root-system' on page 1 undefined on input line 13
+58.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+359.
+
+[16] [17 <./figures/fig_two_stage.png (PNG copy)>]
+
+LaTeX Warning: Reference `cor:density-uncond' on page 1 undefined on input line
+ 1364.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+368.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 13
+71.
+
+
+LaTeX Warning: Citation `Rog64' on page 18 undefined on input line 1385.
+
+
+LaTeX Warning: Citation `Gru87' on page 18 undefined on input line 1385.
+
+
+LaTeX Warning: Reference `lem:shell-new' on page 1 undefined on input line 1405
+.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+408.
+
+
+LaTeX Warning: Reference `cor:density-uncond' on page 1 undefined on input line
+ 1409.
+
+
+LaTeX Warning: Citation `Bli29' on page 18 undefined on input line 1412.
+
+
+LaTeX Warning: Reference `thm:main-general' on page 1 undefined on input line 1
+418.
+
+
+LaTeX Warning: Reference `thm:local-general' on page 1 undefined on input line 
+1418.
+
+
+LaTeX Warning: Reference `cor:density-uncond' on page 1 undefined on input line
+ 1419.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+419.
+
+
+LaTeX Warning: Reference `cor:remaining' on page 1 undefined on input line 1420
+.
+
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 14
+21.
+
+
+LaTeX Warning: Reference `sec:deviation-domain' on page 1 undefined on input li
+ne 1422.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+423.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1424.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+1426.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 1427.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 1428.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 14
+28.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 1428.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 1430.
+
+
+LaTeX Warning: Reference `thm:main-general' on page 1 undefined on input line 1
+435.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 1436.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1444.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+448.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 1
+449.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 144
+9.
+
+
+LaTeX Warning: Reference `sec:musin-degeneracy' on page 1 undefined on input li
+ne 1449.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 1449.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+458.
+
+[18]
+
+LaTeX Warning: Reference `eq:freevol' on page 19 undefined on input line 1503.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1505
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1505
+.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1505
+.
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 1505
+.
+
+
+LaTeX Warning: Reference `prop:cap-reformulation' on page 1 undefined on input 
+line 1506.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 15
+07.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 15
+13.
+
+
+LaTeX Warning: Reference `eq:freevol' on page 19 undefined on input line 1528.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1530.
+
+[19]
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1534.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 1
+535.
+
+
+LaTeX Warning: Reference `eq:termwise-hope' on page 20 undefined on input line 
+1550.
+
+
+LaTeX Warning: Reference `eq:termwise-hope' on page 20 undefined on input line 
+1554.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 15
+56.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 1
+570.
+
+
+LaTeX Warning: Reference `eq:termwise-hope' on page 20 undefined on input line 
+1571.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 1577.
+
+
+LaTeX Warning: Reference `fig:free-volume' on page 1 undefined on input line 15
+88.
+
+
+LaTeX Warning: Reference `eq:freevol' on page 20 undefined on input line 1588.
+
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 16
+06.
+
+
+LaTeX Warning: Reference `rem:sums-not-unions' on page 1 undefined on input lin
+e 1606.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 1612.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 16
+12.
+
+
+LaTeX Warning: Reference `sec:cap-reformulation' on page 1 undefined on input l
+ine 1624.
+
+[20]
+
+LaTeX Warning: Reference `eq:multicap' on page 21 undefined on input line 1638.
+
+
+
+LaTeX Warning: Reference `eq:multicap-identity' on page 21 undefined on input l
+ine 1646.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 16
+50.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 16
+53.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 1663.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+1664.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 1665.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 1666.
+
+
+LaTeX Warning: Reference `sec:multidir-scope-summary' on page 1 undefined on in
+put line 1666.
+
+[21 <./figures/fig_free_volume.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:multicap' on page 22 undefined on input line 1671.
+
+
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 1687.
+
+
+LaTeX Warning: Reference `eq:multicap' on page 22 undefined on input line 1689.
+
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1700.
+
+
+LaTeX Warning: Reference `lem:gram-new' on page 1 undefined on input line 1722.
+
+
+
+LaTeX Warning: Citation `Mus08' on page 22 undefined on input line 1736.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1738.
+
+
+LaTeX Warning: Reference `eq:polar' on page 22 undefined on input line 1749.
+
+
+LaTeX Warning: Reference `eq:polar' on page 22 undefined on input line 1750.
+
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 17
+54.
+
+
+LaTeX Warning: Reference `def:contact-config' on page 1 undefined on input line
+ 1757.
+
+[22]
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 17
+67.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 17
+83.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 1792.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 1793.
+
+
+LaTeX Warning: Reference `eq:surface' on page 23 undefined on input line 1814.
+
+
+LaTeX Warning: Reference `eq:surface' on page 23 undefined on input line 1819.
+
+[23]
+
+LaTeX Warning: Reference `eq:facet-shape' on page 24 undefined on input line 18
+53.
+
+
+LaTeX Warning: Reference `eq:facet-shape' on page 24 undefined on input line 18
+56.
+
+
+LaTeX Warning: Reference `eq:facet-lower' on page 24 undefined on input line 18
+58.
+
+
+LaTeX Warning: Reference `eq:facet-lower' on page 24 undefined on input line 18
+69.
+
+
+LaTeX Warning: Reference `eq:surface' on page 24 undefined on input line 1874.
+
+
+LaTeX Warning: Reference `eq:facet-lower' on page 24 undefined on input line 18
+74.
+
+
+LaTeX Warning: Reference `eq:facet-shape' on page 24 undefined on input line 19
+09.
+
+[24]
+
+LaTeX Warning: Reference `eq:surface' on page 25 undefined on input line 1916.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 1923.
+
+
+LaTeX Warning: Reference `eq:surface' on page 25 undefined on input line 1929.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 1931.
+
+
+LaTeX Warning: Reference `eq:polar' on page 25 undefined on input line 1936.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 1968.
+
+
+LaTeX Warning: Reference `eq:surface' on page 25 undefined on input line 1969.
+
+
+LaTeX Warning: Reference `eq:facet-shape' on page 25 undefined on input line 19
+69.
+
+
+LaTeX Warning: Reference `fig:boundary' on page 1 undefined on input line 1972.
+
+
+
+LaTeX Warning: Reference `lem:facet-inball' on page 1 undefined on input line 1
+986.
+
+
+LaTeX Warning: Reference `eq:surface' on page 25 undefined on input line 1986.
+
+
+LaTeX Warning: Reference `rem:global-routes' on page 1 undefined on input line 
+1986.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 1986.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 19
+91.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1991.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 1
+995.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+1997.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+1998.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 1998.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 2003.
+
+
+LaTeX Warning: Citation `Mus18' on page 25 undefined on input line 2005.
+
+[25]
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 20
+36.
+
+
+LaTeX Warning: Reference `eq:radial' on page 26 undefined on input line 2043.
+
+[26 <./figures/fig_c_boundary.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:rm' on page 27 undefined on input line 2078.
+
+
+LaTeX Warning: Reference `eq:radial' on page 27 undefined on input line 2101.
+
+
+LaTeX Warning: Reference `eq:covering-bound' on page 27 undefined on input line
+ 2101.
+
+
+LaTeX Warning: Reference `eq:covering-bound' on page 27 undefined on input line
+ 2104.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 21
+08.
+
+
+LaTeX Warning: Reference `eq:covering-bound' on page 27 undefined on input line
+ 2133.
+
+
+LaTeX Warning: Reference `eq:rm' on page 27 undefined on input line 2133.
+
+[27]
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 2151.
+
+
+LaTeX Warning: Reference `tab:covering-bound' on page 1 undefined on input line
+ 2152.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 21
+53.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 2158.
+
+
+LaTeX Warning: Reference `thm:local-fewcontacts' on page 1 undefined on input l
+ine 2158.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 21
+61.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 2162.
+
+
+LaTeX Warning: Reference `eq:percell' on page 28 undefined on input line 2177.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 2180.
+
+
+LaTeX Warning: Reference `eq:radial' on page 28 undefined on input line 2184.
+
+
+LaTeX Warning: Reference `eq:percell' on page 28 undefined on input line 2195.
+
+
+LaTeX Warning: Reference `eq:rm' on page 28 undefined on input line 2205.
+
+[28]
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 2208.
+
+
+LaTeX Warning: Reference `eq:radial' on page 29 undefined on input line 2226.
+
+
+LaTeX Warning: Reference `eq:local-cell' on page 29 undefined on input line 223
+5.
+
+
+LaTeX Warning: Citation `SW51' on page 29 undefined on input line 2242.
+
+
+LaTeX Warning: Reference `eq:local-cell' on page 29 undefined on input line 224
+8.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 22
+72.
+
+
+LaTeX Warning: Reference `prop:area-optimal' on page 1 undefined on input line 
+2281.
+
+[29]
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 2290.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+2292.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+2296.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 2296.
+
+
+LaTeX Warning: Reference `sec:m24' on page 1 undefined on input line 2298.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 23
+00.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 2300.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 2335.
+
+[30]
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 2390.
+
+
+LaTeX Warning: Reference `lem:no-triples' on page 1 undefined on input line 239
+2.
+
+
+LaTeX Warning: Reference `eq:second-order' on page 31 undefined on input line 2
+394.
+
+
+LaTeX Warning: Reference `eq:lens' on page 31 undefined on input line 2410.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 2411.
+
+
+LaTeX Warning: Reference `lem:no-triples' on page 1 undefined on input line 241
+6.
+
+
+LaTeX Warning: Reference `eq:second-order' on page 31 undefined on input line 2
+421.
+
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 2
+437.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 2438.
+
+
+LaTeX Warning: Reference `sec:comparison-methods' on page 1 undefined on input 
+line 2451.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+2455.
+
+[31]
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+2460.
+
+
+LaTeX Warning: Reference `prop:covering-radius' on page 1 undefined on input li
+ne 2466.
+
+
+LaTeX Warning: Reference `tab:covering-bound' on page 1 undefined on input line
+ 2473.
+
+
+LaTeX Warning: Reference `eq:covering-bound' on page 32 undefined on input line
+ 2474.
+
+
+LaTeX Warning: Reference `lem:no-triples' on page 1 undefined on input line 247
+6.
+
+
+LaTeX Warning: Reference `eq:lens' on page 32 undefined on input line 2477.
+
+
+LaTeX Warning: Citation `LLM24' on page 32 undefined on input line 2493.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 2497.
+
+
+LaTeX Warning: Citation `LLM24' on page 32 undefined on input line 2499.
+
+
+LaTeX Warning: Citation `LLM24data' on page 32 undefined on input line 2500.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 2502.
+
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 2503.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 2505.
+
+
+LaTeX Warning: Citation `LLM24' on page 32 undefined on input line 2506.
+
+
+LaTeX Warning: Citation `CS1988' on page 32 undefined on input line 2525.
+
+
+LaTeX Warning: Citation `Hum90' on page 32 undefined on input line 2528.
+
+[32]
+
+LaTeX Warning: Citation `dLV15' on page 33 undefined on input line 2578.
+
+
+LaTeX Warning: Citation `dLV15' on page 33 undefined on input line 2580.
+
+
+LaTeX Warning: Citation `BV08' on page 33 undefined on input line 2592.
+
+
+LaTeX Warning: Citation `DGS77' on page 33 undefined on input line 2592.
+
+
+LaTeX Warning: Citation `CK07' on page 33 undefined on input line 2592.
+
+[33]
+
+LaTeX Warning: Reference `eq:zonal' on page 34 undefined on input line 2673.
+
+[34]
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 2699.
+
+
+LaTeX Warning: Citation `LLM24' on page 35 undefined on input line 2703.
+
+
+LaTeX Warning: Citation `LLM24' on page 35 undefined on input line 2734.
+
+
+LaTeX Warning: Citation `dLV15' on page 35 undefined on input line 2735.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 2736.
+
+
+LaTeX Warning: Citation `LLM24data' on page 35 undefined on input line 2742.
+
+
+LaTeX Warning: Reference `eq:A2' on page 35 undefined on input line 2744.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 2765.
+
+[35]
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 2816
+.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 2827
+.
+
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 2827.
+
+
+LaTeX Warning: Reference `eq:Kcert' on page 36 undefined on input line 2828.
+
+
+LaTeX Warning: Reference `eq:constraints-hold' on page 36 undefined on input li
+ne 2829.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 2830.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 2830
+.
+
+
+LaTeX Warning: Reference `eq:constraints-hold' on page 36 undefined on input li
+ne 2834.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 2834
+.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 2852.
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 2
+852.
+
+
+LaTeX Warning: Citation `Mus08' on page 36 undefined on input line 2856.
+
+
+LaTeX Warning: Citation `BV08' on page 36 undefined on input line 2860.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 2865.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 2868.
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 2
+870.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 28
+72.
+
+[36]
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 2878
+.
+
+
+LaTeX Warning: Citation `LLM24' on page 37 undefined on input line 2881.
+
+
+LaTeX Warning: Citation `dLV15' on page 37 undefined on input line 2882.
+
+
+LaTeX Warning: Reference `eq:Kcert' on page 37 undefined on input line 2884.
+
+
+LaTeX Warning: Citation `LdL24' on page 37 undefined on input line 2886.
+
+
+LaTeX Warning: Citation `LLM24data' on page 37 undefined on input line 2890.
+
+
+LaTeX Warning: Citation `D4Zenodo' on page 37 undefined on input line 2896.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 2897
+.
+
+[37 <./figures/fig_c_sigma2.png (PNG copy)>]
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 2907
+.
+
+
+LaTeX Warning: Citation `Joh17' on page 38 undefined on input line 2910.
+
+[38 <./figures/fig_c_d4contacts.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:A2' on page 39 undefined on input line 2967.
+
+
+LaTeX Warning: Reference `fig:verify' on page 1 undefined on input line 2979.
+
+[39]
+
+LaTeX Warning: Citation `LLM24data' on page 40 undefined on input line 3016.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 3020
+.
+
+
+LaTeX Warning: Reference `eq:zonal' on page 40 undefined on input line 3025.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 3031
+.
+
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 3031.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 3031.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 3032.
+
+
+LaTeX Warning: Citation `LLM24' on page 40 undefined on input line 3033.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 3036.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 3039.
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 3
+040.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3043.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 3044
+.
+
+[40 <./figures/fig_c_verify.png (PNG copy)>]
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+3049.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3051.
+
+
+LaTeX Warning: Reference `sec:covering-bound' on page 1 undefined on input line
+ 3059.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 3060.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 30
+62.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 30
+70.
+
+
+LaTeX Warning: Reference `rem:m24-three-point' on page 1 undefined on input lin
+e 3070.
+
+
+LaTeX Warning: Reference `eq:bonferroni3' on page 41 undefined on input line 31
+12.
+
+[41]
+
+LaTeX Warning: Reference `eq:pair-volume' on page 42 undefined on input line 31
+57.
+
+
+LaTeX Warning: Reference `eq:bonferroni3' on page 42 undefined on input line 31
+65.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 31
+77.
+
+
+LaTeX Warning: Reference `lem:pair-volume' on page 1 undefined on input line 31
+78.
+
+
+LaTeX Warning: Reference `lem:bonferroni3' on page 1 undefined on input line 31
+87.
+
+
+LaTeX Warning: Reference `lem:pair-volume' on page 1 undefined on input line 31
+94.
+
+
+LaTeX Warning: Reference `eq:m24-identity' on page 42 undefined on input line 3
+195.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 320
+3.
+
+[42]
+
+LaTeX Warning: Reference `lem:bonferroni3' on page 1 undefined on input line 32
+19.
+
+
+LaTeX Warning: Reference `prop:m24-exact' on page 1 undefined on input line 321
+9.
+
+
+LaTeX Warning: Reference `cor:m24-reduction' on page 1 undefined on input line 
+3222.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3224.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 3225.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 32
+26.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 32
+30.
+
+
+LaTeX Warning: Citation `BV08' on page 43 undefined on input line 3251.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3286.
+
+[43]
+
+LaTeX Warning: Citation `CdLL24' on page 44 undefined on input line 3320.
+
+
+LaTeX Warning: Citation `LLM24' on page 44 undefined on input line 3324.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3328.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 3329.
+
+
+LaTeX Warning: Reference `cor:m24-reduction' on page 1 undefined on input line 
+3329.
+
+
+LaTeX Warning: Reference `eq:second-moment' on page 44 undefined on input line 
+3357.
+
+[44]
+
+LaTeX Warning: Reference `rem:m24-three-point' on page 1 undefined on input lin
+e 3373.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 3377.
+
+
+LaTeX Warning: Reference `lem:radial-form' on page 1 undefined on input line 34
+10.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 3421.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3422.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 34
+24.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3426.
+
+[45]
+
+LaTeX Warning: Reference `sec:m23-explicit' on page 1 undefined on input line 3
+443.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 3444.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 3449.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 34
+49.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 3451.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 34
+54.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 34
+57.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 34
+60.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 3462.
+
+
+LaTeX Warning: Reference `fig:counting' on page 1 undefined on input line 3468.
+
+
+
+LaTeX Warning: Reference `fig:counting' on page 1 undefined on input line 3468.
+
+
+
+LaTeX Warning: Reference `eq:covering-bound' on page 46 undefined on input line
+ 3488.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 3488.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 34
+88.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3488.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 3488.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 34
+88.
+
+
+LaTeX Warning: Reference `eq:second-order' on page 46 undefined on input line 3
+488.
+
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 3
+488.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 3494.
+
+
+LaTeX Warning: Reference `lem:radial-form' on page 1 undefined on input line 35
+01.
+
+
+LaTeX Warning: Reference `prop:covering-radius' on page 1 undefined on input li
+ne 3507.
+
+
+LaTeX Warning: Reference `lem:surface-form' on page 1 undefined on input line 3
+510.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 3515.
+
+
+LaTeX Warning: Reference `lem:facet-inball' on page 1 undefined on input line 3
+517.
+
+
+LaTeX Warning: Reference `eq:vertex-norm' on page 46 undefined on input line 35
+33.
+
+[46]
+
+LaTeX Warning: Reference `eq:second-order' on page 47 undefined on input line 3
+547.
+
+[47 <./figures/fig_c_counting.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:lens' on page 48 undefined on input line 3562.
+
+
+LaTeX Warning: Reference `eq:pair-budget' on page 48 undefined on input line 35
+63.
+
+
+LaTeX Warning: Reference `eq:second-order' on page 48 undefined on input line 3
+564.
+
+
+LaTeX Warning: Reference `eq:second-order-value' on page 48 undefined on input 
+line 3589.
+
+
+LaTeX Warning: Reference `eq:pair-budget' on page 48 undefined on input line 35
+92.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 3599.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 3601.
+
+
+LaTeX Warning: Reference `fig:counting' on page 1 undefined on input line 3602.
+
+
+
+LaTeX Warning: Reference `eq:cov-mult' on page 48 undefined on input line 3631.
+
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+3635.
+
+[48]
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 3
+654.
+
+
+LaTeX Warning: Reference `eq:pair-budget' on page 49 undefined on input line 36
+56.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 3679.
+
+
+LaTeX Warning: Reference `eq:second-order-value' on page 49 undefined on input 
+line 3680.
+
+
+LaTeX Warning: Reference `prop:cov-mult' on page 1 undefined on input line 3692
+.
+
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 3694.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 3696.
+
+[49]
+
+LaTeX Warning: Reference `prop:no-transitive' on page 1 undefined on input line
+ 3751.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 3751.
+
+[50]
+
+LaTeX Warning: Reference `eq:stress' on page 51 undefined on input line 3815.
+
+
+LaTeX Warning: Reference `eq:strut' on page 51 undefined on input line 3824.
+
+
+LaTeX Warning: Citation `RW81' on page 51 undefined on input line 3834.
+
+
+LaTeX Warning: Citation `CJKT11' on page 51 undefined on input line 3851.
+
+
+LaTeX Warning: Reference `thm:local-uniqueness' on page 1 undefined on input li
+ne 3853.
+
+
+LaTeX Warning: Reference `prop:deletion-rigid' on page 1 undefined on input lin
+e 3855.
+
+
+LaTeX Warning: Reference `thm:local-uniqueness' on page 1 undefined on input li
+ne 3856.
+
+
+LaTeX Warning: Reference `fig:pftwo' on page 1 undefined on input line 3862.
+
+
+LaTeX Warning: Reference `fig:pftwo' on page 51 undefined on input line 3862.
+
+
+LaTeX Warning: Reference `eq:stress' on page 51 undefined on input line 3864.
+
+
+LaTeX Warning: Citation `RW81' on page 51 undefined on input line 3869.
+
+[51]
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 387
+6.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 3876.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 3879.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 388
+6.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 389
+0.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 390
+3.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 390
+6.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 394
+9.
+
+[52]
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 398
+7.
+
+
+LaTeX Warning: Reference `eq:sigma-one' on page 53 undefined on input line 3987
+.
+
+
+LaTeX Warning: Reference `eq:radial-part' on page 53 undefined on input line 39
+97.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 400
+2.
+
+
+LaTeX Warning: Reference `eq:sigma-one' on page 53 undefined on input line 4009
+.
+
+
+LaTeX Warning: Reference `eq:radial-part' on page 53 undefined on input line 40
+11.
+
+
+LaTeX Warning: Reference `thm:local-uniqueness' on page 1 undefined on input li
+ne 4028.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 40
+29.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 4035.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 4040.
+
+
+LaTeX Warning: Reference `fig:rig' on page 1 undefined on input line 4048.
+
+
+LaTeX Warning: Reference `fig:rig' on page 1 undefined on input line 4049.
+
+
+LaTeX Warning: Reference `fig:rig' on page 1 undefined on input line 4050.
+
+[53]
+
+LaTeX Warning: Reference `lem:rigidity-spectrum' on page 1 undefined on input l
+ine 4055.
+
+
+LaTeX Warning: Reference `thm:local-uniqueness' on page 1 undefined on input li
+ne 4055.
+
+
+LaTeX Warning: Reference `prop:area-optimal' on page 1 undefined on input line 
+4067.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 4070.
+
+
+LaTeX Warning: Reference `prop:deletion-rigid' on page 1 undefined on input lin
+e 4075.
+
+
+LaTeX Warning: Reference `eq:couples' on page 54 undefined on input line 4117.
+
+
+LaTeX Warning: Reference `lem:filled-support' on page 1 undefined on input line
+ 4123.
+
+[54]
+
+LaTeX Warning: Reference `lem:filled-couple' on page 1 undefined on input line 
+4143.
+
+[55 <./figures/fig_c_rig.png (PNG copy)>]
+
+LaTeX Warning: Reference `lem:filled-couple' on page 1 undefined on input line 
+4158.
+
+
+LaTeX Warning: Reference `eq:couples' on page 56 undefined on input line 4160.
+
+
+LaTeX Warning: Reference `lem:filled-couple' on page 1 undefined on input line 
+4169.
+
+
+LaTeX Warning: Reference `lem:filled-support' on page 1 undefined on input line
+ 4181.
+
+
+LaTeX Warning: Reference `eq:inside-sixty' on page 56 undefined on input line 4
+181.
+
+
+LaTeX Warning: Reference `eq:inside-sixty' on page 56 undefined on input line 4
+193.
+
+
+LaTeX Warning: Reference `eq:doorway-coords' on page 56 undefined on input line
+ 4232.
+
+[56]
+
+LaTeX Warning: Reference `eq:doorway-pair' on page 57 undefined on input line 4
+237.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 4249.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 4250.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 42
+52.
+
+
+LaTeX Warning: Reference `fig:rootmeet' on page 1 undefined on input line 4256.
+
+
+
+LaTeX Warning: Reference `cor:meet20' on page 1 undefined on input line 4257.
+
+
+LaTeX Warning: Reference `lem:filled-couple' on page 1 undefined on input line 
+4272.
+
+
+LaTeX Warning: Reference `cor:meet20' on page 1 undefined on input line 4290.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 4293.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 4296.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 4297.
+
+[57 <./figures/fig_c_rootmeet.png (PNG copy)>]
+
+LaTeX Warning: Citation `Mus08' on page 58 undefined on input line 4306.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 4307.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 4311.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 4337.
+
+
+LaTeX Warning: Reference `rem:code-search' on page 1 undefined on input line 43
+39.
+
+
+LaTeX Warning: Citation `Slo' on page 58 undefined on input line 4339.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 4341.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 4345.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 4354.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 43
+63.
+
+
+LaTeX Warning: Reference `cor:remaining' on page 1 undefined on input line 4364
+.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 4365.
+
+[58]
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 4369.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 4370.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 4374.
+
+
+LaTeX Warning: Citation `Slo' on page 59 undefined on input line 4394.
+
+
+LaTeX Warning: Citation `Slo' on page 59 undefined on input line 4406.
+
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 4408.
+
+[59]
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 4456.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 44
+68.
+
+
+LaTeX Warning: Reference `sec:reproducibility-new' on page 1 undefined on input
+ line 4481.
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 4486.
+
+
+
+LaTeX Warning: Reference `fig:structcd' on page 1 undefined on input line 4487.
+
+
+
+LaTeX Warning: Reference `fig:structcd' on page 60 undefined on input line 4487
+.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 4496.
+
+
+LaTeX Warning: Reference `fig:structab' on page 1 undefined on input line 4504.
+
+
+[60]
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 45
+28.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 45
+31.
+
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 4568.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 457
+2.
+
+
+LaTeX Warning: Reference `tab:slack-continuation' on page 1 undefined on input 
+line 4581.
+
+[61 <./figures/fig_c_structab.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:slack' on page 1 undefined on input line 4654.
+
+[62]
+
+LaTeX Warning: Reference `tab:slack-continuation' on page 1 undefined on input 
+line 4666.
+
+
+LaTeX Warning: Reference `prop:no-transitive' on page 1 undefined on input line
+ 4674.
+
+
+LaTeX Warning: Reference `tab:slack-continuation' on page 1 undefined on input 
+line 4684.
+
+
+LaTeX Warning: Reference `tab:slack-continuation' on page 1 undefined on input 
+line 4695.
+
+[63 <./figures/fig_c_slack.png (PNG copy)>]
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 4698.
+
+
+LaTeX Warning: Reference `lem:h-limit' on page 1 undefined on input line 4700.
+
+
+LaTeX Warning: Reference `rem:m23-uniqueness' on page 1 undefined on input line
+ 4706.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 471
+6.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 4732.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 4738.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 47
+39.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 4741.
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+4742.
+
+[64 <./figures/fig_c_structcd.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:structcd' on page 1 undefined on input line 4770.
+
+
+
+LaTeX Warning: Reference `eq:three-point-survival' on page 65 undefined on inpu
+t line 4772.
+
+
+LaTeX Warning: Reference `fig:pfone' on page 1 undefined on input line 4773.
+
+
+LaTeX Warning: Reference `lem:no-triples' on page 1 undefined on input line 477
+3.
+
+
+LaTeX Warning: Reference `prop:covering-radius' on page 1 undefined on input li
+ne 4774.
+
+
+LaTeX Warning: Reference `lem:radial-form' on page 1 undefined on input line 48
+15.
+
+[65]
+
+LaTeX Warning: Reference `eq:truncated' on page 66 undefined on input line 4822
+.
+
+
+LaTeX Warning: Reference `eq:three-point-survival' on page 66 undefined on inpu
+t line 4824.
+
+
+LaTeX Warning: Reference `lem:cap-count' on page 1 undefined on input line 4826
+.
+
+
+LaTeX Warning: Reference `eq:three-point-survival' on page 66 undefined on inpu
+t line 4830.
+
+
+LaTeX Warning: Reference `eq:three-point-bound' on page 66 undefined on input l
+ine 4831.
+
+
+LaTeX Warning: Reference `fig:pfone' on page 1 undefined on input line 4836.
+
+
+LaTeX Warning: Reference `fig:pftwo' on page 1 undefined on input line 4836.
+
+
+LaTeX Warning: Reference `eq:three-point-bound' on page 66 undefined on input l
+ine 4852.
+
+
+LaTeX Warning: Reference `eq:second-order' on page 66 undefined on input line 4
+865.
+
+[66 <./figures/fig_c_pf1.png (PNG copy)>]
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 4
+880.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 67 undefined on input line 4
+883.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 4884.
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+4890.
+
+
+LaTeX Warning: Reference `eq:three-point-bound' on page 67 undefined on input l
+ine 4890.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 4894.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 67 undefined on input line 4
+895.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 48
+96.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 67 undefined on input line 4
+900.
+
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 4901.
+
+
+LaTeX Warning: Reference `rem:m23-uniqueness' on page 1 undefined on input line
+ 4906.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 67 undefined on input line 4
+907.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 4909.
+
+
+LaTeX Warning: Reference `tab:slack-continuation' on page 1 undefined on input 
+line 4911.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 49
+15.
+
+
+LaTeX Warning: Reference `sec:m24' on page 1 undefined on input line 4920.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 4921.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 4922.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 4926.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 67 undefined on input line 4
+927.
+
+
+LaTeX Warning: Citation `BV08' on page 67 undefined on input line 4935.
+
+
+LaTeX Warning: Citation `LLM24' on page 67 undefined on input line 4937.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 4939.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 67 undefined on input line 4
+940.
+
+[67]
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 68 undefined on input line 4
+959.
+
+
+LaTeX Warning: Citation `BV08' on page 68 undefined on input line 4963.
+
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 4
+970.
+
+
+LaTeX Warning: Citation `Sch42' on page 68 undefined on input line 4980.
+
+
+LaTeX Warning: Citation `DGS77' on page 68 undefined on input line 4982.
+
+[68 <./figures/fig_c_pf2.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:Yk' on page 69 undefined on input line 5013.
+
+
+LaTeX Warning: Citation `Sch42' on page 69 undefined on input line 5017.
+
+
+LaTeX Warning: Reference `eq:C' on page 69 undefined on input line 5052.
+
+
+LaTeX Warning: Reference `lem:three-point-psd' on page 1 undefined on input lin
+e 5059.
+
+
+LaTeX Warning: Reference `eq:C' on page 69 undefined on input line 5066.
+
+
+LaTeX Warning: Reference `eq:certificate-bound' on page 69 undefined on input l
+ine 5069.
+
+[69]
+
+LaTeX Warning: Reference `eq:C' on page 70 undefined on input line 5073.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 70 undefined on input line 5
+074.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 5077.
+
+
+LaTeX Warning: Reference `eq:C' on page 70 undefined on input line 5084.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 70 undefined on input line 5
+089.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 5092.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 509
+7.
+
+
+LaTeX Warning: Reference `eq:certificate-bound' on page 70 undefined on input l
+ine 5109.
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+5125.
+
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 5
+137.
+
+[70]
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5153.
+
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5157.
+
+
+LaTeX Warning: Reference `fig:dom3d' on page 1 undefined on input line 5180.
+
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5192.
+
+
+LaTeX Warning: Reference `lem:certificate' on page 1 undefined on input line 51
+94.
+
+
+LaTeX Warning: Reference `eq:strict-pairs' on page 71 undefined on input line 5
+194.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 5195.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 52
+11.
+
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5211.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 5211.
+
+
+LaTeX Warning: Reference `lem:certificate' on page 1 undefined on input line 52
+16.
+
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5216.
+
+
+LaTeX Warning: Reference `fig:certpair' on page 1 undefined on input line 5218.
+
+
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5221.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 5226.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 52
+28.
+
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5229.
+
+
+LaTeX Warning: Reference `rem:strict-kind' on page 1 undefined on input line 52
+40.
+
+
+LaTeX Warning: Reference `rem:m23-uniqueness' on page 1 undefined on input line
+ 5241.
+
+
+LaTeX Warning: Reference `eq:C' on page 71 undefined on input line 5246.
+
+[71]
+
+LaTeX Warning: Reference `lem:certificate' on page 1 undefined on input line 52
+61.
+
+
+LaTeX Warning: Reference `eq:C' on page 72 undefined on input line 5261.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 52
+61.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 52
+66.
+
+
+LaTeX Warning: Reference `eq:A-star-closed' on page 72 undefined on input line 
+5274.
+
+[72 <./figures/fig_c_certificate.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:deviation-domain' on page 1 undefined on input li
+ne 5293.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 52
+94.
+
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 53
+00.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 5
+301.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 5308.
+
+
+LaTeX Warning: Reference `sec:fundamental-domain-new' on page 1 undefined on in
+put line 5312.
+
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 5314.
+
+[73 <./figures/fig_c_domain3d.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:arc2-breakpoints' on page 1 undefined on input li
+ne 5346.
+
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 5346.
+
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 5348.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 5349
+.
+
+
+LaTeX Warning: Reference `sec:interior-structure' on page 1 undefined on input 
+line 5353.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 53
+55.
+
+
+LaTeX Warning: Reference `fig:fundamental-domain' on page 1 undefined on input 
+line 5356.
+
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5369.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 5369
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 5369
+.
+
+
+LaTeX Warning: Reference `prop:third-edge-cert' on page 1 undefined on input li
+ne 5369.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+5369.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 53
+69.
+
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 5373.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 5374
+.
+
+
+LaTeX Warning: Reference `cor:restated-conjecture-holds' on page 1 undefined on
+ input line 5375.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 5
+376.
+
+[74 <./figures/fig_fundamental_domain.png (PNG copy)>]
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5383.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 54
+20.
+
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5436.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 545
+4.
+
+[75]
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5466.
+
+
+LaTeX Warning: Reference `thm:arc1-certs-new' on page 1 undefined on input line
+ 5467.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5467.
+
+
+LaTeX Warning: Reference `lem:third-edge-symmetry' on page 1 undefined on input
+ line 5479.
+
+
+LaTeX Warning: Reference `lem:third-edge-symmetry' on page 1 undefined on input
+ line 5486.
+
+
+LaTeX Warning: Reference `sec:why-boundary-arcs' on page 1 undefined on input l
+ine 5492.
+
+
+LaTeX Warning: Reference `sec:arc2-breakpoints' on page 1 undefined on input li
+ne 5496.
+
+
+LaTeX Warning: Reference `lem:third-edge-symmetry' on page 1 undefined on input
+ line 5502.
+
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5504.
+
+
+LaTeX Warning: Reference `lem:s3-symmetry' on page 1 undefined on input line 55
+36.
+
+
+LaTeX Warning: Reference `prop:third-edge-cert' on page 1 undefined on input li
+ne 5537.
+
+
+LaTeX Warning: Reference `lem:s3-symmetry' on page 1 undefined on input line 55
+41.
+
+
+LaTeX Warning: Reference `thm:arc2-breakpoints-new' on page 1 undefined on inpu
+t line 5557.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5560.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+5561.
+
+[76]
+
+LaTeX Warning: Reference `thm:arc1-certs-new' on page 1 undefined on input line
+ 5572.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5572.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+5578.
+
+
+LaTeX Warning: Reference `prop:third-edge-cert' on page 1 undefined on input li
+ne 5578.
+
+
+LaTeX Warning: Reference `thm:arc1-certs-new' on page 1 undefined on input line
+ 5581.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5581.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 5591
+.
+
+
+LaTeX Warning: Reference `sec:arc2-bandB-new' on page 1 undefined on input line
+ 5592.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+5593.
+
+
+LaTeX Warning: Reference `lem:s3-symmetry' on page 1 undefined on input line 55
+97.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 56
+00.
+
+
+LaTeX Warning: Reference `cor:restated-conjecture-holds' on page 1 undefined on
+ input line 5621.
+
+
+LaTeX Warning: Reference `prop:third-edge-cert' on page 1 undefined on input li
+ne 5622.
+
+[77]
+
+LaTeX Warning: Reference `lem:s3-symmetry' on page 1 undefined on input line 56
+68.
+
+
+LaTeX Warning: Reference `lem:third-edge-symmetry' on page 1 undefined on input
+ line 5670.
+
+
+LaTeX Warning: Reference `lem:s3-symmetry' on page 1 undefined on input line 56
+73.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 56
+92.
+
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5698.
+
+[78]
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5716.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 5749
+.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5772.
+
+
+LaTeX Warning: Reference `sec:region-count-correction' on page 1 undefined on i
+nput line 5772.
+
+
+LaTeX Warning: Reference `thm:arc2-breakpoints-new' on page 1 undefined on inpu
+t line 5772.
+
+
+LaTeX Warning: Reference `fig:arcs' on page 1 undefined on input line 5772.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+5772.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5780.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5787.
+
+[79]
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5821.
+
+
+LaTeX Warning: Reference `sec:region-4' on page 1 undefined on input line 5831.
+
+
+[80 <./figures/fig_c_arcs.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:region-count-correction' on page 1 undefined on i
+nput line 5837.
+
+
+LaTeX Warning: Reference `lem:degree-bound-new' on page 1 undefined on input li
+ne 5864.
+
+[81]
+
+LaTeX Warning: Reference `thm:arc1-certs-new' on page 1 undefined on input line
+ 5954.
+
+
+LaTeX Warning: Reference `sec:full-triangle-symmetry' on page 1 undefined on in
+put line 5960.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 59
+61.
+
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 5966.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 5978.
+
+[82]
+
+LaTeX Warning: Reference `fig:arcs' on page 1 undefined on input line 6027.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 6036
+.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 6059
+.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+6062.
+
+[83]
+
+LaTeX Warning: Reference `thm:arc2-breakpoints-new' on page 1 undefined on inpu
+t line 6070.
+
+
+LaTeX Warning: Reference `sec:band-below-top-new' on page 1 undefined on input 
+line 6099.
+
+
+LaTeX Warning: Reference `sec:arc2-regiontop-new' on page 1 undefined on input 
+line 6102.
+
+
+LaTeX Warning: Reference `thm:arc2-regiontop-new' on page 1 undefined on input 
+line 6127.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 6133
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 6136
+.
+
+[84]
+
+LaTeX Warning: Reference `sec:band-below-top-new' on page 1 undefined on input 
+line 6144.
+
+
+LaTeX Warning: Reference `thm:arc2-breakpoints-new' on page 1 undefined on inpu
+t line 6145.
+
+
+LaTeX Warning: Reference `thm:arc2-band-new' on page 1 undefined on input line 
+6150.
+
+
+LaTeX Warning: Reference `thm:arc2-band-new' on page 1 undefined on input line 
+6160.
+
+
+LaTeX Warning: Reference `thm:arc2-band-new' on page 1 undefined on input line 
+6171.
+
+
+LaTeX Warning: Reference `thm:arc2-band-new' on page 1 undefined on input line 
+6176.
+
+
+LaTeX Warning: Reference `sec:full-triangle-symmetry' on page 1 undefined on in
+put line 6195.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 6197
+.
+
+
+LaTeX Warning: Reference `fig:certmap' on page 1 undefined on input line 6204.
+
+
+LaTeX Warning: Reference `fig:certmap' on page 1 undefined on input line 6204.
+
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 6222.
+
+
+LaTeX Warning: Reference `prop:third-edge-cert' on page 1 undefined on input li
+ne 6222.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+6222.
+
+[85]
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+6228.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 62
+31.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 6234
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 6234
+.
+
+[86 <./figures/fig_c_certmap.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:cone-slice' on page 1 undefined on input line 6307
+.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 63
+24.
+
+
+LaTeX Warning: Reference `eq:defect-is-vol' on page 1 undefined on input line 6
+325.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 63
+36.
+
+[87]
+
+LaTeX Warning: Reference `fig:cap' on page 1 undefined on input line 6374.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 6394.
+
+[88 <./figures/fig_c_cap.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:simplex-slice' on page 1 undefined on input line 6
+473.
+
+
+LaTeX Warning: Citation `CSc66' on page 89 undefined on input line 6473.
+
+
+LaTeX Warning: Reference `eq:simplex-slice' on page 1 undefined on input line 6
+473.
+
+[89]
+
+LaTeX Warning: Citation `CSc66' on page 90 undefined on input line 6498.
+
+
+LaTeX Warning: Reference `eq:g-derivs' on page 1 undefined on input line 6519.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 6537.
+
+
+LaTeX Warning: Citation `MOA11' on page 90 undefined on input line 6537.
+
+
+LaTeX Warning: Reference `fig:cap' on page 1 undefined on input line 6553.
+
+
+LaTeX Warning: Reference `lem:cap-formula' on page 1 undefined on input line 65
+58.
+
+[90]
+
+LaTeX Warning: Reference `lem:monotone' on page 1 undefined on input line 6622.
+
+
+[91]
+
+LaTeX Warning: Reference `lem:crosspolytope' on page 1 undefined on input line 
+6652.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 6654.
+
+
+LaTeX Warning: Reference `prop:cap-reformulation' on page 1 undefined on input 
+line 6655.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 6659.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 66
+67.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 6
+670.
+
+
+LaTeX Warning: Reference `sec:radial-new' on page 1 undefined on input line 668
+3.
+
+
+LaTeX Warning: Reference `sec:shell-new' on page 1 undefined on input line 6683
+.
+
+
+LaTeX Warning: Reference `thm:freevol-new' on page 1 undefined on input line 66
+84.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 6
+686.
+
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 6693.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 6
+704.
+
+
+LaTeX Warning: Reference `lem:Q-structure' on page 1 undefined on input line 67
+15.
+
+[92]
+
+LaTeX Warning: Reference `lem:crosspolytope' on page 1 undefined on input line 
+6731.
+
+
+LaTeX Warning: Reference `eq:cone-bound' on page 93 undefined on input line 674
+1.
+
+
+LaTeX Warning: Reference `eq:cone-bound' on page 93 undefined on input line 676
+6.
+
+
+LaTeX Warning: Reference `prop:cap-reformulation' on page 1 undefined on input 
+line 6767.
+
+
+LaTeX Warning: Reference `eq:cone-bound' on page 93 undefined on input line 678
+1.
+
+[93]
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 6802.
+
+
+LaTeX Warning: Reference `eq:cone-bound' on page 94 undefined on input line 680
+5.
+
+
+LaTeX Warning: Reference `fig:defect' on page 1 undefined on input line 6807.
+
+
+LaTeX Warning: Reference `fig:defect' on page 1 undefined on input line 6808.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 6
+825.
+
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 6825.
+
+
+LaTeX Warning: Reference `cor:second-order' on page 1 undefined on input line 6
+825.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 6830
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 6830
+.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 6
+831.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 6
+834.
+
+[94 <./figures/fig_c_defect.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 6844.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 6845
+.
+
+
+LaTeX Warning: Reference `thm:arc1-certs-new' on page 1 undefined on input line
+ 6851.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 6851.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+6858.
+
+
+LaTeX Warning: Reference `prop:third-edge-cert' on page 1 undefined on input li
+ne 6858.
+
+
+LaTeX Warning: Reference `lem:s3-symmetry' on page 1 undefined on input line 68
+58.
+
+
+LaTeX Warning: Reference `cor:restated-conjecture-holds' on page 1 undefined on
+ input line 6861.
+
+
+LaTeX Warning: Reference `sec:interior-structure' on page 1 undefined on input 
+line 6865.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 68
+70.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 6
+877.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 6
+881.
+
+
+LaTeX Warning: Reference `cor:second-order' on page 1 undefined on input line 6
+887.
+
+
+LaTeX Warning: Reference `sec:deviation-domain' on page 1 undefined on input li
+ne 6892.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 68
+92.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+6899.
+
+
+LaTeX Warning: Reference `def:hessian-new' on page 1 undefined on input line 69
+06.
+
+
+LaTeX Warning: Reference `def:hessian-new' on page 1 undefined on input line 69
+12.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+6917.
+
+
+LaTeX Warning: Reference `lem:chains-new' on page 1 undefined on input line 693
+1.
+
+
+LaTeX Warning: Reference `sec:swap-configs' on page 1 undefined on input line 6
+931.
+
+[95]
+
+LaTeX Warning: Reference `def:hessian-new' on page 1 undefined on input line 69
+41.
+
+
+LaTeX Warning: Reference `sec:hessian-def-new' on page 1 undefined on input lin
+e 6943.
+
+
+LaTeX Warning: Reference `lem:m2-exact-new' on page 1 undefined on input line 6
+949.
+
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 6955.
+
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 6966.
+
+
+LaTeX Warning: Reference `lem:m2-exact-new' on page 1 undefined on input line 6
+988.
+
+
+LaTeX Warning: Reference `lem:m2-exact-new' on page 1 undefined on input line 6
+994.
+
+[96]
+
+LaTeX Warning: Reference `lem:chains-new' on page 1 undefined on input line 702
+9.
+
+
+LaTeX Warning: Reference `app:numerical-tables' on page 1 undefined on input li
+ne 7029.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 704
+9.
+
+
+LaTeX Warning: Reference `sec:musin-degeneracy' on page 1 undefined on input li
+ne 7049.
+
+
+LaTeX Warning: Reference `fig:dense-growth' on page 1 undefined on input line 7
+052.
+
+
+LaTeX Warning: Reference `app:numerical-tables' on page 1 undefined on input li
+ne 7064.
+
+
+LaTeX Warning: Reference `fig:chain-plateau' on page 1 undefined on input line 
+7064.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 706
+4.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 7071.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7072.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 707
+5.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 708
+6.
+
+
+LaTeX Warning: Citation `Mus08' on page 97 undefined on input line 7088.
+
+
+LaTeX Warning: Citation `Mus18' on page 97 undefined on input line 7088.
+
+[97]
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 7093.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 710
+3.
+
+
+LaTeX Warning: Reference `sec:swap-configs' on page 1 undefined on input line 7
+130.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7134.
+
+[98 <./figures/fig_chain_plateau.png (PNG copy)>] [99 <./figures/fig_dense_grow
+th.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 7145.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 7
+160.
+
+[100]
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7247.
+
+
+LaTeX Warning: Reference `lem:chains-new' on page 1 undefined on input line 724
+8.
+
+
+LaTeX Warning: Reference `lem:m2-exact-new' on page 1 undefined on input line 7
+248.
+
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 7249.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7257.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 7
+258.
+
+
+LaTeX Warning: Reference `prop:4d-nullspace-new' on page 1 undefined on input l
+ine 7264.
+
+[101]
+
+LaTeX Warning: Reference `prop:4d-nullspace-new' on page 1 undefined on input l
+ine 7302.
+
+
+LaTeX Warning: Reference `thm:broad-sample-18-new' on page 1 undefined on input
+ line 7326.
+
+
+LaTeX Warning: Reference `sec:quartic-hardness-new' on page 1 undefined on inpu
+t line 7354.
+
+[102]
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7380.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+7381.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 7382.
+
+
+LaTeX Warning: Reference `sec:quartic-hardness-new' on page 1 undefined on inpu
+t line 7402.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7410.
+
+[103]
+
+LaTeX Warning: Reference `def:joint-hessian-new' on page 1 undefined on input l
+ine 7441.
+
+
+LaTeX Warning: Reference `thm:broad-sample-18-new' on page 1 undefined on input
+ line 7450.
+
+
+LaTeX Warning: Reference `prop:4d-nullspace-new' on page 1 undefined on input l
+ine 7452.
+
+
+LaTeX Warning: Reference `sec:a18-invariant-quartics' on page 1 undefined on in
+put line 7470.
+
+
+LaTeX Warning: Reference `thm:exact-sing-new' on page 1 undefined on input line
+ 7474.
+
+
+LaTeX Warning: Reference `thm:broad-sample-18-new' on page 1 undefined on input
+ line 7479.
+
+
+LaTeX Warning: Reference `sec:a18-invariant-quartics' on page 1 undefined on in
+put line 7485.
+
+
+LaTeX Warning: Reference `prop:a18-stabiliser' on page 1 undefined on input lin
+e 7491.
+
+
+LaTeX Warning: Citation `Ser77' on page 104 undefined on input line 7495.
+
+[104]
+
+LaTeX Warning: Reference `sec:gram-sos-A18' on page 1 undefined on input line 7
+556.
+
+
+LaTeX Warning: Reference `prop:a18-stabiliser' on page 1 undefined on input lin
+e 7561.
+
+
+LaTeX Warning: Reference `sec:musin-degeneracy' on page 1 undefined on input li
+ne 7581.
+
+[105]
+
+LaTeX Warning: Reference `prop:gram-sos-A18' on page 1 undefined on input line 
+7587.
+
+
+LaTeX Warning: Reference `prop:gram-sos-A18' on page 1 undefined on input line 
+7593.
+
+
+LaTeX Warning: Reference `prop:gram-sos-A18' on page 1 undefined on input line 
+7597.
+
+
+LaTeX Warning: Reference `prop:a18-invariant-dim' on page 1 undefined on input 
+line 7599.
+
+
+LaTeX Warning: Reference `sec:gram-sos-A18' on page 1 undefined on input line 7
+607.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7610.
+
+
+LaTeX Warning: Reference `lem:chains-new' on page 1 undefined on input line 762
+0.
+
+
+LaTeX Warning: Reference `lem:m2-exact-new' on page 1 undefined on input line 7
+620.
+
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 7622.
+
+
+LaTeX Warning: Reference `prop:5d-nullspace-new' on page 1 undefined on input l
+ine 7626.
+
+
+LaTeX Warning: Reference `prop:4d-nullspace-new' on page 1 undefined on input l
+ine 7626.
+
+
+LaTeX Warning: Reference `thm:exact-sing-new' on page 1 undefined on input line
+ 7626.
+
+
+LaTeX Warning: Reference `thm:broad-sample-20-new' on page 1 undefined on input
+ line 7630.
+
+
+LaTeX Warning: Reference `thm:broad-sample-18-new' on page 1 undefined on input
+ line 7630.
+
+
+LaTeX Warning: Reference `prop:a18-stabiliser' on page 1 undefined on input lin
+e 7636.
+
+
+LaTeX Warning: Reference `prop:a18-nullspace-irrep' on page 1 undefined on inpu
+t line 7642.
+
+
+LaTeX Warning: Reference `prop:a18-invariant-dim' on page 1 undefined on input 
+line 7644.
+
+
+LaTeX Warning: Reference `prop:a18-sos-reduced' on page 1 undefined on input li
+ne 7649.
+
+
+LaTeX Warning: Reference `sec:swap-configs' on page 1 undefined on input line 7
+654.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7654.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 7658.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 7663.
+
+
+LaTeX Warning: Reference `prop:area-optimal' on page 1 undefined on input line 
+7665.
+
+[106]
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+7673.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7673.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 7674.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 7676.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7687.
+
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 7689.
+
+
+LaTeX Warning: Reference `sec:musin-degeneracy' on page 1 undefined on input li
+ne 7692.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 77
+07.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 7714.
+
+
+LaTeX Warning: Reference `prop:multi-cap' on page 1 undefined on input line 771
+6.
+
+
+LaTeX Warning: Reference `op:multicap' on page 1 undefined on input line 7719.
+
+
+LaTeX Warning: Reference `sec:polar-surface' on page 1 undefined on input line 
+7725.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 77
+27.
+
+
+LaTeX Warning: Reference `lem:surface-form' on page 1 undefined on input line 7
+728.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 77
+31.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 7734.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 7
+740.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 7741.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 7743.
+
+
+LaTeX Warning: Reference `rem:global-routes' on page 1 undefined on input line 
+7752.
+
+[107]
+
+LaTeX Warning: Reference `prop:area-optimal' on page 1 undefined on input line 
+7755.
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+7762.
+
+
+LaTeX Warning: Reference `rem:no-local-cell' on page 1 undefined on input line 
+7769.
+
+
+LaTeX Warning: Reference `eq:local-cell' on page 108 undefined on input line 77
+69.
+
+
+LaTeX Warning: Reference `cor:minimiser' on page 1 undefined on input line 7778
+.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 7784.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 7784.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 7
+789.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 778
+9.
+
+
+LaTeX Warning: Reference `sec:musin-degeneracy' on page 1 undefined on input li
+ne 7789.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 7789.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7797.
+
+
+LaTeX Warning: Reference `fig:swap' on page 1 undefined on input line 7799.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 7817
+.
+
+[108]
+
+LaTeX Warning: Reference `thm:swap-m6-new' on page 1 undefined on input line 78
+44.
+
+
+LaTeX Warning: Reference `thm:swap-m3-new' on page 1 undefined on input line 78
+44.
+
+
+LaTeX Warning: Reference `thm:swap-m2-new' on page 1 undefined on input line 78
+44.
+
+
+LaTeX Warning: Reference `sec:swap-m6' on page 1 undefined on input line 7844.
+
+
+LaTeX Warning: Reference `lem:swapsym' on page 1 undefined on input line 7862.
+
+
+LaTeX Warning: Reference `lem:swapsym' on page 1 undefined on input line 7869.
+
+[109 <./figures/fig_c_swap.png>]
+
+LaTeX Warning: Reference `thm:swap-m2-new' on page 1 undefined on input line 79
+44.
+
+
+LaTeX Warning: Reference `lem:swapsym' on page 1 undefined on input line 7945.
+
+[110]
+
+LaTeX Warning: Reference `thm:swap-m2-new' on page 1 undefined on input line 79
+50.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+7951.
+
+
+LaTeX Warning: Reference `sec:swap-setup' on page 1 undefined on input line 795
+3.
+
+
+LaTeX Warning: Reference `fig:swap' on page 1 undefined on input line 7973.
+
+
+LaTeX Warning: Reference `sec:arc2-breakpoints' on page 1 undefined on input li
+ne 7980.
+
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 7980.
+
+
+LaTeX Warning: Reference `thm:swap-m2-new' on page 1 undefined on input line 79
+84.
+
+
+LaTeX Warning: Reference `thm:swap-m2-new' on page 1 undefined on input line 79
+89.
+
+
+LaTeX Warning: Reference `thm:swap-m2-new' on page 1 undefined on input line 79
+95.
+
+
+LaTeX Warning: Reference `sec:swap-m6' on page 1 undefined on input line 8014.
+
+
+LaTeX Warning: Reference `sec:swap-norm-trick' on page 1 undefined on input lin
+e 8014.
+
+
+LaTeX Warning: Reference `sec:swap-norm-trick' on page 1 undefined on input lin
+e 8021.
+
+[111]
+
+LaTeX Warning: Reference `thm:swap-m6-new' on page 1 undefined on input line 80
+77.
+
+
+LaTeX Warning: Reference `thm:swap-m3-new' on page 1 undefined on input line 80
+77.
+
+
+LaTeX Warning: Reference `thm:swap-m2-new' on page 1 undefined on input line 80
+77.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+8079.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 8081.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 809
+3.
+
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 8093.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+8096.
+
+
+LaTeX Warning: Citation `CE03' on page 112 undefined on input line 8102.
+
+
+LaTeX Warning: Citation `Via17' on page 112 undefined on input line 8103.
+
+
+LaTeX Warning: Citation `CKM17' on page 112 undefined on input line 8103.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 81
+08.
+
+[112]
+
+LaTeX Warning: Citation `CE03' on page 113 undefined on input line 8127.
+
+
+LaTeX Warning: Citation `Li25' on page 113 undefined on input line 8131.
+
+
+LaTeX Warning: Citation `CZ14' on page 113 undefined on input line 8144.
+
+
+LaTeX Warning: Citation `Mus18' on page 113 undefined on input line 8153.
+
+
+LaTeX Warning: Citation `Par03' on page 113 undefined on input line 8156.
+
+
+LaTeX Warning: Citation `Las01' on page 113 undefined on input line 8156.
+
+
+LaTeX Warning: Citation `Hal17' on page 113 undefined on input line 8162.
+
+
+LaTeX Warning: Reference `app:sos' on page 1 undefined on input line 8168.
+
+
+LaTeX Warning: Reference `app:lmatrices' on page 1 undefined on input line 8168
+.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 816
+8.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 8169
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 8169
+.
+
+
+LaTeX Warning: Reference `sec:swap-configs' on page 1 undefined on input line 8
+170.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 81
+71.
+
+[113]
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 8179.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+8181.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 8183.
+
+
+LaTeX Warning: Citation `CS1988' on page 114 undefined on input line 8190.
+
+
+LaTeX Warning: Citation `Cox73' on page 114 undefined on input line 8190.
+
+
+LaTeX Warning: Citation `Hum90' on page 114 undefined on input line 8194.
+
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 8199.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 8
+214.
+
+
+LaTeX Warning: Reference `cor:density-uncond' on page 1 undefined on input line
+ 8214.
+
+
+LaTeX Warning: Reference `sec:shell-new' on page 1 undefined on input line 8223
+.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 8223
+.
+
+
+LaTeX Warning: Reference `sec:deviation-domain' on page 1 undefined on input li
+ne 8228.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 82
+28.
+
+
+LaTeX Warning: Reference `prop:cap-reformulation' on page 1 undefined on input 
+line 8231.
+
+
+LaTeX Warning: Reference `lem:crosspolytope' on page 1 undefined on input line 
+8233.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 8235.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 824
+2.
+
+
+LaTeX Warning: Reference `cor:second-order' on page 1 undefined on input line 8
+244.
+
+
+LaTeX Warning: Reference `eq:cone-bound' on page 114 undefined on input line 82
+46.
+
+
+LaTeX Warning: Reference `cor:restated-conjecture-holds' on page 1 undefined on
+ input line 8250.
+
+[114]
+
+LaTeX Warning: Reference `thm:local-fewcontacts' on page 1 undefined on input l
+ine 8256.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 8257.
+
+
+LaTeX Warning: Reference `thm:covering-bound' on page 1 undefined on input line
+ 8257.
+
+
+LaTeX Warning: Reference `prop:area-optimal' on page 1 undefined on input line 
+8270.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 8275.
+
+
+LaTeX Warning: Citation `LLM24' on page 115 undefined on input line 8278.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 8279.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 8281.
+
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 8282.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 8282.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 8282.
+
+
+LaTeX Warning: Reference `cor:remaining' on page 1 undefined on input line 8283
+.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 8285.
+
+
+LaTeX Warning: Reference `thm:local-general' on page 1 undefined on input line 
+8285.
+
+
+LaTeX Warning: Reference `thm:main-general' on page 1 undefined on input line 8
+286.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 8292.
+
+
+LaTeX Warning: Reference `cor:remaining' on page 1 undefined on input line 8292
+.
+
+
+LaTeX Warning: Reference `lem:cap-count' on page 1 undefined on input line 8296
+.
+
+
+LaTeX Warning: Reference `prop:truncated' on page 1 undefined on input line 829
+9.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 8302.
+
+
+LaTeX Warning: Citation `BV08' on page 115 undefined on input line 8304.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 8305.
+
+
+LaTeX Warning: Reference `lem:certificate' on page 1 undefined on input line 83
+05.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 83
+08.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 8317.
+
+
+LaTeX Warning: Reference `rem:certificate-found' on page 1 undefined on input l
+ine 8319.
+
+
+LaTeX Warning: Reference `rem:strict-kind' on page 1 undefined on input line 83
+21.
+
+
+LaTeX Warning: Reference `rem:m23-uniqueness' on page 1 undefined on input line
+ 8324.
+
+
+LaTeX Warning: Reference `prop:deletion-rigid' on page 1 undefined on input lin
+e 8330.
+
+
+LaTeX Warning: Reference `prop:no-transitive' on page 1 undefined on input line
+ 8333.
+
+
+LaTeX Warning: Reference `cor:meet20' on page 1 undefined on input line 8337.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 8339.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 8339.
+
+
+LaTeX Warning: Reference `lem:filled-couple' on page 1 undefined on input line 
+8339.
+
+
+LaTeX Warning: Reference `rem:no-local-cell' on page 1 undefined on input line 
+8340.
+
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 8
+342.
+
+[115]
+
+LaTeX Warning: Reference `thm:m23-from-codes' on page 1 undefined on input line
+ 8352.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 8354.
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 8355.
+
+
+
+LaTeX Warning: Reference `lem:h-limit' on page 1 undefined on input line 8357.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 8360.
+
+
+LaTeX Warning: Reference `rem:m23-uniqueness' on page 1 undefined on input line
+ 8363.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 83
+64.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 8375.
+
+
+LaTeX Warning: Citation `LLM24' on page 116 undefined on input line 8377.
+
+
+LaTeX Warning: Reference `lem:las2' on page 1 undefined on input line 8379.
+
+
+LaTeX Warning: Reference `lem:gram' on page 1 undefined on input line 8379.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 8381
+.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 8383.
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 8
+384.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 838
+7.
+
+
+LaTeX Warning: Reference `cor:m24-reduction' on page 1 undefined on input line 
+8387.
+
+
+LaTeX Warning: Reference `prop:m24-exact' on page 1 undefined on input line 839
+2.
+
+
+LaTeX Warning: Reference `rem:m24-three-point' on page 1 undefined on input lin
+e 8395.
+
+
+LaTeX Warning: Citation `BV08' on page 116 undefined on input line 8395.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+8399.
+
+
+LaTeX Warning: Reference `cor:conj-resolved' on page 1 undefined on input line 
+8400.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 8400.
+
+
+LaTeX Warning: Reference `prop:5d-nullspace-new' on page 1 undefined on input l
+ine 8406.
+
+
+LaTeX Warning: Reference `prop:4d-nullspace-new' on page 1 undefined on input l
+ine 8406.
+
+
+LaTeX Warning: Reference `thm:exact-sing-new' on page 1 undefined on input line
+ 8406.
+
+
+LaTeX Warning: Reference `thm:broad-sample-20-new' on page 1 undefined on input
+ line 8410.
+
+
+LaTeX Warning: Reference `thm:broad-sample-18-new' on page 1 undefined on input
+ line 8410.
+
+
+LaTeX Warning: Reference `prop:a18-stabiliser' on page 1 undefined on input lin
+e 8413.
+
+
+LaTeX Warning: Reference `prop:a18-invariant-dim' on page 1 undefined on input 
+line 8415.
+
+
+LaTeX Warning: Reference `prop:a18-nullspace-irrep' on page 1 undefined on inpu
+t line 8415.
+
+
+LaTeX Warning: Reference `prop:a18-sos-reduced' on page 1 undefined on input li
+ne 8420.
+
+[116]
+
+LaTeX Warning: Reference `sec:swap-configs' on page 1 undefined on input line 8
+423.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+8423.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 84
+29.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 8438.
+
+
+LaTeX Warning: Reference `rem:sums-not-unions' on page 1 undefined on input lin
+e 8438.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 8438.
+
+
+LaTeX Warning: Reference `thm:eperp-closed' on page 1 undefined on input line 8
+440.
+
+
+LaTeX Warning: Reference `prop:multi-cap' on page 1 undefined on input line 844
+6.
+
+
+LaTeX Warning: Reference `op:multicap' on page 1 undefined on input line 8451.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 8453.
+
+
+LaTeX Warning: Reference `sec:polar-surface' on page 1 undefined on input line 
+8458.
+
+
+LaTeX Warning: Reference `op:multicap' on page 1 undefined on input line 8458.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 84
+61.
+
+
+LaTeX Warning: Reference `lem:surface-form' on page 1 undefined on input line 8
+462.
+
+
+LaTeX Warning: Reference `cor:minimiser' on page 1 undefined on input line 8468
+.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 8471.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 8473.
+
+
+LaTeX Warning: Reference `rem:global-routes' on page 1 undefined on input line 
+8477.
+
+
+LaTeX Warning: Reference `sec:covering-bound' on page 1 undefined on input line
+ 8480.
+
+
+LaTeX Warning: Reference `prop:area-optimal' on page 1 undefined on input line 
+8480.
+
+
+LaTeX Warning: Reference `rem:no-local-cell' on page 1 undefined on input line 
+8482.
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+8484.
+
+[117]
+
+LaTeX Warning: Reference `prop:multi-cap' on page 1 undefined on input line 849
+8.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 8502.
+
+
+LaTeX Warning: Reference `thm:m23' on page 1 undefined on input line 8508.
+
+
+LaTeX Warning: Reference `eq:surface' on page 118 undefined on input line 8511.
+
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 8512.
+
+
+LaTeX Warning: Reference `sec:a18-invariant-quartics' on page 1 undefined on in
+put line 8516.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 8519.
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 8527
+.
+
+
+LaTeX Warning: Citation `Meu17' on page 118 undefined on input line 8531.
+
+
+LaTeX Warning: Reference `eq:stress' on page 118 undefined on input line 8543.
+
+
+LaTeX Warning: Reference `prop:deletion-rigid' on page 1 undefined on input lin
+e 8543.
+
+
+LaTeX Warning: Reference `eq:stress' on page 118 undefined on input line 8552.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 855
+3.
+
+
+LaTeX Warning: Reference `lem:rigidity-spectrum' on page 1 undefined on input l
+ine 8556.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 8559.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 8559.
+
+[118]
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 8582.
+
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 8588.
+
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 860
+8.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 86
+11.
+
+
+LaTeX Warning: Reference `eq:certificate-bound' on page 119 undefined on input 
+line 8618.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 86
+26.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 8645.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 8646
+.
+
+
+LaTeX Warning: Citation `LLM24data' on page 119 undefined on input line 8647.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 8652.
+
+[119]
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 8
+656.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 8657.
+
+
+LaTeX Warning: Reference `thm:m24' on page 1 undefined on input line 8657.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 8689
+.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 8689
+.
+
+
+LaTeX Warning: Reference `sec:stage-one' on page 1 undefined on input line 8689
+.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 8690
+.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 86
+90.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 8
+695.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 869
+5.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 8
+701.
+
+
+LaTeX Warning: Reference `sec:hp-volume-method' on page 1 undefined on input li
+ne 8701.
+
+
+LaTeX Warning: Citation `GVL13' on page 120 undefined on input line 8708.
+
+
+LaTeX Warning: Citation `MKC09' on page 120 undefined on input line 8710.
+
+
+LaTeX Warning: Reference `def:joint-hessian-new' on page 1 undefined on input l
+ine 8720.
+
+
+LaTeX Warning: Reference `sec:hessian-def-new' on page 1 undefined on input lin
+e 8720.
+
+
+LaTeX Warning: Reference `thm:arc2-breakpoints-new' on page 1 undefined on inpu
+t line 8721.
+
+
+LaTeX Warning: Reference `thm:arc1-breakpoints-new' on page 1 undefined on inpu
+t line 8721.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 87
+22.
+
+[120]
+
+LaTeX Warning: Reference `sec:arc2-band-cert-new' on page 1 undefined on input 
+line 8733.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 8
+734.
+
+
+LaTeX Warning: Reference `sec:swap-configs' on page 1 undefined on input line 8
+738.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 87
+40.
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 8742.
+
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 8745.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 8747.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 8748.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 87
+50.
+
+
+LaTeX Warning: Reference `sec:m24-volume' on page 1 undefined on input line 875
+5.
+
+
+LaTeX Warning: Reference `rem:m24-three-point' on page 1 undefined on input lin
+e 8756.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 876
+7.
+
+
+LaTeX Warning: Citation `Har20' on page 121 undefined on input line 8768.
+
+
+LaTeX Warning: Citation `Vir20' on page 121 undefined on input line 8769.
+
+
+LaTeX Warning: Citation `Meu17' on page 121 undefined on input line 8769.
+
+
+LaTeX Warning: Citation `BDH96' on page 121 undefined on input line 8770.
+
+
+LaTeX Warning: Reference `sec:reproducibility-new' on page 1 undefined on input
+ line 8771.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 877
+7.
+
+
+LaTeX Warning: Citation `D4Zenodo' on page 121 undefined on input line 8785.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 8786.
+
+
+LaTeX Warning: Citation `LLM24data' on page 121 undefined on input line 8787.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 8792.
+
+[121]
+
+LaTeX Warning: Reference `tab:notation' on page 1 undefined on input line 8806.
+
+
+
+LaTeX Warning: Reference `lem:two-symmetries-new' on page 1 undefined on input 
+line 8848.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 8
+851.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 885
+1.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3 on input line 8852.
+
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 8857.
+
+
+LaTeX Warning: Reference `lem:hessian-structure-new' on page 1 undefined on inp
+ut line 8858.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 8
+866.
+
+
+LaTeX Warning: Reference `tab:pivots' on page 1 undefined on input line 8867.
+
+
+LaTeX Warning: Reference `lem:denom-classes-new' on page 1 undefined on input l
+ine 8868.
+
+[122]
+
+LaTeX Warning: Reference `tab:pivots' on page 1 undefined on input line 8919.
+
+
+LaTeX Warning: Reference `lem:mineig-new' on page 1 undefined on input line 892
+8.
+
+[123]
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 8934
+.
+
+
+LaTeX Warning: Reference `lem:hessian-structure-new' on page 1 undefined on inp
+ut line 8938.
+
+
+LaTeX Warning: Reference `prop:ldlt-new' on page 1 undefined on input line 8939
+.
+
+
+LaTeX Warning: Reference `app:sos' on page 1 undefined on input line 9003.
+
+
+LaTeX Warning: Reference `app:lmatrices' on page 1 undefined on input line 9003
+.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 900
+3.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 9005
+.
+
+
+LaTeX Warning: Reference `thm:local-uncond' on page 1 undefined on input line 9
+005.
+
+[124]
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+9010.
+
+
+LaTeX Warning: Reference `sec:multidir-scope-summary' on page 1 undefined on in
+put line 9012.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 9
+012.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 901
+2.
+
+
+LaTeX Warning: Reference `sec:musin-degeneracy' on page 1 undefined on input li
+ne 9012.
+
+
+LaTeX Warning: Reference `sec:hessian-technique' on page 1 undefined on input l
+ine 9012.
+
+
+LaTeX Warning: Reference `sec:deviation-scope-summary' on page 1 undefined on i
+nput line 9013.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 9013
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 9013
+.
+
+
+LaTeX Warning: Reference `sec:deviation-domain' on page 1 undefined on input li
+ne 9013.
+
+
+LaTeX Warning: Reference `prop:ldlt-new' on page 1 undefined on input line 9020
+.
+
+
+LaTeX Warning: Reference `prop:ldlt-new' on page 1 undefined on input line 9028
+.
+
+[125]
+
+LaTeX Warning: Reference `sec:hessian-def-new' on page 1 undefined on input lin
+e 9159.
+
+[126]
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 918
+1.
+
+
+LaTeX Warning: Reference `app:lmatrices' on page 1 undefined on input line 9189
+.
+
+
+LaTeX Warning: Reference `lem:hessian-structure-new' on page 1 undefined on inp
+ut line 9190.
+
+
+LaTeX Warning: Reference `app:lmatrices' on page 1 undefined on input line 9199
+.
+
+
+LaTeX Warning: Reference `lem:mineig-new' on page 1 undefined on input line 920
+5.
+
+
+LaTeX Warning: Reference `prop:ldlt-new' on page 1 undefined on input line 9211
+.
+
+
+LaTeX Warning: Reference `prop:ldlt-new' on page 1 undefined on input line 9218
+.
+
+
+LaTeX Warning: Reference `prop:ldlt-new' on page 1 undefined on input line 9220
+.
+
+
+LaTeX Warning: Reference `app:explicit-vertices' on page 1 undefined on input l
+ine 9230.
+
+
+LaTeX Warning: Reference `app:numerical-tables' on page 1 undefined on input li
+ne 9230.
+
+
+LaTeX Warning: Reference `app:sos' on page 1 undefined on input line 9230.
+
+
+LaTeX Warning: Reference `app:lmatrices' on page 1 undefined on input line 9230
+.
+
+
+LaTeX Warning: Reference `app:stagetwo-data' on page 1 undefined on input line 
+9230.
+
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 923
+0.
+
+[127]
+
+LaTeX Warning: Reference `app:pivot-data' on page 1 undefined on input line 924
+1.
+
+
+LaTeX Warning: Citation `GVL13' on page 128 undefined on input line 9242.
+
+
+LaTeX Warning: Reference `app:stagetwo-data' on page 1 undefined on input line 
+9243.
+
+
+LaTeX Warning: Reference `app:lmatrices' on page 1 undefined on input line 9243
+.
+
+
+LaTeX Warning: Reference `app:sos' on page 1 undefined on input line 9244.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 92
+45.
+
+
+LaTeX Warning: Citation `Meu17' on page 128 undefined on input line 9249.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 9251
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 9251
+.
+
+
+LaTeX Warning: Citation `Far12' on page 128 undefined on input line 9255.
+
+
+LaTeX Warning: Reference `sec:hp-volume-method' on page 1 undefined on input li
+ne 9259.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 9
+260.
+
+
+LaTeX Warning: Reference `sec:swap-obstacle' on page 1 undefined on input line 
+9261.
+
+
+LaTeX Warning: Reference `sec:gram-sos-A18' on page 1 undefined on input line 9
+267.
+
+
+LaTeX Warning: Citation `Par03' on page 128 undefined on input line 9270.
+
+
+LaTeX Warning: Citation `Las01' on page 128 undefined on input line 9270.
+
+
+LaTeX Warning: Reference `sec:gram-sos-A18' on page 1 undefined on input line 9
+274.
+
+
+LaTeX Warning: Reference `sec:arc2-breakpoints' on page 1 undefined on input li
+ne 9280.
+
+
+LaTeX Warning: Reference `sec:arc1-breakpoints' on page 1 undefined on input li
+ne 9280.
+
+
+LaTeX Warning: Reference `sec:swap-m3' on page 1 undefined on input line 9286.
+
+
+LaTeX Warning: Reference `sec:swap-configs' on page 1 undefined on input line 9
+298.
+
+
+LaTeX Warning: Reference `sec:swap-m6' on page 1 undefined on input line 9303.
+
+
+LaTeX Warning: Reference `fig:swap' on page 1 undefined on input line 9307.
+
+
+LaTeX Warning: Reference `sec:swap-not-worst' on page 1 undefined on input line
+ 9308.
+
+[128]
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 9314
+.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 9314
+.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 9315.
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 9346.
+
+
+LaTeX Warning: Reference `lem:monotone' on page 1 undefined on input line 9347.
+
+
+
+LaTeX Warning: Citation `MKC09' on page 129 undefined on input line 9349.
+
+
+LaTeX Warning: Reference `sec:cap-theorem' on page 1 undefined on input line 93
+53.
+
+
+LaTeX Warning: Reference `lem:crosspolytope' on page 1 undefined on input line 
+9360.
+
+
+LaTeX Warning: Reference `lem:cap-formula' on page 1 undefined on input line 93
+61.
+
+
+LaTeX Warning: Reference `lem:monotone' on page 1 undefined on input line 9364.
+
+
+
+LaTeX Warning: Reference `thm:cap-inequality' on page 1 undefined on input line
+ 9366.
+
+
+LaTeX Warning: Reference `prop:multi-cap' on page 1 undefined on input line 937
+6.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 9376.
+
+
+LaTeX Warning: Reference `eq:multicap-identity' on page 129 undefined on input 
+line 9384.
+
+
+LaTeX Warning: Reference `rem:first-order-obstruction' on page 1 undefined on i
+nput line 9388.
+
+[129]
+
+LaTeX Warning: Reference `sec:polar-surface' on page 1 undefined on input line 
+9396.
+
+
+LaTeX Warning: Reference `eq:antiprism' on page 130 undefined on input line 939
+8.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 9399.
+
+
+LaTeX Warning: Reference `eq:surface' on page 130 undefined on input line 9407.
+
+
+
+LaTeX Warning: Reference `lem:facet-inball' on page 1 undefined on input line 9
+413.
+
+
+LaTeX Warning: Reference `rem:facet-local-obstruction' on page 1 undefined on i
+nput line 9414.
+
+
+LaTeX Warning: Reference `prop:polar-form' on page 1 undefined on input line 94
+20.
+
+
+LaTeX Warning: Reference `rem:global-routes' on page 1 undefined on input line 
+9421.
+
+
+LaTeX Warning: Reference `sec:covering-bound' on page 1 undefined on input line
+ 9431.
+
+
+LaTeX Warning: Reference `eq:radial' on page 130 undefined on input line 9434.
+
+
+LaTeX Warning: Reference `tab:covering-bound' on page 1 undefined on input line
+ 9440.
+
+
+LaTeX Warning: Reference `cor:m22' on page 1 undefined on input line 9441.
+
+
+LaTeX Warning: Reference `eq:covering-bound' on page 130 undefined on input lin
+e 9443.
+
+
+LaTeX Warning: Reference `prop:area-optimal' on page 1 undefined on input line 
+9447.
+
+
+LaTeX Warning: Reference `prop:covering-radius' on page 1 undefined on input li
+ne 9452.
+
+[130]
+
+LaTeX Warning: Reference `sec:m24' on page 1 undefined on input line 9464.
+
+
+LaTeX Warning: Reference `prop:extendable' on page 1 undefined on input line 94
+66.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 9474.
+
+
+LaTeX Warning: Reference `cor:remaining' on page 1 undefined on input line 9475
+.
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 9
+483.
+
+
+LaTeX Warning: Reference `thm:twentyfour-points' on page 1 undefined on input l
+ine 9486.
+
+
+LaTeX Warning: Citation `LLM24data' on page 131 undefined on input line 9488.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 9492.
+
+
+LaTeX Warning: Citation `Joh17' on page 131 undefined on input line 9496.
+
+
+LaTeX Warning: Reference `sec:certificate-checked' on page 1 undefined on input
+ line 9510.
+
+
+LaTeX Warning: Citation `GL08' on page 131 undefined on input line 9512.
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+9527.
+
+
+LaTeX Warning: Reference `lem:no-triples' on page 1 undefined on input line 952
+7.
+
+
+LaTeX Warning: Reference `eq:lens' on page 131 undefined on input line 9533.
+
+
+LaTeX Warning: Reference `eq:second-order-value' on page 131 undefined on input
+ line 9535.
+
+[131]
+
+LaTeX Warning: Reference `rem:no-local-cell' on page 1 undefined on input line 
+9540.
+
+
+LaTeX Warning: Reference `eq:local-cell' on page 132 undefined on input line 95
+43.
+
+
+LaTeX Warning: Reference `eq:regular-simplex-mean' on page 132 undefined on inp
+ut line 9551.
+
+
+LaTeX Warning: Reference `prop:deletion-rigid' on page 1 undefined on input lin
+e 9562.
+
+
+LaTeX Warning: Reference `eq:stress' on page 132 undefined on input line 9569.
+
+
+LaTeX Warning: Reference `cor:root-rigid' on page 1 undefined on input line 957
+3.
+
+
+LaTeX Warning: Reference `thm:local-uniqueness' on page 1 undefined on input li
+ne 9581.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 9608.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 9608.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 9620.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 9621.
+
+[132]
+
+LaTeX Warning: Reference `rem:meet-next' on page 1 undefined on input line 9636
+.
+
+
+LaTeX Warning: Reference `rem:pair-budget' on page 1 undefined on input line 96
+42.
+
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 9
+642.
+
+
+LaTeX Warning: Reference `eq:second-order-value' on page 133 undefined on input
+ line 9645.
+
+
+LaTeX Warning: Reference `eq:second-order' on page 133 undefined on input line 
+9647.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 9656.
+
+
+LaTeX Warning: Reference `prop:cov-mult' on page 1 undefined on input line 9656
+.
+
+
+LaTeX Warning: Reference `eq:cov-mult' on page 133 undefined on input line 9658
+.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 9660.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 9671.
+
+
+LaTeX Warning: Reference `thm:strict-reduction' on page 1 undefined on input li
+ne 9671.
+
+
+LaTeX Warning: Reference `prop:truncated' on page 1 undefined on input line 967
+1.
+
+
+LaTeX Warning: Reference `prop:pair-budget' on page 1 undefined on input line 9
+672.
+
+
+LaTeX Warning: Reference `prop:second-order' on page 1 undefined on input line 
+9672.
+
+
+LaTeX Warning: Reference `prop:two-point-barrier' on page 1 undefined on input 
+line 9681.
+
+[133]
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 96
+97.
+
+
+LaTeX Warning: Reference `lem:certificate' on page 1 undefined on input line 96
+99.
+
+
+LaTeX Warning: Reference `eq:Yk' on page 134 undefined on input line 9700.
+
+
+LaTeX Warning: Reference `eq:C' on page 134 undefined on input line 9703.
+
+
+LaTeX Warning: Citation `DB16' on page 134 undefined on input line 9706.
+
+
+LaTeX Warning: Citation `GC26' on page 134 undefined on input line 9707.
+
+
+LaTeX Warning: Reference `eq:C' on page 134 undefined on input line 9715.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 97
+22.
+
+
+LaTeX Warning: Reference `eq:C' on page 134 undefined on input line 9731.
+
+
+LaTeX Warning: Reference `eq:C' on page 134 undefined on input line 9732.
+
+
+LaTeX Warning: Reference `rem:no-transitive' on page 1 undefined on input line 
+9741.
+
+
+LaTeX Warning: Reference `prop:no-transitive' on page 1 undefined on input line
+ 9741.
+
+
+LaTeX Warning: Reference `prop:no-transitive' on page 1 undefined on input line
+ 9751.
+
+
+LaTeX Warning: Reference `eq:stress' on page 134 undefined on input line 9771.
+
+
+LaTeX Warning: Reference `prop:deletion-rigid' on page 1 undefined on input lin
+e 9772.
+
+
+LaTeX Warning: Reference `prop:meet21' on page 1 undefined on input line 9773.
+
+
+LaTeX Warning: Reference `prop:meet22' on page 1 undefined on input line 9773.
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 9782.
+
+
+
+LaTeX Warning: Reference `sec:reproducibility-new' on page 1 undefined on input
+ line 9788.
+
+
+LaTeX Warning: Reference `eq:certificate-bound' on page 134 undefined on input 
+line 9798.
+
+
+LaTeX Warning: Reference `thm:certificate' on page 1 undefined on input line 98
+01.
+
+
+LaTeX Warning: Reference `sec:reproducibility-new' on page 1 undefined on input
+ line 9802.
+
+
+LaTeX Warning: Reference `prop:verified' on page 1 undefined on input line 9808
+.
+
+
+LaTeX Warning: Reference `lem:root-lattice' on page 1 undefined on input line 9
+818.
+
+[134]
+
+LaTeX Warning: Reference `rem:code-search' on page 1 undefined on input line 98
+28.
+
+
+LaTeX Warning: Reference `prop:code-slack' on page 1 undefined on input line 98
+28.
+
+
+LaTeX Warning: Reference `rem:code-search' on page 1 undefined on input line 98
+44.
+
+[135]
+
+LaTeX Warning: Reference `sec:m24-volume' on page 1 undefined on input line 984
+8.
+
+
+LaTeX Warning: Reference `eq:m24-identity' on page 136 undefined on input line 
+9852.
+
+
+LaTeX Warning: Reference `prop:m24-exact' on page 1 undefined on input line 985
+5.
+
+
+LaTeX Warning: Reference `rem:m24-three-point' on page 1 undefined on input lin
+e 9862.
+
+
+LaTeX Warning: Reference `rem:m24-three-point' on page 1 undefined on input lin
+e 9865.
+
+
+LaTeX Warning: Reference `prop:cell600' on page 1 undefined on input line 9890.
+
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 9917.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 9938.
+
+[136]
+
+LaTeX Warning: Citation `Meu17' on page 137 undefined on input line 9953.
+
+
+LaTeX Warning: Citation `Har20' on page 137 undefined on input line 9955.
+
+
+LaTeX Warning: Citation `Vir20' on page 137 undefined on input line 9956.
+
+
+LaTeX Warning: Citation `BDH96' on page 137 undefined on input line 9958.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 99
+59.
+
+
+LaTeX Warning: Citation `DB16' on page 137 undefined on input line 9960.
+
+
+LaTeX Warning: Citation `GC26' on page 137 undefined on input line 9960.
+
+
+LaTeX Warning: Citation `Joh17' on page 137 undefined on input line 9963.
+
+
+LaTeX Warning: Reference `sec:slack-continuation' on page 1 undefined on input 
+line 9967.
+
+
+LaTeX Warning: Reference `sec:strict-inequality' on page 1 undefined on input l
+ine 9970.
+
+
+LaTeX Warning: Reference `sec:certificate' on page 1 undefined on input line 99
+71.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+9977.
+
+
+LaTeX Warning: Reference `app:code-index' on page 1 undefined on input line 997
+9.
+
+
+LaTeX Warning: Reference `lem:chains-new' on page 1 undefined on input line 998
+5.
+
+[137]
+
+LaTeX Warning: Reference `lem:chains-new' on page 1 undefined on input line 100
+07.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 100
+13.
+
+
+LaTeX Warning: Reference `sec:dense-configs-new' on page 1 undefined on input l
+ine 10013.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 1
+0039.
+
+
+LaTeX Warning: Reference `sec:exact-sing' on page 1 undefined on input line 100
+39.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 1
+0044.
+
+[138]
+
+LaTeX Warning: Reference `sec:multidir-scope-summary' on page 1 undefined on in
+put line 10090.
+
+
+LaTeX Warning: Reference `sec:broad-sample' on page 1 undefined on input line 1
+0090.
+
+
+LaTeX Warning: Reference `conj:multidir-new' on page 1 undefined on input line 
+10096.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1010
+0.
+
+
+LaTeX Warning: Reference `sec:arc2-breakpoints' on page 1 undefined on input li
+ne 10100.
+
+
+LaTeX Warning: Reference `sec:arc2-band-cert-new' on page 1 undefined on input 
+line 10117.
+
+
+LaTeX Warning: Reference `sec:band-below-top-new' on page 1 undefined on input 
+line 10117.
+
+
+LaTeX Warning: Reference `thm:arc2-band-new' on page 1 undefined on input line 
+10119.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+10121.
+
+
+LaTeX Warning: Reference `lem:hmin-new' on page 1 undefined on input line 10126
+.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 10
+126.
+
+
+LaTeX Warning: Reference `sec:root-system' on page 1 undefined on input line 10
+127.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 10
+142.
+
+[139]
+
+LaTeX Warning: Reference `def:refcell-new' on page 1 undefined on input line 10
+149.
+
+
+LaTeX Warning: Reference `def:refcell-new' on page 1 undefined on input line 10
+172.
+
+
+LaTeX Warning: Reference `lem:hmin-new' on page 1 undefined on input line 10177
+.
+
+
+LaTeX Warning: Reference `lem:hmin-new' on page 1 undefined on input line 10186
+.
+
+
+LaTeX Warning: Reference `lem:refcell-vol' on page 1 undefined on input line 10
+186.
+
+
+LaTeX Warning: Reference `sec:root-system' on page 1 undefined on input line 10
+187.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1019
+1.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1019
+1.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1019
+1.
+
+
+LaTeX Warning: Reference `sec:chamber-register' on page 1 undefined on input li
+ne 10194.
+
+
+LaTeX Warning: Reference `lem:degree-bound-new' on page 1 undefined on input li
+ne 10195.
+
+[140]
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1023
+1.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1023
+1.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1024
+1.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1024
+1.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1026
+6.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1026
+6.
+
+
+LaTeX Warning: Reference `sec:arc2-bandB-new' on page 1 undefined on input line
+ 10269.
+
+
+LaTeX Warning: Reference `prop:arc2-is-arc1' on page 1 undefined on input line 
+10272.
+
+
+LaTeX Warning: Reference `sec:arc2-cert' on page 1 undefined on input line 1028
+4.
+
+
+LaTeX Warning: Reference `sec:arc1-cert' on page 1 undefined on input line 1028
+4.
+
+
+LaTeX Warning: Reference `sec:stage-two' on page 1 undefined on input line 1028
+4.
+
+[141] [142] [143]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+[144] (./D4.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `D4.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
+Output written on D4.pdf (144 pages, 18024754 bytes).
+Transcript written on D4.log.
+Latexmk: Missing input file 'D4.toc' (or dependence on it) from following:
+  No file D4.toc.
+Latexmk: Getting log file 'D4.log'
+Latexmk: Examining 'D4.fls'
+Latexmk: Examining 'D4.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'D4.pdf'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  D4.aux
+  D4.out
+  D4.toc
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "D4.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./D4.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty)
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./D4.aux) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(./D4.out) (./D4.out) (./D4.toc
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec
+.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg)) [2]
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd) [3{/usr/share/texmf/fonts/enc/dvips/
+lm/lm-mathex.enc}] [4] (/usr/share/texmf/tex/latex/lm/t1lmtt.fd) [5] [6]
+[7] [8] [9 <./figures/fig_c_corner.png (PNG copy)>] [10] [11] [12] [13 <./figur
+es/fig_c_cell24.png (PNG copy)>] [14] [15] [16] [17] [18 <./figures/fig_two_sta
+ge.png (PNG copy)>] [19] [20] [21] [22 <./figures/fig_free_volume.png (PNG copy
+)>] [23] [24] [25] [26] [27 <./figures/fig_c_boundary.png (PNG copy)>] [28]
+[29] [30] [31] [32] [33] [34] [35] [36] [37] [38 <./figures/fig_c_sigma2.png (P
+NG copy)>] [39 <./figures/fig_c_d4contacts.png (PNG copy)>] [40] [41] [42 <./fi
+gures/fig_c_verify.png (PNG copy)>] [43] [44] [45] [46] [47] [48 <./figures/fig
+_c_counting.png (PNG copy)>] [49] [50] [51] [52] [53] [54] [55] [56 <./figures/
+fig_c_rig.png (PNG copy)>] [57] [58] [59 <./figures/fig_c_rootmeet.png (PNG cop
+y)>] [60] [61] [62] [63 <./figures/fig_c_structab.png (PNG copy)>] [64]
+[65 <./figures/fig_c_slack.png (PNG copy)>] [66 <./figures/fig_c_structcd.png (
+PNG copy)>] [67] [68 <./figures/fig_c_pf1.png (PNG copy)>] [69] [70 <./figures/
+fig_c_pf2.png (PNG copy)>] [71] [72] [73] [74 <./figures/fig_c_certificate.png 
+(PNG copy)>] [75 <./figures/fig_c_domain3d.png (PNG copy)>] [76 <./figures/fig_
+fundamental_domain.png (PNG copy)>] [77] [78] [79] [80] [81] [82 <./figures/fig
+_c_arcs.png (PNG copy)>] [83] [84] [85] [86] [87] [88 <./figures/fig_c_certmap.
+png (PNG copy)>] [89] [90 <./figures/fig_c_cap.png (PNG copy)>] [91] [92]
+[93] [94] [95] [96 <./figures/fig_c_defect.png (PNG copy)>] [97] [98] [99]
+[100 <./figures/fig_chain_plateau.png (PNG copy)>] [101 <./figures/fig_dense_gr
+owth.png (PNG copy)>] [102] [103] [104] [105] [106] [107] [108] [109] [110]
+[111] [112 <./figures/fig_c_swap.png>] [113] [114] [115] [116] [117] [118]
+[119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
+[131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142]
+[143] [144] [145] [146] [147] (./D4.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
+Output written on D4.pdf (147 pages, 18092062 bytes).
+Transcript written on D4.log.
+Latexmk: Getting log file 'D4.log'
+Latexmk: Examining 'D4.fls'
+Latexmk: Examining 'D4.log'
+Latexmk: References changed.
+Latexmk: Log file says output to 'D4.pdf'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  D4.aux
+  D4.toc
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "D4.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./D4.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty)
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./D4.aux) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(./D4.out) (./D4.out) (./D4.toc
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec
+.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg)) [2]
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd) [3{/usr/share/texmf/fonts/enc/dvips/
+lm/lm-mathex.enc}] [4] (/usr/share/texmf/tex/latex/lm/t1lmtt.fd) [5] [6]
+[7] [8] [9 <./figures/fig_c_corner.png (PNG copy)>] [10] [11] [12] [13 <./figur
+es/fig_c_cell24.png (PNG copy)>] [14] [15] [16] [17] [18 <./figures/fig_two_sta
+ge.png (PNG copy)>] [19] [20] [21] [22 <./figures/fig_free_volume.png (PNG copy
+)>] [23] [24] [25] [26] [27 <./figures/fig_c_boundary.png (PNG copy)>] [28]
+[29] [30] [31] [32] [33] [34] [35] [36] [37] [38 <./figures/fig_c_sigma2.png (P
+NG copy)>] [39 <./figures/fig_c_d4contacts.png (PNG copy)>] [40] [41] [42 <./fi
+gures/fig_c_verify.png (PNG copy)>] [43] [44] [45] [46] [47] [48 <./figures/fig
+_c_counting.png (PNG copy)>] [49] [50] [51] [52] [53] [54] [55] [56 <./figures/
+fig_c_rig.png (PNG copy)>] [57] [58] [59 <./figures/fig_c_rootmeet.png (PNG cop
+y)>] [60] [61] [62] [63 <./figures/fig_c_structab.png (PNG copy)>] [64]
+[65 <./figures/fig_c_slack.png (PNG copy)>] [66 <./figures/fig_c_structcd.png (
+PNG copy)>] [67] [68 <./figures/fig_c_pf1.png (PNG copy)>] [69] [70 <./figures/
+fig_c_pf2.png (PNG copy)>] [71] [72] [73] [74 <./figures/fig_c_certificate.png 
+(PNG copy)>] [75 <./figures/fig_c_domain3d.png (PNG copy)>] [76 <./figures/fig_
+fundamental_domain.png (PNG copy)>] [77] [78] [79] [80] [81] [82 <./figures/fig
+_c_arcs.png (PNG copy)>] [83] [84] [85] [86] [87] [88 <./figures/fig_c_certmap.
+png (PNG copy)>] [89] [90 <./figures/fig_c_cap.png (PNG copy)>] [91] [92]
+[93] [94] [95] [96 <./figures/fig_c_defect.png (PNG copy)>] [97] [98] [99]
+[100 <./figures/fig_chain_plateau.png (PNG copy)>] [101 <./figures/fig_dense_gr
+owth.png (PNG copy)>] [102] [103] [104] [105] [106] [107] [108] [109] [110]
+[111] [112 <./figures/fig_c_swap.png>] [113] [114] [115] [116] [117] [118]
+[119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
+[131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142]
+[143] [144] [145] [146] [147] (./D4.aux) )</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+sy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on D4.pdf (147 pages, 18092060 bytes).
+Transcript written on D4.log.
+Latexmk: Getting log file 'D4.log'
+Latexmk: Examining 'D4.fls'
+Latexmk: Examining 'D4.log'
+Latexmk: Log file says output to 'D4.pdf'
+Latexmk: All targets (D4.pdf) are up-to-date
+
+exit=0

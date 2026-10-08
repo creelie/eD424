@@ -1,0 +1,48 @@
+Thu Sep 24 02:51:48 UTC 2026
+read 127 blocks, 60 of them for irreducible representations (23s)
+objective B X B^T [0,0] for lambda = (0,0): 24  (expected 24)
+read sum-of-squares data (24s)
+read 490 zonal polynomials (511s)
+k=1 sum-of-squares part done (511s)
+      lambda [0, 0], 1 terms (511s)
+  k=1 J1=() J2=(0,) done, 1 terms (511s)
+      lambda [0, 0], 1 terms (511s)
+      lambda [4, 0], 1 terms (511s)
+      lambda [8, 0], 1 terms (511s)
+      lambda [12, 0], 1 terms (511s)
+  k=1 J1=(0,) J2=(0,) done, 1 terms (511s)
+CONSTRAINT 1: HOLDS EXACTLY  (0 nonzero coefficients, 511s)
+    block 0 ('sos2', 1): 15 terms so far (512s, 320 MB)
+    block 1 ('sos2', 2): 15 terms so far (512s, 320 MB)
+k=2 sum-of-squares part done (512s)
+      lambda [0, 0], 17 terms (512s)
+  k=2 J1=() J2=(0, 1) done, 17 terms (512s)
+      lambda [0, 0], 17 terms (512s)
+      lambda [4, 0], 17 terms (512s)
+      lambda [8, 0], 17 terms (512s)
+      lambda [12, 0], 17 terms (512s)
+  k=2 J1=(0,) J2=(1,) done, 17 terms (512s)
+      lambda [0, 0], 17 terms (513s)
+      lambda [4, 0], 17 terms (513s)
+      lambda [8, 0], 17 terms (513s)
+      lambda [12, 0], 17 terms (513s)
+  k=2 J1=(0,) J2=(0, 1) done, 17 terms (513s)
+      lambda [0, 0], 17 terms (513s)
+      lambda [4, 0], 17 terms (514s)
+      lambda [8, 0], 17 terms (514s)
+      lambda [12, 0], 17 terms (514s)
+  k=2 J1=(1,) J2=(0, 1) done, 17 terms (514s)
+      lambda [0, 0], 17 terms (514s)
+      lambda [4, 0], 17 terms (516s)
+      lambda [8, 0], 17 terms (522s)
+      lambda [12, 0], 17 terms (531s)
+  k=2 J1=(0, 1) J2=(0, 1) done, 0 terms (533s)
+CONSTRAINT 2: HOLDS EXACTLY  (0 nonzero coefficients, 533s)
+
+constraint 1  zero
+constraint 2  zero
+
+real	8m53.025s
+user	5m56.654s
+sys	0m8.203s
+exit=0

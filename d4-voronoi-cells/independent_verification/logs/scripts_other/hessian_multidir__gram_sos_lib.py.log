@@ -1,0 +1,9 @@
+$ (cd hessian_multidir && gram_sos_lib.py)
+Validation (a): (x0^2+x1^2+x2^2+x3^2)^2  -- must find SOS
+  status: SOS_FOUND  max_t: 0.9999999877932292
+
+Validation (b): Choi-Lam polynomial -- must NOT find SOS
+  status: NOT_FOUND  max_t: -0.04262189976367506
+
+Both validations passed: this SDP code correctly separates a
+known-SOS quartic from a known nonnegative-but-non-SOS quartic.

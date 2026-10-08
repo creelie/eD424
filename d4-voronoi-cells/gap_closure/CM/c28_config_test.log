@@ -1,0 +1,5 @@
+witness, 12 close: largest pair excess -1.00e-05, U = 2.263412, B = 2.593852, B - U = 0.330440
+D4 + 4 deep holes (pairs violate the packing condition): largest pair excess 9.48e-02, U = 3.196365, B = 3.702009, B - U = 0.505645
+random 0: largest pair excess 4.35e-01, U = 1.117006, B = 23.982032, B - U = 22.865026
+random 1: largest pair excess 3.83e-01, U = 0.842188, B = 13.087637, B - U = 12.245449
+random 2: largest pair excess 3.26e-01, U = 1.127285, B = 12.594724, B - U = 11.467439
