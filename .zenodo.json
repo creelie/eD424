@@ -1,5 +1,6 @@
 {
   "title": "Densest packings of two translates of a lattice in four dimensions",
+  "version": "1.1.0",
   "upload_type": "publication",
   "publication_type": "preprint",
   "creators": [
@@ -9,7 +10,7 @@
       "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
     }
   ],
-  "description": "<p>Let &Lambda; be a lattice in R<sup>4</sup> and b a vector not in &Lambda; such that distinct points of &Lambda; &cup; (&Lambda; + b) are at distance at least 2. We prove that the covolume of &Lambda; is at least 16, with equality only when &Lambda; &cup; (&Lambda; + b) is congruent to &radic;2 D<sub>4</sub>. Thus no packing of unit balls whose centres form two translates of a lattice is denser than the D<sub>4</sub> lattice packing, and every Voronoi cell of such a packing has volume at least 8, the volume of the regular 24-cell.</p><p>The archive contains the paper (PDF, LaTeX sources with PNG figures, arXiv tarball), the exact enumeration of the polyhedron of two-periodic packings, the integer certificates, and independent checks in C, Julia, Lean 4 and Python.</p>",
+  "description": "<p>Let &Lambda; be a lattice in R<sup>4</sup> and b a vector not in &Lambda; such that distinct points of &Lambda; &cup; (&Lambda; + b) are at distance at least 2. We prove that the covolume of &Lambda; is at least 16, with equality only when &Lambda; &cup; (&Lambda; + b) is congruent to &radic;2 D<sub>4</sub>. Thus no packing of unit balls whose centres form two translates of a lattice is denser than the D<sub>4</sub> lattice packing, and every Voronoi cell of such a packing has volume at least 8, the volume of the regular 24-cell.</p><p>The archive contains the paper (PDF, LaTeX sources with PNG figures, arXiv tarball), the exact enumeration of the polyhedron of two-periodic packings, the integer certificates, and independent checks in C, Julia, Lean 4 and Python.</p><p>Version 1.1.0 adds the manuscript in the form submitted to Discrete &amp; Computational Geometry, a copy of the d4-voronoi-cells v2.0.0 code (doi:10.5281/zenodo.23240354) under its own licence, a floating-point test of the statements (G) and (C) of that code on two-periodic packings, and a record of two analytic approaches to (G) and (C) with the points where each stops. The general 24-cell conjecture remains open and is not claimed.</p>",
   "keywords": [
     "sphere packing",
     "periodic packing",
@@ -28,6 +29,12 @@
       "identifier": "https://github.com/creelie/eD424",
       "relation": "isSupplementedBy",
       "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.23240354",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
     }
   ],
   "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
