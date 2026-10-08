@@ -55,6 +55,7 @@ unit balls in R⁴, remain open and are not claimed here.
 
 ```sh
 scripts/build_paper.sh                 # dist/*.pdf, *-tex.zip, *-arxiv.tar.gz
+scripts/build_submission.sh            # build/submission: PDF and source zip (Fig1, Fig2 as PDF and EPS)
 verification/shell/run_all.sh          # C, Julia, Lean 4 and Python checks
 verification/shell/run_all.sh --full   # also recompute R from scratch
 ```
