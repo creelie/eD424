@@ -2,6 +2,13 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Densest packings of two translates of a lattice in four dimensions"
 type: software
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23239767
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.23239768
+    description: Version 1.0.0
 authors:
   - family-names: Bhattacharjee
     given-names: Deep
@@ -11,6 +18,7 @@ authors:
 version: 1.0.0
 date-released: 2026-10-08
 license: MIT
+doi: 10.5281/zenodo.23239767
 repository-code: "https://github.com/creelie/eD424"
 keywords:
   - sphere packing
