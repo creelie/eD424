@@ -1,0 +1,34 @@
+{
+  "title": "Densest packings of two translates of a lattice in four dimensions",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X",
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    }
+  ],
+  "description": "<p>Let &Lambda; be a lattice in R<sup>4</sup> and b a vector not in &Lambda; such that distinct points of &Lambda; &cup; (&Lambda; + b) are at distance at least 2. We prove that the covolume of &Lambda; is at least 16, with equality only when &Lambda; &cup; (&Lambda; + b) is congruent to &radic;2 D<sub>4</sub>. Thus no packing of unit balls whose centres form two translates of a lattice is denser than the D<sub>4</sub> lattice packing, and every Voronoi cell of such a packing has volume at least 8, the volume of the regular 24-cell.</p><p>The archive contains the paper (PDF, LaTeX sources with PNG figures, arXiv tarball), the exact enumeration of the polyhedron of two-periodic packings, the integer certificates, and independent checks in C, Julia, Lean 4 and Python.</p>",
+  "keywords": [
+    "sphere packing",
+    "periodic packing",
+    "D4 lattice",
+    "24-cell",
+    "Voronoi cell",
+    "Ryshkov polyhedron",
+    "52C17",
+    "11H31",
+    "11H55"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/creelie/eD424",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
+}

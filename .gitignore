@@ -1,0 +1,12 @@
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+# Python
+__pycache__/
+*.pyc
+# local builds of the C check
+verification/c/check_polyhedron
+paper/main.pdf

@@ -1,0 +1,54 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{tikz-3dplot}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{arrows.meta,calc}
+\begin{document}
+\tdplotsetmaincoords{58}{-14}
+\begin{tikzpicture}[tdplot_main_coords,scale=1.45,line join=round,line cap=round,
+  >={Stealth[length=2.6mm,width=1.8mm]}]
+  % a piece of R: a prism over the pentagon F (its top face, z = h)
+  \def\h{1.5}
+  \coordinate (A) at (0,0,\h);
+  \coordinate (B) at (4.2,0,\h);
+  \coordinate (C) at (4.6,2.6,\h);
+  \coordinate (D) at (2.2,3.8,\h);
+  \coordinate (E) at (-0.4,2.4,\h);
+  \coordinate (A0) at (0,0,0);
+  \coordinate (B0) at (4.2,0,0);
+  \coordinate (C0) at (4.6,2.6,0);
+  \coordinate (D0) at (2.2,3.8,0);
+  \coordinate (E0) at (-0.4,2.4,0);
+  % hidden edges
+  \draw[gray!55,dashed] (B0)--(C0)--(D0)--(E0)--(A0) (C0)--(C) (D0)--(D) (E0)--(E);
+  % the visible side face
+  \fill[blue!8] (A)--(B)--(B0)--(A0)--cycle;
+  \draw[gray!75] (A)--(A0)--(B0)--(B);
+  % the face F
+  \fill[orange!8] (A)--(B)--(C)--(D)--(E)--cycle;
+  \draw[black!80,thick] (A)--(B)--(C)--(D)--(E)--cycle;
+  % F cap {sigma > 0}
+  \fill[teal!22,draw=teal!70!black,thick]
+    plot[smooth cycle,domain=0:350,samples=36,variable=\t]
+    ({2.2+1.3*cos(\t)},{1.7+0.75*sin(\t)},\h);
+  % J on the boundary (angle 225), chord along the tangent
+  \coordinate (J)  at (1.2808,1.1697,\h);
+  \coordinate (J1) at (3.3044,0,\h);
+  \coordinate (J2) at (-0.3520,2.1120,\h);
+  \draw[red!70!black,very thick] (J2)--(J1);
+  \draw[->,red!70!black,very thick] (J)--($(J)!0.7!(J1)$);
+  % along the edge AB from J1 to the vertex B
+  \draw[->,blue!60!black,very thick] (J1)--($(J1)!0.72!(B)$);
+  \fill[black] (J) circle (1.0pt);
+  \fill[red!70!black] (J1) circle (1.2pt);
+  \fill[red!70!black] (J2) circle (1.0pt);
+  \fill[blue!60!black] (B) circle (1.2pt);
+  % labels
+  \node[anchor=north east,inner sep=2pt] at (J) {$J$};
+  \node[anchor=north,inner sep=3pt] at (J1) {$J_1$};
+  \node[anchor=north west,inner sep=2.5pt,blue!50!black] at (B) {vertex};
+  \node[teal!35!black] at (2.45,1.85,\h) {$\sigma>0$};
+  \node[orange!45!black] at (3.6,2.9,\h) {$F$};
+  \node[red!60!black,anchor=west,inner sep=1pt] at (0.05,2.5,\h) {$\sigma\le0$};
+  \node[gray!60!black] at (2.1,0,0.55) {$\mathcal R$};
+\end{tikzpicture}
+\end{document}
