@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Densest packings of two translates of a lattice in four dimensions"
+type: software
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+    affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    email: d.bhattacharjee@erl-forschung.de
+version: 1.0.0
+date-released: 2026-10-08
+license: MIT
+repository-code: "https://github.com/creelie/eD424"
+keywords:
+  - sphere packing
+  - periodic packing
+  - D4 lattice
+  - 24-cell
+  - Voronoi cell
+  - Ryshkov polyhedron
+abstract: >-
+  Let Λ be a lattice in R^4 and b a vector not in Λ such that distinct points
+  of Λ ∪ (Λ + b) are at distance at least 2. We prove that the covolume of Λ
+  is at least 16, with equality only when Λ ∪ (Λ + b) is congruent to √2 D4.
+  Thus no packing of unit balls whose centres form two translates of a
+  lattice is denser than the D4 lattice packing, and every Voronoi cell of
+  such a packing has volume at least 8, the volume of the regular 24-cell.
