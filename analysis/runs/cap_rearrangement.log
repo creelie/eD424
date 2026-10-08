@@ -1,0 +1,15 @@
+N = 20: vol(V) >= N F(1, 2 pi^2/N) = 8.349750
+N = 21: vol(V) >= N F(1, 2 pi^2/N) = 8.189905
+N = 22: vol(V) >= N F(1, 2 pi^2/N) = 8.046376
+N = 23: vol(V) >= N F(1, 2 pi^2/N) = 7.916728
+N = 24: vol(V) >= N F(1, 2 pi^2/N) = 7.798989
+N = 25: vol(V) >= N F(1, 2 pi^2/N) = 7.691550
+N = 26: vol(V) >= N F(1, 2 pi^2/N) = 7.593078
+N = 27: vol(V) >= N F(1, 2 pi^2/N) = 7.502465
+N = 28: vol(V) >= N F(1, 2 pi^2/N) = 7.418778
+N = 29: vol(V) >= N F(1, 2 pi^2/N) = 7.341230
+N = 30: vol(V) >= N F(1, 2 pi^2/N) = 7.269147
+N = 24: cap of area 2 pi^2/24 has angular radius 0.595134 and cone volume 0.324958;
+        the octahedral region of a facet of the 24-cell has cone volume 0.333333
+the bound misses 8 by 0.201011: an argument for (G) has to use the shape of the regions,
+not only their areas

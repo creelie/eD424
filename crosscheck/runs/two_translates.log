@@ -1,0 +1,20 @@
+22 candidate packings from the vertex and edge table
+33 packings skipped: their cells are too long for the enumeration
+cell volume from the Gram matrix and from the half-spaces: largest relative difference 3.0e-15
+least cell volume: 8.000000 (the paper proves >= 8, equality only for sqrt2 D4)
+prop:inversion-hull, vol(V_0) >= vol(V(Y) n K(Y)): 917 packings, 0 failures
+number of centres within sqrt 6: 1: 137 packings, 2: 59 packings, 3: 26 packings, 4: 18 packings, 5: 20 packings, 6: 4 packings, 7: 5 packings, 8: 4 packings, 10: 3 packings, 11: 2 packings, 12: 3 packings, 13: 1 packings, 14: 1 packings, 15: 3 packings, 16: 4 packings, 17: 2 packings, 18: 5 packings, 19: 8 packings, 20: 27 packings, 21: 16 packings, 22: 22 packings, 23: 27 packings, 24: 792 packings
+(G): 54 packings with |Y| = 24 and T <= 8
+     least vol(V(Y) n K(Y)) = 8.000000 at edge 228 from J_1, t = 2.000000 (T = 7.906940, det Q = 256.0000)
+     (G) fails at 0 of them
+(C): 0 packings with |Y| >= 25
+25 centres within sqrt 6 on purpose: 48 local minima of T from 48 starts
+     least T = 8.658237, with |Y| = 26 and det Q = 336.0001; distances:
+     2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.0000 2.3664 2.3664 2.4495 2.4495 2.4495 2.4495 2.4495 2.4495
+     (C) fails at 0 of them
+least T over all packings: 7.906940 at vertex J_0 (|Y| = 24, cell 8.000000)
+floating point: a consistency check, not a proof
+
+real	0m45.569s
+user	1m9.284s
+sys	0m1.487s
