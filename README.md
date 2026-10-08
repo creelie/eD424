@@ -65,7 +65,12 @@ may point to binaries that are not on `PATH`.
 
 ## Citation
 
-See `CITATION.cff`. Each release is archived on Zenodo with a DOI.
+Deep Bhattacharjee, *Densest packings of two translates of a lattice in four
+dimensions*, Zenodo, 2026.
+[doi:10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767)
+(all versions; v1.0.0 is
+[doi:10.5281/zenodo.23239768](https://doi.org/10.5281/zenodo.23239768)).
+See also `CITATION.cff`.
 
 ## License
 
