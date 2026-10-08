@@ -34,7 +34,7 @@
 \newcommand{\GL}{\mathrm{GL}}
 \newcommand{\cand}{\mathcal{C}}
 \hypersetup{pdftitle={Densest packings of two translates of a lattice in four dimensions},pdfauthor={Deep Bhattacharjee}}
-\providecommand{\doi}[1]{\href{https://doi.org/#1}{doi:\nolinkurl{#1}}}
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
 
 \begin{document}
 
@@ -45,12 +45,13 @@
 \email{d.bhattacharjee@erl-forschung.de}
 \email{itsdeep@live.com}
 \urladdr{https://orcid.org/0000-0003-0466-750X}
+\thanks{Corresponding author: \href{mailto:d.bhattacharjee@erl-forschung.de}{d.bhattacharjee@erl-forschung.de}; ORCID \href{https://orcid.org/0000-0003-0466-750X}{\mbox{0000-0003-0466-750X}}}
 
 \subjclass[2020]{Primary 52C17; Secondary 11H31, 11H55}
 \keywords{sphere packing, periodic packing, $D_4$ lattice, $24$-cell, Voronoi cell, Ryshkov polyhedron}
 
 \begin{abstract}
-Let $\Lambda\subset\R^4$ be a lattice and $b\in\R^4\setminus\Lambda$ a vector such that distinct points of $\Lambda\cup(\Lambda+b)$ are at distance at least $2$. We prove that the covolume of $\Lambda$ is at least $16$, with equality only when $\Lambda\cup(\Lambda+b)$ is congruent to $\sqrt2\,D_4$. Thus no packing of unit balls whose centres form two translates of a lattice is denser than the $D_4$ lattice packing, and every Voronoi cell of such a packing has volume at least $8$, the volume of the regular $24$-cell.
+Let $\Lambda$ be a lattice in $\R^4$ and $b$ a vector outside $\Lambda$ such that any two distinct points of $\Lambda\cup(\Lambda+b)$ are at distance at least $2$. We prove that the covolume of $\Lambda$ is at least $16$, with equality only when $\Lambda\cup(\Lambda+b)$ is congruent to $\sqrt2\,D_4$. Thus no packing of unit balls whose centres form two translates of a lattice in $\R^4$ is denser than the $D_4$ lattice packing, and every Voronoi cell of such a packing has volume at least $8$, the volume of the regular $24$-cell, as Musin's $24$-cell conjecture predicts. The packing condition on the Gram matrix of a basis of $\Lambda$ together with $b$ cuts out a locally finite polyhedron. The concavity of $\log\det$ and of a Schur complement reduces the problem to the vertices and edges of this polyhedron. Up to integral symmetries it has ten vertices and $1137$ edges at them. This finite table is computed in exact arithmetic and re-checked by four independent programs; every other step is proved by hand.
 \end{abstract}
 
 \maketitle
@@ -470,7 +471,7 @@ Let the centres be $P=\Lambda\cup(\Lambda+b)$, $b\notin\Lambda$; if $b\in\Lambda
 
 \section{Computation and verification}\label{app:verification}
 
-The computation behind Proposition~\ref{prop:computation} follows~\cite{AK2020} and Voronoi's algorithm~\cite{Voronoi1908,Schuermann2009}, in exact arithmetic throughout. All files are in the repository listed under Data availability; the script \nolinkurl{verification/shell/run_all.sh} runs every check.
+The computation behind Proposition~\ref{prop:computation} follows~\cite{AK2020} and Voronoi's algorithm~\cite{Voronoi1908,Schuermann2009}, in exact arithmetic throughout. All files are archived with the paper~\cite{Bhattacharjee2026}; the script \nolinkurl{verification/shell/run_all.sh} runs every check. The author used Claude (Anthropic), an AI system, for programming, computation and drafting; the author checked the mathematics and is responsible for the content.
 
 \subsection*{Enumeration} Starting from $J_0$, for each new vertex $J$ the program \texttt{ryshkov2.py} (Python, rational arithmetic) computes $\Min(J)$ by the enumeration method of Fincke and Pohst, applied to the forms of Lemma~\ref{lem:sigma}(1) with rational bounds for the square roots; computes the extreme rays of $C_J$ with \texttt{cddlib} in GMP rational arithmetic; for each ray $Y$ decides whether $t^*=\infty$ and otherwise finds $t^*$ exactly (by the sign pattern of $Q(Y)$, a unimodular reduction of its kernel, and a descent through crossing points $t=(J[k]-4)/(-Y[k])$); and tests $\Gamma$-equivalence of $J+t^*Y$ with the known vertices by a backtracking search over images of minimal vectors. The search closes after ten classes and $1137$ rays, and \texttt{certify.py} writes the certificates of Proposition~\ref{prop:computation} as integer tables.
 
@@ -483,17 +484,22 @@ The computation behind Proposition~\ref{prop:computation} follows~\cite{AK2020} 
 \end{enumerate}
 Floating-point numbers appear only in the C program, to choose enumeration boxes, which are widened by two units in every coordinate; every decision is made in integer arithmetic. The Gram determinants $144+64\sqrt5$ and $320$ of the non-maximal candidates agree with the densities $2/\sqrt{144+64\sqrt5}$ and $1/(4\sqrt5)$ reported in~\cite[\S4.2]{AK2020}.
 
-\section*{Data availability}
-The code, the data and the certificates are available at \url{https://github.com/creelie/eD424} and are archived on Zenodo, \doi{10.5281/zenodo.23239767}.
+\section*{Statements and Declarations}
 
-\section*{Acknowledgement}
-The author used Claude (Anthropic), an AI system, for programming, computation and drafting; the author checked the mathematics and is responsible for the content.
+\subsection*{Funding} No funding was received for conducting this study.
+
+\subsection*{Competing interests} The author has no competing interests to declare that are relevant to the content of this article.
+
+\subsection*{Data and code availability} The code, the data and the certificates of Appendix~\ref{app:verification} are available at \url{https://github.com/creelie/eD424} and are archived on Zenodo~\cite{Bhattacharjee2026}.
 
 {\raggedright
 \begin{thebibliography}{99}
 
 \bibitem{AK2020}
 A.~Andreanov and Y.~Kallus, \emph{Locally optimal 2-periodic sphere packings}, Discrete Comput. Geom. \textbf{63} (2020), 182--208. \doi{10.1007/s00454-019-00150-6}
+
+\bibitem{Bhattacharjee2026}
+D.~Bhattacharjee, \emph{Densest packings of two translates of a lattice in four dimensions: paper, code and certificates}, Zenodo, 2026. \doi{10.5281/zenodo.23239767}
 
 \bibitem{Cassels1959}
 J.~W.~S. Cassels, \emph{An Introduction to the Geometry of Numbers}, Grundlehren Math. Wiss. 99, Springer, Berlin, 1959. \doi{10.1007/978-3-642-62035-5}

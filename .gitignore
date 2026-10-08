@@ -10,3 +10,4 @@ __pycache__/
 # local builds of the C check
 verification/c/check_polyhedron
 paper/main.pdf
+build/
