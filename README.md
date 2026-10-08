@@ -72,7 +72,8 @@ may point to binaries that are not on `PATH`.
 Deep Bhattacharjee, *Densest packings of two translates of a lattice in four
 dimensions*, Zenodo, 2026.
 [doi:10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767)
-(all versions; v1.0.0 is
+(all versions; v1.1.0 is
+[doi:10.5281/zenodo.23242482](https://doi.org/10.5281/zenodo.23242482) and v1.0.0 is
 [doi:10.5281/zenodo.23239768](https://doi.org/10.5281/zenodo.23239768)).
 See also `CITATION.cff`.
 
