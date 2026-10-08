@@ -1,0 +1,68 @@
+Thu Sep 24 05:14:34 UTC 2026
+lambda [0, 0]     least eigenvalue / scale =  -2.701e-16 
+lambda [1, 0]     least eigenvalue / scale =  -2.604e-16 
+lambda [2, 0]     least eigenvalue / scale =  -2.778e-16 
+lambda [2, 1]     least eigenvalue / scale =  -3.381e-16 
+lambda [2, 2]     least eigenvalue / scale =  -3.613e-16 
+lambda [3, 0]     least eigenvalue / scale =  -1.762e-16 
+lambda [3, 1]     least eigenvalue / scale =  -5.856e-16 
+lambda [3, 2]     least eigenvalue / scale =  -2.755e-16 
+lambda [4, 0]     least eigenvalue / scale =  -2.316e-16 
+lambda [4, 1]     least eigenvalue / scale =  -4.042e-16 
+lambda [4, 2]     least eigenvalue / scale =  -2.606e-16 
+lambda [4, 3]     least eigenvalue / scale =  -1.882e-16 
+lambda [4, 4]     least eigenvalue / scale =  -1.930e-16 
+lambda [5, 0]     least eigenvalue / scale =  -2.079e-16 
+lambda [5, 1]     least eigenvalue / scale =  -2.263e-16 
+lambda [5, 2]     least eigenvalue / scale =  -4.933e-16 
+lambda [5, 3]     least eigenvalue / scale =  -1.361e-16 
+lambda [5, 4]     least eigenvalue / scale =  -1.835e-16 
+lambda [6, 0]     least eigenvalue / scale =  -2.362e-16 
+lambda [6, 1]     least eigenvalue / scale =  -3.424e-16 
+lambda [6, 2]     least eigenvalue / scale =  -2.941e-16 
+lambda [6, 3]     least eigenvalue / scale =  -2.614e-16 
+lambda [6, 4]     least eigenvalue / scale =  -3.864e-16 
+lambda [6, 5]     least eigenvalue / scale =  -1.110e-16 
+lambda [6, 6]     least eigenvalue / scale =  -5.246e-17 
+lambda [7, 0]     least eigenvalue / scale =  -2.168e-16 
+lambda [7, 1]     least eigenvalue / scale =  -2.893e-16 
+lambda [7, 2]     least eigenvalue / scale =  -4.343e-16 
+lambda [7, 3]     least eigenvalue / scale =  -3.671e-16 
+lambda [7, 4]     least eigenvalue / scale =  -2.161e-16 
+lambda [7, 5]     least eigenvalue / scale =  -1.562e-16 
+lambda [7, 6]     least eigenvalue / scale =  -1.818e-16 
+lambda [8, 0]     least eigenvalue / scale =  -2.757e-16 
+lambda [8, 1]     least eigenvalue / scale =  -2.037e-16 
+lambda [8, 2]     least eigenvalue / scale =  -3.432e-16 
+lambda [8, 3]     least eigenvalue / scale =  -3.194e-16 
+lambda [8, 4]     least eigenvalue / scale =  -2.058e-16 
+lambda [8, 5]     least eigenvalue / scale =  -9.969e-17 
+lambda [8, 6]     least eigenvalue / scale =  -1.671e-16 
+lambda [9, 0]     least eigenvalue / scale =  -2.757e-16 
+lambda [9, 1]     least eigenvalue / scale =  -3.324e-16 
+lambda [9, 2]     least eigenvalue / scale =  -1.524e-16 
+lambda [9, 3]     least eigenvalue / scale =  -4.821e-16 
+lambda [9, 4]     least eigenvalue / scale =  -2.014e-16 
+lambda [9, 5]     least eigenvalue / scale =  -2.443e-16 
+lambda [10, 0]    least eigenvalue / scale =  -1.468e-16 
+lambda [10, 1]    least eigenvalue / scale =  -1.761e-16 
+lambda [10, 2]    least eigenvalue / scale =  -2.361e-16 
+lambda [10, 3]    least eigenvalue / scale =  -2.629e-16 
+lambda [10, 4]    least eigenvalue / scale =  -3.023e-16 
+lambda [11, 0]    least eigenvalue / scale =  -1.079e-16 
+lambda [11, 1]    least eigenvalue / scale =  -2.398e-16 
+lambda [11, 2]    least eigenvalue / scale =  -1.891e-16 
+lambda [11, 3]    least eigenvalue / scale =  -2.759e-16 
+lambda [12, 0]    least eigenvalue / scale =  -2.112e-16 
+lambda [12, 1]    least eigenvalue / scale =  -1.276e-16 
+lambda [12, 2]    least eigenvalue / scale =  -1.183e-16 
+lambda [13, 0]    least eigenvalue / scale =  -1.055e-16 
+lambda [13, 1]    least eigenvalue / scale =  -3.193e-16 
+lambda [14, 0]    least eigenvalue / scale =  -1.606e-16 
+
+60 signatures tested, 0 with a negative eigenvalue
+
+real	6m30.774s
+user	5m40.332s
+sys	0m0.226s
+exit=0

@@ -1,0 +1,30 @@
+$ (cd multi_cap && root_deletions_exact.py)
+exact vertex enumeration of the punctured root cells
+  points where four root hyperplanes meet: 5040
+
+j = 1:  24 ways of removing j roots
+  cells of circumradius above 2: 0
+  of the rest, cells where a removed root is not attained: 0
+  of the rest, cells attaining a direction that is not a removed root: 0
+
+j = 2:  276 ways of removing j roots
+  cells of circumradius above 2: 0
+  of the rest, cells where a removed root is not attained: 0
+  of the rest, cells attaining a direction that is not a removed root: 0
+
+j = 3:  2024 ways of removing j roots
+  cells of circumradius above 2: 96
+  of the rest, cells where a removed root is not attained: 0
+  of the rest, cells attaining a direction that is not a removed root: 0
+    example (0, 4, 8): squared circumradius 4 * 12/(2 * 4) = 6.0000000000   (6 = 6.0000000000)
+
+conclusion
+  Removing one or two roots leaves a cell of circumradius exactly
+  2 whose only points of that norm are twice the removed roots, so
+  a contact configuration meeting a D_4 root system in 22 or more
+  directions lies inside it.
+  Removing three leaves the same picture except at the 96 triples
+  that are pairwise at 60 degrees, where the circumradius is
+  sqrt6 and a region of further directions opens; root_meet.py
+  shows that no two directions of that region are 60 degrees
+  apart unless both are removed roots.

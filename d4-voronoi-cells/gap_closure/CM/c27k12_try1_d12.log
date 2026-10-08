@@ -1,0 +1,4 @@
+resumed from c27k10_d10_r2_thin.npz, all samples kept
+   direct: 12513 variables, 54493 inequalities, 11739 psd rows in 64 cones, 56985771 nonzeros [19 s to build]
+PEAK_RSS_GB 8.04 exit -9
+killed by the memory limit at about 08:18 UTC in round 1, after 53 minutes (a Lean rerun was started beside it); restarted at 08:22 UTC

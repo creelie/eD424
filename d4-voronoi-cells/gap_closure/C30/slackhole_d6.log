@@ -1,0 +1,14 @@
+T = [[0.50795 0.61403]
+ [0.61403 0.66667]]
+  prob.solve(solver='CLARABEL', max_iter=400)
+d=6 round 1: optimal_inaccurate Val=-4.4695e-07 corrected=1.9877e-04  maxviol=1.3e-07  [193 s]
+d=6 round 2: optimal_inaccurate Val=-1.0993e-07 corrected=5.3686e-05  maxviol=3.9e-08  [136 s]
+T = [[0.5161  0.6158 ]
+ [0.6158  0.66667]]
+  prob.solve(solver='CLARABEL', max_iter=400)
+d=6 round 1: optimal_inaccurate Val=4.3937e-08 corrected=2.4079e-06  maxviol=8.4e-10  [133 s]
+d=6 round 2: optimal_inaccurate Val=1.7133e-08 corrected=3.6095e-07  maxviol=9.9e-11  [121 s]
+T = [[0.52409 0.6176 ]
+ [0.6176  0.66667]]
+  prob.solve(solver='CLARABEL', max_iter=400)
+d=6 round 1: optimal_inaccurate Val=6.5234e-08 corrected=1.9754e-06  maxviol=7.0e-10  [110 s]

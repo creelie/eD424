@@ -1,0 +1,13 @@
+   direct: 17479 variables, 97800 inequalities, 9761 psd rows in 57 cones, 45595229 nonzeros [14 s to build]
+   480 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 3.03176 (target 3.10330), corrected <= 6.97937  [2580 s]
+   viol: AA 4.6e-08, AB -3.9e-07, AC 1.5e-06, AF 2.4e-07, BB -1.3e-06, BC -5.5e-06, BF -1.8e-06, CC -5.7e-08, CF 2.8e-06, FF 1.9e-08, AAA 2.2e-04, AAB 6.4e-04, AAC 2.3e-03, AAF 1.8e-03, ABB 9.5e-04, ABC 1.6e-03, ABF 1.3e-03, ACC 1.1e-03, ACF 2.4e-03, AFF 1.6e-03, BBB 3.9e-04, BBC 4.5e-04, BBF 1.0e-03, BCC 9.6e-04, BCF 1.1e-03, BFF 2.9e-04, CCC 5.1e-04, CCF 4.2e-04, CFF 8.5e-04, FFF 1.6e-04
+   c2: {'AA': -0.035766, 'AB': -0.040114, 'AC': -0.017199, 'AF': -0.007339, 'BB': -0.041168, 'BC': -0.021021, 'BF': -0.008175, 'CC': 0.002679, 'CF': 0.011792, 'FF': 0.043398}
+   c3: {'AAA': 0.002892, 'AAB': 0.0031444, 'AAC': 0.0023021, 'AAF': 0.0021205, 'ABB': 0.0032821, 'ABC': 0.002589, 'ABF': 0.0023387, 'ACC': 0.0019085, 'ACF': 0.001663, 'AFF': 0.0002515, 'BBB': 0.0033419, 'BBC': 0.0027318, 'BBF': 0.0023429, 'BCC': 0.0022986, 'BCF': 0.0019055, 'BFF': 0.0004433, 'CCC': 0.0017275, 'CCF': 0.0012094, 'CFF': -0.0002229, 'FFF': 0.0077192}
+   direct: 17479 variables, 112040 inequalities, 9761 psd rows in 57 cones, 53996099 nonzeros [15 s to build]
+   480 type-count vectors
+d3=8 round 2: optimal_inaccurate  bound 3.11169 (target 3.10330), corrected <= 4.23131  [3043 s]
+   viol: AA 5.9e-08, AB 5.4e-04, AC 3.3e-07, AF 1.6e-06, BB 1.2e-03, BC -3.0e-05, BF -9.4e-06, CC -1.2e-06, CF 1.8e-06, FF 1.2e-08, AAA 7.2e-05, AAB 1.3e-04, AAC 3.2e-04, AAF 5.0e-05, ABB 3.3e-05, ABC 4.0e-04, ABF 2.8e-04, ACC 2.8e-04, ACF 7.7e-04, AFF 4.5e-04, BBB 3.1e-06, BBC 5.2e-04, BBF 4.2e-04, BCC 8.4e-04, BCF 4.7e-04, BFF 2.9e-04, CCC 1.7e-04, CCF 1.5e-03, CFF 8.2e-04, FFF 3.1e-04
+   c2: {'AA': 0.032903, 'AB': 0.01976, 'AC': 0.018056, 'AF': 0.05283, 'BB': 0.008563, 'BC': 0.005468, 'BF': 0.038976, 'CC': 0.00875, 'CF': 0.030337, 'FF': 0.072514}
+   c3: {'AAA': 0.0015646, 'AAB': 0.002181, 'AAC': 0.0022884, 'AAF': 0.0009816, 'ABB': 0.0027217, 'ABC': 0.002845, 'ABF': 0.0016549, 'ACC': 0.0025814, 'ACF': 0.0018411, 'AFF': 0.0001752, 'BBB': 0.0031805, 'BBC': 0.0033686, 'BBF': 0.0022072, 'BCC': 0.003422, 'BCF': 0.0026351, 'BFF': 0.0009473, 'CCC': 0.0039423, 'CCF': 0.0036835, 'CFF': 0.001623, 'FFF': 0.0083801}
+   direct: 17479 variables, 112040 inequalities, 9761 psd rows in 57 cones, 54068469 nonzeros [13 s to build]

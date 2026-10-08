@@ -1,0 +1,11 @@
+$ (cd arc2_w1v2 && region_top_bernstein2.py)
+N: 139 terms, degree (w=12,v2=21)
+D: 71 terms, degree (w=10,v2=20)
+Bernstein transforms done, 0.6s
+N: 286 positive, 0 zero, 0 negative  (of 286)
+D: 231 positive, 0 zero, 0 negative  (of 231)
+total time: 1.4s
+zero coords N: [] 
+zero coords D: [] 
+neg coords N: []
+neg coords D: []

@@ -1,0 +1,10 @@
+$ (cd arc2_w1v2 && w1v2_full_classification.py)
+<B,u1> = sin(t)*sin(theta) + cos(theta)
+<C,u1> = sqrt(2)*sin(theta)*sin(t + pi/4)
+B-curve solve: [0, sin(t)]  -> nontrivial root should be sin(t)
+
+B-curve exact: tan(theta/2) = sin(t)  =>  theta = 2*arctan(sin t)
+C-curve exact: sin(theta)*(cos(t)+sin(t)) = 1
+
+max breakpoints seen at any sampled t: 4
+ALL BREAKPOINTS EXPLAINED BY THE 4 CURVES (universal,W,B,C): True

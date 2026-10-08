@@ -1,0 +1,26 @@
+The cached intermediates in data/, rewritten by the scripts of the package in the scratch clone,
+compared with the committed files.
+
+rewritten byte-identically (29 files), among them every output of the *_derive.py steps:
+  regionA_data, regionA_ND, regionC_data, regionC_ND, regionD_data, regionD_ND, regionE_data,
+  regionE_ND, region6_data, region6_ND, region_top_data, region_top_ND, region_top_coeffs,
+  region4_sym_vertex, region4b_boxcover_results, group_totals, group_totals_0to3, group4_total,
+  theta_c_bisect, F_swap_closed_form, F_swap_combined_ext, swap_exact_verts, swap_quads_theta03,
+  all_breaks.npy, thetas.npy, Fmat_v1w1.npy, Fmat_w1v2.npy, swap_simplices_theta03.npy,
+  swap_verts_theta03.npy
+
+rewritten with different bytes, compared by value (sympy expressions by simplify(a - b) == 0):
+  crossover_totals.pkl              EQUAL in value
+  region4_sym_data.pkl              EQUAL in value
+  swap_exact_verts_rational.pkl     EQUAL in value
+  swap_vol_terms.pkl                EQUAL in value
+
+not rewritten by any script within its time limit (13 files): bandC_step2_cache, bandC_step3_cache,
+  region2_ND, region2_fixed, region2_vol_moving, region4a_PQ, region4a_PQ2, region4a_coeffs,
+  region4a_exact_coeffs, region_uv_ND, swap_signed_vol_raw, vol_moving_dtheta, vol_moving_terms.
+  Their consumers ran on the committed files and passed.
+
+rewritten floating-point solver output in multi_cap/continuation_out/ (different cvxpy/Clarabel
+  version; exploration): m24_primal_d6.npy, m24_dir_d10/12/14.npy, and certificate_d8.npz by a
+  re-run of three_point_sdp.py.  The committed certificate is the one certificate_check.py and the
+  Lean files verify, and it was checked before any SDP script ran.

@@ -1,0 +1,25 @@
+$ (cd multi_cap && three_point_reduction.py)
+======================================================================
+Part 1: the pair-only bound (P), integration to r_*
+======================================================================
+  r_23 = 34.6106 deg, r_* = 35.2644 deg, r_4 = 37.7612 deg
+  [r_23] A = 7.916728, omega(60) = 0.00092224, deletion (88 tight pairs) = 7.997885, pairs at 60 needed for 8: 90.29, sec(R) = 1.215021
+  [r_*] A = 7.907144, omega(60) = 0.00144541, deletion (88 tight pairs) = 8.034340, pairs at 60 needed for 8: 64.24, sec(R) = 1.224745
+  omega_*(gamma) at 60, 62, 64, 66, 68, 70 degrees: 1.445e-03, 8.023e-04, 3.760e-04, 1.312e-04, 2.390e-05, 2.287e-07; zero from 70.529 degrees
+
+======================================================================
+Part 2: the three-point bound (T), integration to r_4
+======================================================================
+  A_4 = 7.647558, omega_4(60) = 0.00565947, omega_3(60,60,60) = 5.647e-05 (Monte Carlo, 8000000 points)
+  deletion: 88 tight pairs, 84 tight triangles: 8.140848  (quadrature 8.14068)
+  root system, 24 contacts: 96 tight pairs, 96 tight triangles: 7.968684 (quadrature 7.96841; the truncation drops the deep holes)
+  target for (T): sum omega_4 - sum omega_3 >= 8 - A_4 = 0.352442, that is 62.27 pairs at 60 degrees before the triple term
+
+======================================================================
+Part 3: the pair-angle relaxation of (P)
+======================================================================
+  [r_23] minimum of the relaxation 0.041568 against the target 0.083272: 49.9 per cent; support (degrees, mass): [(62.3, 46.9), (62.4, 56.8), (103.0, 12.2), (103.1, 77.8), (122.6, 35.7), (122.7, 3.5), (154.1, 5.8), (154.2, 14.4)]
+  [r_*] minimum of the relaxation 0.073805 against the target 0.092856: 79.5 per cent; support (degrees, mass): [(62.3, 46.9), (62.4, 56.8), (103.0, 12.2), (103.1, 77.8), (122.6, 35.7), (122.7, 3.5), (154.1, 5.8), (154.2, 14.4)]
+
+(P) and (T) are exact identities for the truncated volume and valid lower bounds for vol(V).
+The relaxation of Part 3 is a lower bound for the pair sum over a grid of angles; it is not a proof.

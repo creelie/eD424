@@ -1,0 +1,17 @@
+$ (cd arc1_v1w1 && classify_breakpoints_reduced.py)
+Total curve segments tracked: 5
+  Curve 0: 40 pts, t in [0.000,0.785], theta from 1.0472 to 1.0472
+  Curve 1: 39 pts, t in [0.020,0.785], theta from 0.0403 to 0.7854
+  Curve 2: 22 pts, t in [0.020,0.443], theta from 1.3728 to 0.8491
+  Curve 3: 36 pts, t in [0.081,0.785], theta from 1.5675 to 1.2310
+  Curve 4: 8 pts, t in [0.624,0.765], theta from 1.0579 to 1.2117
+
+Testing hypothesis: Curve 1 (the 'low' branch) is exactly theta = t:
+  t=0.0201  theta=0.0403  diff from t: 2.01e-02
+  t=0.1208  theta=0.2399  diff from t: 1.19e-01
+  t=0.2215  theta=0.4326  diff from t: 2.11e-01
+  t=0.3222  theta=0.6134  diff from t: 2.91e-01
+  t=0.4229  theta=0.7789  diff from t: 3.56e-01
+  t=0.5236  theta=0.8213  diff from t: 2.98e-01
+  t=0.6243  theta=0.7986  diff from t: 1.74e-01
+  t=0.7250  theta=0.7872  diff from t: 6.22e-02

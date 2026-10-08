@@ -1,0 +1,16 @@
+$ (cd multi_cap && saturation_search.py)
+[PASS] root system: g = 1/sqrt(2), circumradius sqrt(2)
+       g = 0.707106781186547   1/g = 1.414213562373095
+[PASS] all 24 deletions: g = 1/2, circumradius 2
+       spread over the 24 deletions: 0.000e+00
+[PASS] no 23-point code is a single cyclic orbit
+       528 rotation types tested by linear programming; feasible: 0
+       smallest violation over all 528, at 60 digits: 0.0740002839473, at (a,b) = (8, 17)
+       so no contact configuration of 23 directions has a transitive symmetry group
+[PASS] no saturated configuration found
+       starts 202, codes reached 12
+       largest g attained: 0.500000000000
+       inner products of the best outcome: -1.0 x11, -0.5 x88, +0.0 x66, +0.5 x88
+
+4 checks, 4 passed
+This is exploration. It is not evidence that no saturated configuration exists.

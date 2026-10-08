@@ -1,0 +1,5 @@
+$ (cd arc1_v1w1 && arc_scan4.py)
+v1-w1 arc, bounded search theta in [0.8,1.5], t in [0.1,pi/2-0.1]:
+  best: F=0.19543298 at (theta,t)=(np.float64(0.8), np.float64(1.4707963267932267))
+w1-v2 arc, bounded search theta in [0.8,1.5], t in [0.1,pi/4-0.05]:
+  best: F=0.19523231 at (theta,t)=(np.float64(0.8), np.float64(0.05000000000000002))

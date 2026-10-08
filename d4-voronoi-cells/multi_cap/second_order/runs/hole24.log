@@ -1,0 +1,8 @@
+$ python3 hole24.py 24 0.0 0.004 0.008 0.012 0.017 0.02 0.03
+slack 0.000: 2 codes; least max <theta, w_i> = 0.70711 (Gram deviation 0.0000); near the root system: 0.70711
+slack 0.004: 22 codes; least max <theta, w_i> = 0.69280 (Gram deviation 0.0401); near the root system: 0.69280
+slack 0.008: 23 codes; least max <theta, w_i> = 0.67817 (Gram deviation 0.0802); near the root system: -
+slack 0.012: 26 codes; least max <theta, w_i> = 0.66322 (Gram deviation 0.1203); near the root system: -
+slack 0.017: 45 codes; least max <theta, w_i> = 0.64409 (Gram deviation 0.1703); near the root system: -
+slack 0.020: 42 codes; least max <theta, w_i> = 0.63238 (Gram deviation 0.2002); near the root system: -
+slack 0.030: 38 codes; least max <theta, w_i> = 0.58327 (Gram deviation 0.4312); near the root system: -

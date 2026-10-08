@@ -1,0 +1,18 @@
+Hessian built: 96 x 96, symmetric; ||H - H^T|| = 0.0
+vol(Q) = 8.0
+
+finite-difference check of vol'' along random directions (t = 1e-3):
+  trial 0: vol' FD -0.27379552  formula -0.27379549 | vol'' FD -0.776522  xi^T H xi -0.776522
+  trial 1: vol' FD -0.02127926  formula -0.02127924 | vol'' FD -0.506251  xi^T H xi -0.506251
+  trial 2: vol' FD -0.43539802  formula -0.43539810 | vol'' FD -0.867634  xi^T H xi -0.867634
+  trial 3: vol' FD 0.84456415  formula 0.84456423 | vol'' FD -0.751375  xi^T H xi -0.751375
+  trial 4: vol' FD 1.01143281  formula 1.01143283 | vol'' FD -0.326909  xi^T H xi -0.326909
+  trial 5: vol' FD 0.61252216  formula 0.61252215 | vol'' FD -0.497925  xi^T H xi -0.497925
+
+one-centre ray, exact: vol = 25/3 - (1-delta/2)^4/3 => d^2vol/ddelta^2 = -1/2 at 0;
+  xi^T H xi with eta_1 = 1/2 (delta = 1): -0.9999999999999996   (expected -1/2)
+
+spectrum of H (least 8 and largest 4):
+   [-8.       -8.       -6.194335 -6.194335 -6.194335 -6.194335 -6.194335
+ -6.194335] ... [2.666667 2.666667 2.666667 4.      ]
+  number of zero eigenvalues: 15 (6 rotations expected)

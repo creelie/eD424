@@ -1,0 +1,22 @@
+$ (cd misc && exact_proof_signvertex.py)
+(a) <W,r> for the 5 fixed '++' hyperplanes (excluding u0 itself):
+   +e1+e3: 1
+   +e1+e4: 1
+   +e2+e3: 1
+   +e2+e4: 1
+   +e3+e4: 1
+   (+e1+e2 = u0 itself, also gives 1 but this facet moves)
+
+(b) <W,u1(theta,t)> = sin(t)*sin(theta) + cos(theta)
+    Setting =1: Eq(sin(t)*sin(theta) + cos(theta), 1)
+    cos(theta)+sin(theta)sin(t)-1 rewritten via tan-half-angle: sin(t)*sin(theta) + cos(theta) - 1
+    Direct substitution sin(t)->tan(theta/2): cos(theta)+sin(theta)tan(theta/2)-1 = 0
+    CONFIRMED: cos(theta)+sin(theta)*sin(t)=1  <=>  sin(t)=tan(theta/2), identically.
+
+(c) Endpoint check: at t=pi/4, solve for theta in (0,pi/2):
+    sin(pi/4)=tan(theta/2)  =>  theta = [2*atan(sqrt(2)/2)]
+      theta = 2*atan(sqrt(2)/2) = 2*atan(sqrt(2)/2),  numeric = 1.2309594173
+    Compare arccos(1/3) = 1.2309594173
+    cos(theta_sol) - 1/3 = 0  (should be 0)
+
+(d) Endpoint check: as t->0, theta->0 (trivial line), matches formula sin(0)=tan(0)=0.

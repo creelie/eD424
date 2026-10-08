@@ -1,0 +1,21 @@
+machine: DESKTOP-VS7DF9S, Windows-11-10.0.26200-SP0, 16 logical cores, 15.7 GB memory (4.8 GB free), Python 3.14.3
+numpy 2.4.3, cvxpy 1.9.3, solvers ['CLARABEL', 'SCS', 'SCIPY', 'HIGHS', 'OSQP']
+degree 16, t1 0.5080, t2 0.5080: start
+machine: DESKTOP-VS7DF9S, Windows-11-10.0.26200-SP0, 16 logical cores, 15.7 GB memory (4.6 GB free), Python 3.14.3
+numpy 2.4.3, cvxpy 1.9.3, solvers ['CLARABEL', 'SCS', 'SCIPY', 'HIGHS', 'OSQP']
+degree 16, t1 0.5080, t2 0.5101: start
+  d=16 t1=0.50800 t2=0.51010 n=24 round 1: optimal, sampled Z -3.96577, corrected Z 180.82027; A 30.0000, max g on [-1,t1] 1.45e-05 (+1), g on [-1,t2] -9.984e-01, F111 2.23e-03, F112 2.23e-03 [1721 s]
+  d=16 t1=0.50800 t2=0.51010 n=24 round 2: optimal_inaccurate, sampled Z -3.92651, corrected Z 28.57993; A 30.0000, max g on [-1,t1] 9.74e-06 (+1), g on [-1,t2] -9.980e-01, F111 -9.06e-03, F112 -6.92e-03 [2422 s]
+machine: DESKTOP-VS7DF9S, Windows-11-10.0.26200-SP0, 16 logical cores, 15.7 GB memory (4.7 GB free), Python 3.14.3
+numpy 2.4.3, cvxpy 1.9.3, solvers ['CLARABEL', 'SCS', 'SCIPY', 'HIGHS', 'OSQP']
+degree 16, t1 0.5080, t2 0.6141: start
+machine: DESKTOP-VS7DF9S, Windows-11-10.0.26200-SP0, 16 logical cores, 15.7 GB memory (6.2 GB free), Python 3.14.3
+numpy 2.4.3, cvxpy 1.9.3, solvers ['CLARABEL', 'SCS', 'SCIPY', 'HIGHS', 'OSQP']
+degree 16, t1 0.5080, t2 0.6141: start
+  d=16 t1=0.50800 t2=0.61410 n=24 round 1: optimal, sampled Z 0.00150, corrected Z 0.13322; A 12.2560, max g on [-1,t1] 2.06e-07 (+1), g on [-1,t2] -1.000e+00, F111 2.13e-02, F112 2.13e-02 [1578 s]
+  d=16 t1=0.50800 t2=0.61410 n=24 round 2: optimal_inaccurate, sampled Z 0.00154, corrected Z 0.01874; A 12.2559, max g on [-1,t1] 2.86e-07 (+1), g on [-1,t2] -1.000e+00, F111 2.13e-02, F112 2.13e-02 [2197 s]
+  d=16 t1=0.50800 t2=0.61410 n=24 round 3: optimal_inaccurate, sampled Z 0.00190, corrected Z 0.00988; A 12.2558, max g on [-1,t1] 1.81e-07 (+1), g on [-1,t2] -1.000e+00, F111 2.13e-02, F112 2.13e-02 [3174 s]
+  d=16 t1=0.50800 t2=0.61410 n=24 round 4: optimal_inaccurate, sampled Z 0.00248, corrected Z 0.00951; A 12.2558, max g on [-1,t1] 3.85e-07 (+1), g on [-1,t2] -1.000e+00, F111 2.13e-02, F112 2.13e-02 [3203 s]
+RESULT degree 16 t1 0.5080 t2 0.6141: sampled Z 0.00248, corrected Z 0.00951 [11156 s] (below 0 excludes the code)
+degree 18, t1 0.5080, t2 0.6141: start
+  d=18 t1=0.50800 t2=0.61410 n=24 round 1: optimal_inaccurate, sampled Z 0.00005, corrected Z 0.02522; A 12.2554, max g on [-1,t1] 1.42e-07 (+1), g on [-1,t2] -1.000e+00, F111 2.13e-02, F112 2.13e-02 [1564 s]

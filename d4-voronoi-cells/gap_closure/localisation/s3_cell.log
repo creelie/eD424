@@ -1,0 +1,7 @@
+pi^2/12 = 0.8224670334241132
+D4 cell (all 23 others): 0.8233404934136096
+D4 cell, only the 8 neighbours at 60 deg: 0.8233404934136096 8
+Tammes 8: max inner product 0.26124 (angle 74.856 deg)
+   cell with 8 neighbours at 60 deg on a Tammes link: 0.81722
+Tammes 9: max inner product 0.33336 (angle 70.527 deg)
+Tammes 10: max inner product 0.40446 (angle 66.142 deg)

@@ -1,0 +1,8 @@
+leaf 1 [no constraint]
+    round 0: bound 3.35217, largest K - Pi between the samples 5.15e-05
+    round 1: bound 3.35241, largest K - Pi between the samples 1.74e-05
+    round 2: bound 3.35241, largest K - Pi between the samples 5.15e-07
+    round 3: bound 3.35241, largest K - Pi between the samples -6.42e-08
+    round 4: bound 3.35241, largest K - Pi between the samples 4.58e-06
+    round 5: bound 3.35242, largest K - Pi between the samples -1.47e-06
+wrote radial_certificates/density_26.json [1427 s]

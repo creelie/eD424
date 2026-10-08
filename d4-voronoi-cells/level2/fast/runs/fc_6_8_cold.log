@@ -1,0 +1,279 @@
+FC assembly (eps): N = 24, pairs <= 276.05, weights = Rational{BigInt}[103//963, 191//963, 280//963, 230//963, 53//321], m = 246 rows (9 pair rows)
+MEM loaded rss=0.553516 GB threads=1 mode=fast prec=128 K=7 levels=7 cholK=8 cholL=10
+ iter  time(s)           μ       P-obj       D-obj        gap    P-error    p-error    d-error        α_p        α_d       beta
+      CHOLSTAT min pivot^2/S_ii = 1.7996584277998395e-16 at row 246
+    1     30.5   1.000e+20   2.400e+01   2.771e+12   1.00e+00   1.00e+10   2.40e+01   2.37e+16   7.15e-01   5.05e-01   3.00e-01
+      PROF R=0.2 Xinv=0.2 schur=15.4 cholS=0.9 res=0.6 pred=1.0 corr=0.2 alpha=9.6 rss=0.77GB
+      CKPT iteration 1 saved in 0.3 s
+      CHOLSTAT min pivot^2/S_ii = 2.2959675560459642e-15 at row 246
+    2     47.4   4.400e+19   3.010e+07   7.945e+12   1.00e+00   2.85e+09   6.84e+00   1.17e+16   6.94e-01   4.51e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.0 cholS=0.3 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=0.76GB
+      CKPT iteration 2 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.943894940700005e-14 at row 246
+    3     63.5   2.288e+19   3.050e+07   1.654e+13   1.00e+00   8.73e+08   2.09e+00   6.42e+15   4.17e-01   4.51e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.0 cholS=0.4 res=0.2 pred=0.3 corr=0.2 alpha=0.0 rss=0.76GB
+      CKPT iteration 3 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 7.604933955517855e-14 at row 246
+    4     78.2   1.635e+19   2.930e+07   6.788e+13   1.00e+00   5.09e+08   1.22e+00   3.53e+15   3.37e-01   2.31e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.8 cholS=0.3 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=0.76GB
+      CKPT iteration 4 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.6009526535069089e-13 at row 246
+    5     94.8   1.339e+19   1.203e+07   1.623e+14   1.00e+00   3.37e+08   8.10e-01   2.71e+15   4.37e-01   6.12e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.7 cholS=0.3 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=0.76GB
+      CKPT iteration 5 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 8.873912075524917e-13 at row 246
+    6    110.8   8.780e+18   6.135e+06   3.584e+14   1.00e+00   1.90e+08   4.56e-01   1.05e+15   5.13e-01   5.88e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.9 cholS=0.4 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=0.76GB
+      CKPT iteration 6 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 9.05104526569155e-12 at row 246
+    7    125.7   5.673e+18   5.346e+06   8.057e+14   1.00e+00   9.25e+07   2.22e-01   4.33e+14   5.98e-01   5.99e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.2 cholS=0.3 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 7 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 9.648255127162652e-11 at row 246
+    8    139.6   3.100e+18   4.882e+06   1.223e+15   1.00e+00   3.72e+07   8.93e-02   1.74e+14   6.39e-01   6.00e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.1 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 8 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 6.429953887784516e-10 at row 246
+    9    154.1   1.534e+18   3.632e+06   1.769e+15   1.00e+00   1.34e+07   3.23e-02   6.94e+13   7.40e-01   6.62e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.8 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 9 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5237479698898767e-9 at row 246
+   10    168.5   5.610e+17   6.571e+05   2.589e+15   1.00e+00   3.49e+06   8.38e-03   2.35e+13   6.49e-01   6.90e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.6 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 10 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.9047953628392634e-9 at row 246
+   11    183.9   2.776e+17   2.014e+05   3.730e+15   1.00e+00   1.22e+06   2.94e-03   7.27e+12   7.91e-01   1.00e+00   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.8 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 11 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 2.026981121217445e-9 at row 246
+   12    198.1   9.296e+16   5.540e+04   6.114e+15   1.00e+00   2.56e+05   6.14e-04   7.19e-20   8.36e-01   1.00e+00   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.4 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 12 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 2.087277123564033e-9 at row 246
+   13    211.7   2.446e+16   9.760e+03   9.748e+15   1.00e+00   4.21e+04   1.01e-04   1.23e-19   8.93e-01   1.00e+00   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=12.7 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 13 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 2.0787470795791846e-9 at row 246
+   14    227.3   4.203e+15   1.058e+03   1.549e+16   1.00e+00   4.48e+03   1.08e-05   3.10e-19   8.31e-01   1.00e+00   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.8 cholS=0.2 res=0.1 pred=0.3 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 14 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 2.0811081831977957e-9 at row 246
+   15    243.4   1.177e+15   2.038e+02   2.359e+16   1.00e+00   7.57e+02   1.82e-06   4.39e-19   6.68e-01   1.00e+00   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.2 cholS=0.3 res=0.2 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 15 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 2.050019558829168e-9 at row 246
+   16    257.2   6.332e+14   8.740e+01   2.925e+16   1.00e+00   2.51e+02   6.02e-07   6.13e-19   5.92e-01   4.91e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.1 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 16 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 2.048154085779176e-9 at row 246
+   17    272.5   3.511e+14   5.063e+01   2.870e+16   1.00e+00   1.02e+02   2.46e-07   6.33e-19   4.87e-01   4.28e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.5 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 17 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.9981688928688366e-9 at row 246
+   18    286.7   2.285e+14   3.246e+01   2.480e+16   1.00e+00   5.25e+01   1.26e-07   5.14e-19   5.03e-01   3.12e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.5 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 18 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5801439828647023e-9 at row 246
+   19    302.4   1.473e+14   1.629e+01   2.081e+16   1.00e+00   2.61e+01   6.27e-08   4.39e-19   4.93e-01   3.10e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.8 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 19 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.746409842545914e-9 at row 246
+   20    316.9   9.837e+13   9.640e+00   1.686e+16   1.00e+00   1.33e+01   3.18e-08   5.49e-19   5.37e-01   3.23e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.7 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 20 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.8745167951952954e-9 at row 246
+   21    331.9   6.501e+13   5.432e+00   1.354e+16   1.00e+00   6.13e+00   1.47e-08   5.28e-19   5.76e-01   6.44e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.3 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 21 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.9982468766104214e-9 at row 246
+   22    345.4   3.663e+13   3.561e+00   8.631e+15   1.00e+00   2.60e+00   6.23e-09   3.69e-19   5.77e-01   5.15e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=12.7 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 22 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.9916449251777316e-9 at row 246
+   23    360.8   2.258e+13   2.716e+00   6.097e+15   1.00e+00   1.10e+00   2.64e-09   3.06e-19   5.19e-01   4.32e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.6 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 23 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.871516478477535e-9 at row 246
+   24    374.5   1.510e+13   2.336e+00   4.270e+15   1.00e+00   5.29e-01   1.27e-09   2.41e-19   4.30e-01   3.27e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=12.9 cholS=0.2 res=0.1 pred=0.2 corr=0.3 alpha=0.0 rss=1.10GB
+      CKPT iteration 24 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.7244272283163815e-9 at row 246
+   25    390.1   1.131e+13   2.227e+00   3.251e+15   1.00e+00   3.01e-01   7.23e-10   2.18e-19   5.90e-01   6.43e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.8 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 25 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.393332707632856e-9 at row 246
+   26    403.7   6.201e+12   1.930e+00   1.823e+15   1.00e+00   1.24e-01   2.97e-10   1.63e-19   5.17e-01   5.73e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=12.8 cholS=0.3 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 26 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.3104702600340516e-9 at row 246
+   27    419.7   3.713e+12   1.784e+00   1.104e+15   1.00e+00   5.98e-02   1.44e-10   1.15e-19   6.52e-01   4.81e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.4 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 27 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.3686605082344826e-9 at row 246
+   28    433.2   2.390e+12   1.974e+00   7.439e+14   1.00e+00   2.08e-02   5.00e-11   6.95e-20   6.19e-01   5.82e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=12.6 cholS=0.2 res=0.1 pred=0.2 corr=0.3 alpha=0.0 rss=1.10GB
+      CKPT iteration 28 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.413050962081059e-9 at row 246
+   29    449.3   1.402e+12   2.045e+00   4.461e+14   1.00e+00   7.94e-03   1.90e-11   3.27e-20   7.09e-01   5.90e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.3 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 29 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.4774056878336134e-9 at row 246
+   30    463.0   8.133e+11   2.088e+00   2.637e+14   1.00e+00   2.31e-03   5.54e-12   1.58e-20   7.31e-01   7.39e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.0 cholS=0.3 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 30 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5245584792235458e-9 at row 246
+   31    478.9   3.909e+11   2.105e+00   1.278e+14   1.00e+00   6.22e-04   1.49e-12   7.80e-21   9.39e-01   9.04e-01   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.2 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 31 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5526472734184238e-9 at row 246
+   32    492.3   1.432e+11   2.119e+00   4.719e+13   1.00e+00   3.81e-05   9.15e-14   8.52e-21   1.00e+00   1.00e+00   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=12.6 cholS=0.2 res=0.1 pred=0.2 corr=0.3 alpha=0.0 rss=1.10GB
+      CKPT iteration 32 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5478005444558175e-9 at row 246
+   33    508.8   4.297e+10   2.123e+00   1.418e+13   1.00e+00   8.04e-29   0.00e+00   2.41e-21   1.00e+00   1.00e+00   3.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.7 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 33 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.549466926709344e-9 at row 246
+   34    524.7   1.289e+10   2.124e+00   4.254e+12   1.00e+00   4.52e-29   9.40e-38   4.10e-22   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.2 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 34 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5497038555402956e-9 at row 246
+   35    540.3   1.293e+09   2.124e+00   4.267e+11   1.00e+00   4.87e-29   9.40e-38   8.15e-24   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.7 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 35 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5498678112273083e-9 at row 246
+   36    555.5   1.293e+08   2.124e+00   4.267e+10   1.00e+00   3.19e-29   0.00e+00   8.85e-25   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.5 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 36 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5500172907186941e-9 at row 246
+   37    570.6   1.293e+07   2.124e+00   4.268e+09   1.00e+00   5.55e-29   0.00e+00   5.83e-26   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.4 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 37 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5501516698717461e-9 at row 246
+   38    585.9   1.293e+06   2.124e+00   4.268e+08   1.00e+00   6.58e-29   0.00e+00   4.29e-27   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.6 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 38 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5502726080001332e-9 at row 246
+   39    601.4   1.293e+05   2.124e+00   4.268e+07   1.00e+00   5.13e-29   0.00e+00   5.40e-28   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.8 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 39 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5503819146700773e-9 at row 246
+   40    617.2   1.294e+04   2.124e+00   4.269e+06   1.00e+00   7.17e-29   0.00e+00   3.07e-29   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.0 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 40 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5504853439636752e-9 at row 246
+   41    632.7   1.294e+03   2.124e+00   4.269e+05   1.00e+00   1.16e-28   0.00e+00   5.25e-30   1.00e+00   1.00e+00   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.7 cholS=0.3 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 41 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.550629271855365e-9 at row 246
+   42    648.3   1.295e+02   2.124e+00   4.272e+04   1.00e+00   9.08e-29   0.00e+00   4.96e-31   9.99e-01   9.99e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.8 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 42 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5512612694182554e-9 at row 246
+   43    664.4   1.309e+01   2.126e+00   4.321e+03   9.99e-01   7.98e-29   0.00e+00   5.92e-32   9.88e-01   9.88e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.3 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 43 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.5563163759531434e-9 at row 246
+   44    679.8   1.449e+00   2.142e+00   4.803e+02   9.91e-01   8.26e-29   0.00e+00   5.10e-32   9.02e-01   9.02e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.7 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 44 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.582956467804864e-9 at row 246
+   45    695.1   2.720e-01   2.278e+00   9.205e+01   9.52e-01   2.59e-29   9.40e-38   3.63e-32   6.79e-01   6.79e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.5 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 45 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.6555378710119387e-9 at row 246
+   46    710.6   1.057e-01   2.858e+00   3.774e+01   8.59e-01   3.83e-29   9.40e-38   1.94e-32   5.87e-01   5.87e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.9 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 46 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.7597921951426871e-9 at row 246
+   47    726.5   4.989e-02   3.983e+00   2.045e+01   6.74e-01   6.03e-29   9.40e-38   2.31e-33   8.78e-01   8.78e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=15.1 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 47 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.7770084698544785e-9 at row 246
+   48    741.6   1.046e-02   4.314e+00   7.767e+00   2.86e-01   3.89e-29   9.40e-38   1.95e-33   8.69e-01   8.69e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.5 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.08GB
+      CKPT iteration 48 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.7864379819909352e-9 at row 246
+   49    757.2   2.282e-03   4.361e+00   5.114e+00   7.95e-02   6.40e-29   9.40e-38   1.52e-34   7.32e-01   7.32e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.7 cholS=0.2 res=0.1 pred=0.2 corr=0.3 alpha=0.0 rss=1.09GB
+      CKPT iteration 49 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.8182750156710228e-9 at row 246
+   50    772.5   7.785e-04   4.374e+00   4.631e+00   2.85e-02   9.93e-29   9.40e-38   3.81e-35   9.29e-01   9.29e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.6 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.09GB
+      CKPT iteration 50 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.8340249770183068e-9 at row 246
+   51    787.5   1.274e-04   4.379e+00   4.421e+00   4.78e-03   7.04e-29   9.40e-38   7.55e-36   9.48e-01   9.48e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.2 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 51 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 3.566919247077282e-10 at row 51
+   52    802.6   1.874e-05   4.380e+00   4.386e+00   7.05e-04   4.72e-29   9.40e-38   2.90e-36   9.71e-01   9.71e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.2 cholS=0.2 res=0.1 pred=0.2 corr=0.3 alpha=0.0 rss=1.10GB
+      CKPT iteration 52 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 4.524011579770145e-11 at row 51
+   53    817.8   2.358e-06   4.380e+00   4.381e+00   8.88e-05   3.72e-29   9.40e-38   1.59e-36   9.91e-01   9.91e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=14.5 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 53 saved in 0.0 s
+      CHOLSTAT min pivot^2/S_ii = 4.890160235695085e-12 at row 51
+   54    832.1   2.547e-07   4.380e+00   4.380e+00   9.59e-06   4.80e-29   9.40e-38   2.96e-36   9.99e-01   9.99e-01   1.00e-01
+      PROF R=0.0 Xinv=0.0 schur=13.5 cholS=0.2 res=0.1 pred=0.2 corr=0.2 alpha=0.0 rss=1.10GB
+      CKPT iteration 54 saved in 0.0 s
+┌ Warning: CHOLMOD version incompatibility
+│ 
+│ Julia was compiled with CHOLMOD version 4.0.4. It is
+│ currently linked with version 5.3.1.
+│ This might cause Julia to terminate when working with
+│ sparse matrix factorizations, e.g. solving systems of
+│ equations with \.
+│ 
+│ It is recommended that you use Julia with the same major
+│ version of CHOLMOD as the one used during the build, or
+│ download the generic binaries from www.julialang.org,
+│ which ship with the correct versions of all dependencies.
+└ @ SparseArrays.CHOLMOD /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/share/julia/stdlib/v1.10/SparseArrays/src/solvers/cholmod.jl:206
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.SolverFailure :: Union{}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.solvesdp :: Tuple{Problem}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_primal_objective :: Tuple{Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_dual_objective :: Tuple{Any, Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_error :: Tuple{BlockDiagonals.BlockDiagonal}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_error :: Tuple{Arblib.ArbRefMatrix}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_primal_error :: Tuple{Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_dual_error :: Tuple{Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_duality_gap :: NTuple{4, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.dot_c :: Tuple{Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.calculate_res_d! :: NTuple{7, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_residuals! :: NTuple{12, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.terminate :: NTuple{9, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.check_pd_feasibility :: NTuple{4, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_residual_R! :: NTuple{6, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_S_integrated! :: NTuple{14, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_T_decomposition! :: NTuple{17, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_search_direction! :: NTuple{19, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_step_length :: Tuple{BlockDiagonals.BlockDiagonal, BlockDiagonals.BlockDiagonal, Any, Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+Optimal solution found
+832.152156 seconds (125.54 M allocations: 978.634 GiB, 50.45% gc time, 1.99% compilation time)
+ iter  time(s)           μ       P-obj       D-obj        gap    P-error    p-error    d-error        α_p        α_d       beta
+
+Primal objective:4.379865637338286255626154152960509040419
+Dual objective:4.379874119665804562412492582384313792725
+Duality gap:9.683309953956689300908050313743818140069e-07
+FPROF W=2.9 digits=6.7 gemm=20.4 comb=70.7 hrG=3.1 hrgram=5.4 final=0.3 aux=26.4
+MODE=fast status=pdOpt seconds=853.1 maxrss=1.867 GB

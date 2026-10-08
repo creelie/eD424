@@ -1,0 +1,2 @@
+$ (cd multi_cap && inradius_search.py)
+[200/3000] feasible 52, deletion-type 52, best g 0.500000000, 255s

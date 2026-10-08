@@ -1,0 +1,7 @@
+{"split": ["21/10", 22], "children": [
+  {},
+  {"split": ["12/5", 25], "children": [
+    {"residual": true},
+    {"split": ["21/10", 24], "children": [
+      {"split": ["11/5", 24], "children": [{}, {}]},
+      {}]}]}]}

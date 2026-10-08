@@ -1,0 +1,8 @@
+   direct: 12855 variables, 92272 inequalities, 9761 psd rows in 57 cones, 45657697 nonzeros [11 s to build]
+   191 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 2.88600 (target 3.10330), corrected <= 10.75538  [7866 s]
+   viol: AA 4.0e-06, AB 1.7e-06, AC 5.0e-07, AF 1.7e-06, BB -2.8e-11, BC -2.5e-08, BF 2.5e-06, CC -8.2e-06, CF 3.8e-06, FF 3.9e-08, AAA 2.7e-04, AAB 1.5e-03, AAC 4.3e-03, AAF 2.4e-03, ABB 2.1e-03, ABC 2.8e-03, ABF 2.4e-03, ACC 1.6e-03, ACF 3.2e-03, AFF 2.1e-03, BBB 1.1e-03, BBC 2.4e-03, BBF 1.4e-03, BCC 1.8e-03, BCF 4.2e-03, BFF 8.6e-04, CCC 1.4e-03, CCF 1.3e-03, CFF 1.6e-03, FFF 2.8e-04
+   c2: {'AA': 0.008039, 'AB': 0.001513, 'AC': -0.112277, 'AF': 0.02688, 'BB': 0.019982, 'BC': -0.098084, 'BF': 0.032745, 'CC': -0.100903, 'CF': -0.013932, 'FF': 0.087988}
+   c3: {'AAA': 0.0019065, 'AAB': 0.0023444, 'AAC': 0.0074413, 'AAF': 0.0018718, 'ABB': 0.0016975, 'ABC': 0.0073232, 'ABF': 0.0018216, 'ACC': 0.006831, 'ACF': 0.0037599, 'AFF': -0.000397, 'BBB': 0.001498, 'BBC': 0.0063734, 'BBF': 0.0012903, 'BCC': 0.0054092, 'BCF': 0.0024633, 'BFF': -0.0007646, 'CCC': 0.0337624, 'CCF': 0.0246488, 'CFF': 0.0115211, 'FFF': 0.0131753}
+   direct: 12855 variables, 106260 inequalities, 9761 psd rows in 57 cones, 53920300 nonzeros [18 s to build]
+memory allocation of 1067459200 bytes failed

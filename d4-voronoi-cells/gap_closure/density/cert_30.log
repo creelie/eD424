@@ -1,0 +1,3 @@
+leaf 1 [no constraint]
+    round 0: bound 3.15406, largest K - Pi between the samples -1.95e-05
+wrote radial_certificates/density_30.json [53 s]

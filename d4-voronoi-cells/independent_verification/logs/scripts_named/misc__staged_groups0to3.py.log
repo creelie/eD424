@@ -1,0 +1,6 @@
+$ (cd misc && staged_groups0to3.py)
+group 0 (n=55): 0.0s, numeric@t0val=110.0000
+group 1 (n=34): 1.3s, numeric@t0val=29.5408
+group 2 (n=32): 39.4s, numeric@t0val=28.6074
+group 3 (n=20): 98.8s, numeric@t0val=11.4716
+saved.

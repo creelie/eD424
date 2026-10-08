@@ -1,0 +1,6 @@
+$ (cd hessian_multidir && quartic_sample_dense.py)
+RESUME: found 166 already-computed directions in /tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/hessian_multidir/quartic_dense_A18_data.tsv; skipping those, appending the rest.
+Active set (m=18): [0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 20, 21, 22, 23]
+smallest 6 eigenvalues at h=0.01: [3.9e-05, 4.5e-05, 4.6e-05, 0.000211, 0.075143, 0.075144]
+Total directions: 166 | already done: 166 | remaining this run: 0 (target overdetermination vs 35 unknowns: 4.7x)
+Nothing left to do -- all directions already computed.

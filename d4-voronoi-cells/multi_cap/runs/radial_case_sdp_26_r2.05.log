@@ -1,0 +1,22 @@
+leaf 1 [0 <= N(2.05) <= 14]
+    round 0: bound 3.10076, largest K - Pi between the samples 8.87e-05, against half the margin 9.37e-05
+    round 1: bound 3.10079, largest K - Pi between the samples 8.18e-05, against half the margin 8.68e-05
+    round 2: bound 3.10131, largest K - Pi between the samples 3.44e-05, against half the margin 3.94e-05
+    round 3: bound 3.10142, largest K - Pi between the samples 1.33e-05, against half the margin 1.83e-05
+/tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/c29/M26_41_20_c15/radial_case_sdp.py:139: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL')
+    round 4: bound 3.10144, largest K - Pi between the samples 2.22e-05, against half the margin 2.72e-05
+    round 5: bound 3.10145, largest K - Pi between the samples -1.29e-06, against half the margin 3.71e-06
+    round 6: bound 3.10145, largest K - Pi between the samples 2.74e-05, against half the margin 3.24e-05
+    round 7: bound 3.10145, largest K - Pi between the samples -2.20e-06, against half the margin 2.80e-06
+    round 8: bound 3.10146, largest K - Pi between the samples 2.05e-05, against half the margin 2.55e-05
+    round 9: bound 3.10146, largest K - Pi between the samples 2.11e-05, against half the margin 2.61e-05
+    round 10: bound 3.10147, largest K - Pi between the samples 3.24e-06, against half the margin 8.24e-06
+    round 11: bound 3.10148, largest K - Pi between the samples 1.79e-06, against half the margin 6.79e-06
+    round 12: bound 3.10148, largest K - Pi between the samples -8.48e-06, against half the margin -3.48e-06
+leaf 2 [15 <= N(2.05) <= 26] (residual, not certified)
+wrote radial_certificates/case_26.json [5270 s]
+
+real	87m51.962s
+user	65m48.302s
+sys	31m32.283s

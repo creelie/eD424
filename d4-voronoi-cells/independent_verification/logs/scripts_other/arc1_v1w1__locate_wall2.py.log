@@ -1,0 +1,7 @@
+$ (cd arc1_v1w1 && locate_wall2.py)
+theta=0.3: 2 transitions at t~['0.168', '1.429']
+theta=0.5: 2 transitions at t~['0.273', '1.324']
+theta=0.8: 4 transitions at t~['0.457', '0.641', '0.956', '1.140']
+theta=1.0: 4 transitions at t~['0.220', '0.588', '1.009', '1.377']
+theta=1.2: 4 transitions at t~['0.089', '0.772', '0.825', '1.508']
+theta=1.4: 4 transitions at t~['0.036', '0.588', '1.009', '1.561']

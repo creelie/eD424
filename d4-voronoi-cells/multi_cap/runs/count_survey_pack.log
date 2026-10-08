@@ -1,0 +1,9 @@
+M = 42: a packing, from start 0; 35 of its centres within 1e-4 of the sphere of radius sqrt 6
+M = 43: a packing, from start 0; 29 of its centres within 1e-4 of the sphere of radius sqrt 6
+M = 44: no packing from 300 starts (least squared violation 1.420e-01)
+M = 45: no packing from 300 starts (least squared violation 6.753e-01)
+M = 46: no packing from 300 starts (least squared violation 1.808e+00)
+M = 47: no packing from 300 starts (least squared violation 2.746e+00)
+M = 48: no packing from 300 starts (least squared violation 4.456e+00)
+M = 49: no packing from 300 starts (least squared violation 6.494e+00)
+(floating point: a packing found is a packing up to rounding; none found is not a proof that none exists)

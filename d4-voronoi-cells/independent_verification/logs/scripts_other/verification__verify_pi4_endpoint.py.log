@@ -1,0 +1,5 @@
+$ (cd verification && verify_pi4_endpoint.py)
+pi/4=0.7853981634, arccos(1/3)=1.2309594173
+Breakpoint near arccos(1/3) at t=pi/4 exactly: theta=1.2309594188
+Diff from arccos(1/3): 1.41e-09
+Breakpoint (low branch) at t=pi/4: theta=0.7853981624, diff from pi/4: -1.00e-09

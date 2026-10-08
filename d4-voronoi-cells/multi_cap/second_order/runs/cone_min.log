@@ -1,0 +1,8 @@
+upper bound on m (best feasible point over 62 starts): -1.000000
+   at it: ||tau|| = 0.1310, delta = 2 eta, max delta = 1.0000, number of centres with delta > 1e-3: 1
+   one-centre ray value: -1.000000;  even ray value: 0.041667
+   S* = 4/(3|m|) with m = -1.0000 (worst found): 1.3333
+   S* = 4/(3|m|) with m = -1.0000 (one-centre ray): 1.3333
+
+Shor+RLT lower bound on m: -1.000000   (optimal)
+exit 0

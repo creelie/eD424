@@ -1,0 +1,22 @@
+Thu Sep 24 01:50:49 UTC 2026
+✔ [0/10] Ran job computation
+✔ [1/10] Ran d4certificate:extraDep
+ℹ [2/10] Built D4CertData (50s)
+ℹ [3/10] Built D4CertData:c.o (with exports) (106s)
+ℹ [4/10] Built D4CertData:dynlib (217ms)
+ℹ [5/10] Built D4CertDomain (1.3s)
+ℹ [6/10] Built D4CertDomain:c.o (with exports) (1.8s)
+ℹ [7/10] Built D4CertDomain:dynlib (39ms)
+ℹ [8/10] Built D4CertMain (1479s)
+info: D4CertMain.lean:13:0: 449
+info: D4CertMain.lean:14:0: 'domain_ok' depends on axioms: [propext, Classical.choice, Quot.sound, domain_ok._native.native_decide.ax_1_1]
+ℹ [9/10] Built D4CertStat (2500s)
+info: D4CertStat.lean:9:0: (0, 421881)
+✔ [10/10] Ran d4certificate/D4CertLib:default
+Build completed successfully (10 jobs).
+
+real	44m20.554s
+user	53m2.240s
+sys	0m10.744s
+exit=0
+Thu Sep 24 02:35:10 UTC 2026

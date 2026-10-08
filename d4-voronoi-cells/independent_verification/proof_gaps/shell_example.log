@@ -1,0 +1,5 @@
+least distance between any two of the 25 centres: 2.000000 (>= 2: True)
+far neighbour at distance 2.900 >= 2 sqrt2 = 2.828427
+cell of the 23 contacts alone:        8.333333  (exact 25/3 = 8.333333)
+cell with the far neighbour included: 8.302831  (exact 25/3 - (1/3)(2 - 1.45)^4 = 1328453/160000 = 8.302831)
+the far neighbour changes the volume: True

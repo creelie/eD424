@@ -1,0 +1,2 @@
+$ (cd lean/certificate && gen_data.py)
+wrote D4CertData.lean: 6002 table entries; du = 2.8870424432247885e-05 M2 = 0.2897122165264249

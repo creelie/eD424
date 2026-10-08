@@ -1,0 +1,28 @@
+28 at degree 10, continued from c28m_d10_r3.npz (round 3 of c28m, 3.09435 on its samples), pruned to KEEP_T=2500, with the fixed 32-by-32 grid of coplanar triples (TCOPLANAR=32) and fixed 32-by-32 grids on the symmetric slices u13 = u23, u12 = u13 and the diagonal (TSYM=32), where rounds 1 to 3 left their worst violations; REFINE=150; started Tue Oct  6 15:00:03 UTC 2026
+resumed from c28m_d10_r3.npz, pruned to 5000 pair and 2500 triple samples per kind
+fixed coplanar triples per kind: {'AAA': 1176, 'AAB': 1231, 'AAF': 1258, 'ABB': 1275, 'ABF': 1302, 'AFF': 1326, 'BBB': 1275, 'BBF': 1326, 'BFF': 1326, 'FFF': 1326}
+fixed triples per kind with the symmetric slices: {'AAA': 2642, 'AAB': 1906, 'AAF': 1931, 'ABB': 1966, 'ABF': 1302, 'AFF': 2022, 'BBB': 2760, 'BBF': 2011, 'BFF': 2013, 'FFF': 2807}
+   direct: 8988 variables, 77713 inequalities, 7389 psd rows in 56 cones, 53163648 nonzeros [16 s to build]
+   105 type-count vectors
+d3=10 round 1: NumericalError  bound 3.09379 (target 3.10330), corrected <= 134.87009  [3322 s]
+   viol: AA 8.2e-03, AB 4.3e-02, AF 1.0e-01, BB 5.4e-01, BF 3.3e-01, FF 5.6e-01, AAA 8.8e-05, AAB 4.4e-04, AAF 1.3e-04, ABB 4.6e-04, ABF 5.7e-04, AFF 3.0e-04, BBB 3.0e-04, BBF 5.4e-04, BFF 3.5e-04, FFF -2.7e-05
+   c2: {'AA': -0.129, 'AB': -0.075744, 'AF': -0.107262, 'BB': -0.022533, 'BF': -0.059066, 'FF': -0.096077}
+   c3: {'AAA': 0.0071379, 'AAB': 0.0051758, 'AAF': 0.0063489, 'ABB': 0.0031945, 'ABF': 0.0045259, 'AFF': 0.005821, 'BBB': 0.0011767, 'BBF': 0.0028057, 'BFF': 0.0044447, 'FFF': 0.0072922}
+   direct: 8988 variables, 101297 inequalities, 7389 psd rows in 56 cones, 70920350 nonzeros [22 s to build]
+   105 type-count vectors
+d3=10 round 2: NumericalError  bound 3.09513 (target 3.10330), corrected <= 29.44941  [4200 s]
+   viol: AA 1.2e-04, AB 1.1e-04, AF 6.5e-04, BB 1.5e-02, BF 5.5e-04, FF 3.0e-04, AAA 6.4e-05, AAB 4.8e-06, AAF 2.1e-05, ABB 8.0e-03, ABF 5.9e-05, AFF 6.4e-05, BBB 7.6e-03, BBF 5.8e-03, BFF 2.5e-05, FFF -2.0e-05
+   c2: {'AA': -0.079787, 'AB': -0.055427, 'AF': -0.03349, 'BB': -0.03102, 'BF': -0.012213, 'FF': 0.005656}
+   c3: {'AAA': 0.0044822, 'AAB': 0.0035984, 'AAF': 0.0027365, 'ABB': 0.0026958, 'ABF': 0.0019287, 'AFF': 0.0011462, 'BBB': 0.0017717, 'BBF': 0.0011977, 'BFF': 0.0007008, 'FFF': 0.0016984}
+   direct: 8988 variables, 102286 inequalities, 7389 psd rows in 56 cones, 71890939 nonzeros [23 s to build]
+PEAK_RSS_GB 10.01 exit -15
+[stopped 17:08 UTC on 2026-10-06 in round 3.  Over the five rounds at degree 10 the
+ value on the samples went 3.09166, 3.09216, 3.09435 (c28m), 3.09379, 3.09513 (c28s),
+ 0.0082 below 9 pi^2/8 - 8 at the last, while the violations between samples moved
+ from kind to kind and never fell below about 1e-4 (here BB 1.5e-2, ABB 8.0e-3,
+ BBB 7.6e-3).  The sampled value bounds the optimum over all admissible pairs and
+ triples from below.  With the margins of the checks at 29 and 30 (2e-5 on each of
+ the 378 pairs, 2e-6 on each of the 3276 triples) the exact check gives up about
+ 0.014, so it would need that optimum below about 3.089, which the samples already
+ exceed; margins ten times smaller would leave about 0.007 for the gaps between
+ samples, against violations that have not fallen below 1e-4 in five rounds.]

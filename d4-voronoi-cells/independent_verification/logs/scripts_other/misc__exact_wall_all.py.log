@@ -1,0 +1,19 @@
+$ (cd misc && exact_wall_all.py)
+Total nondegenerate genuine 24-cell vertex-quadruples among fixed roots checked: 240
+Exact predicted wall t-values (theta=0.8) landing in [0,pi/2]: [np.float64(0.4365), np.float64(0.6162), np.float64(0.9546), np.float64(1.1343)]
+
+Compare to floating-point-observed transitions at theta=0.8: [0.457, 0.641, 0.956, 1.140]
+
+=== cross-check at more theta values ===
+theta=0.3: predicted=[np.float64(0.1517), np.float64(1.4191)]
+           observed =[0.168, 1.429]
+theta=0.5: predicted=[np.float64(0.2582), np.float64(1.3126)]
+           observed =[0.273, 1.324]
+theta=0.8: predicted=[np.float64(0.4365), np.float64(0.6162), np.float64(0.9546), np.float64(1.1343)]
+           observed =[0.457, 0.641, 0.956, 1.14]
+theta=1.0: predicted=[np.float64(0.2125), np.float64(0.5779), np.float64(0.9929), np.float64(1.3583)]
+           observed =[0.22, 0.588, 1.009, 1.377]
+theta=1.2: predicted=[np.float64(0.0759), np.float64(0.7534), np.float64(0.8174), np.float64(1.4949)]
+           observed =[0.089, 0.772, 0.825, 1.508]
+theta=1.4: predicted=[np.float64(0.0149), np.float64(0.5693), np.float64(1.0015), np.float64(1.5559)]
+           observed =[0.036, 0.588, 1.009, 1.561]

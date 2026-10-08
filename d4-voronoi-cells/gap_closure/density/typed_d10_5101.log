@@ -1,0 +1,2 @@
+  d=10 t1=0.50800 t2=0.51010 n=24 round 1: optimal, sampled Z 0.01964, corrected Z 2.24452; A 13.7367, max g on [-1,t1] 1.61e-06 (+1), g on [-1,t2] -9.991e-01, F111 1.88e-02, F112 1.88e-02 [107 s]
+  d=10 t1=0.50800 t2=0.51010 n=24 round 2: optimal, sampled Z 0.02552, corrected Z 0.43425; A 12.9366, max g on [-1,t1] 9.14e-07 (+1), g on [-1,t2] -9.993e-01, F111 2.01e-02, F112 2.01e-02 [220 s]

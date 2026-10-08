@@ -1,0 +1,36 @@
+$ (cd arc2_w1v2 && interior_concavity_convergence_test.py)
+theta=1.5707, s0=0.222, ang=1.570796
+           h          d2(h)      d2(h)/h^2
+   0.0800000   1.954589e-03   3.054045e-01
+   0.0400000   4.888658e-04   3.055411e-01
+   0.0200000   1.222302e-04   3.055756e-01
+   0.0100000   3.055842e-05   3.055842e-01
+   0.0050000   7.639659e-06   3.055864e-01
+   0.0025000   1.909918e-06   3.055869e-01
+   0.0012500   4.774798e-07   3.055871e-01
+   0.0006250   1.193700e-07   3.055871e-01
+   0.0003125   2.984250e-08   3.055872e-01
+
+Also checking combinatorial (vertex-count) stability across this window,
+to see if a breakpoint (region change) sits right at/near s0:
+  s=0.17200  n_vertices=37
+  s=0.17700  n_vertices=37
+  s=0.18200  n_vertices=37
+  s=0.18700  n_vertices=37
+  s=0.19200  n_vertices=37
+  s=0.19700  n_vertices=37
+  s=0.20200  n_vertices=37
+  s=0.20700  n_vertices=37
+  s=0.21200  n_vertices=37
+  s=0.21700  n_vertices=37
+  s=0.22200  n_vertices=37
+  s=0.22700  n_vertices=37
+  s=0.23200  n_vertices=37
+  s=0.23700  n_vertices=37
+  s=0.24200  n_vertices=37
+  s=0.24700  n_vertices=37
+  s=0.25200  n_vertices=37
+  s=0.25700  n_vertices=37
+  s=0.26200  n_vertices=37
+  s=0.26700  n_vertices=37
+  s=0.27200  n_vertices=37

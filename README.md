@@ -50,6 +50,9 @@ unit balls in R⁴, remain open and are not claimed here.
 | `verification/lean/R4Check.lean` | Lean 4 kernel proof of the sign lemma; evaluation of every certificate |
 | `verification/data/` | the vertex and edge tables, see `FORMAT.md` |
 | `verification/shell/run_all.sh` | runs every check |
+| `d4-voronoi-cells/` | the code for the Voronoi cell bound for all packings and the open statements (G) and (C); see its README |
+| `crosscheck/` | (G) and (C) tested on two-translate packings with both codebases |
+| `analysis/` | two routes to (G) and (C) by inequalities, and where each stops |
 
 ## Reproduce
 
@@ -75,4 +78,5 @@ See also `CITATION.cff`.
 
 ## License
 
-MIT, see `LICENSE`.
+MIT, see `LICENSE`. The files in `d4-voronoi-cells/` are under
+`d4-voronoi-cells/LICENSE`.

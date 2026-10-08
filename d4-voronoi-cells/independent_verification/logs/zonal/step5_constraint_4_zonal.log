@@ -1,0 +1,30 @@
+Thu Sep 24 03:09:28 UTC 2026
+read 127 blocks, 60 of them for irreducible representations (21s)
+objective B X B^T [0,0] for lambda = (0,0): 24  (expected 24)
+read sum-of-squares data (22s)
+read 490 zonal polynomials (22s)
+k=4 sum-of-squares part done (22s)
+      lambda [0, 0], 81 terms (22s)
+      lambda [4, 0], 4104 terms (37s)
+      lambda [8, 0], 20536 terms (670s)
+      lambda [12, 0], 34552 terms (2448s)
+  k=4 J1=(0, 1) J2=(2, 3) done, 36263 terms (3067s)
+      lambda [0, 0], 36267 terms (3068s)
+      lambda [4, 0], 36399 terms (3093s)
+      lambda [8, 0], 38711 terms (3770s)
+      lambda [12, 0], 46378 terms (4914s)
+  k=4 J1=(0, 2) J2=(1, 3) done, 47847 terms (5238s)
+      lambda [0, 0], 47851 terms (5238s)
+      lambda [4, 0], 47923 terms (5251s)
+      lambda [8, 0], 48623 terms (5665s)
+      lambda [12, 0], 52351 terms (7010s)
+  k=4 J1=(0, 3) J2=(1, 2) done, 53572 terms (7494s)
+k=4 saved 53572 terms to work4z/z4.pkl
+
+constraint 4  zero
+
+real	125m2.269s
+user	77m30.814s
+sys	0m9.199s
+exit=0
+P1_DONE

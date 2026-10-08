@@ -1,0 +1,3 @@
+M 26 D 16 R 8 level 3.34520 eps 1e-06 20161/10000:24:24 203/100:0:24 round 0: value 3.34504 (level - value 0.00016), largest K - Pi between the samples 1.16e-04 [392 s]
+M 26 D 16 R 8 level 3.34520 eps 1e-06 20161/10000:24:24 203/100:0:24 round 1: value 3.34529 (level - value -0.00009), largest K - Pi between the samples 2.73e-04 [1098 s]
+M 26 D 16 R 8 level 3.34520 eps 1e-06 20161/10000:24:24 203/100:0:24 round 2: value 3.34530 (level - value -0.00010), largest K - Pi between the samples 9.75e-05 [1963 s]

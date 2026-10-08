@@ -1,0 +1,12 @@
+Mon Sep 14 13:43:58 UTC 2026
+✔ [6/9] Built D4CertDomain:c.o (2.2s)
+✔ [7/9] Built D4CertDomain:dynlib (66ms)
+ℹ [8/9] Built D4CertMain (1321s)
+info: D4CertMain.lean:13:0: 449
+info: D4CertMain.lean:14:0: 'domain_ok' depends on axioms: [propext, Classical.choice, Quot.sound, domain_ok._native.native_decide.ax_1_1]
+Build completed successfully (9 jobs).
+
+real	22m3.697s
+user	21m49.688s
+sys	0m1.243s
+Mon Sep 14 14:06:02 UTC 2026

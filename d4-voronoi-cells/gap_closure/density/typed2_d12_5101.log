@@ -1,0 +1,7 @@
+  d=12 t1=0.50800 t2=0.51010 n=24 round 1: optimal, sampled Z -2.02458, corrected Z 24.46578; A 30.0000, max g on [-1,t1] 1.63e-05 (+1), g on [-1,t2] -9.956e-01 (a2 -9.956e-01), F111 -9.11e-03 (b1 -1.11e-02), F112 -9.11e-03 (b2 -1.02e-02) [300+300+3584+4102 samples, 217 s]
+  d=12 t1=0.50800 t2=0.51010 n=24 round 2: optimal, sampled Z -1.75179, corrected Z 17.74642; A 30.0000, max g on [-1,t1] 1.26e-05 (+1), g on [-1,t2] -9.946e-01 (a2 -9.946e-01), F111 -9.60e-03 (b1 -1.11e-02), F112 -9.60e-03 (b2 -1.02e-02) [1100+1100+7184+7702 samples, 895 s]
+  d=12 t1=0.50800 t2=0.51010 n=24 round 3: optimal, sampled Z -1.68867, corrected Z 4.91780; A 30.0000, max g on [-1,t1] 2.20e-06 (+1), g on [-1,t2] -9.952e-01 (a2 -9.952e-01), F111 -1.06e-02 (b1 -1.11e-02), F112 -1.02e-02 (b2 -1.02e-02) [1900+1900+10784+11302 samples, 1599 s]
+/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py:177: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', **opts)
+  d=12 t1=0.50800 t2=0.51010 n=24 round 4: optimal_inaccurate, sampled Z -1.58744, corrected Z -1.25677; A 30.0000, max g on [-1,t1] 7.31e-07 (+1), g on [-1,t2] -9.958e-01 (a2 -9.958e-01), F111 -1.11e-02 (b1 -1.11e-02), F112 -1.02e-02 (b2 -1.02e-02) [2700+2700+14384+14902 samples, 1573 s]
+  corrected Z below 0: the code is excluded in floating point

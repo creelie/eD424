@@ -1,0 +1,5 @@
+'D4DesignBudget.two_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4DesignBudget.p_negative_below_th' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4DesignBudget.threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4DesignBudget.roots_design' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit 0

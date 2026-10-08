@@ -1,0 +1,8 @@
+multi_cap/three_point_sdp.py                  still running at 3600s         3600.0s
+multi_cap/inradius_search.py                  ok                              341.9s
+multi_cap/three_point_sdp_certmode.py         ok                              668.1s
+multi_cap/slack_continuation.py               ok                              728.3s
+multi_cap/symmetric_search.py                 ok                             2263.8s
+multi_cap/spherical_code_23.py                ok                              587.4s
+multi_cap/multi_cap_reformulation.py          ok                              319.2s
+multi_cap/truncated_volume.py                 ok                             3496.8s

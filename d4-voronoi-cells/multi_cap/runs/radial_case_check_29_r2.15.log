@@ -1,0 +1,18 @@
+statement (C) at M = 29: two-point certificates, degree 12 in the angle and 4 in the distance, one per case
+  [PASS] dmax exceeds sqrt 6
+  [PASS] the case tree covers every packing (each split is into N(r) < c and N(r) >= c): 2 leaves
+  [PASS] one certificate per leaf, in order
+leaf 1: 0 <= N(2.0161) <= 22, 0 <= N(2.15) <= 22
+  [PASS]   edges as in the case
+  [PASS]   A_k and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T): t = 5.815791896
+  [PASS]   K <= Pi on the admissible domain: 25099 boxes closed, 24393 dropped, 5111 values of Pi in Arb [3 s]
+  [PASS]   f <= m_b on every bin: 708 intervals, least room 7.19e-08
+  [PASS]   s >= 0
+  [PASS]   largest sum_b n_b m_b over the case, plus t/2, below the target: [3.0987099 +/- 1.91e-8] < [3.1033050 +/- 4.88e-8]
+leaf 2: 0 <= N(2.0161) <= 24, 23 <= N(2.15) <= 29
+  [----]   residual case: no certificate; a counterexample at this count must lie here
+PASS: a packing with exactly 29 centres within sqrt 6 of a centre and T <= 8 there lies in the residual case: 0 <= N(2.0161) <= 24, 23 <= N(2.15) <= 29 [3 s]
+
+real	0m3.458s
+user	0m2.665s
+sys	0m0.403s

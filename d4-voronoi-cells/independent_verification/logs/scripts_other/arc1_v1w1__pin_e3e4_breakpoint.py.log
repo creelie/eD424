@@ -1,0 +1,14 @@
+$ (cd arc1_v1w1 && pin_e3e4_breakpoint.py)
+t=0.1: breakpoint theta_c = 0.199008393643
+
+Scanning theta_c(t) across several t values:
+t=0.020000: theta_c=0.0399969941   theta_c/t=1.999850
+t=0.050000: theta_c=0.0998772147   theta_c/t=1.997544
+t=0.080000: theta_c=0.1594916627   theta_c/t=1.993646
+t=0.100000: theta_c=0.1990083936   theta_c/t=1.990084
+t=0.150000: theta_c=0.2966814081   theta_c/t=1.977876
+t=0.200000: theta_c=0.3922319138   theta_c/t=1.961160
+t=0.250000: theta_c=0.4850679952   theta_c/t=1.940272
+t=0.300000: theta_c=0.5746839135   theta_c/t=1.915613
+t=0.350000: theta_c=0.6606676521   theta_c/t=1.887622
+t=0.7853971633974483: never becomes inactive in range, skipping

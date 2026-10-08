@@ -1,0 +1,10 @@
+$ (cd swap_configs && swap_exact_volume2.py)
+  simplex 0/157  t=0.0s
+  simplex 20/157  t=0.2s
+  simplex 40/157  t=3.4s
+  simplex 60/157  t=8.8s
+  simplex 80/157  t=15.0s
+  simplex 100/157  t=25.4s
+  simplex 120/157  t=44.1s
+  simplex 140/157  t=56.8s
+all determinants computed in 68.1s

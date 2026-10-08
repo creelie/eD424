@@ -1,0 +1,30 @@
+leaf 1 [0 <= N(2.1) <= 21]
+    round 0: bound 3.06134, largest K - Pi between the samples 3.31e-06
+    round 1: bound 3.06190, largest K - Pi between the samples -2.26e-06
+    round 2: bound 3.06204, largest K - Pi between the samples -1.19e-05
+leaf 2 [22 <= N(2.1) <= 30, 22 <= N(2.4) <= 24] (residual, not certified)
+leaf 3 [22 <= N(2.1) <= 23, 22 <= N(2.2) <= 23, 25 <= N(2.4) <= 30]
+    round 0: bound 3.10647, largest K - Pi between the samples 6.78e-07
+    round 1: bound 3.10663, largest K - Pi between the samples -8.79e-06
+    round 2: bound 3.10664, largest K - Pi between the samples -1.38e-05
+    margin 2e-05: bound 3.10664
+    round 0: bound 3.09905, largest K - Pi between the samples 1.59e-05
+    round 1: bound 3.09920, largest K - Pi between the samples 5.85e-06
+    round 2: bound 3.09922, largest K - Pi between the samples -1.14e-06
+    round 3: bound 3.09925, largest K - Pi between the samples -4.06e-06
+leaf 4 [22 <= N(2.1) <= 23, 24 <= N(2.2) <= 30, 25 <= N(2.4) <= 30]
+    round 0: bound 3.10366, largest K - Pi between the samples 2.13e-05
+    round 1: bound 3.10416, largest K - Pi between the samples 9.53e-06
+    round 2: bound 3.10422, largest K - Pi between the samples -1.19e-05
+    margin 2e-05: bound 3.10422
+    round 0: bound 3.09623, largest K - Pi between the samples 3.63e-05
+    round 1: bound 3.09674, largest K - Pi between the samples 2.35e-05
+    round 2: bound 3.09679, largest K - Pi between the samples 8.22e-07
+    round 3: bound 3.09684, largest K - Pi between the samples -4.09e-06
+leaf 5 [24 <= N(2.1) <= 30, 25 <= N(2.4) <= 30]
+    round 0: bound 3.08371, largest K - Pi between the samples 4.05e-05
+    round 1: bound 3.08438, largest K - Pi between the samples 4.42e-06
+    round 2: bound 3.08477, largest K - Pi between the samples -1.77e-06
+    round 3: bound 3.08483, largest K - Pi between the samples -8.85e-06
+    round 4: bound 3.08483, largest K - Pi between the samples -1.98e-05
+wrote radial_certificates/case_30.json [2987 s]

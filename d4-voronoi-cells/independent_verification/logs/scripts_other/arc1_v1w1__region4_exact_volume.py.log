@@ -1,0 +1,7 @@
+$ (cd arc1_v1w1 && region4_exact_volume.py)
+total vertices: 34
+on-cap (moving): 12  off-cap (fixed): 22
+scipy hull volume: 8.000833631774464  #simplices: 156
+moving simplices: 96  fixed-only simplices: 60
+numeric vol_fixed: 4.999999999999999  numeric vol_moving: 3.000833631220951  sum: 8.00083363122095
+all 34 distinct vertex patterns solved exactly and numerically verified

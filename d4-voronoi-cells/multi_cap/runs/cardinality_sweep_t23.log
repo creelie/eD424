@@ -1,0 +1,6 @@
+$ python3 cardinality_sdp.py sweep 8 4 0.6666666667   (directions of centres within sqrt 6: inner products at most 2/3)
+  d=8 t=0.66667 round 1: sampled bound 49.411603 (300+4448 pts, 15s) viol (i) 2.4e-05 (ii) 3.5e-03  -> bound at |C|=25 corrected: 51.319540
+  d=8 t=0.66667 round 2: sampled bound 49.493647 (1800+7448 pts, 34s) viol (i) 2.9e-06 (ii) 6.6e-04  -> bound at |C|=25 corrected: 49.856051
+  d=8 t=0.66667 round 3: sampled bound 49.502348 (3300+10448 pts, 63s) viol (i) 1.3e-07 (ii) 7.9e-05  -> bound at |C|=25 corrected: 49.546122
+  d=8 t=0.66667 round 4: sampled bound 49.525494 (4800+13448 pts, 89s) viol (i) 3.9e-07 (ii) 2.9e-04  -> bound at |C|=25 corrected: 49.685653
+RESULT d=8 t=0.6667 s=0.1667  sampled 49.52549  corrected@25 49.68565

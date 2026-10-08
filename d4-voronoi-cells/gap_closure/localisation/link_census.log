@@ -1,0 +1,26 @@
+root system: largest inner product 0.50000, distance to a root system 0.0000
+   24 points with 8 near neighbours: link-to-cube distance 0.000 to 0.000, cell volumes 0.8211 to 0.8252
+start  0: T = 11.10330, sum of push-outs 114.6438, distance to a root system 3.7219, max inner product 0.9758  (infeasible)
+start  1: T = 11.10330, sum of push-outs 149.6854, distance to a root system 3.5882, max inner product 0.9949  (infeasible)
+start  2: T = 8.00368, sum of push-outs 0.1648, distance to a root system 0.0963, max inner product 0.5132
+eta = 0.00368: largest distance found 0.0963 over 1 feasible ends
+budget end 0 (T = 8.00368): largest inner product 0.51320, distance to a root system 0.0963
+   24 points with 8 near neighbours: link-to-cube distance 0.017 to 0.062, cell volumes 0.7973 to 0.8565
+code 0: largest inner product 0.52476, distance to a root system 1.7735
+    2 points with 6 near neighbours: link-to-cube distance n/a, cell volumes 0.8453 to 0.9213
+   13 points with 7 near neighbours: link-to-cube distance n/a, cell volumes 0.7909 to 0.8644
+    8 points with 8 near neighbours: link-to-cube distance 0.943 to 1.118, cell volumes 0.7457 to 0.8539
+    1 points with 9 near neighbours: link-to-cube distance n/a, cell volumes 0.7776 to 0.7776
+code 1: largest inner product 0.51702, distance to a root system 1.8587
+    4 points with 6 near neighbours: link-to-cube distance n/a, cell volumes 0.8718 to 0.8739
+   14 points with 7 near neighbours: link-to-cube distance n/a, cell volumes 0.8108 to 0.8909
+    6 points with 9 near neighbours: link-to-cube distance n/a, cell volumes 0.7331 to 0.7345
+code 2: largest inner product 0.52485, distance to a root system 1.9341
+    2 points with 6 near neighbours: link-to-cube distance n/a, cell volumes 0.8480 to 0.9210
+   13 points with 7 near neighbours: link-to-cube distance n/a, cell volumes 0.7916 to 0.8646
+    8 points with 8 near neighbours: link-to-cube distance 0.946 to 1.118, cell volumes 0.7485 to 0.8553
+    1 points with 9 near neighbours: link-to-cube distance n/a, cell volumes 0.7765 to 0.7765
+code 3: largest inner product 0.51702, distance to a root system 2.0050
+    4 points with 6 near neighbours: link-to-cube distance n/a, cell volumes 0.8713 to 0.8741
+   14 points with 7 near neighbours: link-to-cube distance n/a, cell volumes 0.8107 to 0.8921
+    6 points with 9 near neighbours: link-to-cube distance n/a, cell volumes 0.7331 to 0.7350

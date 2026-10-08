@@ -11,3 +11,6 @@ __pycache__/
 verification/c/check_polyhedron
 paper/main.pdf
 build/
+# the run logs of d4-voronoi-cells are records, not build output
+!d4-voronoi-cells/**/*.log
+!d4-voronoi-cells/**/*.out

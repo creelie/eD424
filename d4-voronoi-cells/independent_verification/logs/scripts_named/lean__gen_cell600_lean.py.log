@@ -1,0 +1,3 @@
+$ (cd lean && gen_cell600_lean.py)
+wrote /tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/lean/cell600/D4Cell600Enum.lean
+wrote /tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/lean/cell600/D4Cell600Main.lean

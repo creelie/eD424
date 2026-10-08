@@ -1,0 +1,8 @@
+27 with at most 18 centres within 2.0161 (case27_lo18.json), three-point degree 6, one round.  The direction search fits 18 centres within 2.0161 at 27 (c28_direction_search.log); at this degree the whole case gives 3.28290 and at most 16 gives 3.24048.  Started Tue Oct  6 20:58:05 UTC 2026
+   direct: 3027 variables, 66188 inequalities, 2253 psd rows in 40 cones, 17774291 nonzeros [6 s to build]
+   50 type-count vectors
+d3=6 round 1: optimal  bound 3.25132 (target 3.10330), corrected <= 3.42559  [1087 s]
+   viol: AA 1.7e-05, AB 3.8e-06, AF 7.5e-06, BB 2.5e-06, BF -3.5e-07, FF 3.8e-09, AAA 3.7e-05, AAB 4.5e-05, AAF 8.7e-05, ABB 5.7e-05, ABF 9.0e-05, AFF 1.5e-04, BBB 3.5e-05, BBF 4.5e-05, BFF 1.1e-04, FFF 1.1e-05
+   c2: {'AA': 0.038157, 'AB': 0.039125, 'AF': 0.040127, 'BB': 0.041142, 'BF': 0.041926, 'FF': 0.044328}
+   c3: {'AAA': -7e-05, 'AAB': 3.56e-05, 'AAF': 0.0001243, 'ABB': 9.94e-05, 'ABF': 0.0001971, 'AFF': 0.0002332, 'BBB': 0.0001212, 'BBF': 0.0002204, 'BFF': 0.0002556, 'FFF': 0.000114}
+PEAK_RSS_GB 2.40 exit 0 wall 1090 s

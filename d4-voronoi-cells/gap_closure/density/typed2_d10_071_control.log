@@ -1,0 +1,4 @@
+/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py:177: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', **opts)
+  d=10 t1=0.50800 t2=0.71000 n=24 round 1: optimal_inaccurate, sampled Z 5.55757, corrected Z 11.25038; A 12.4192, max g on [-1,t1] 2.82e-05 (+1), g on [-1,t2] -1.000e+00 (a2 -1.000e+00), F111 2.16e-02 (b1 2.11e-02), F112 2.33e-02 (b2 2.32e-02) [300+300+3584+4116 samples, 310 s]
+  sampled Z above 0: no certificate of degree 10

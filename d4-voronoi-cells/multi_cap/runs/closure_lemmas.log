@@ -1,0 +1,31 @@
+[PASS] (A) hole lemma: |z - 2w|^2 - 4 = |z|^2 - 4<z,w> for unit w (symbolic)
+       so <z/|z|, w> <= |z|/4 for every centre z and contact direction w;
+       for the root system g = 1/sqrt 2 and 4g = 2 sqrt 2 (lem:roots)
+[PASS] (B) inversion hull: |z|^2/2 - <4y/|y|^2, z> = [(|z|^2-4)(|y|^2-4) + 4(|y-z|^2-4)]/(2|y|^2) (symbolic)
+       both brackets are >= 0 for centres y, z (|y|, |z| >= 2, |y - z| >= 2)
+[PASS] (C) root subsets: every vertex of the 24-cell is r + r' for exactly three orthogonal root pairs
+       24 vertices, each on 6 facets, each the sum of 3 orthogonal pairs (72 pairs in all);
+       deleted sets D for which some vertex loses all three pairs:
+         |D| = 1: 0 of 24,  |D| = 2: 0 of 276,  |D| = 3: 96 of 2024 (the pairwise-60-degree
+         triples at a common vertex),  |D| = 4: 1728 of 10626
+[PASS] (D) sum_{i<j} |p_i - p_j|^2 = 4 sum |p_i - g|^2 for four points (symbolic)
+       six distances >= 2 give 24 <= 4 sum |p_i - x|^2 <= 16 |x|^2, so |x| >= sqrt(3/2):
+       no point of the open ball B(sqrt(3/2)) is cut off by three centres at once
+[PASS] (E) count criterion: at most 22 centres within sqrt 6 give vol(V_c) > 8.046
+       vol B(sqrt(3/2)) = 9 pi^2/8 = 11.1033049512,  S(2) = 0.138963500936
+       9 pi^2/8 - 22 S(2) = 8.04610793064
+       9 pi^2/8 - 23 S(2) = 7.90714442971  (= A_* of thm:certificate, which the pair terms lift above 8)
+[PASS] (E') the distance criterion Psi (ball arithmetic)
+       22 contacts +  1 at d:  Psi > 8 for d >= 2.16473
+       21 contacts +  2 at d:  Psi > 8 for d >= 2.06994
+       20 contacts +  3 at d:  Psi > 8 for d >= 2.04478
+       19 contacts +  4 at d:  Psi > 8 for d >= 2.03297
+       18 contacts +  6 at d:  Psi > 8 for d >= 2.05700
+       22 contacts +  2 at d:  Psi > 8 for d >= 2.23506
+       21 contacts +  3 at d:  Psi > 8 for d >= 2.12850
+       12 contacts + 12 at d:  Psi > 8 for d >= 2.02719
+[PASS] (F) 23 contacts with covering radius <= arccos(sqrt6/4) leave nothing within sqrt 6
+       arccos(sqrt 6/4) = 52.238756 degrees; 4 cos of it = sqrt 6 = 2 sqrt(3/2), the diameter of
+       the ball of thm:certificate, so V_c and V_c(W) agree inside it
+
+all checks passed

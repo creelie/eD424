@@ -1,0 +1,19 @@
+resumed from combo30p_d8b_d8_r1.npz, pruned to 3000 pair and 1200 triple samples per kind
+/home/claude/d4-voronoi-cells/gap_closure/C30/combo30p.py:145: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', max_iter=500)
+d3=8 round 1: optimal_inaccurate  bound 2.93490 (target 3.10330), corrected <= 3.30046  [728 s]
+   viol: AA 1.1e-08, AB 5.4e-03, AF 2.7e-04, BB 2.5e-05, BF 2.0e-06, FF -2.5e-07, AAA 3.9e-07, AAB 3.7e-05, AAF 3.0e-05, ABB 2.7e-05, ABF 6.0e-05, AFF 4.2e-05, BBF 2.1e-04, BFF 2.4e-05, FFF 1.2e-06
+   c2: {'AA': 0.119625, 'AB': 0.026708, 'AF': 0.127381, 'BB': 0.000295, 'BF': -0.008706, 'FF': 0.266423}
+   c3: {'AAA': 0.1358661, 'AAB': 0.0939007, 'AAF': -0.3547799, 'ABB': 0.0496805, 'ABF': -0.1816961, 'AFF': 0.6825784, 'BBF': -0.0078355, 'BFF': -0.0037314, 'FFF': 0.2609972}
+d3=8 round 2: optimal_inaccurate  bound 2.93875 (target 3.10330), corrected <= 3.15275  [1277 s]
+   viol: AA 5.2e-07, AB 3.2e-06, AF 1.8e-06, BB -3.3e-07, BF -1.9e-07, FF -2.6e-07, AAA 1.6e-05, AAB 2.7e-05, AAF 3.8e-05, ABB 5.0e-05, ABF 3.9e-04, AFF 3.9e-05, BBF 6.9e-04, BFF 9.7e-05, FFF 8.8e-06
+   c2: {'AA': 0.094619, 'AB': 0.023906, 'AF': 0.110619, 'BB': 0.009819, 'BF': 0.00951, 'FF': 0.19603}
+   c3: {'AAA': 0.1097311, 'AAB': 0.0784622, 'AAF': -0.2862119, 'ABB': 0.0435615, 'ABF': -0.1570198, 'AFF': 0.5530664, 'BBF': -0.0217093, 'BFF': 0.041305, 'FFF': 0.1869229}
+d3=8 round 3: optimal_inaccurate  bound 2.94138 (target 3.10330), corrected <= 3.00623  [1165 s]
+   viol: AA 5.3e-05, AB 2.2e-05, AF 8.5e-06, BB 6.0e-06, BF 6.0e-06, FF -1.8e-07, AAA 3.1e-07, AAB 1.0e-05, AAF 1.6e-05, ABB 4.7e-05, ABF 4.0e-05, AFF 3.4e-05, BBF 9.0e-05, BFF 5.5e-06, FFF 8.6e-07
+   c2: {'AA': 0.072724, 'AB': 0.011562, 'AF': 0.084618, 'BB': 0.007176, 'BF': -0.00516, 'FF': 0.188851}
+   c3: {'AAA': 0.0887743, 'AAB': 0.0616971, 'AAF': -0.2306759, 'ABB': 0.0317783, 'ABF': -0.1190076, 'AFF': 0.4418452, 'BBF': -0.004008, 'BFF': 0.0017177, 'FFF': 0.1822654}
+d3=8 round 4: optimal_inaccurate  bound 2.94219 (target 3.10330), corrected <= 2.99705  [1336 s]
+   viol: AA 1.9e-05, AB 9.9e-05, AF 1.4e-08, BB 9.4e-05, BF 1.4e-07, FF -3.4e-08, AAA 6.4e-07, AAB 8.5e-06, AAF 2.1e-05, ABB 1.8e-05, ABF 3.2e-05, AFF 6.9e-06, BBF 4.6e-05, BFF 3.0e-05, FFF 1.5e-06
+   c2: {'AA': 0.084134, 'AB': 0.020755, 'AF': -0.195428, 'BB': 0.003016, 'BF': -0.287306, 'FF': 4.224764}
+   c3: {'AAA': 0.0923936, 'AAB': 0.0638404, 'AAF': -0.1563494, 'ABB': 0.0319459, 'ABF': -0.0385694, 'AFF': -0.2101785, 'BBF': 0.0863691, 'BFF': -0.6766082, 'FFF': 4.2096841}

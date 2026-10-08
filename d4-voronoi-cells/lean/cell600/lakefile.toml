@@ -1,0 +1,7 @@
+name = "d4cell600"
+defaultTargets = ["D4Cell600Enum"]
+
+[[lean_lib]]
+name = "D4Cell600Enum"
+roots = ["D4Cell600Enum", "D4Cell600Main"]
+precompileModules = true

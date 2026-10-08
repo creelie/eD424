@@ -1,0 +1,7 @@
+$ (cd arc2_w1v2 && region_top_check.py)
+min of vol_moving_top - 5/3 over grid: 0.16681716159755244 at (np.float64(1.5717958267948131), np.float64(0.001))
+t=0.010: at theta_A=1.5707: f=0.331683   at pi/2: f=0.331683
+t=0.100: at theta_A=1.5658: f=0.318182   at pi/2: f=0.318212
+t=0.300: at theta_A=1.5251: f=0.295413   at pi/2: f=0.295722
+t=0.600: at theta_A=1.3800: f=0.279642   at pi/2: f=0.277494
+t=0.770: at theta_A=1.2453: f=0.281966   at pi/2: f=0.274480

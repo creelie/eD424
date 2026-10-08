@@ -1,0 +1,10 @@
+$ (cd misc && exact_wall_typeA3.py)
+Found 64 candidate quadruples with an active wall somewhere in theta in (0,pi/2)
+Using quadruple (1, 4, 5, 8)
+z_I = Matrix([[sqrt(2), 0, 0, 0]])  det= 1/4
+<z_I,u0>=1  <z_I,v1>=1  <z_I,w1>=0
+
+Exact wall equation: sin(theta)*cos(t) + cos(theta) = 1
+
+theta=4/5: exact solveset for t in [0,pi/2]: {acos((1 - cos(4/5))/sin(4/5))}
+numeric: [1.13427096141789]

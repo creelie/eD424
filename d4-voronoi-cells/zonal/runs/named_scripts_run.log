@@ -1,0 +1,52 @@
+Every script named in the paper, run from its own directory with a 240 second
+limit, on two cores.  A script that is still running at the limit is one of the
+long searches or semidefinite runs; that is expected and is what the paper says
+about it.  The six skipped are the zonal pipeline, whose runs are the other
+logs in this directory.  Nothing named in the paper fails.
+
+cap_inequality_certificate.py      ok                                                      8.3s
+cell600.py                         ok                                                     53.6s
+cell600_exact.py                   ok                                                     53.6s
+certificate_check.py               ok                                                    217.7s
+covering_bound.py                  ok                                                     39.5s
+covering_multiplicity.py           ok                                                      0.7s
+extendability.py                   ok                                                    154.4s
+gen_data.py                        ok                                                     25.7s
+gl2.py                             ok                                                      0.1s
+inradius_search.py                 still running at 240s                                 240.0s
+llm24_certificate_check.py         still running at 240s                                 240.0s
+local_cell_obstruction.py          ok                                                     14.4s
+m24_descent.py                     ok                                                      1.6s
+m24_dual_sdp.py                    ok                                                      8.9s
+m24_exact_reduction.py             ok                                                      3.7s
+m24_omega3_table.py                ok                                                     23.5s
+m24_primal_blocks.py               ok                                                      1.5s
+m24_primal_sdp.py                  ok                                                      1.3s
+m24_verify_direction.py            ok                                                      1.0s
+m24_volume_functional.py           ok                                                      0.7s
+multi_cap_reformulation.py         still running at 240s                                 240.0s
+o4.py                              ok                                                      0.0s
+octahedral48_exact.py              ok                                                     17.1s
+pair_budget.py                     ok                                                      0.5s
+polar_surface_reformulation.py     ok                                                     40.2s
+rigidity23.py                      ok                                                      0.4s
+rigidity24.py                      ok                                                      0.4s
+rigidity_spectrum.py               ok                                                      0.2s
+root_deletions_exact.py            ok                                                      5.7s
+root_lattices_rank4.py             ok                                                     36.9s
+root_meet.py                       ok                                                    112.6s
+saturation_search.py               ok                                                    166.1s
+second_order_estimate.py           ok                                                      3.3s
+slack_continuation.py              still running at 240s                                 240.0s
+spherical_code_23.py               still running at 240s                                 240.0s
+staged_group4.py                   ok                                                     59.8s
+staged_groups0to3.py               ok                                                     94.6s
+staged_simplify.py                 ok                                                    148.7s
+swap_defect_curves.py              ok                                                      1.5s
+symmetric_search.py                still running at 240s                                 240.0s
+three_point_reduction.py           ok                                                      4.9s
+three_point_sdp.py                 still running at 240s                                 240.0s
+truncated_volume.py                still running at 240s                                 240.0s
+zonal.py                           ok                                                      0.1s
+
+50 named, 36 ok, 8 still running at the limit, 6 skipped, 0 failed

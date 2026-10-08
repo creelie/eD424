@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.lake/
+*.olean
+*.ilean
+*.c.o
+*.so
+third_party/llm24-certificate/LasserreSphericalCodes.zip
+third_party/llm24-certificate/proofs/

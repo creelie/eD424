@@ -1,0 +1,8 @@
+resumed from c29r_d8_r2.npz, all samples kept
+   direct: 8178 variables, 80780 inequalities, 7389 psd rows in 56 cones, 58548294 nonzeros [17 s to build]
+   51 type-count vectors
+d3=10 round 1: NumericalError  bound -6333803.25188 (target 3.10330), corrected <= 45362736602020.65625  [2609 s]
+   viol: AA 5.7e+10, AB 6.0e+09, AF 6.3e+09, BB 2.7e+11, BF 7.5e+09, FF 7.4e+09, AAA 6.1e+09, AAB 5.0e+09, AAF 5.0e+09, ABB 4.9e+09, ABF 4.7e+09, AFF 3.7e+09, BBB 4.7e+09, BBF 7.0e+09, BFF 5.7e+09, FFF 8.9e+09
+   c2: {'AA': -3069347948994.341, 'AB': -1536461748684.256, 'AF': -1547178720215.1743, 'BB': 536696891.709253, 'BF': -12992833679.426723, 'FF': -12191919045.117466}
+   c3: {'AAA': 167361536147.053, 'AAB': 111571149321.31511, 'AAF': 112038112598.89432, 'ABB': 55540588151.81942, 'ABF': 56180435763.11874, 'AFF': 56206616776.97535, 'BBB': 318564183.8977554, 'BBF': 665864149.7002865, 'BFF': 558577194.3880265, 'FFF': 1521530840.5165339}
+   direct: 8178 variables, 83660 inequalities, 7389 psd rows in 56 cones, 60591530 nonzeros [14 s to build]

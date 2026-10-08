@@ -1,0 +1,17 @@
+28 at degree 10, continued in the container from the PC's round 3 certificate c28allpc_d10_r3.npz (bound 3.08931), samples as the PC's round 4; started Tue Oct  6 10:08:28 UTC 2026
+resumed from c28allpc_d10_r3.npz, all samples kept
+   direct: 8988 variables, 102956 inequalities, 7389 psd rows in 56 cones, 74031419 nonzeros [27 s to build]
+   105 type-count vectors
+d3=10 round 1: NumericalError  bound 3.09134 (target 3.10330), corrected <= 6.47826  [3903 s]
+   viol: AA 4.0e-07, AB 1.1e-07, AF 2.1e-07, BB -5.2e-06, BF -5.7e-06, FF -3.8e-05, AAA 7.3e-06, AAB 1.8e-05, AAF 1.2e-05, ABB 1.2e-03, ABF 1.0e-03, AFF 1.2e-04, BBB 1.1e-03, BBF 1.0e-03, BFF 1.1e-03, FFF -5.4e-05
+   c2: {'AA': -0.123939, 'AB': -0.06328, 'AF': -0.056011, 'BB': -0.006291, 'BF': -0.002008, 'FF': 0.004601}
+   c3: {'AAA': 0.0071466, 'AAB': 0.0048452, 'AAF': 0.0045647, 'ABB': 0.0026672, 'ABF': 0.0024857, 'AFF': 0.0021737, 'BBB': 0.0006354, 'BBF': 0.0005921, 'BFF': 0.0005055, 'FFF': 0.0014277}
+   direct: 8988 variables, 102684 inequalities, 7389 psd rows in 56 cones, 73903812 nonzeros [25 s to build]
+   105 type-count vectors
+d3=10 round 2: NumericalError  bound 3.09111 (target 3.10330), corrected <= 6.44713  [3442 s]
+   viol: AA 5.2e-07, AB 1.2e-07, AF 2.5e-07, BB -7.9e-06, BF -3.8e-06, FF -7.0e-05, AAA 3.9e-05, AAB 3.1e-05, AAF 3.9e-05, ABB 4.6e-04, ABF 2.3e-03, AFF 4.8e-04, BBB 1.0e-03, BBF 1.6e-03, BFF 5.1e-04, FFF 3.4e-04
+   c2: {'AA': -0.086195, 'AB': -0.045269, 'AF': -0.038976, 'BB': -0.005949, 'BF': -0.001356, 'FF': 0.005786}
+   c3: {'AAA': 0.004975, 'AAB': 0.0034655, 'AAF': 0.0032621, 'ABB': 0.0019954, 'ABF': 0.0018407, 'AFF': 0.0015531, 'BBB': 0.0005967, 'BBF': 0.0005325, 'BFF': 0.0004052, 'FFF': 0.0011236}
+   direct: 8988 variables, 100916 inequalities, 7389 psd rows in 56 cones, 72471415 nonzeros [22 s to build]
+PEAK_RSS_GB 10.11 exit -9
+Round 6 was stopped at 12:19 UTC by the container's memory limit, when a diagnostic script ran beside it. The run continues in c28m_d10.log with a fixed grid of coplanar triples (TCOPLANAR=32).

@@ -1,0 +1,28 @@
+$ (cd hessian_multidir && a18_nullspace_irrep_match.py)
+Recomputing 54x54 joint Hessian at A_18 (h=0.02)...
+Smallest 6 eigenvalues: [0.0001719  0.00017318 0.00017352 0.00081308 0.07532645 0.07532669]
+Stabiliser size: 48 (must be 48)
+
+Numeric near-null character, grouped by exact conjugacy class
+(perfect per-class constancy -- min==max in every class -- is the
+ representation-theoretic prediction; any spread here would signal a bug):
+  class 0 (size 1): mean=+4.000000  spread=0.00e+00
+  class 1 (size 1): mean=+4.000000  spread=0.00e+00
+  class 2 (size 3): mean=-0.000000  spread=2.51e-10
+  class 3 (size 3): mean=+0.000000  spread=1.68e-10
+  class 4 (size 6): mean=-2.000000  spread=3.63e-10
+  class 5 (size 6): mean=+0.000000  spread=1.24e-10
+  class 6 (size 6): mean=-2.000000  spread=3.68e-10
+  class 7 (size 6): mean=+0.000000  spread=1.14e-10
+  class 8 (size 8): mean=+1.000000  spread=2.70e-10
+  class 9 (size 8): mean=+1.000000  spread=1.48e-10
+
+Candidate eps_perm + std3*eps_signs: [4, 4, 0, 0, 0, -2, 0, -2, 1, 1]
+Candidate eps_perm + std3*det:       [4, 4, 0, 0, -2, 0, -2, 0, 1, 1]
+Numeric (rounded):                   [4, 4, 0, 0, -2, 0, -2, 0, 1, 1]
+
+max|numeric - candidate A| = 2.00e+00
+max|numeric - candidate B| = 4.19e-10
+
+-> exact match (to finite-difference precision) is UNIQUELY candidate B:
+   the near-null subspace realises eps_perm (+) (std3 (x) det).

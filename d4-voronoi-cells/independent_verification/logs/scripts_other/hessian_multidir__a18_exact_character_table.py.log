@@ -1,0 +1,49 @@
+$ (cd hessian_multidir && a18_exact_character_table.py)
+sanity: 48 of 48 candidate embeddings correctly stabilise A_18
+
+number of conjugacy classes: 10
+class sizes: [1, 1, 3, 3, 6, 6, 6, 6, 8, 8]
+
+Character table (rows = irreps, columns = the 10 classes, sizes [1, 1, 3, 3, 6, 6, 6, 6, 8, 8] ):
+  triv             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  eps_perm         [1, 1, 1, 1, -1, -1, -1, -1, 1, 1]
+  eps_signs        [1, -1, 1, -1, -1, 1, 1, -1, -1, 1]
+  det              [1, -1, 1, -1, 1, -1, -1, 1, -1, 1]
+  std3             [3, -3, -1, 1, -1, -1, 1, 1, 0, 0]
+  std3*eps_perm    [3, -3, -1, 1, 1, 1, -1, -1, 0, 0]
+  std3*eps_signs   [3, 3, -1, -1, 1, -1, 1, -1, 0, 0]
+  std3*det         [3, 3, -1, -1, -1, 1, -1, 1, 0, 0]
+  2dim             [2, 2, 2, 2, 0, 0, 0, 0, -1, -1]
+  2dim*eps_signs   [2, -2, 2, -2, 0, 0, 0, 0, 1, -1]
+
+Orthonormality check (should be identity matrix):
+   ['1', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+   ['0', '1', '0', '0', '0', '0', '0', '0', '0', '0']
+   ['0', '0', '1', '0', '0', '0', '0', '0', '0', '0']
+   ['0', '0', '0', '1', '0', '0', '0', '0', '0', '0']
+   ['0', '0', '0', '0', '1', '0', '0', '0', '0', '0']
+   ['0', '0', '0', '0', '0', '1', '0', '0', '0', '0']
+   ['0', '0', '0', '0', '0', '0', '1', '0', '0', '0']
+   ['0', '0', '0', '0', '0', '0', '0', '1', '0', '0']
+   ['0', '0', '0', '0', '0', '0', '0', '0', '1', '0']
+   ['0', '0', '0', '0', '0', '0', '0', '0', '0', '1']
+-> all 10 characters are irreducible and pairwise orthogonal: complete list confirmed.
+
+chi_54 at the 10 class representatives: [54, 0, -2, 8, -2, 0, 4, 2, 0, 0]
+chi_54(identity) = 54  (must equal 54)
+
+Decomposition of chi_54:
+  multiplicity of triv             (dim 1): 2
+  multiplicity of eps_perm         (dim 1): 1
+  multiplicity of eps_signs        (dim 1): 1
+  multiplicity of det              (dim 1): 0
+  multiplicity of std3             (dim 3): 5
+  multiplicity of std3*eps_perm    (dim 3): 3
+  multiplicity of std3*eps_signs   (dim 3): 3
+  multiplicity of std3*det         (dim 3): 3
+  multiplicity of 2dim             (dim 2): 3
+  multiplicity of 2dim*eps_signs   (dim 2): 1
+
+reconstructed total dimension: 54 (must equal 54)
+
+OK: chi_54 = 2*triv + 1*eps_perm + 1*eps_signs + 5*std3 + 3*std3*eps_perm + 3*std3*eps_signs + 3*std3*det + 3*2dim + 1*2dim*eps_signs

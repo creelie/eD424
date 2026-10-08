@@ -1,0 +1,4 @@
+  d=14 t1=0.50800 t2=0.51010 n=24 round 1: optimal, sampled Z -3.46759, corrected Z 28.31768; A 30.0000, max g on [-1,t1] 5.81e-06 (+1), g on [-1,t2] -9.992e-01 (a2 -9.992e-01), F111 -8.82e-03 (b1 -1.12e-02), F112 -8.82e-03 (b2 -1.03e-02) [300+300+3584+4102 samples, 458 s]
+/home/claude/d4-voronoi-cells/multi_cap/typed_cardinality_sdp.py:177: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', **opts)
+  d=14 t1=0.50800 t2=0.51010 n=24 round 2: optimal_inaccurate, sampled Z -3.22526, corrected Z 9.58139; A 30.0000, max g on [-1,t1] 1.16e-05 (+1), g on [-1,t2] -9.992e-01 (a2 -9.992e-01), F111 -1.02e-02 (b1 -1.12e-02), F112 -1.02e-02 (b2 -1.03e-02) [1100+1100+7184+7702 samples, 2101 s]

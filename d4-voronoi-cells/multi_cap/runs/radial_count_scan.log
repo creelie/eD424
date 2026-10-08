@@ -1,0 +1,33 @@
+$ python3 radial_count_sdp.py scan 14 5 25 26 27 28 29 30 31 32 34 37 40 43 46 49
+/home/user/d4-voronoi-cells/multi_cap/radial_count_sdp.py:122: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL')
+M = 25: best two-point bound on the union 3.32990 against 3.10330 (above) [46 s]
+M = 26: best two-point bound on the union 3.35951 against 3.10330 (above) [45 s]
+M = 27: best two-point bound on the union 3.30650 against 3.10330 (above) [39 s]
+M = 28: best two-point bound on the union 3.25317 against 3.10330 (above) [36 s]
+M = 29: best two-point bound on the union 3.19937 against 3.10330 (above) [38 s]
+M = 30: best two-point bound on the union 3.14415 against 3.10330 (above) [37 s]
+M = 31: best two-point bound on the union 3.07980 against 3.10330 (below) [40 s]
+M = 32: best two-point bound on the union 3.00318 against 3.10330 (below) [38 s]
+M = 34: best two-point bound on the union 2.82847 against 3.10330 (below) [46 s]
+M = 37: best two-point bound on the union 2.50558 against 3.10330 (below) [47 s]
+M = 40: best two-point bound on the union 2.12472 against 3.10330 (below) [53 s]
+M = 43: best two-point bound on the union 1.64739 against 3.10330 (below) [47 s]
+M = 46: best two-point bound on the union 1.00142 against 3.10330 (below) [52 s]
+M = 49: best two-point bound on the union 0.17362 against 3.10330 (below) [64 s]
+(floating point, sampled constraints: where the method can work, not a proof)
+
+# the counts not in the first scan, same degrees (2026-09-28)
+$ python3 radial_count_sdp.py scan 14 5 33 35 36 38 39 41 42 44 45 47 48
+M = 33: best two-point bound on the union 2.91955 against 3.10330 (below) [47 s]
+M = 35: best two-point bound on the union 2.72712 against 3.10330 (below) [53 s]
+M = 36: best two-point bound on the union 2.61904 against 3.10330 (below) [65 s]
+M = 38: best two-point bound on the union 2.38634 against 3.10330 (below) [59 s]
+M = 39: best two-point bound on the union 2.26052 against 3.10330 (below) [69 s]
+M = 41: best two-point bound on the union 1.97927 against 3.10330 (below) [74 s]
+M = 42: best two-point bound on the union 1.82084 against 3.10330 (below) [62 s]
+M = 44: best two-point bound on the union 1.45577 against 3.10330 (below) [69 s]
+M = 45: best two-point bound on the union 1.24375 against 3.10330 (below) [72 s]
+M = 47: best two-point bound on the union 0.73467 against 3.10330 (below) [73 s]
+M = 48: best two-point bound on the union 0.45897 against 3.10330 (below) [75 s]
+(floating point, sampled constraints: where the method can work, not a proof)

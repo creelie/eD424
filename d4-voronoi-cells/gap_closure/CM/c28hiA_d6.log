@@ -1,0 +1,8 @@
+28 with at least 19 centres within 2.05 (case28_hiA.json: case28_all.json with the lower end of N(2.05) raised from 6 to 19), three-point degree 6, one round; the whole case gives 3.23113 at the same degree
+   direct: 2877 variables, 65988 inequalities, 2253 psd rows in 40 cones, 17772261 nonzeros [6 s to build]
+   40 type-count vectors
+d3=6 round 1: optimal_inaccurate  bound 3.23113 (target 3.10330), corrected <= 3.53355  [940 s]
+   viol: AA 1.6e-05, AB 4.0e-06, AF 1.0e-06, BB 5.9e-08, BF 1.7e-06, FF 5.6e-07, AAA 4.0e-05, AAB 5.5e-05, AAF 1.1e-04, ABB 1.3e-04, ABF 2.5e-04, AFF 1.6e-04, BBB 2.3e-05, BBF 6.6e-05, BFF 6.3e-05, FFF 2.5e-05
+   c2: {'AA': 0.087756, 'AB': 0.085231, 'AF': 0.088105, 'BB': 0.087385, 'BF': 0.089698, 'FF': 0.091125}
+   c3: {'AAA': -0.0001664, 'AAB': 0.000121, 'AAF': 0.0001496, 'ABB': 0.0002552, 'ABF': 0.000288, 'AFF': 0.000372, 'BBB': 0.0003446, 'BBF': 0.000469, 'BFF': 0.0004208, 'FFF': 0.0001998}
+PEAK_RSS_GB 2.61 exit 0 wall 944 s

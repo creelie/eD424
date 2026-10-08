@@ -1,0 +1,27 @@
+$ (cd verification && verify_2u0_exact.py)
+Z* = 2*u0 = [sqrt(2), sqrt(2), 0, 0]
+<Z*, u1(theta,t)> = 2*cos(theta)
+Independent of t: True
+Solve <Z*,u1>=1 for theta: [pi/3, 5*pi/3]
+
+Exact check: Z* lies on <z,r>=1 for all 8 roots +-e1+-e3, +-e1+-e4,
++-e2+-e3, +-e2+-e4:
+  All 8 give <Z*,r>=1 exactly: False
+
+Debugging individual values:
+  e1(sign+1) e3(sign+1): <Z*,r> = 1
+  e1(sign+1) e3(sign-1): <Z*,r> = 1
+  e1(sign-1) e3(sign+1): <Z*,r> = -1
+  e1(sign-1) e3(sign-1): <Z*,r> = -1
+  e1(sign+1) e4(sign+1): <Z*,r> = 1
+  e1(sign+1) e4(sign-1): <Z*,r> = 1
+  e1(sign-1) e4(sign+1): <Z*,r> = -1
+  e1(sign-1) e4(sign-1): <Z*,r> = -1
+  e2(sign+1) e3(sign+1): <Z*,r> = 1
+  e2(sign+1) e3(sign-1): <Z*,r> = 1
+  e2(sign-1) e3(sign+1): <Z*,r> = -1
+  e2(sign-1) e3(sign-1): <Z*,r> = -1
+  e2(sign+1) e4(sign+1): <Z*,r> = 1
+  e2(sign+1) e4(sign-1): <Z*,r> = 1
+  e2(sign-1) e4(sign+1): <Z*,r> = -1
+  e2(sign-1) e4(sign-1): <Z*,r> = -1

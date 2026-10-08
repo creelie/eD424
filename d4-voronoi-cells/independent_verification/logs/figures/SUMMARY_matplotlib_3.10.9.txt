@@ -1,0 +1,10 @@
+fig_c_boundary.py exit=0
+fig_c_cap.py exit=0
+fig_c_counting.py exit=0
+fig_c_d4contacts.py exit=0
+fig_c_rig.py exit=0
+fig_c_sigma2.py exit=0
+fig_c_swap.py exit=0
+fig_c_verify.py exit=0
+fig_dense_growth.py exit=0
+fig_free_volume.py exit=0

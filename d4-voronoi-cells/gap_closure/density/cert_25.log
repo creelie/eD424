@@ -1,0 +1,9 @@
+leaf 1 [no constraint]
+    round 0: bound 3.32761, largest K - Pi between the samples 5.01e-05
+    round 1: bound 3.32764, largest K - Pi between the samples 1.21e-04
+    round 2: bound 3.32764, largest K - Pi between the samples 2.56e-05
+    round 3: bound 3.32764, largest K - Pi between the samples -9.32e-06
+/home/claude/d4-voronoi-cells/multi_cap/radial_case_sdp.py:143: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL')
+    round 4: bound 3.32764, largest K - Pi between the samples -1.86e-05
+wrote radial_certificates/density_25.json [1042 s]

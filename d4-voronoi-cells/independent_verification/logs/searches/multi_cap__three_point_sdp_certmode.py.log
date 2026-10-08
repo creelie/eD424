@@ -1,0 +1,9 @@
+$ (cd multi_cap && three_point_sdp_certmode.py 8 30 CLARABEL 5 0.0929)
+target 8 - A_* = 0.092855570; omega(1/2) = 0.00144541; degree 8; grid 30 x 24; solver CLARABEL; 5 rounds of refinement
+certificate mode: bound fixed at 0.092900000, the least slack of (C) over the sample is maximised
+  round 1: least slack on the sample 1.879e-05 (9648 triples, 46s); least slack on the fine check -3.291e-04
+  round 2: least slack on the sample 1.565e-05 (12648 triples, 69s); least slack on the fine check -3.210e-05
+  round 3: least slack on the sample 1.377e-05 (15648 triples, 66s); least slack on the fine check 8.731e-06
+  round 4: least slack on the sample 1.363e-05 (18648 triples, 79s); least slack on the fine check 1.284e-05
+  round 5: least slack on the sample 1.350e-05 (21648 triples, 93s); least slack on the fine check 1.297e-05
+certificate saved; certificate_check.py verifies it in exact and interval arithmetic

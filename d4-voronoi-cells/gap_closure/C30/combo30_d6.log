@@ -1,0 +1,6 @@
+/home/claude/d4-voronoi-cells/gap_closure/C30/combo30.py:145: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', max_iter=500)
+d3=6 round 1: optimal_inaccurate  bound 3.07593 (target 3.10330), corrected <= 3.52809  [1415 s]
+   viol: AA -1.3e-07, AB 6.8e-06, AF 2.5e-08, BB 3.1e-06, BF -6.0e-08, FF -2.0e-08, AAA 2.8e-05, AAB 7.7e-05, AAF 1.6e-04, ABB 1.1e-04, ABF 2.9e-04, AFF 2.2e-04, BBF 6.8e-05, BFF 1.3e-04, FFF 4.6e-05
+   c2: {'AA': 0.093073, 'AB': 0.058607, 'AF': 0.099842, 'BB': 0.029101, 'BF': 0.016212, 'FF': 0.289288}
+   c3: {'AAA': 0.0829348, 'AAB': 0.0614086, 'AAF': -0.2161565, 'ABB': 0.0397499, 'ABF': -0.1292351, 'AFF': 0.3994231, 'BBF': -0.0425392, 'BFF': 0.0523135, 'FFF': 0.2708461}

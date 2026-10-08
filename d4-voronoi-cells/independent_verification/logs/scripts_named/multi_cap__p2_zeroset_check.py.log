@@ -1,0 +1,12 @@
+$ (cd multi_cap && p2_zeroset_check.py)
+[ok  ] degree of p_2 is 16  (16)
+[ok  ] multiplicity at u = -1 is exactly 1
+[ok  ] multiplicity at u = -1/2 is exactly 2
+[ok  ] multiplicity at u = 0 is exactly 2
+[ok  ] multiplicity at u = 1/2 is exactly 1
+[ok  ] quotient has degree 10  (10)
+[ok  ] q has no real zero in (-1, 1/2]  (V(-1) = 5, V(1/2) = 5)
+[ok  ] q is strictly negative throughout [-1, 1/2]  (-)
+[ok  ] p_2 >= 0 on [-1, 1/2], vanishing exactly at -1, -1/2, 0, 1/2
+
+zero set of p_2 on [-1, 1/2] is {-1, -1/2, 0, 1/2}

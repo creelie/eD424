@@ -1,0 +1,21 @@
+$ (cd arc1_v1w1 && region4b_boxcover.py)
+vstar= 0.2360679774997898  vmax= 0.41421356237309503
+v_lo_global,v_hi_global: 0.236768 0.413514
+box 0: v=[0.23677,0.24781] u=[0,0.44027] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=1.5s
+box 1: v=[0.24781,0.25886] u=[0,0.43626] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=2.8s
+box 2: v=[0.25886,0.26991] u=[0,0.43263] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=4.2s
+box 3: v=[0.26991,0.28095] u=[0,0.42935] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=5.8s
+box 4: v=[0.28095,0.29200] u=[0,0.42641] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=7.2s
+box 5: v=[0.29200,0.30305] u=[0,0.42379] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=8.4s
+box 6: v=[0.30305,0.31409] u=[0,0.42147] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=11.2s
+box 7: v=[0.31409,0.32514] u=[0,0.41944] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=12.8s
+box 8: v=[0.32514,0.33619] u=[0,0.41767] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=14.3s
+box 9: v=[0.33619,0.34723] u=[0,0.41617] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=15.7s
+box 10: v=[0.34723,0.35828] u=[0,0.41492] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=17.4s
+box 11: v=[0.35828,0.36933] u=[0,0.41392] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=18.6s
+box 12: v=[0.36933,0.38037] u=[0,0.41314] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=20.0s
+box 13: v=[0.38037,0.39142] u=[0,0.41259] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=21.7s
+box 14: v=[0.39142,0.40247] u=[0,0.41226] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=23.1s
+box 15: v=[0.40247,0.41351] u=[0,0.41214] N_ok=True(nz=22/121) D_ok=True(nz=0/121)  t=24.5s
+
+ALL BOXES CERTIFIED: True

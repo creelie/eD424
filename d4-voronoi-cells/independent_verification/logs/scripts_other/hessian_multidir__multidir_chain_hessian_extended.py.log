@@ -1,0 +1,59 @@
+$ (cd hessian_multidir && multidir_chain_hessian_extended.py)
+========================================================================
+STEP 1: true longest induced path in the Gram=+1/2 graph
+========================================================================
+Longest induced path: 8 vertices, root indices [0, 4, 1, 15, 22, 10, 2, 11]
+  edge 0-1: Gram=+0.5000
+  edge 1-2: Gram=+0.5000
+  edge 2-3: Gram=+0.5000
+  edge 3-4: Gram=+0.5000
+  edge 4-5: Gram=+0.5000
+  edge 5-6: Gram=+0.5000
+  edge 6-7: Gram=+0.5000
+
+========================================================================
+STEP 2: geometric constraint at interior vertices (antipodal
+target-axis check)
+========================================================================
+  interior vertex 1 (chain pos): <left_axis,right_axis> = -0.333333
+  interior vertex 2 (chain pos): <left_axis,right_axis> = -1.000000
+  interior vertex 3 (chain pos): <left_axis,right_axis> = -0.333333
+  interior vertex 4 (chain pos): <left_axis,right_axis> = -0.333333
+  interior vertex 5 (chain pos): <left_axis,right_axis> = -0.333333
+  interior vertex 6 (chain pos): <left_axis,right_axis> = -0.333333
+
+========================================================================
+STEP 3: minimum eigenvalue of the joint Hessian, chain lengths
+3 through the true maximum, with Richardson extrapolation over
+h=0.04,0.02,0.01
+========================================================================
+  m=3: raw min-eig at h=0.04,0.02,0.01 = [np.float64(0.276304), np.float64(0.275929), np.float64(0.275833)]  Richardson-extrapolated = 0.275801
+  m=4: raw min-eig at h=0.04,0.02,0.01 = [np.float64(0.181187), np.float64(0.180632), np.float64(0.180486)]  Richardson-extrapolated = 0.180435
+  m=5: raw min-eig at h=0.04,0.02,0.01 = [np.float64(0.169316), np.float64(0.168736), np.float64(0.168585)]  Richardson-extrapolated = 0.168532
+  m=6: raw min-eig at h=0.04,0.02,0.01 = [np.float64(0.168474), np.float64(0.167894), np.float64(0.167742)]  Richardson-extrapolated = 0.167689
+  m=7: raw min-eig at h=0.04,0.02,0.01 = [np.float64(0.168424), np.float64(0.167847), np.float64(0.1677)]  Richardson-extrapolated = 0.167650
+  m=8: raw min-eig at h=0.04,0.02,0.01 = [np.float64(0.168411), np.float64(0.167833), np.float64(0.167687)]  Richardson-extrapolated = 0.167637
+
+========================================================================
+SUMMARY
+========================================================================
+Chain length m : Richardson-extrapolated min eigenvalue
+  m=3: 0.275801
+  m=4: 0.180435
+  m=5: 0.168532
+  m=6: 0.167689
+  m=7: 0.167650
+  m=8: 0.167637
+
+Minimum over all tested chain lengths (3..8): 0.167637
+All strictly positive: True
+
+HONEST SCOPE: this is still second-order (local, small-angle)
+information only, for ONE specific realisation of a chain at
+each length (not exhaustive over all induced paths or all
+subset topologies), via double-precision finite differences
+(Richardson-extrapolated, not exact/symbolic). It extends prior
+evidence to the true maximum chain length (8, previously only
+tested to 6) and finds no sign of the floor collapsing toward
+zero. It does not prove Conjecture (Multi-Direction Positivity)
+for any m, and does not address finite (non-infinitesimal) theta.

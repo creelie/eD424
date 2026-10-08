@@ -1,0 +1,8 @@
+$ (cd swap_configs && swap_exact_setup.py)
+n_verts: 33
+n_simplices (boundary tetrahedra): 157
+hull.volume: 8.082752807862565
+degree histogram: 18 deg5, 15 deg6
+all vertices have a valid quadruple: True
+max reconstruction error: 3.8459253727671276e-16
+saved.

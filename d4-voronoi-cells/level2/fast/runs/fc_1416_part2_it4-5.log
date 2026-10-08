@@ -1,0 +1,13 @@
+FC assembly (eps): N = 24, pairs <= 276.01, weights = Rational{BigInt}[103//963, 191//963, 280//963, 230//963, 53//321], m = 3901 rows (17 pair rows)
+MEM loaded rss=4.864348 GB threads=4 mode=fast prec=128 K=7 levels=7 cholK=8 cholL=10
+WARM: 137 blocks taken from the checkpoint
+WARM start from the checkpoint after iteration 3 (/tmp/claude-0/-home-claude-d4-voronoi-cells/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/l2fast/ckpt_fc_1416s_warm_it3.jls)
+ iter  time(s)           μ       P-obj       D-obj        gap    P-error    p-error    d-error        α_p        α_d       beta
+      CHOLSTAT min pivot^2/S_ii = 5.0966468211239016e-14 at row 3890
+    1    792.3   7.009e+05   1.439e+00   3.458e+09   1.00e+00   3.18e+01   3.08e-03   2.68e-16   8.84e-01   1.00e+00   3.00e-01
+      PROF R=1.4 Xinv=0.9 schur=601.4 cholS=30.2 res=32.7 pred=57.2 corr=54.0 alpha=11.9 rss=10.03GB
+      CKPT iteration 1 saved in 2.9 s
+      CHOLSTAT min pivot^2/S_ii = 5.0975631844751724e-14 at row 3890
+    2   1548.6   2.103e+05   1.439e+00   1.038e+09   1.00e+00   3.70e+00   3.58e-04   1.57e-17   7.63e-01   1.00e+00   3.00e-01
+      PROF R=1.5 Xinv=0.7 schur=581.9 cholS=27.0 res=30.7 pred=54.0 corr=52.3 alpha=3.1 rss=10.15GB
+      CKPT iteration 2 saved in 2.4 s

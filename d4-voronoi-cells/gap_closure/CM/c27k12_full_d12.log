@@ -1,0 +1,4 @@
+resumed from c27k10_d10_r2.npz, all samples kept
+   direct: 12513 variables, 100551 inequalities, 11739 psd rows in 64 cones, 107726406 nonzeros [37 s to build]
+PEAK_RSS_GB 13.82 exit -9
+killed by the memory limit at 13.82 GB (07:25 UTC), before the first iteration

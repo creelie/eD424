@@ -1,0 +1,8 @@
+$ (cd verification && refcell_verify.py)
+num vertices: 24
+volume (scipy convex hull): 7.999999999999984
+num facets: 96
+all norms == sqrt(2)?  True
+num roots: 24
+support at root directions, min/max: 1.0 1.0
+support at coordinate directions: [1.41421356 1.41421356 1.41421356 1.41421356]

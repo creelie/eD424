@@ -1,0 +1,6 @@
+$ python3 code24_exact.py code24_second.npy
+all 24 points on S^3 exactly; largest inner product 0.51697961, slack s = 0.01697961
+largest deviation of a sorted Gram row from the root system row: 0.516978
+exact: slack <= 849/50000 = 0.016980 and deviation >= 5169/10000 = 0.5169
+the inner product of points 8 and 10, -0.728167, is at least 57/250 from -1, -1/2, 0, 1/2, 1;
+so d(W) >= 57/250 / 2 = 0.1140 > 1/48

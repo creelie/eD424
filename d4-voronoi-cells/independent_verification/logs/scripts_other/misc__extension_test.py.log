@@ -1,0 +1,4 @@
+$ (cd misc && extension_test.py)
+plain cancel: 0.05s, len 1069
+cancel(extension=True): 0.09s, len 311
+match: True

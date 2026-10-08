@@ -1,0 +1,7 @@
+$ (cd arc1_v1w1 && arc_scan2.py)
+v1-w1 arc: min F=0.030122 at theta=0.3000, t=0.0000
+w1-v2 arc: min F=0.030122 at theta=0.3000, t=0.0000
+
+Refining near global worst (v1-w1 arc) with local optimisation...
+Refined minimum: F=0.00083363 at theta=0.050000, t=0.001009
+(theta in radians; for reference pi/3=1.0472, pi/2=1.5708)

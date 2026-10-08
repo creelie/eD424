@@ -1,0 +1,35 @@
+# python3 dual_where.py 30 10 3
+M 30 bound 3.14415
+radial measure: total 30.000 (should be M = 30)
+  radius in [2.0000, 2.0161): 23.632 centres
+  radius in [2.0161, 2.0500): 0.000 centres
+  radius in [2.0500, 2.1000): 0.000 centres
+  radius in [2.1000, 2.2000): 0.000 centres
+  radius in [2.2000, 2.3000): 0.000 centres
+  radius in [2.3000, 2.4000): 0.000 centres
+  radius in [2.4000, 2.4500): 6.368 centres
+pair measure (ordered pairs): total 870.54 (M(M-1) = 870)
+  u in [-0.90, -0.80): mass 2.293 per centre, mean radii 2.000 2.000
+  u in [-0.80, -0.70): mass 1.866 per centre, mean radii 2.225 2.225
+  u in [-0.60, -0.50): mass 0.403 per centre, mean radii 2.449 2.449
+  u in [-0.50, -0.40): mass 4.055 per centre, mean radii 2.030 2.030
+  u in [-0.20, -0.10): mass 5.567 per centre, mean radii 2.000 2.000
+  u in [-0.10,  0.00): mass 4.287 per centre, mean radii 2.225 2.225
+  u in [ 0.00,  0.10): mass 0.773 per centre, mean radii 2.449 2.449
+  u in [ 0.50,  0.55): mass 6.450 per centre, mean radii 2.000 2.000
+  u in [ 0.60,  0.70): mass 3.324 per centre, mean radii 2.225 2.225
+# python3 dual_where.py 25 10 3
+M 25 bound 3.32989
+radial measure: total 25.000 (should be M = 25)
+  radius in [2.0000, 2.0161): 25.000 centres
+  radius in [2.0161, 2.0500): 0.000 centres
+  radius in [2.0500, 2.1000): 0.000 centres
+  radius in [2.1000, 2.2000): 0.000 centres
+  radius in [2.2000, 2.3000): 0.000 centres
+  radius in [2.3000, 2.4000): 0.000 centres
+  radius in [2.4000, 2.4500): 0.000 centres
+pair measure (ordered pairs): total 600.00 (M(M-1) = 600)
+  u in [-0.90, -0.80): mass 3.099 per centre, mean radii 2.000 2.000
+  u in [-0.40, -0.30): mass 5.096 per centre, mean radii 2.000 2.000
+  u in [-0.20, -0.10): mass 6.685 per centre, mean radii 2.000 2.000
+  u in [ 0.45,  0.50): mass 9.120 per centre, mean radii 2.000 2.000

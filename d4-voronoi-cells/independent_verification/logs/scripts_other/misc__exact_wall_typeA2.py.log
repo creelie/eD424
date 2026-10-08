@@ -1,0 +1,11 @@
+$ (cd misc && exact_wall_typeA2.py)
+Found quadruple: (1, 3, 14, 18)
+z_I = Matrix([[0, -sqrt(2), 0, 0]])   det(G_I) = 1/4
+<z_I,u0> = -1   <z_I,v1> = 1   <z_I,w1> = 0
+
+Exact wall equation:  cos(theta)*(-1) + sin(theta)*[cos(t)*(1) + sin(t)*(0)] = 1
+Amplitude of the (cos t, sin t) part: 1
+=> for fixed theta, the equation is  sin(theta)*amp*cos(t - phi) = 1 - cos(theta)*a
+   which has AT MOST 2 solutions t in any period, by elementary trig (R cos(t-phi)=const).
+
+theta=0.8: numeric sign-change locations in t in [0,pi/2]: []

@@ -1,0 +1,107 @@
+code_feas_dist.py and C30/code_feasible2.py, 6 October 2026: arrangements of directions for 28 centres (floating point, local search; 'feasible starts' counts starts that reached zero violation).
+
+Loosest thresholds (nA directions within 2.0161, pairwise <= 0.50795; nF at sqrt6, within
+0.61403 of those and 0.66667 of each other), code_feasible2.py.
+Seed 7: 200 starts for nA = 22 and 24, 100 for the rest:
+  22+2 feasible 50/200   22+3 feasible 1/200   22+4 best 1.256e-02   22+5 1.886e-02   22+6 2.595e-02
+  24+2 best 3.895e-02    24+3 4.540e-02        24+4 4.905e-02
+  21+7 best 1.287e-02    21+4 feasible 39/100  20+8 best 3.843e-03   20+5 feasible 95/100
+  18+10 feasible 81/100  16+12 99/100          12+16 100/100         0+28 100/100
+Seed 11, 300 starts:
+nA=21 nB=0 nF=7 dA=2.0161 dB=2.0161: feasible starts 0/300, best max violation 8.543e-03
+nA=20 nB=0 nF=8 dA=2.0161 dB=2.0161: feasible starts 0/300, best max violation 3.915e-05
+nA=19 nB=0 nF=9 dA=2.0161 dB=2.0161: feasible starts 92/300, best max violation -1.008e-07
+nA=22 nB=0 nF=4 dA=2.0161 dB=2.0161: feasible starts 0/300, best max violation 9.534e-03
+
+With the distances that the radial counts at 28 allow (21 within 2.1, 22 within 2.15, 23 within 2.2,
+24 within 2.35), each centre at the largest distance its count allows; seeds 11, 23 and 31:
+2.0161*21,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/300, best max violation 2.859e-02
+2.0161*20,2.1*1,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/300, best max violation 3.307e-02
+2.0161*19,2.1*2,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/300, best max violation 3.119e-02
+2.0161*18,2.1*3,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/300, best max violation 1.986e-02
+2.0161*17,2.1*4,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/300, best max violation 2.303e-02
+2.1*21,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 212/300, best max violation -2.868e-11
+2.0161*10,2.1*11,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/300, best max violation 5.839e-03
+2.0161*2,2.1*19,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 133/300, best max violation -2.932e-09
+2.0161*4,2.1*17,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 52/300, best max violation -7.347e-10
+2.0161*6,2.1*15,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 9/300, best max violation -5.327e-10
+2.0161*8,2.1*13,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/300, best max violation 7.207e-04
+
+The radial counts of the other cases (control: 29, where (C) is proved), seed 29:
+2.05*14,2.1*6,2.15*1,2.2*1,2.35*2,sqrt6*3: feasible starts 128/200, best max violation -1.078e-08
+2.05*15,2.1*5,2.15*2,2.2*1,2.444*1,sqrt6*2: feasible starts 164/200, best max violation -1.452e-09
+2.05*17,2.1*4,2.15*1,2.2*1,2.444*1,sqrt6*1: feasible starts 190/200, best max violation -2.888e-09
+2.0161*8,2.05*11,2.1*3,2.15*1,2.3*1,sqrt6*5: feasible starts 0/200, best max violation 2.253e-02
+
+1000 starts (seed 37), the same distances: 300 starts were not enough to decide.
+2.0161*7,2.1*14,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 12/1000, best max violation -5.188e-10
+2.0161*8,2.1*13,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 1/1000, best max violation 3.302e-09
+2.0161*9,2.1*12,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 1/1000, best max violation 4.615e-13
+
+2000 starts (seed 41), the same distances, 10 to 20 centres within 2.0161 (local search: a miss is evidence, not a proof):
+2.0161*10,2.1*11,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/2000, best max violation 1.582e-03
+2.0161*12,2.1*9,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/2000, best max violation 8.126e-03
+2.0161*14,2.1*7,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/2000, best max violation 6.178e-03
+2.0161*16,2.1*5,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/2000, best max violation 1.643e-02
+2.0161*18,2.1*3,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/2000, best max violation 1.751e-02
+2.0161*20,2.1*1,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/2000, best max violation 2.751e-02
+
+27 (radial counts 14 within 2.05, 20 within 2.1, 21 within 2.15, 22 within 2.2, 24 within 2.35), 1000 starts (seed 43):
+2.0161*8,2.05*6,2.1*6,2.15*1,2.2*1,2.35*2,sqrt6*3: feasible starts 205/1000, best max violation -7.021e-08
+2.0161*12,2.05*2,2.1*6,2.15*1,2.2*1,2.35*2,sqrt6*3: feasible starts 63/1000, best max violation -2.016e-09
+2.0161*16,2.1*4,2.15*1,2.2*1,2.35*2,sqrt6*3: feasible starts 2/1000, best max violation -2.043e-08
+
+Typed three-point bound (c28_typed_dirs.py 20 6 2; typed3pt.py falls back on SCS where CLARABEL fails) on the four types 20 within 2.0161, 1 at 2.1, 3 at 2.35, 4 at sqrt6:
+d=6 round 1: optimal Val=-5.6459e-09 corrected=1.0988e-05  maxviol=2.1e-08  [1019 s]
+[stopped 19:38 in round 2: Val stays at 0 (the zero kernel), so the typed three-point bound of degree 6 does not exclude 20 centres within 2.0161 at 28]
+
+5000 starts (seed 53), 10 and 11 centres within 2.0161:
+2.0161*10,2.1*11,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/5000, best max violation 2.060e-03
+2.0161*11,2.1*10,2.15*1,2.2*1,2.35*1,sqrt6*4: feasible starts 0/5000, best max violation 3.063e-03
+
+Continuation (c28_continue.py 9 4000 61): from a code with 9 centres within 2.0161, one centre at 2.1 moved in to 2.0161 in 25 steps, re-minimising at each step.  10 close centres fit, which the random starts above had missed:
+m = 9: 1 codes found in 4000 starts
+   code 0: best so far -1.157e-09
+m + 1 = 10 by continuation: smallest largest violation -1.157e-09
+Chains of such moves from codes with 6 and 8 close centres run in c28_chain.py (chain6.log, chain8.log).
+
+Chains of continuation moves (c28_chain.py 6 300 71 and c28_chain.py 8 3000 73), greedy, one centre at a time:
+m = 6: 16 codes found in 300 starts
+largest count reached: 8
+   chains from 6: 16
+m = 8: 6 codes found in 3000 starts
+largest count reached: 9
+     code 0: stops at 8 close centres; best move to 9 misses by 1.246e-03
+     code 1: stops at 8 close centres; best move to 9 misses by 9.128e-04
+     code 2: stops at 9 close centres; best move to 10 misses by 1.600e-04
+     code 3: stops at 8 close centres; best move to 9 misses by 5.042e-04
+     code 4: stops at 9 close centres; best move to 10 misses by 1.118e-03
+     code 5: stops at 8 close centres; best move to 9 misses by 6.514e-04
+
+Direct search for the largest close count (c28_maxclose.py 400 81): the 21 distances within 2.1 are variables, -sum s_j plus a growing penalty on the violations, then the centres with s_j above 0.98, 0.9 or 0.7 are fixed at 2.0161 and the rest at 2.1.  Counts of feasible codes by close count, over the three thresholds of every start:
+after 400 starts: feasible close counts {0: 17, 1: 47, 2: 82, 3: 158, 4: 186, 5: 212, 6: 173, 7: 121, 8: 63, 9: 26, 10: 7}
+largest feasible close count: 10
+A code with 10 close centres, all 378 constraints met with slack 7.3e-8 (largest inner product 0.508 between close centres), was found (the later run below found 12).
+
+c28_maxclose.py 2000 83, the same search with 2000 starts:
+after 2000 starts: feasible close counts {0: 68, 1: 225, 2: 415, 3: 718, 4: 1016, 5: 1074, 6: 854, 7: 634, 8: 273, 9: 90, 10: 13, 11: 3, 12: 1}
+largest feasible close count: 12
+The code with 12 close centres re-minimised with a margin: all 378 constraints hold with slack 1e-5 (c28_close12_witness.txt).  Moving one more centre in from it by continuation (c28_extend.py, 40 steps, every candidate) misses 13 by 4.2e-3:
+mc12.npy: 12 close centres, largest violation 4.611e-09
+stops at 12 close centres; best move to 13 misses by 4.174e-03
+
+27 (c28_maxclose.py 1000 91 27; radial counts of 27 at bin maxima, the 20 within 2.1 variable): codes with 18 centres within 2.0161 fit, so the split at 27 would need a limit of at least 18:
+after 1000 starts: feasible close counts {0: 12, 1: 12, 2: 44, 3: 66, 4: 87, 5: 137, 6: 203, 7: 233, 8: 289, 9: 260, 10: 283, 11: 201, 12: 162, 13: 130, 14: 95, 15: 43, 16: 7, 17: 3, 18: 3}
+largest feasible close count: 18
+
+Basin hopping from the 12-close code (c28_hop.py c28_close12_witness.txt 600 0.05 101: perturb by 0.05, rerun the close-count search from there, keep any gain):
+after 600 hops: 12 close centres
+largest: 12
+
+Typed three-point bound at degree 8 (c28_typed_dirs.py 23 8 3) on 23 within 2.0161, 1 at 2.35 and 4 at sqrt6:
+d=8 round 1: optimal_inaccurate Val=2.3745e-07 corrected=3.6166e-05  maxviol=1.2e-07  [681 s]
+[stopped after round 1: the value is 0, so degree 8 does not exclude 23 centres within 2.0161 at 28; the run for 22 (c28_typed_dirs.py 22 8 3) was stopped before its first round ended]
+
+Typed three-point bound at degree 10 (c28_typed_dirs.py 23 10 3) on the same 23 + 1 + 4 directions:
+d=10 round 1: optimal_inaccurate Val=4.1487e-07 corrected=3.4434e-04  maxviol=4.1e-07  [4205 s]
+[stopped after round 1 at 03:48 UTC on 2026-10-07: the value is 0 up to solver accuracy and refining the samples can only raise it, so degree 10 does not exclude 23 centres within 2.0161 at 28 either]

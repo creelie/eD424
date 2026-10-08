@@ -1,0 +1,19 @@
+read 127 blocks, 60 of them for irreducible representations (17s)
+objective B X B^T [0,0] for lambda = (0,0): 24  (expected 24)
+read sum-of-squares data (18s)
+read 490 zonal polynomials (339s)
+built 792 zonal matrix entries (375s)
+k=1 sum-of-squares part done (375s)
+  k=1 J1=() J2=(0,) done (375s)
+  k=1 J1=(0,) J2=(0,) done (375s)
+CONSTRAINT 1: HOLDS EXACTLY  (0 nonzero coefficients, 375s)
+k=2 sum-of-squares part done (375s)
+  k=2 J1=() J2=(0, 1) done (375s)
+  k=2 J1=(0,) J2=(1,) done (376s)
+  k=2 J1=(0,) J2=(0, 1) done (376s)
+  k=2 J1=(1,) J2=(0, 1) done (377s)
+  k=2 J1=(0, 1) J2=(0, 1) done (392s)
+CONSTRAINT 2: HOLDS EXACTLY  (0 nonzero coefficients, 392s)
+
+constraint 1  zero
+constraint 2  zero

@@ -1,0 +1,12 @@
+$ (cd swap_configs && swap_defect_curves.py)
+pair  [0, 4]
+triangle [0, 4, 8]
+hexagon  [0, 4, 14, 3, 7, 13], closest match to the closed form 9.22e-10
+/tmp/claude-0/-home-user-d4-voronoi-cells/d052fe5d-7c18-5b17-9161-726e1b4482b4/scratchpad/work/swap_configs/swap_defect_curves.py:127: RuntimeWarning: invalid value encountered in divide
+  return 8 * t**4 * (A + np.sqrt(3) * B) / den
+hexagon: enumerated against closed form, max |difference| 9.38e-09
+defect at theta=0: swap 4.45e-11, triangle 3.58e-10, hexagon 7.94e-11
+least defect on the open interval: swap 0.000025, triangle 0.000033, hexagon 0.000000
+swap against mixed: crossings at [0.6492]
+at theta=0.05: swap 0.002474, mixed 0.000834
+wrote swap_curves.dat and swap_mixed.dat

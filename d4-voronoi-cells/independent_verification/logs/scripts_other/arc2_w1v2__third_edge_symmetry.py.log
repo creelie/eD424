@@ -1,0 +1,19 @@
+$ (cd arc2_w1v2 && third_edge_symmetry.py)
+=== Exact symbolic verification (sympy, Z[sqrt2] arithmetic) ===
+  S*u0 == u0: True
+  S*v1 == v1: True
+  S*v2 == w1: True
+  S*S == Id: True
+  S permutes the 24 D4 roots bijectively (exact): True
+  S(dev_v1v2(s)) == dev_v1w1(s), symbolic s: True
+ALL EXACT CHECKS PASS: True
+
+=== Numerical sanity check: defect(theta, third edge(s)) vs defect(theta, first arc(s)) ===
+  max |defect(third edge) - defect(first arc)| over 30 sampled (theta,s): 5.82e-10
+  (nonzero only at the level of convex-hull-volume floating point noise;
+   the exact symbolic check above is what actually proves the identity.)
+
+CONCLUSION: the third edge (v1-v2) is exactly certified by Arc 1's own
+certificate, via the symmetry S. No new certificate was computed or is
+needed for this edge. This does NOT complete the second arc (w1-v2) and
+does NOT address the fundamental triangle's interior -- both remain open.

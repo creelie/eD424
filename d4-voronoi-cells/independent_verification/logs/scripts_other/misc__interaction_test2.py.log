@@ -1,0 +1,5 @@
+$ (cd misc && interaction_test2.py)
+trials=300  negative-interaction count=144
+worst (most negative) relative interaction found: -59.3870%
+  m=3 idx=[ 9 18  1] thetas=[0.206 0.788 0.794]
+  f_singles=[0.014126 0.203495 0.198688]  sum=0.416310  f_joint=0.169076  interaction=-0.247234

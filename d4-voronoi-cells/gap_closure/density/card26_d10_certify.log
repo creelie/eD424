@@ -1,0 +1,21 @@
+$ python3 multi_cap/certify_cardinality.py multi_cap/cardinality_certificates/cert_d10_t0.51468.npz 1e-6 2.9e-4 1e-5 26
+certificate degree 10, t = 12867/25000 = 1/2 + 367/25000 exactly; the boxes run to 0.51468
+1. positivity:
+   f_k >= 0, F_0..F_10 positive definite (exact LDL^T)  [0s]
+2. B = 1 + f(1) + F(1,1,1) = 25.799999928  (exact rational; 756 monomials in P2)  [1s]
+3. constraint (i):
+  (i) verified: P1 <= 1.00e-06 on [-1,0.51468]; 790 intervals, largest centre value -1.968e-04  [0s]
+4. constraint (ii):
+  level  5: 0 boxes verified, 2 outside, 28 to bisect, largest centre value -2.269e-04  [1s]
+  level 10: 0 boxes verified, 76 outside, 334 to bisect, largest centre value -1.787e-04  [2s]
+  level 15: 99 boxes verified, 738 outside, 5698 to bisect, largest centre value -1.787e-04  [8s]
+  level 20: 12495 boxes verified, 4962 outside, 95252 to bisect, largest centre value -1.694e-04  [94s]
+  level 25: 507535 boxes verified, 25329 outside, 375382 to bisect, largest centre value -1.611e-04  [1121s]
+  level 30: 1143961 boxes verified, 37951 outside, 73650 to bisect, largest centre value -1.575e-04  [1833s]
+  level 35: 1287272 boxes verified, 39535 outside, 0 to bisect, largest centre value -1.575e-04  [1964s]
+  (ii) verified: P2 <= 2.90e-04 on the admissible domain in [-1,0.51468]^3
+5. at |C| = 26:  25(1-e1) - 600 e2 = 24.825975  vs  B - 1 = 24.800000
+PASS: A(4, 0.51468) <= 25.  Any set of points of S^3 with pairwise inner products at most 1/2 + 0.01468 has at most 25 points
+      (a set of 26 or more would contain 26 points, and the bound excludes |C| = 26);
+      equivalently, in a unit-ball packing of R^4 at most 25 other centres lie within distance 2.030023 of any centre.
+exit 0

@@ -1,0 +1,36 @@
+$ (cd arc2_w1v2 && bandBcurve_certificate.py)
+======================================================================
+w1-v2 arc, band below region-top, B-sub-part (t in (t3,pi/4))
+box-covering certificate attempt
+======================================================================
+Step 1: combinatorial stability check
+  t=0.6205 theta=1.2096: 34 vertices
+  t=0.6433 theta=1.2151: 34 vertices
+  t=0.6662 theta=1.2198: 34 vertices
+  t=0.6890 theta=1.2237: 34 vertices
+  t=0.7119 theta=1.2267: 34 vertices
+  t=0.7347 theta=1.2289: 34 vertices
+  t=0.7576 theta=1.2304: 34 vertices
+  t=0.7804 theta=1.2309: 34 vertices
+combinatorial pattern identical across all 8 samples: True
+
+Step 2: exact vertex/volume derivation
+representative point (theta,t)=(1.2253,0.7004): 34 vertices, 11 moving, 23 fixed
+fixed-vertex check across 5 sample points: 0/23 differ (0=all fixed)
+145 boundary simplices: 71 fixed-only, 74 moving
+fixed vertices matched exactly: 23/23
+EXACT fixed-only volume contribution: 6
+moving vertices solved exactly: 11 distinct patterns (11 instances), 6.4s
+    simplex 0/74: 0.20s, term len 4
+    simplex 10/74: 0.05s, term len 59
+    simplex 11/74: no closed form within 90s
+
+======================================================================
+MOVING-VOLUME STEP DID NOT COMPLETE
+======================================================================
+    one determinant's exact simplification does not settle,
+    so no closed form for the volume is obtained on this
+    sub-part.  This is the outcome recorded in Section 11.4
+    of the paper; by Proposition 8.5 the sub-part needs no
+    direct certificate, since the second arc carries the
+    first arc's own.

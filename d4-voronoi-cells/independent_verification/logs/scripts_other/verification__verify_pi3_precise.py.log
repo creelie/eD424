@@ -1,0 +1,9 @@
+$ (cd verification && verify_pi3_precise.py)
+pi/3 = 1.047197551197
+  t=0.0000: transition at theta=1.047197551769  (diff from pi/3: 5.73e-10)
+  t=0.3000: transition at theta=1.047197551769  (diff from pi/3: 5.73e-10)
+  t=0.6614: transition at theta=1.047197551769  (diff from pi/3: 5.73e-10)
+  t=0.9000: transition at theta=1.047197551769  (diff from pi/3: 5.73e-10)
+  t=0.9921: transition at theta=1.047197551769  (diff from pi/3: 5.73e-10)
+  t=1.2000: transition at theta=1.047197551769  (diff from pi/3: 5.73e-10)
+  t=1.5708: transition at theta=1.047197551769  (diff from pi/3: 5.73e-10)

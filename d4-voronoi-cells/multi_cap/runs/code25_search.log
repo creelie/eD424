@@ -1,0 +1,43 @@
+$ python3 code25_search.py 1 40
+start  0: largest inner product 0.538066   best 0.538066
+start  1: largest inner product 0.537899   best 0.537899
+start  2: largest inner product 0.537900   best 0.537899
+start  3: largest inner product 0.537900   best 0.537899
+start  4: largest inner product 0.537987   best 0.537899
+start  5: largest inner product 0.537899   best 0.537899
+start  6: largest inner product 0.538032   best 0.537899
+start  7: largest inner product 0.537898   best 0.537898
+start  8: largest inner product 0.539953   best 0.537898
+start  9: largest inner product 0.538067   best 0.537898
+start 10: largest inner product 0.537899   best 0.537898
+start 11: largest inner product 0.537902   best 0.537898
+start 12: largest inner product 0.537901   best 0.537898
+start 13: largest inner product 0.537900   best 0.537898
+start 14: largest inner product 0.537898   best 0.537898
+start 15: largest inner product 0.539953   best 0.537898
+start 16: largest inner product 0.537899   best 0.537898
+start 17: largest inner product 0.537898   best 0.537898
+start 18: largest inner product 0.537901   best 0.537898
+start 19: largest inner product 0.537900   best 0.537898
+start 20: largest inner product 0.537900   best 0.537898
+start 21: largest inner product 0.537900   best 0.537898
+start 22: largest inner product 0.537901   best 0.537898
+start 23: largest inner product 0.537899   best 0.537898
+start 24: largest inner product 0.537899   best 0.537898
+start 25: largest inner product 0.537899   best 0.537898
+start 26: largest inner product 0.537826   best 0.537826
+start 27: largest inner product 0.537899   best 0.537826
+start 28: largest inner product 0.537900   best 0.537826
+start 29: largest inner product 0.537899   best 0.537826
+start 30: largest inner product 0.537899   best 0.537826
+start 31: largest inner product 0.537900   best 0.537826
+start 32: largest inner product 0.537429   best 0.537429
+start 33: largest inner product 0.539950   best 0.537429
+start 34: largest inner product 0.537899   best 0.537429
+start 35: largest inner product 0.537899   best 0.537429
+start 36: largest inner product 0.538859   best 0.537429
+start 37: largest inner product 0.537897   best 0.537429
+start 38: largest inner product 0.537900   best 0.537429
+start 39: largest inner product 0.539952   best 0.537429
+written to runs/code25_best.txt: 25 points, largest inner product 0.537429, minimal angle 57.491 degrees
+so a 25-point code exists with inner products at most 1/2 + 0.0374

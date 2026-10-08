@@ -1,0 +1,8 @@
+'D4InnerProducts.p2_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.q_nonzero_at_the_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.division_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.sturm_no_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	0m46.783s
+user	0m42.092s
+sys	0m4.802s

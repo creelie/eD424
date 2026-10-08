@@ -1,0 +1,4 @@
+$ (cd arc2_w1v2 && region_top_bernstein.py)
+N: 139 terms, D: 71 terms, 3.1s
+N degree: (w=12, v2=21)   D degree: (w=10, v2=20)
+saved coeffs.

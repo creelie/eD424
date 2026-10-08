@@ -1,0 +1,12 @@
+28 with at most 20 centres within 2.0161 (case28_lo20.json), three-point degree 8, four rounds, fixed coplanar and symmetric grids (TCOPLANAR=24, TSYM=24), REFINE=100.  Local search finds no code of 21 directions pairwise within 0.50795 with 7 more within 0.61403 of them and 0.66667 of each other (c28count notes), while 20 plus 8 comes within 4e-5; at most 19 gave 3.09003 in round 1 against 3.10668 for the whole case at this degree.  Started Tue Oct  6 17:53:12 UTC 2026
+fixed coplanar triples per kind: {'AAA': 630, 'AAB': 686, 'AAF': 701, 'ABB': 703, 'ABF': 730, 'AFF': 741, 'BBB': 741, 'BBF': 741, 'BFF': 741, 'FFF': 741}
+fixed triples per kind with the symmetric slices: {'AAA': 1465, 'AAB': 1064, 'AAF': 1075, 'ABB': 1092, 'ABF': 730, 'AFF': 1125, 'BBB': 1580, 'BBF': 1121, 'BFF': 1124, 'FFF': 1585}
+   direct: 5898 variables, 79249 inequalities, 4299 psd rows in 48 cones, 33859040 nonzeros [11 s to build]
+   105 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 3.10234 (target 3.10330), corrected <= 3.74320  [2475 s]
+   viol: AA 1.5e-06, AB 2.4e-06, AF 2.0e-06, BB 3.9e-06, BF 4.1e-06, FF 6.0e-09, AAA 5.1e-05, AAB 8.5e-05, AAF 3.0e-04, ABB 4.7e-05, ABF 5.9e-04, AFF 3.4e-04, BBB 2.4e-05, BBF 1.4e-04, BFF 2.1e-04, FFF 1.1e-04
+   c2: {'AA': 0.027876, 'AB': 0.03728, 'AF': 0.044849, 'BB': 0.04579, 'BF': 0.049184, 'FF': 0.058054}
+   c3: {'AAA': 0.0014081, 'AAB': 0.0010815, 'AAF': 0.0007759, 'ABB': 0.0007846, 'ABF': 0.0006445, 'AFF': 0.0002789, 'BBB': 0.0005314, 'BBF': 0.0005717, 'BFF': 0.0002437, 'FFF': 0.0014148}
+   direct: 5898 variables, 86428 inequalities, 4299 psd rows in 48 cones, 39512130 nonzeros [13 s to build]
+PEAK_RSS_GB 5.64 exit -15 wall 3586 s
+[stopped 18:53 UTC in round 2: with at most 8 centres within 2.0161 the bound at degree 6 fell to 3.14307 against 3.23113, so the runs moved to smaller counts]

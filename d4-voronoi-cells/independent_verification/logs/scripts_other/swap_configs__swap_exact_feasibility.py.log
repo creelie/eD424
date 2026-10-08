@@ -1,0 +1,34 @@
+$ (cd swap_configs && swap_exact_feasibility.py)
+beta_perp = Matrix([[sqrt(6)/6, -sqrt(6)/6, sqrt(6)/3, 0]])
+alpha_perp = Matrix([[sqrt(6)/6, sqrt(6)/3, -sqrt(6)/6, 0]])
+u1(theta) = Matrix([[sqrt(6)*sin(theta + pi/3)/3, sqrt(6)*cos(theta + pi/6)/3, sqrt(6)*sin(theta)/3, 0]])
+u2(theta) = Matrix([[sqrt(6)*sin(theta + pi/3)/3, sqrt(6)*sin(theta)/3, sqrt(6)*cos(theta + pi/6)/3, 0]])
+Gram matrix (symbolic) built, t= 0.0010519027709960938
+Matrix([[1, 0, 1/2, 1/2], [0, 1, 1/2, 1/2], [1/2, 1/2, 1, 0], [1/2, 1/2, 0, 1]])
+
+=== now a quadruple involving the MOVING direction u1 (index 22) ===
+Gram matrix (symbolic, with u1) built, t= 0.991461992263794
+⎡                                         √3⋅sin(θ)  ⎤
+⎢    1           1/2           1/2        ─────────  ⎥
+⎢                                             3      ⎥
+⎢                                                    ⎥
+⎢                                             ⎛    π⎞⎥
+⎢                                       √3⋅sin⎜θ + ─⎟⎥
+⎢                                             ⎝    3⎠⎥
+⎢   1/2           1             0       ─────────────⎥
+⎢                                             3      ⎥
+⎢                                                    ⎥
+⎢                                            ⎛    π⎞ ⎥
+⎢   1/2           0             1        -cos⎜θ + ─⎟ ⎥
+⎢                                            ⎝    3⎠ ⎥
+⎢                                                    ⎥
+⎢                 ⎛    π⎞                            ⎥
+⎢           √3⋅sin⎜θ + ─⎟                            ⎥
+⎢√3⋅sin(θ)        ⎝    3⎠      ⎛    π⎞               ⎥
+⎢─────────  ─────────────  -cos⎜θ + ─⎟        1      ⎥
+⎣    3            3            ⎝    3⎠               ⎦
+det(G2) = sin(2*theta + pi/6)/6 + 1/6   time: 0.595782995223999
+alpha (Cramer coeffs) computed, time: 6.645914554595947
+Matrix([[0, (sqrt(3)*sin(2*theta) - sqrt(3)*sin(theta + pi/3) + 3/2)/(sin(2*theta + pi/6) + 1), (-cos(2*theta) + 3*cos(theta + pi/3) + 5/2)/(sin(2*theta + pi/6) + 1), (-2*sqrt(3)*sin(theta) + 3)/(sin(2*theta + pi/6) + 1)]])
+z_I computed, time: 3.4362025260925293
+z_I = Matrix([[(2*sqrt(6)*sin(theta + pi/3) + 2*sqrt(2)*cos(2*theta) + sqrt(2))/(4*(sin(2*theta + pi/6) + 1)), (-2*sqrt(6)*sin(2*theta) + 2*sqrt(6)*sin(theta + pi/3) - 3*sqrt(2))/(4*(sin(2*theta + pi/6) + 1)), (2*sqrt(6)*sin(theta + pi/3) + 2*sqrt(2)*cos(2*theta) + sqrt(2))/(4*(sin(2*theta + pi/6) + 1)), sqrt(2)*(-2*sqrt(3)*sin(2*theta) + 2*sqrt(3)*sin(theta + pi/3) - 3)/(4*(sin(2*theta + pi/6) + 1))]])

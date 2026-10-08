@@ -1,0 +1,40 @@
+$ (cd multi_cap && covering_multiplicity.py)
+================================================================
+Part 1: the covering multiplicity inequality
+================================================================
+  total cap area   m A(60 deg) = 88.757856
+  area of S^3                  = 19.739209
+  Cauchy-Schwarz lower bound on sum Lambda(60 deg, gamma_ij):
+      (S^2/T - S)/2            = 155.172054
+  value at the deletion configuration = 162.566121
+  slack = 7.394066, that is 4.548 per cent
+[PASS] the inequality holds at the deletion configuration
+[PASS] and is within five per cent of binding there
+       slack 4.548 per cent
+
+================================================================
+Part 2: can the pair-angle distribution alone finish the job
+================================================================
+  Minimise sum_{i<j} omega(gamma_ij) over all distributions of
+  253 pair angles in [60, 180] degrees subject to
+    Bonferroni:  sum Lambda(t, gamma_ij) >= m A(t) - 2 pi^2, all t
+    Delsarte:    sum G_k(cos gamma_ij) >= -m/2, k = 1..K
+    total mass:  253 pairs
+  If that minimum reached 0.083272 the case would be settled.
+
+  linear programme status: Optimization terminated successfully. (HiGHS Status 7: Optimal)
+  minimum of sum omega over the relaxation : 0.041573648
+  what is needed                           : 0.083272432
+  value at the deletion configuration      : 0.081157291
+[PASS] the relaxation cannot reach the target
+       0.041573648 against 0.083272432
+[PASS] the deletion configuration is feasible for the relaxation and already falls short
+       the deletion gives 0.081157291, short by 0.002115142
+
+================================================================
+4 of 4 checks passed
+================================================================
+The deletion configuration satisfies every constraint of this kind
+and its own pair angles already give less than what is needed. A
+bound that settles the saturated case therefore has to read
+something the multiset of pair angles does not record.

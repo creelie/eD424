@@ -1,0 +1,6 @@
+  d=10 t=0.51468 round 1: sampled bound 25.644312 (400+7980 pts, 121s) viol (i) 1.7e-07 (ii) 6.1e-03  -> bound at |C|=25 corrected: 29.011792
+/home/claude/d4-voronoi-cells/multi_cap/cardinality_sdp.py:114: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', verbose=verbose, **opts)
+  d=10 t=0.51468 round 2: sampled bound 25.675368 (1900+10980 pts, 195s) viol (i) 6.2e-06 (ii) 2.9e-04  -> bound at |C|=25 corrected: 25.833560
+  d=10 t=0.51468 round 3: sampled bound 25.682492 (3400+13980 pts, 277s) viol (i) -5.9e-08 (ii) 8.1e-05  -> bound at |C|=25 corrected: 25.727443
+  d=10 t=0.51468 round 4: sampled bound 25.682712 (4900+16980 pts, 326s) viol (i) -5.0e-08 (ii) 1.2e-05  -> bound at |C|=25 corrected: 25.689309

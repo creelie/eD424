@@ -1,0 +1,9 @@
+Thu Sep 24 06:36:58 UTC 2026
+s4_total.pkl              74606 terms added,    74606 nonzero so far
+s4_total.pkl              74606 terms added,    53572 nonzero so far
+z4.pkl                    53572 terms added,        0 nonzero so far
+
+nonzero coefficients in the assembled constraint: 0
+CONSTRAINT: HOLDS EXACTLY
+exit=0
+STEP5_DONE

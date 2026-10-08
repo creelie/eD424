@@ -1,0 +1,131 @@
+$ (cd arc1_v1w1 && regionD_derive.py)
+[regionD] rep point theta=0.9868 t=0.3000: 37 verts, 15 moving, 22 fixed
+[regionD] fixed-vertex check across 4 samples: 0/22 differ, 22/22 matched to full set
+[regionD] 172 boundary simplices: 58 fixed-only, 114 moving
+[regionD] fixed vertices matched exactly: 22/22
+[regionD] EXACT fixed-only volume: 29/6
+[regionD] moving vertices solved: 15 distinct patterns (15 instances), 15.4s
+[regionD]   term 1/114: det_time=0.02s cancel_time=0.00s term_size=54 total_t=15.4s
+[regionD]   term 2/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=15.4s
+[regionD]   term 3/114: det_time=0.04s cancel_time=0.06s term_size=54 total_t=15.5s
+[regionD]   term 4/114: det_time=0.09s cancel_time=0.58s term_size=142 total_t=16.2s
+[regionD]   term 5/114: det_time=0.00s cancel_time=0.01s term_size=64 total_t=16.2s
+[regionD]   term 6/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=16.2s
+[regionD]   term 7/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=16.2s
+[regionD]   term 8/114: det_time=0.07s cancel_time=0.38s term_size=280 total_t=16.7s
+[regionD]   term 9/114: det_time=0.01s cancel_time=0.01s term_size=76 total_t=16.7s
+[regionD]   term 10/114: det_time=0.07s cancel_time=0.35s term_size=819 total_t=17.1s
+[regionD]   term 11/114: det_time=0.02s cancel_time=0.00s term_size=76 total_t=17.1s
+[regionD]   term 12/114: det_time=0.06s cancel_time=0.10s term_size=208 total_t=17.3s
+[regionD]   term 13/114: det_time=0.01s cancel_time=0.01s term_size=4 total_t=17.3s
+[regionD]   term 14/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=17.3s
+[regionD]   term 15/114: det_time=0.02s cancel_time=0.02s term_size=32 total_t=17.3s
+[regionD]   term 16/114: det_time=0.03s cancel_time=0.08s term_size=90 total_t=17.5s
+[regionD]   term 17/114: det_time=0.03s cancel_time=0.02s term_size=4 total_t=17.5s
+[regionD]   term 18/114: det_time=0.01s cancel_time=0.03s term_size=4 total_t=17.5s
+[regionD]   term 19/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=17.6s
+[regionD]   term 20/114: det_time=0.01s cancel_time=0.01s term_size=1 total_t=17.6s
+[regionD]   term 21/114: det_time=0.00s cancel_time=0.05s term_size=211 total_t=17.6s
+[regionD]   term 22/114: det_time=0.00s cancel_time=0.02s term_size=57 total_t=17.7s
+[regionD]   term 23/114: det_time=0.01s cancel_time=0.03s term_size=211 total_t=17.7s
+[regionD]   term 24/114: det_time=0.05s cancel_time=0.24s term_size=193 total_t=18.0s
+[regionD]   term 25/114: det_time=0.00s cancel_time=0.00s term_size=75 total_t=18.0s
+[regionD]   term 26/114: det_time=0.00s cancel_time=0.00s term_size=75 total_t=18.0s
+[regionD]   term 27/114: det_time=0.00s cancel_time=0.00s term_size=75 total_t=18.0s
+[regionD]   term 28/114: det_time=0.02s cancel_time=0.01s term_size=54 total_t=18.0s
+[regionD]   term 29/114: det_time=0.02s cancel_time=0.60s term_size=261 total_t=18.6s
+[regionD]   term 30/114: det_time=0.03s cancel_time=1.52s term_size=819 total_t=20.2s
+[regionD]   term 31/114: det_time=0.04s cancel_time=0.03s term_size=151 total_t=20.3s
+[regionD]   term 32/114: det_time=0.03s cancel_time=0.19s term_size=646 total_t=20.5s
+[regionD]   term 33/114: det_time=0.06s cancel_time=64.27s term_size=868 total_t=84.8s
+[regionD]   term 34/114: det_time=0.07s cancel_time=1.80s term_size=274 total_t=86.7s
+[regionD]   term 35/114: det_time=0.03s cancel_time=0.04s term_size=51 total_t=86.8s
+[regionD]   term 36/114: det_time=0.00s cancel_time=0.00s term_size=51 total_t=86.8s
+[regionD]   term 37/114: det_time=0.03s cancel_time=32.17s term_size=1244 total_t=119.0s
+[regionD]   term 38/114: det_time=0.03s cancel_time=6.90s term_size=366 total_t=125.9s
+[regionD]   term 39/114: det_time=0.04s cancel_time=1.09s term_size=173 total_t=127.0s
+[regionD]   term 40/114: det_time=0.03s cancel_time=0.32s term_size=240 total_t=127.4s
+[regionD]   term 41/114: det_time=0.02s cancel_time=7.57s term_size=365 total_t=135.0s
+[regionD]   term 42/114: det_time=0.05s cancel_time=0.20s term_size=147 total_t=135.2s
+[regionD]   term 43/114: det_time=0.05s cancel_time=3.09s term_size=757 total_t=138.4s
+[regionD]   term 44/114: det_time=0.05s cancel_time=0.05s term_size=1 total_t=138.5s
+[regionD]   term 45/114: det_time=0.04s cancel_time=1.06s term_size=91 total_t=139.6s
+[regionD]   term 46/114: det_time=0.03s cancel_time=0.33s term_size=296 total_t=139.9s
+[regionD]   term 47/114: det_time=0.01s cancel_time=0.00s term_size=51 total_t=140.0s
+[regionD]   term 48/114: det_time=0.01s cancel_time=0.00s term_size=51 total_t=140.0s
+[regionD]   term 49/114: det_time=0.04s cancel_time=0.22s term_size=77 total_t=140.2s
+[regionD]   term 50/114: det_time=0.01s cancel_time=0.03s term_size=54 total_t=140.3s
+[regionD]   term 51/114: det_time=0.01s cancel_time=0.02s term_size=462 total_t=140.3s
+[regionD]   term 52/114: det_time=0.01s cancel_time=0.03s term_size=1 total_t=140.4s
+[regionD]   term 53/114: det_time=0.01s cancel_time=0.03s term_size=82 total_t=140.4s
+[regionD]   term 54/114: det_time=0.00s cancel_time=0.00s term_size=76 total_t=140.4s
+[regionD]   term 55/114: det_time=0.04s cancel_time=5.40s term_size=705 total_t=145.9s
+[regionD]   term 56/114: det_time=0.07s cancel_time=20.08s term_size=1227 total_t=166.0s
+[regionD]   term 57/114: det_time=0.04s cancel_time=9.03s term_size=705 total_t=175.1s
+[regionD]   term 58/114: det_time=0.07s cancel_time=0.11s term_size=204 total_t=175.3s
+[regionD]   term 59/114: det_time=0.01s cancel_time=0.00s term_size=76 total_t=175.3s
+[regionD]   term 60/114: det_time=0.03s cancel_time=0.16s term_size=1 total_t=175.5s
+[regionD]   term 61/114: det_time=0.05s cancel_time=0.58s term_size=142 total_t=176.1s
+[regionD]   term 62/114: det_time=0.01s cancel_time=0.01s term_size=32 total_t=176.1s
+[regionD]   term 63/114: det_time=0.03s cancel_time=0.48s term_size=177 total_t=176.6s
+[regionD]   term 64/114: det_time=0.02s cancel_time=0.01s term_size=32 total_t=176.7s
+[regionD]   term 65/114: det_time=0.07s cancel_time=0.26s term_size=82 total_t=177.0s
+[regionD]   term 66/114: det_time=0.03s cancel_time=3.81s term_size=280 total_t=180.8s
+[regionD]   term 67/114: det_time=0.03s cancel_time=4.36s term_size=193 total_t=185.2s
+[regionD]   term 68/114: det_time=0.01s cancel_time=0.00s term_size=1 total_t=185.2s
+[regionD]   term 69/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=185.2s
+[regionD]   term 70/114: det_time=0.00s cancel_time=0.00s term_size=32 total_t=185.2s
+[regionD]   term 71/114: det_time=0.01s cancel_time=0.00s term_size=1 total_t=185.3s
+[regionD]   term 72/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=185.3s
+[regionD]   term 73/114: det_time=0.01s cancel_time=0.01s term_size=142 total_t=185.3s
+[regionD]   term 74/114: det_time=0.00s cancel_time=0.02s term_size=1 total_t=185.3s
+[regionD]   term 75/114: det_time=0.09s cancel_time=0.19s term_size=514 total_t=185.6s
+[regionD]   term 76/114: det_time=0.04s cancel_time=10.32s term_size=2115 total_t=196.0s
+[regionD]   term 77/114: det_time=0.05s cancel_time=2.41s term_size=534 total_t=198.4s
+[regionD]   term 78/114: det_time=0.04s cancel_time=0.07s term_size=1 total_t=198.5s
+[regionD]   term 79/114: det_time=0.03s cancel_time=1.17s term_size=581 total_t=199.7s
+[regionD]   term 80/114: det_time=0.02s cancel_time=0.24s term_size=216 total_t=200.0s
+[regionD]   term 81/114: det_time=0.00s cancel_time=0.00s term_size=59 total_t=200.0s
+[regionD]   term 82/114: det_time=0.02s cancel_time=0.02s term_size=1 total_t=200.1s
+[regionD]   term 83/114: det_time=0.00s cancel_time=0.00s term_size=4 total_t=200.1s
+[regionD]   term 84/114: det_time=0.01s cancel_time=0.02s term_size=203 total_t=200.1s
+[regionD]   term 85/114: det_time=0.02s cancel_time=0.28s term_size=77 total_t=200.4s
+[regionD]   term 86/114: det_time=0.04s cancel_time=2.22s term_size=646 total_t=202.7s
+[regionD]   term 87/114: det_time=0.06s cancel_time=1.16s term_size=91 total_t=203.9s
+[regionD]   term 88/114: det_time=0.02s cancel_time=0.03s term_size=120 total_t=203.9s
+[regionD]   term 89/114: det_time=0.04s cancel_time=17.51s term_size=587 total_t=221.5s
+[regionD]   term 90/114: det_time=0.03s cancel_time=2.89s term_size=596 total_t=224.4s
+[regionD]   term 91/114: det_time=0.06s cancel_time=3.04s term_size=766 total_t=227.5s
+[regionD]   term 92/114: det_time=0.04s cancel_time=1.82s term_size=817 total_t=229.4s
+[regionD]   term 93/114: det_time=0.06s cancel_time=0.10s term_size=193 total_t=229.6s
+[regionD]   term 94/114: det_time=0.05s cancel_time=9.89s term_size=338 total_t=239.5s
+[regionD]   term 95/114: det_time=0.04s cancel_time=1.01s term_size=947 total_t=240.5s
+[regionD]   term 96/114: det_time=0.05s cancel_time=0.33s term_size=316 total_t=240.9s
+[regionD]   term 97/114: det_time=0.06s cancel_time=0.09s term_size=156 total_t=241.1s
+[regionD]   term 98/114: det_time=0.04s cancel_time=1.83s term_size=512 total_t=242.9s
+[regionD]   term 99/114: det_time=0.04s cancel_time=6.30s term_size=366 total_t=249.3s
+[regionD]   term 100/114: det_time=0.03s cancel_time=18.80s term_size=1354 total_t=268.1s
+[regionD]   term 101/114: det_time=0.07s cancel_time=3.08s term_size=201 total_t=271.3s
+[regionD]   term 102/114: det_time=0.05s cancel_time=0.42s term_size=240 total_t=271.8s
+[regionD]   term 103/114: det_time=0.06s cancel_time=0.87s term_size=172 total_t=272.7s
+[regionD]   term 104/114: det_time=0.03s cancel_time=5.75s term_size=365 total_t=278.5s
+[regionD]   term 105/114: det_time=0.03s cancel_time=8.82s term_size=917 total_t=287.3s
+[regionD]   term 106/114: det_time=0.04s cancel_time=1.10s term_size=1031 total_t=288.5s
+[regionD]   term 107/114: det_time=0.05s cancel_time=1.64s term_size=200 total_t=290.2s
+[regionD]   term 108/114: det_time=0.04s cancel_time=0.15s term_size=156 total_t=290.3s
+[regionD]   term 109/114: det_time=0.05s cancel_time=2.29s term_size=684 total_t=292.7s
+[regionD]   term 110/114: det_time=0.07s cancel_time=0.34s term_size=1 total_t=293.1s
+[regionD]   term 111/114: det_time=0.03s cancel_time=0.15s term_size=325 total_t=293.3s
+[regionD]   term 112/114: det_time=0.04s cancel_time=0.03s term_size=156 total_t=293.4s
+[regionD]   term 113/114: det_time=0.04s cancel_time=0.05s term_size=112 total_t=293.5s
+[regionD]   term 114/114: det_time=0.00s cancel_time=0.00s term_size=51 total_t=293.5s
+[regionD] all 114 raw terms built, 293.5s
+[regionD]   tree level 1: 57 nodes, max size 2825 chars, 295.6s
+[regionD]   tree level 2: 29 nodes, max size 3997 chars, 297.5s
+[regionD]   tree level 3: 15 nodes, max size 6003 chars, 300.0s
+[regionD]   tree level 4: 8 nodes, max size 7266 chars, 302.1s
+[regionD]   tree level 5: 4 nodes, max size 9715 chars, 303.7s
+[regionD]   tree level 6: 2 nodes, max size 12263 chars, 305.1s
+[regionD]   tree level 7: 1 nodes, max size 16754 chars, 306.3s
+[regionD] vol_moving closed form: 16754 chars, 306.5s, numeric check 3.425962634747548 vs direct-vol_fixed=3.4259626347475427
+vol_fixed: 29/6

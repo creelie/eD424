@@ -1,0 +1,33 @@
+Wed Oct  7 10:11:55 UTC 2026
+statement (C) at 28 centres, case case28_lo13.json: combined certificate c28lo13b_d8_r1.npz, two-point degree 12/4, three-point degree 8; 60214 count vectors
+  [ok] dmax exceeds sqrt 6
+  [ok] A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  (t = 65.795580334, float t 65.795580333)
+  [ok] three-point blocks positive definite (exact LDL^T)  (35 blocks)
+  point terms: {'A': '0.208647', 'B': '0.145419', 'F': '0.033715'}
+  pair AA: float largest K + PAIR3 - Pi 5.813446e-02 (file c2 5.813425e-02); threshold 5.813947e-02
+  pair AB: float largest K + PAIR3 - Pi 6.430800e-02 (file c2 6.430800e-02); threshold 6.431300e-02
+  pair AF: float largest K + PAIR3 - Pi 7.160842e-02 (file c2 7.160821e-02); threshold 7.161343e-02
+  pair BB: float largest K + PAIR3 - Pi 6.596511e-02 (file c2 6.596460e-02); threshold 6.597015e-02
+  pair BF: float largest K + PAIR3 - Pi 7.086813e-02 (file c2 7.086644e-02); threshold 7.087321e-02
+  pair FF: float largest K + PAIR3 - Pi 7.557776e-02 (file c2 7.557772e-02); threshold 7.558276e-02
+  triple AAA: float largest 8.320207e-04 on 649660 samples; threshold 8.325950e-04; 425 monomials, symmetry 2
+  triple AAB: float largest 5.616402e-04 on 649656 samples; threshold 5.623316e-04; 425 monomials, symmetry 1
+  triple AAF: float largest 3.215639e-04 on 649567 samples; threshold 3.222705e-04; 425 monomials, symmetry 1
+  triple ABB: float largest 4.640639e-04 on 649516 samples; threshold 4.646916e-04; 425 monomials, symmetry 1
+  triple ABF: float largest 3.201323e-04 on 649349 samples; threshold 3.215218e-04; 425 monomials, symmetry 0
+  triple AFF: float largest 1.493794e-04 on 649302 samples; threshold 1.503529e-04; 425 monomials, symmetry 1
+  triple BBB: float largest 5.425782e-04 on 649325 samples; threshold 5.435452e-04; 425 monomials, symmetry 2
+  triple BBF: float largest 4.824154e-04 on 649158 samples; threshold 4.838167e-04; 425 monomials, symmetry 1
+  triple BFF: float largest 4.809436e-04 on 649009 samples; threshold 4.819378e-04; 425 monomials, symmetry 1
+  triple FFF: float largest 7.688680e-04 on 648938 samples; threshold 7.793708e-04 (refined 7.688708e-04, extra 1e-05); 425 monomials, symmetry 2
+  60214 count vectors, 105 type-count vectors; largest bound 3.100609 at (13, 0, 11, 0, 0, 0, 4)
+  [ok] with these thresholds, largest bound over the 59799 count vectors of case28_k14f3.json below 9 pi^2/8 - 8  (3.102452 at (14, 0, 11, 0, 0, 0, 3) < [3.1033050 +/- 4.88e-8])
+  [ok] with these thresholds, largest bound over the 26554 count vectors of case28_k15f0.json below 9 pi^2/8 - 8  (3.101488 at (15, 0, 13, 0, 0, 0, 0) < [3.1033050 +/- 4.88e-8])
+PRECHECK (floating point, no branch and bound): the thresholds give 3.100609 against 9 pi^2/8 - 8 = [3.1033050 +/- 4.88e-8] [752 s]
+[note] Run with PRECHECK=1 BORDER=1 TRIPLE_EXTRA=FFF:1e-5 EXTRA_CASES=case28_k14f3.json,case28_k15f0.json
+  python3 combo_case_check.py case28_lo13.json c28lo13b_d8_r1.npz 8 5e-6 5e-7 1e-6 (from gap_closure/CM).
+  Its positivity lines, point terms and all sixteen thresholds are line for line those of
+  combo28_lo13_check.log, the passing full check, which proves the pair, bin and triple
+  inequalities at these thresholds; they do not involve the count vectors.  The two [ok]
+  lines above, exact comparisons over the count vectors of the two listed cases, then
+  prove (C) at 28 in those cases (prop:count28-few).

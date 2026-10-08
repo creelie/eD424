@@ -1,0 +1,4 @@
+$ (cd hessian_multidir && chain_length.py)
+degree of adjacency graph (Gram=+1/2): {8}
+Longest induced (self-avoiding, no chords) path length found: 8
+example path: [0, 4, 1, 15, 22, 10, 2, 11]

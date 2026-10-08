@@ -1,0 +1,22 @@
+$ (cd multi_cap && spherical_code_23.py)
+the two reference configurations
+  24 roots         largest inner product 0.500000000000
+                   cell volume           8.0000000000
+  delete one root  largest inner product 0.500000000000
+                   cell volume           8.3333333333   (25/3 = 8.3333333333)
+                   g(W)                  0.5000000000
+                   Gram multiset         ((-1.0, 11), (-0.5, 88), (0.0, 66), (0.5, 88))
+
+calibration and search
+  m   starts    smallest largest inner product    minimal angle
+ 22      120                    0.498017065758     60.1311034 deg
+ 24      120                    0.500007176477     59.9995252 deg
+ 25       60                    0.537406540531     57.4927353 deg
+ 23     1500                    0.500007841956     59.9994812 deg
+
+at m = 23, over 1500 random starts
+  smallest largest inner product found : 0.500007841956
+  starts that got below 1/2            : 0
+  outcomes within 5e-3 of feasibility  : 32
+  distinct Gram multisets among them   : 1
+    count    32   matches a deletion: True

@@ -1,0 +1,700 @@
+# Lean 4 verification
+
+Fifteen files and four small Lake projects: machine checks of finite
+arithmetic and of polynomial identities taken from the paper.
+`run_all.sh` checks the fifteen files with
+the pinned toolchain (`lean-toolchain`: leanprover/lean4:v4.34.0-rc2) and
+prints the axiom report of each; the four Lake projects are built with
+`lake build` in their directories.
+
+`D4Closure.lean` covers the exact
+content of sec:closure.  The identities behind lem:holes (holes),
+prop:inversion-hull (the inversion hull, its denominator 2|y|^2 cleared),
+lem:no-triple (four points pairwise at least 2 apart need a ball of radius
+sqrt(3/2): the sum of the squared distances and the minimality of the
+centroid) and thm:m23-labelled (the packing bound a(d1, d2) lies below its
+tangent plane at (2, 2): `d1 d2 (d1 + d2 - 2) - 2 d1^2 - 2 d2^2 + 8 =
+(d1 - 2)(d2 - 2)(d1 + d2 + 2)`) are proved over every commutative ring with
+the ring normaliser of `grind`, so they hold verbatim over the reals.  The
+counts of thm:m23-labelled (each pair of 23 centres in 21 triples, each centre
+in 231 = 21 * 11) and the finite content of cor:root-subsets are proved by
+`decide`: the 24 vertices of the 24-cell, each on six facets; each the sum
+of exactly three orthogonal root pairs, 72 pairs in all; no deleted set of
+one or two roots meets all three pairs at a vertex; and of the 2024 deleted
+triples exactly 96 do, each pairwise at 60 degrees with a common vertex.
+The identities depend on propext, Classical.choice and Quot.sound, the
+combinatorial theorems on propext at most; nothing uses `native_decide`.
+About two minutes.  The log of `run_all.sh` over all fifteen files is
+`runs/run_all_2026-09-30.log`.
+
+`D4SecondOrder.lean` covers the exact content of Section
+21.2, the second order of the cell volume at the root system.  It computes
+everything from the integral root system: the 24 roots, the 24 vertices of
+the scaled 24-cell, a rational basis of each tangent space, the 96 tight
+pairs and their triangles, the form H of prop:hessian-d4 by the midpoint rule,
+the 120 rows of the first-order packing cone and c.  The only data are the
+certificate of prop:cone-min, 43 orbit values of N written by
+`gen_second_order_lean.py` from `multi_cap/second_order/exact_certificate.pkl`.
+It proves that N is nonnegative and covers every pair of cone rows exactly
+once, that P = H + c c^T - B^T N B is symmetric and positive semidefinite by
+an exact LDL^T with 30 zero pivots, each with a zero row (so H(xi,xi) >=
+-(sum delta_i)^2 on the cone), that H is Adj - 4I on the push-outs and H + c c^T
+is Adj + 4(J - I) there (the identity of prop:hessian-d4), that the 72 x 72
+tilt block of H (the Hessian of the contact-cell volume in the directions
+alone) is positive semidefinite with 15 zero pivots, the six rotations null
+for it and the nine infinitesimal strains not, that equality holds
+on the 24 one-centre rays, and, with `grind` over every commutative ring, the
+expansions of lem:pure-push and of the one-centre formula.  The finite checks
+are settled by `native_decide`, about thirty seconds.  That H is the Hessian
+of the volume and that B are the linearised packing constraints are lem:second-variation and the paper, checked numerically by
+`multi_cap/second_order/independent_check.py`; they are not formalised.  Log:
+`runs/D4SecondOrder_2026-09-27.log`.
+
+`D4HexagonLoop.lean` covers the algebra of prop:hexagon-loop, the closed curve of direction sets through the root system along which
+the contact cell has volume exactly 8.  In the ring
+Q(sqrt3)[c, s]/(c^2 + s^2 - 1), c = cos theta, s = sin theta, it computes the
+two integrals J1, J2 of the proof from the vertices of the two triangles of
+one sector and proves their closed forms, the identity
+3 J1^2 - 4 sqrt3 J2 - 32 = 0, and the six conditions for no slice to
+degenerate; it checks that at theta = 0 the 24 directions have the Gram
+matrix of the unit D4 roots under an explicit labelling, and, with `grind`
+over every commutative ring, the perfect square that makes the volume
+exactly 8.  The slice formula and the reduction to one sector are the
+paper's argument, checked with sympy and numerically by
+`multi_cap/second_order/hexagon_loop.py`.  About a second.  Log:
+`runs/D4HexagonLoop_2026-09-27.log`.
+
+`D4SecondCode.lean` covers prop:second-code, a second
+24-point code: 24 points of S^3 with rational coordinates (written by
+`multi_cap/second_order/code24_exact.py` into `code24_exact.txt`), each of
+norm 1, every two with inner product at most 1/2 + 849/50000, and one inner
+product at distance at least 57/250 from -1, -1/2, 0, 1/2, 1, so that the set
+is at distance d(W) >= 57/500 from the root system (the last step is the
+paper's).  Statement (i) of sec:remains therefore fails from slack
+0.01698 on.  About a second.  Log: `runs/D4SecondCode_2026-09-27.log`.
+
+`D4NearContact.lean` covers the exact arithmetic of the
+explicit constant epsilon_0 = 4e-26 of thm:near-contact (parts B to E of
+`multi_cap/explicit_eps0.py`).  Generated by `gen_near_contact_lean.py` from
+`multi_cap/llm24_out/llm24_p2.txt`, it divides the two-point polynomial p_2
+of the certificate of de Laat, Leijenhorst and de Muinck Keizer exactly by
+(u+1)(u+1/2)^2 u^2 (u-1/2), and proves by a branch and bound in exact
+rationals (second-order Taylor form, 135 intervals) that the quotient q
+satisfies -q >= 2.62e-4 on [-1, 1/2]; that f(u) = (u+1)(u+1/2)^2 u^2 (1/2-u)
+is at least 1.12e-8 at distance at least delta = 3e-4 from -1, -1/2, 0, 1/2
+(133 intervals), and that p_2 = f (-q) as polynomials; the arithmetic of the
+robust root-lattice step (every k x k minor, k <= 5, moves by less than 1,
+and d(W) <= 0.0112709 < 1/48, with square roots bounded by checked rationals);
+the assembly, E(24, kappa*) < 2.62e-4 * 1.12e-8 and E(25, kappa*) < 1 at
+kappa* = 2e-26, with |p_2'| near 1/2 bounded inside Lean and the two bounds
+B_3 <= 8.75e7 and B_4 <= 7.34e9 of part A as the only inputs from outside
+(ball arithmetic on the deposited certificate in `explicit_eps0.py`), and
+1/2 - 2/(2 + epsilon_0)^2 <= kappa*; and the facet-by-facet bracket of step 2
+in exact rationals, as the script computes it: the constants of estimate (a),
+the bracket positive at S = 24 epsilon_0 and at least 1/10 at S = 4e-3, and
+decreasing on the grid of step 1e-5.  Twelve theorems, by `native_decide`,
+about twenty seconds; log `runs/D4NearContact_2026-09-27.log`.  Changing the
+targets to 2.621e-4 (the minimum of -q is 2.6209e-4) or 1.125e-8 makes the
+branch and bounds fail, as they should.  Sturm's theorem for q is in
+`D4InnerProducts.lean`; the sums of squares of part A, Hadamard's inequality
+behind part C and the geometry behind part D are in the paper.
+
+`D4Rigidity.lean` covers the finite content of lem:rigidity-spectrum,
+the spectrum of the rigidity operator.  From the integral roots it builds
+the 96 x 96 integral matrices Lambda', 2P, 4N = 2P Lambda'^T Lambda' 2P and
+2K = Lambda' 2P Lambda'^T of the proof, and checks that 4N is annihilated by
+x(x-8)(x-20)(x-24)(x-32); that the ranks of 4N - cI over the rationals are
+66, 67, 88, 75, 88 for c = 0, 8, 20, 24, 32, so that the multiplicities are
+30, 29, 8, 21, 8 and sum to 96; that 2K is annihilated by
+x(x-4)(x-10)(x-12)(x-16) and every diagonal entry of
+(2K-4I)(2K-10I)(2K-12I)(2K-16I) is 2400 = 7680 * 5/16, which is the diagonal
+11/16 of the projector onto the image of Lambda; and that one displaced
+direction, with its rotational part removed, has |Lambda tau|_1^2 /
+|tau|_2^2 = 96/11; and, for thm:local-uniqueness, that every root lies in eight
+tight pairs, that the tight inner products of a tangent vector sum to zero,
+and that 12^2 * 11/16 + 1/4 = 397/4.  By `native_decide`, about ten seconds; log
+`runs/D4Rigidity_2026-09-27.log`.  The same computations are made in
+integers by `multi_cap/rigidity_spectrum.py` (with ranks modulo a prime
+there); the eigenvalue bookkeeping that turns them into singular values is
+the paper's.
+
+`D4Cap.lean` covers the exact content of the extremal cap
+theorem (the section "Positivity for every deviation direction";
+`cap_certificate/cap_inequality_certificate.py`).  From the integral roots
+it enumerates the vertices of Q exactly over all 4-subsets of the 23
+remaining roots (25, one beyond the facet of the deleted root) and of the
+24-cell (24); computes the volumes exactly, each octahedral facet split into
+four tetrahedra, 8 for the 24-cell and 25/3 for Q (the script computes them
+in floating point); checks the cross-polytope enclosure in the frame of four
+orthogonal roots, with equality attained; checks the formula for the fourth
+derivative of g(a) = a (2 sqrt a - 1)^4 by applying (1/(2t)) d/dt four times
+to t^2 (2t - 1)^4, and that the third vanishes at a = 1/4; checks the three
+polynomial identities of the case |S| = 1, the positivity of their factors on
+rational intervals containing the three ranges, and the integer inequalities
+at the endpoints; and reruns the box certificate of the case |S| >= 2 exactly
+as the script does, 303 boxes, the largest corner value 0.99755050.  The
+paper proves that case by hand (the bound 8/9 at the five vertices of the
+region), and the box certificate is its independent check.  Nine
+theorems, `native_decide`, about ten seconds; log `runs/D4Cap_2026-09-27.log`.
+The cap formula and the monotonicity of the divided difference are the
+paper's.
+
+`D4HoleBudget.lean` covers the exact content of parts (ii) and (iii) of the
+corollary "No room beside a near root system", generated by
+`gen_hole_budget_lean.py`.  With u = 1/sqrt2 (2u^2 = 1) and tau = u - h, it
+proves over every commutative ring, with `grind`, that the quartic
+q(s) = (s - tau)^2 - beta s^2 - gamma s^4 of the proof touches zero doubly at
+u and factors as (s - u)^2 r(s), the values beta + gamma tau^2 =
+-2h^2 (1 - 6uh + 2h^2), h^2 r(tau) = -tau^2 (beta + gamma tau^2) and
+q(1) = (h - u)(h - (3u - 2)), the budget 3 beta + (3/2) gamma = 6h^2, and the
+5-design identities sum <w,a>^2 = 12|w|^2 and sum <w,a>^4 = 12|w|^4 over the
+24 integral roots.  By kernel computation on `Rat` (`decide +kernel`) it
+checks the finite facts about the roots (closed under negation, norm 2,
+sum a a^T = 12I, six roots at the deep hole e_1); rho^2 = 500/123 and
+tau^2 = 139129/369000 at slack 0.008; rational bounds on u and tau, checked
+by squaring, that give 0.093068 < h < 0.093069, 6h^2 > 0.05197 and
+0.22796 < sqrt6 h < 0.22797; the signs h < u, h < 3u - 2 and 1 - 6uh > 0 for
+every rho in [2, sqrt6); and the 200-row table of part (iii), on which
+e + (alpha + e)^2/(sqrt(6 - alpha - e) + sqrt6)^2 stays below 0.0515 whenever
+alpha^2 + 12e <= 2 * 0.3059 (the paper proves that bound by hand, a
+concave quadratic in alpha with largest value below 0.05124, and the table is
+its independent check).  About ten seconds; log
+`runs/D4HoleBudget_2026-09-30.log`.  The step from these signs to
+(s - tau)_+^2 >= beta s^2 + gamma s^4 on [0, 1] and the matrix identities of
+part (iii) are the paper's.
+
+`D4DesignBudget.lean` covers the exact content of the proposition "No room
+from the design defects", generated by `gen_design_budget_lean.py`.  With
+G_k = U_k/(k+1) (U_k the Chebyshev polynomials of the second kind) and
+p = sum_(k=0..5) p_k G_k for the six rationals of the proof, it checks by
+kernel computation on `Rat`: the monomial coefficients of p from the U_k;
+the identity of the paper's proof, -p = (1 + t) A^2 + (t0 - t) B^2 + R with
+t0 = 0.614039 and the two quadratics A and B of the paper, through the bound
+that the constant term of R exceeds the sum of the absolute values of its
+other coefficients (so R > 0 on [-1, 1] and p < 0 on [-1, t0]); the same
+sign independently, by a Taylor bound about the midpoint of each of 29
+subintervals that cover [-1, t0] without gaps; 0.614039^2 >
+139129/369000 = tau^2; (24 p_0)^2 > 0.26785 * sum_k p_k^2/c_k for the
+weights c_k = (103, 191, 280, 230, 159)/963; and, over the 24 integral roots,
+sum_(a,b) G_k(<a,b>/2) = 0 for k = 1, ..., 5.  About fifteen seconds; log
+`runs/D4DesignBudget_2026-10-06.log`.  The addition formula and the Cauchy-Schwarz
+step are the paper's.
+
+`D4A18.lean` covers the exact statements about the configuration A_18 of
+sec:broad-sample, generated by `gen_a18_lean.py` from
+`../hessian_multidir/a18_other_starts.py`.  It checks by kernel computation
+that the 24 permutations and 16 sign vectors give 384 distinct signed
+coordinate permutations, each mapping the 24 roots onto themselves; that
+exactly 48 of them map A_18 onto itself, namely those that fix the coordinate
+of index 1 (counting from 0) with its sign (prop:a18-stabiliser); and that two orthogonal maps,
+given as 2M with 2M (2M)^T = 4I, map the roots onto the roots and A_18 onto
+the configurations grown from roots 5 and 12.  The theorems depend on
+propext only; about three minutes and up to about 8 GB, most of it for the two theorems
+over all 384 maps, which run without the default heartbeat limit.
+
+`D4Stress.lean` covers prop:deletion-rigid and the corollary that follows it:
+the equilibrium stress on the eighty-eight tight pairs of a deletion
+configuration, the constant stress on the ninety-six tight pairs of the
+root system itself, and the combinatorics of the D_4 root system that
+surrounds them.
+
+`D4Meet.lean` covers the finite half of prop:meet22 and prop:meet21: how much
+of a root system a contact configuration can hold. The analytic half of
+those proofs is three inequalities in the coordinates of a unit vector and
+is written out in the paper; what is formalised here is everything about the
+six supports of the roots, the three couples of complementary index pairs
+they form, and the triples of roots that are pairwise at 60 degrees.
+
+`D4Certificate.lean` covers the exact half of the proof of thm:certificate,
+the three-point certificate for the pair inequality of the twenty-three
+contact case. It is generated by `gen_certificate_lean.py` from
+`multi_cap/continuation_out/certificate_d8.npz`, every floating-point
+number written as the exact dyadic rational it denotes (an integer over a
+power of two), and it proves by kernel computation on `Rat` that
+f_1, ..., f_8 are nonnegative, that each of the nine matrices F_0, ..., F_8
+is symmetric and positive definite (exact LDL^T elimination, every pivot
+positive), and that the bound of the certificate exceeds 92.8555703 in the
+units of the solver, that is 0.0928555703 > 8 - A_*. The polynomial
+inequality of lem:certificate on the admissible triples is verified in interval
+arithmetic by `multi_cap/certificate_check.py` and is not formalised.
+
+`certificate/` covers the branch and bound in the proof of thm:certificate a
+second time, in exact dyadic arithmetic. `D4CertDomain.lean` expands the
+polynomial P of the certificate over the rationals from the same numbers,
+multiplies it by 315 so that every coefficient is an integer over a power
+of two, differentiates it, and runs the subdivision of the ordered
+admissible domain with the second-order Taylor form, in an arithmetic of
+integers and exponents with no rounding; `D4CertData.lean`, generated by
+`gen_data.py`, holds the certificate and the tables of bounds for omega,
+omega' and omega'' that `multi_cap/certificate_check.py` evaluates from the
+closed forms in interval arithmetic, the one input not computed in Lean;
+`D4CertMain.lean` states that the check returns true and settles it by
+`native_decide`.  The same project carries the regions II_s and II_f of the
+labelled certificate of thm:m23-labelled (its region I is the inequality (C)
+that `D4CertMain` checks): `D4LabelledDomain.lean` reruns the branch and
+bound with the omega tables extended to a_D = amax(2.1648, 2.1648), with the
+linear term c (t - 1/2) of the slab 1/2 <= t <= 0.51 (39 399 boxes), and,
+for 0.51 <= t <= a_D, with the lower bound of 1000 (Gamma_1 + Gamma_2 +
+Gamma_3) over the heights the packing allows (9 545 boxes): the shares fr on
+256 x 1601 points from exact square-root bounds, the packing bounds amax, the
+envelopes and their minimisation over the cells are all computed in Lean,
+and only the omega tables, the slab constant c and the enclosures of the 256
+cell integrals of A(tau) come from `gen_labelled_data.py` (interval and ball
+arithmetic, `multi_cap/labelled_certificate_check.py`), as string-encoded
+dyadic tables in `D4LabelledData.lean`.  `D4LabelledMain.lean` states the
+three theorems (the constants, II_s, II_f); `D4LabelledStat.lean` records the
+box counts.
+
+`D4Omega.lean` then removes those inputs.  In outward-rounded 256-bit dyadic
+interval arithmetic (square roots by `Nat.sqrt`, arctan by its series with the
+remainder, pi by Machin's formula) it evaluates the closed forms
+omega(u) = 4 pi [(9/32) arctan((t* - tau)/(1 + t* tau)) - (4 tau^3 - 24 tau + 11 sqrt2)/96]
+and omega'(u) = (pi/16)(3u - 1)^2 / ((1 + u)^2 sqrt(1 - u^2)), tau = ((1 - u)/(1 + u))^(1/2),
+t* = 1/sqrt2 (simplified from the lens integral; `multi_cap/omega_closed_form.py`
+checks them symbolically and against `certificate_check.py`), a bound on
+|omega''| over 4096 subintervals, A_* = 9 pi^2/8 - 207 pi r_*/8 + 253 pi/(12 sqrt2),
+and the cap S(d) of B(sqrt(3/2)).  From these it builds tables of omega on the
+grid of step 2^-16 (10 923 points up to 1/2, 15 723 up to a_D, with |omega''| at
+most 0.2855 and 0.3972).  `D4OmegaMain.lean` proves that A_* exceeds
+8 - 0.0928555703, the bound of the certificate, that s(D) > 8 - A_*, that
+a_D / (1 - (D/2) a_D) < 2 and fr(1, 1/2) < 1/22, that the slab constant and
+the 256 cell integrals of `D4LabelledData` are confirmed by the values
+computed here, and it reruns II_s (39 551 boxes) and II_f (9 545) with the Lean
+tables, which then take nothing from outside Lean but the certificate;
+`D4OmegaRegionI.lean` reruns region I, the check of `D4CertMain`, with the Lean
+table, and passes in 954 s on 419 913 boxes (421 881 with the tables of
+`D4CertData`).  Build log `runs/D4Omega_build_2026-09-27.log`.
+
+`cardinality/` covers the certificate of thm:kissing-stable,
+the kissing number is stable: every set of points of S^3 with pairwise
+inner products at most 1/2 + s_0 has at most 24 elements, for s_0 = 0.008
+(degree 10, the certificate the theorem uses) and s_0 = 0.0065 (degree 8),
+and the certificate of thm:twenty-six: at most 25 points at s_1 = 0.01468
+(degree 10, `Kiss26Data.lean`, `Kiss26Main.lean`).
+`gen_data.py` writes both certificates of `multi_cap/cardinality_certificates`
+into `KissData.lean` as exact dyadic numbers, with the threshold t as the
+decimal of the paper, the least double at or above it, and the tolerances
+e1, e2 as the largest doubles at or below the decimals of the paper, exactly
+as `multi_cap/certify_cardinality.py` reads them.  `KissDomain.lean` expands
+F(u,v,w) = sum_k <F_k, S_k(u,v,w)> and P1(u) = f(u) + 3 F(1,u,u) + 1 over the
+rationals from the Legendre, Chebyshev and Gegenbauer recurrences (the
+polynomial routines of `certificate/`), scales each by the least odd integer
+that makes its coefficients dyadic (computed, not assumed), and checks: every
+f_k >= 0; every F_k symmetric and positive definite (exact LDL^T); F symmetric
+in its three variables; the domains reach t; e1 <= 10^-6 and e2 at most its
+decimal; 24 (1 - e1) - 552 e2 > B - 1 with B = 1 + f(1) + F(1,1,1) exact; and,
+by the branch and bound of `certificate/` with the omega terms removed and in
+the same exact dyadic arithmetic, (i) P1 <= e1 on [-1, t] and (ii) F <= e2 on
+the ordered admissible domain -1 <= u <= v <= w <= t, 1 + 2uvw - u^2 - v^2 -
+w^2 >= 0.  `KissMain8.lean` and `KissMain10.lean` state these as three
+theorems each and settle them by `native_decide`.  Nothing here is taken from
+a floating-point computation: the only inputs are the certificate entries.
+What makes a certificate a proof (Schoenberg's theorem, the positivity of the
+three-point kernels of Bachoc and Vallentin, the counting argument) is in the
+paper and is not formalised.
+
+`count/` covers the certificate of thm:count31: with at least 31 centres
+within sqrt 6 of a centre, the union of the caps has volume below
+9 pi^2/8 - 8.  `gen_count_data.py` writes the certificate
+`multi_cap/radial_certificates/radial_31.json` into `CountData31.lean` as
+exact rationals, and `CountDomain.lean` repeats the four checks of
+`multi_cap/radial_count_check.py` from those entries alone: A_1, ..., A_12
+positive semidefinite and A_0 positive definite by exact LDL^T, t = z^T
+A_0^{-1} z rounded up to a multiple of 2^-48 and the bordered matrix
+[[A_0, z], [z^T, t]] positive semidefinite; the pair inequality
+K(d, d', u) <= Pi(d/2, d'/2, u) for 2 <= d <= d' <= dmax, -1 <= u <=
+a(d, d'), by the same branch and bound, with the tensor Bernstein
+coefficients of K computed exactly, rounded up once to multiples of 2^-320
+and subdivided exactly in dyadic arithmetic, and Pi bounded below at the
+corner (d_hi, d'_hi, u_lo) from its closed form in outward-rounded interval
+arithmetic with 256 fractional bits (square roots from Nat.sqrt, arctan
+from its series, pi from Machin's formula, sin and cos from their Taylor
+series with remainders); the bracket S(d) + K(d, d, 1)/2 - z . p(d) <= m on
+[2, dmax]; and m < 0, 31 m + t/2 < 9 pi^2/8 - 8.  A floating-point value of
+Pi only decides on which boxes the rigorous bound is computed; no box is
+closed on its strength.  The branch and bound closes 191 740 boxes and sets
+aside 180 310, with 54 248 rigorous values of Pi, the counts of the Python
+check.  `Count31Main.lean` states the four checks as theorems and settles
+them by `native_decide`.  That a certificate meeting these conditions
+bounds the union of the caps (Schoenberg's theorem and the two-point
+certificate theorem) is in the paper and is not formalised.
+
+`D4InnerProducts.lean` covers the last step of the verification of the
+certificate of de Laat, Leijenhorst and de Muinck Keizer (thm:m24,
+prop:verified and sec:certificate-checked): the two-point polynomial p_2 of that certificate, computed
+exactly from their published data by `multi_cap/llm24_certificate_check.py`
+and written into the file by `gen_innerproducts_lean.py` with its
+coefficients scaled to integers (of about 15700 digits each), vanishes at
+-1, -1/2, 0 and 1/2 with multiplicities 1, 2, 2, 1, and its quotient by
+those factors has no zero on [-1, 1/2], by a Sturm sequence computed in
+`Rat`. By the equality case of the second-level bound (Lemma "The bound of the
+second level" of the paper) these four values are then the only inner
+products a 24-point code of minimal angle 60 degrees can have; the
+polynomial identities of step 5 that this relies on are recomputed in
+`zonal/` in exact rational arithmetic (see `zonal/README.md`).
+
+`D4RootLattices.lean` covers the finite content of the lemma "From the
+inner products to the root system", the step from those four inner
+products to the D_4 root system.  It enumerates every symmetric integer
+matrix of order r <= 4 with 2 on the diagonal and -1, 0, 1 off it, keeps
+the positive definite ones by Sylvester's criterion (1, 3, 23, 393 of
+them), encloses the norm-2 vectors of each lattice in the exact box
+x_i^2 <= 2 A_ii / D given by Cauchy--Schwarz in the lattice's inner product,
+counts them, and proves that the largest counts in ranks 1 to 4 are 2, 6,
+12, 24, that 24 occurs only at rank 4 and determinant 4, that no count
+lies strictly between 20 and 24, and that every lattice with 24 roots
+holds four of them with the Cartan matrix of D_4 as Gram matrix, so that it
+contains a copy of the D_4 lattice of its own determinant and is that
+lattice.  The theorems are settled by `native_decide` in about six seconds;
+the axiom report lists `propext` and the tactic's own axiom.
+
+`cell600/` covers prop:cell600: every set of twenty-three vertices of
+the 600-cell with pairwise inner products at most 1/2 is an inscribed 24-cell
+with one vertex removed. Its module `D4Cell600Enum.lean` holds the 120
+vertices in Z[phi], the combinatorial facts the kernel checks, and the
+depth-first enumeration as a Lean function; `D4Cell600Main.lean` states the
+three counts the enumeration returns and settles them by `native_decide`.
+
+## What they need
+
+A Lean 4 toolchain, and nothing else. There is no Mathlib dependency. For
+the fifteen files there is no `lakefile`: install elan and run
+
+    lean D4Stress.lean
+    lean D4Meet.lean
+    lean D4Certificate.lean
+    lean D4InnerProducts.lean
+    lean D4RootLattices.lean
+    lean D4Closure.lean
+    lean D4SecondOrder.lean
+    lean D4HexagonLoop.lean
+    lean D4SecondCode.lean
+    lean D4NearContact.lean
+    lean D4Rigidity.lean
+    lean D4Cap.lean
+    lean D4HoleBudget.lean
+    lean D4DesignBudget.lean
+    lean D4A18.lean
+
+or `sh run_all.sh`. The first two take a few seconds, the third about
+twenty, the fourth about forty, the fifth about six and the sixth about
+ninety, the seventh about thirty, the eighth and ninth about a second
+each, the tenth about twenty, the eleventh, twelfth and thirteenth about ten each, the fourteenth about fifteen, and the fifteenth about three minutes. Silence means
+every theorem in the file was accepted by the kernel; the axiom audit at the foot of each file then prints
+one line per theorem. For the projects,
+
+    cd cell600
+    lake build
+
+compiles `D4Cell600Enum` to native code first (the lakefile sets
+`precompileModules`), so that the search in `D4Cell600Main` runs compiled;
+the whole build takes about four minutes, most of it the kernel's
+evaluation of the 14400 inner products in `verts_inner`, and prints the
+axiom audit of both modules. Likewise
+
+    cd certificate
+    lake build
+
+compiles the arithmetic of `D4CertDomain` to native code and then runs the
+branch and bound inside `native_decide` for `D4CertMain`; the tables in
+`D4CertData` take about a minute and a half to elaborate, the compilation
+about two minutes, and the run itself about twenty minutes; `D4CertStat`
+repeats it with a counter, and `D4LabelledMain` and `D4LabelledStat` take
+about a minute each.  A closed definition of a precompiled module is
+evaluated when the module is loaded, so the statements that run the checks
+(`verifyDomain`, `verifySlab`, `verifyGamma`) are defined in the Main
+modules, not in the modules that others import.  Likewise
+
+    cd cardinality
+    lake build
+
+compiles `KissDomain` and runs the checks of `KissMain8` (about seven
+minutes) and `KissMain10` (four hours and ten minutes, 15 052 s, on one
+core); `lake build Kiss26Main` runs the twenty-six-point check (9 536 s on one
+core, log `runs/Kiss26_build_2026-10-05.log`).  And
+
+    cd count
+    lake build
+
+compiles `CountDomain` and runs the four checks of `Count31Main` (3 381 s on
+one core, almost all of it the pair inequality; log
+`runs/Count31_build_2026-10-06.log`).
+
+Toolchain used: `leanprover/lean4:v4.34.0-rc2` (see `lean-toolchain`).
+
+## What is proved
+
+The roots are unnormalised, with squared length 2, exactly as in the proofs,
+so every quantity is an integer. In that scaling the contact condition reads
+`dot a b <= 1` and a pair is tight, at 60 degrees, when `dot a b = 1`.
+
+### D4Stress.lean
+
+| theorem | statement |
+| --- | --- |
+| `card_roots` | there are 24 roots |
+| `roots_nodup` | they are distinct |
+| `roots_norm` | each has squared length 2 |
+| `roots_inner` | every inner product between distinct roots is -2, -1, 0 or 1 |
+| `roots_contact` | no inner product between distinct roots exceeds 1 |
+| `roots_degree` | every root has exactly 8 roots at 60 degrees from it |
+| `card_W` | deleting one root leaves 23 directions |
+| `tight_count` | and 88 tight pairs |
+| `cval_multiplicities` | the four values of the inner product with the deleted root occur 1, 8, 6, 8 times |
+| `cval_range` | and no other value occurs |
+| `weights_positive` | every tight pair carries a weight in {1, 2, 3}, so the six listed pair types are the only ones |
+| `equilibrium` | the equilibrium relation (7.33) holds at each of the 23 directions |
+| `pair_ceiling` | a graph on 23 vertices of maximum degree 10 has at most 115 edges |
+| `deletion_shortfall` | with the integration stopped at r_23 the deletion configuration is 3 pairs short of the 91 the estimate would need (rem:pair-budget) |
+| `deletion_surplus` | carried to r_* the estimate needs 65 (prop:pair-budget), and the deletion has 23 more |
+| `tight_count24` | the full root system has 96 tight pairs, the edges of the 24-cell |
+| `equilibrium24` | the constant stress, weight 1 on every tight pair and -4 on the diagonal, is in equilibrium: the eight neighbours of every root sum to four times it (the corollary after prop:deletion-rigid) |
+
+### D4Meet.lean
+
+| theorem | statement |
+| --- | --- |
+| `card_roots`, `roots_nodup` | the 24 roots, distinct |
+| `support_wellposed` | every root has exactly two nonzero coordinates, so its support is one of the six index pairs |
+| `support_fibres` | each support carries exactly four roots |
+| `couples_cover` | the three couples use each of the six supports once |
+| `two_supports_leave_a_couple` | any two supports leave one couple whole |
+| `two_roots_leave_a_couple` | hence so does any pair of removed roots, which is the finite half of prop:meet22 |
+| `bad_triples_count` | exactly 48 ordered triples of supports leave no couple whole |
+| `bad_triples_distinct` | each of those has three distinct supports |
+| `bad_triples_star_or_triangle` | each is a star or a triangle |
+| `bad_triples_split` | 24 of each kind, so eight patterns up to order, four stars and four triangles |
+| `bad_root_triple_count` | with four roots per support, that is 512 triples of roots |
+| `tight_triangle_count` | summed over ordered tight pairs, the common tight neighbours number 576, so there are 96 triples pairwise at 60 degrees |
+| `tight_triangle_count_div` | 576 / 6 = 96 |
+| `no_tight_quadruple` | no four roots are pairwise at 60 degrees |
+| `starTriple_tight` | the standard star is pairwise at 60 degrees and leaves no couple whole |
+| `kept21_card` | removing it leaves 21 roots |
+| `kept21_lower_block` | all twelve roots supported in the last three coordinates survive |
+| `kept21_upper_block` | each remaining support keeps three of its four roots |
+| `had2_permutes` | twice the Hadamard map sends roots to roots |
+| `had2_isometry` | and preserves inner products |
+| `had2_triangle_to_star` | and carries the standard triangle to the standard star, up to one sign |
+| `deletion_tight_pairs` | a 23-element subset of a root system is a deletion, with 88 tight pairs |
+
+### D4Certificate.lean
+
+| theorem | statement |
+| --- | --- |
+| `f_nonneg` | f_1, ..., f_8 are nonnegative |
+| `F0_posdef`, ..., `F8_posdef` | each F_k is square, symmetric, and every pivot of its exact LDL^T elimination is positive |
+| `bound_exceeds` | 23 (23 f_0 - sum f_k) / 2 - 23 (sum of the entries of F_0) / 126 > 92.8555703 |
+
+All by `decide +kernel`; the file takes about forty seconds and its axiom
+audit lists `propext`, `Classical.choice` and `Quot.sound`, the three
+standard axioms that arithmetic on `Rat` brings in, and no `native_decide`
+axiom.
+
+### D4InnerProducts.lean
+
+| theorem | statement |
+| --- | --- |
+| `p2_degree` | the scaled two-point polynomial p_2 has degree 16 |
+| `p2_vanishes` | p_2(-1) = p_2(-1/2) = p_2(0) = p_2(1/2) = 0 |
+| `division_exact` | the successive synthetic divisions by (u+1), (u+1/2)^2, u^2 and (u-1/2) are exact |
+| `q_degree` | the quotient q has degree 10 |
+| `q_nonzero_at_the_four` | q does not vanish at any of the four points, so the multiplicities are exactly 1, 2, 2, 1 |
+| `sturm_length` | the Sturm sequence of q has 11 members |
+| `sturm_no_zero` | the sign variations of the Sturm sequence of q at -1 and at 1/2 agree, so q has no zero on [-1, 1/2] |
+
+All by `decide +kernel`, about forty-five seconds; the axiom audit lists the
+three standard axioms only. Sturm's theorem, which turns the last line into a
+count of zeros, is mathematics and is not formalised.
+
+### cell600/D4Cell600Enum.lean
+
+| theorem | statement |
+| --- | --- |
+| `card_verts`, `verts_nodup`, `verts_norm` | 120 vertices, distinct, each of unit length (4<v,v> = 4 in the doubled coordinates) |
+| `verts_inner` | 4<u,v> is always one of 0, +-2, +-4, +-2phi, +-(2phi-2) |
+| `degree_twelve` | every vertex has exactly twelve neighbours at 36 degrees |
+| `rootlike_partners` | and exactly 71 partners at one of the angles 60, 90, 120, 180 degrees |
+| `cells_count`, `cells_card`, `cells_nodup`, `cells_in_range` | the 25 listed cells are 25 lists of 24 distinct vertex indices |
+| `cells_rootlike` | within each cell every pair is at a root-system angle, so each cell is a copy of D_4 and an independent set of the edge graph |
+| `five_cells_through_each` | every vertex lies in exactly five cells |
+| `count_consistent` | 115 x 120 = 600 x 23 and 600 = 25 x 24 |
+
+### cell600/D4Cell600Main.lean
+
+| theorem | statement |
+| --- | --- |
+| `no_25` | no independent set of size 25 contains vertex 0 |
+| `five_24` | exactly five of size 24 do, all of them cells |
+| `all_23_in_cells` | exactly 115 of size 23 do, and every one of them lies in a cell |
+
+Forty theorems across the two files, no `sorry`. The axiom audits
+report that each of them depends on no axiom at all, not even propositional
+extensionality: every one is settled by kernel computation on integers.
+The project adds sixteen theorems, again with no `sorry`. Its thirteen
+kernel theorems depend on no axiom except that `cells_rootlike` uses
+propositional extensionality (`propext`), which `decide +kernel` introduces
+when it unfolds Boolean equalities. Its three enumeration theorems are
+settled by `native_decide` and therefore trust the Lean compiler as well as
+the kernel: the audit lists `propext`, `Quot.sound` and, for each, an axiom
+named `<theorem>._native.native_decide.ax_1_1`, which is Lean 4's name for
+the assumption that the compiled evaluation is correct. The same
+enumeration is carried out independently in Python
+(`multi_cap/cell600_exact.py`) and in C (`multi_cap/cell600_enum.c`), and
+all three give 0, 5 and 115.
+
+### certificate/D4CertMain.lean
+
+| theorem | statement |
+| --- | --- |
+| `domain_ok` | `verifyDomain = true`: the branch and bound of `D4CertDomain`, in exact dyadic arithmetic, verifies the certificate condition on the ordered admissible domain down to boxes of width 2^-20 |
+
+Settled by `native_decide`, so its audit lists `propext`, `Classical.choice`,
+`Quot.sound` and the `native_decide` axiom of the theorem; `D4CertDomain`
+also exports `monomialCount`, which evaluates to 449, the number of
+monomials of the expanded polynomial, agreeing with the Python expansion.
+`D4CertStat.lean` repeats the run with a counter and prints `(0, 421881)`:
+status 0, every box verified or discarded, after 421881 boxes (the Python
+run of `certificate_check.py` processes 1309185, its monomial-by-monomial
+interval evaluation being looser than the nested evaluation used here).
+The build log is `multi_cap/runs/lean_certificate_build.log`, and the
+counter run is `multi_cap/runs/lean_certificate_stat.log`.
+
+### certificate/D4LabelledMain.lean
+
+| theorem | statement |
+| --- | --- |
+| `labelled_constants` | t_1 >= 0.51, a_D <= the top of the boxes, the dyadic number used for 1/11 is at most 1/11, the omega table increases in steps of at most du and reaches a_D, the grid of inner products and every row of the table of amax increase |
+| `region_IIs` | Q0 + c (t - 1/2) >= 0 on the ordered admissible domain with 1/2 <= t <= t_1 (`verifySlab`) |
+| `region_IIf` | Q0 + 1000 (Gamma_1 + Gamma_2 + Gamma_3) >= 0 on the ordered admissible domain with t_1 <= t <= a_D, the Gamma terms bounded below over the heights the packing allows (`verifyGamma`) |
+
+`D4LabelledStat.lean` prints `(0, 39399)` and `(0, 9545)`, the boxes of the
+two runs.
+
+### certificate/D4OmegaMain.lean, certificate/D4OmegaRegionI.lean
+
+| theorem | statement |
+| --- | --- |
+| `covering_above_8` | the covering bound (pi m / 3) tan^3 r_m exceeds 8 for m = 5, ..., 22: 2 arctan c - 2c/(1 + c^2) < 2 pi / m at a rational c above (24/(pi m))^(1/3) (it fails at 23 and 24, as it should) |
+| `count_bound` | (9/8) pi^2 - 22 S(2) > 8.046 (the corollary "at most twenty-two centres within sqrt 6") |
+| `omega_constants` | A_* > 8 - 0.0928555703; s(D) > 8 - A_*; a_D / (1 - (D/2) a_D) < 2; fr(1, 1/2) < 1/22; the slab constant at most 4000 r kappa; the data's 256 cell integrals enclose those computed in Lean |
+| `omega_tables` | the Lean tables: increasing grids of step 2^-16 reaching 1/2 and a_D, a positive bound on \|omega''\|, d1lo <= d1hi |
+| `region_IIs_lean`, `region_IIf_lean` | II_s and II_f with the Lean tables |
+| `domain_ok_lean_tables` | region I (thm:certificate) with the Lean table |
+
+### cardinality/KissMain8.lean, cardinality/KissMain10.lean
+
+| theorem | statement |
+| --- | --- |
+| `cert8_exact`, `cert10_exact` | f_k >= 0; every F_k symmetric positive definite (exact LDL^T); F symmetric in its three variables; top >= t; e1 <= 10^-6 and e2 at most its decimal (10^-5, 7 10^-5); 24 (1 - e1) - 552 e2 > f(1) + F(1,1,1) |
+| `cert8_i`, `cert10_i` | f(u) + 3 F(1,u,u) + 1 <= e1 on [-1, top] (441 and 2 957 intervals) |
+| `cert8_ii`, `cert10_ii` | F(u,v,w) <= e2 on -1 <= u <= v <= w <= top, 1 + 2uvw - u^2 - v^2 - w^2 >= 0 (181 869 boxes and 423 s for degree 8; 15 052 s for degree 10) |
+
+The degree-8 certificate is at s = 0.0065 (t = 1013/2000), the degree-10 one,
+which thm:kissing-stable uses, at s = 0.008 (t = 127/250).  B = 24.974999950... and
+24.959999949..., as in `multi_cap/certify_cardinality.py`; the expansions have
+425 and 756 monomials, as there.  Build log `runs/KissCardinality_build.log`.
+With the tolerances lowered below the largest values of P1 and F (about
+-1.35e-4 and -1.18e-4 for degree 8) the branch and bounds fail, as they should.
+
+### cardinality/Kiss26Main.lean
+
+| theorem | statement |
+| --- | --- |
+| `cert26_exact` | f_k >= 0; every F_k symmetric positive definite (exact LDL^T); F symmetric in its three variables; top >= t; e1 <= 10^-6 and e2 <= 2.9 10^-4; 25 (1 - e1) - 600 e2 > f(1) + F(1,1,1), the inequality at \|C\| = 26 |
+| `cert26_i` | f(u) + 3 F(1,u,u) + 1 <= e1 on [-1, top] |
+| `cert26_ii` | F(u,v,w) <= e2 on -1 <= u <= v <= w <= top, 1 + 2uvw - u^2 - v^2 - w^2 >= 0 |
+
+The certificate is `multi_cap/cardinality_certificates/cert_d10_t0.51468.npz`
+(t = 0.51468, B = 24.799999928...), written into `Kiss26Data.lean` by
+`gen_data.py`.  All three theorems are settled by `native_decide`; the build
+took 9 536 s on one core (log `runs/Kiss26_build_2026-10-05.log`).
+
+### count/Count31Main.lean
+
+| theorem | statement |
+| --- | --- |
+| `count31_positivity` | A_0, ..., A_12 symmetric, A_1, ..., A_12 positive semidefinite and A_0 positive definite (exact LDL^T); [[A_0, z], [z^T, t]] positive semidefinite with t = z^T A_0^{-1} z rounded up to a multiple of 2^-48 |
+| `count31_pairs` | dmax^2 > 6 and K(d, d', u) <= Pi(d/2, d'/2, u) for 2 <= d <= d' <= dmax, -1 <= u <= a(d, d') (191 740 boxes closed, 180 310 set aside) |
+| `count31_bracket` | S(d) + K(d, d, 1)/2 - z . p(d) <= m on [2, dmax] (356 intervals) |
+| `count31_final` | m < 0 and 31 m + t/2 < 9 pi^2/8 - 8 |
+
+### D4Cap.lean
+
+| theorem | statement |
+| --- | --- |
+| `vertex_counts` | the 24-cell has 24 vertices, Q has 25, all of the 24-cell's among them, and one beyond the facet of the deleted root |
+| `volumes` | vol(24-cell) = 8 and vol(Q) = 25/3 in x = sqrt2 z, by exact triangulation |
+| `cross_polytope` | the frame of four orthogonal roots, and every vertex of Q has l^1 norm at most sqrt 2 in it, with equality attained |
+| `fourth_derivative` | ((1/(2t)) d/dt)^4 of t^2 (2t - 1)^4 is 3 (20 t^2 - 3) / (2 t^5); the third vanishes at t = 1/2 |
+| `brackets` | 0.7071 < 1/sqrt2 < 0.7072 and 0.866 < sqrt3/2 < 0.8661 |
+| `case_identities` | the three polynomial identities of the case \|S\| = 1 |
+| `case_signs` | 14c^3 - 18c^2 + 7c - 1 > 0 on [0.866, 1], q > 0 on [0.7071, 0.8661], r > 0 on [1/2, 0.7072] |
+| `endpoint_integers` | 113^2 > 2 * 79^2, 163^2 > 3 * 93^2, 23^2 > 2 * 11^2 |
+| `box_certificate` | the box certificate of the case \|S\| >= 2 (the independent check of the hand proof) finishes with 303 boxes, largest corner value in (0.9975, 1] |
+
+### D4Rigidity.lean
+
+| theorem | statement |
+| --- | --- |
+| `sizes` | 24 roots, 96 tight pairs, Lambda' has 96 rows, 4N is symmetric |
+| `n4_annihilated` | 4N (4N - 8I)(4N - 20I)(4N - 24I)(4N - 32I) = 0 |
+| `n4_ranks` | the ranks of 4N - cI over Q are 66, 67, 88, 75, 88 for c = 0, 8, 20, 24, 32 |
+| `multiplicities` | the multiplicities 30, 29, 8, 21, 8, summing to 96 |
+| `k2_annihilated` | 2K (2K - 4I)(2K - 10I)(2K - 12I)(2K - 16I) = 0 |
+| `image_diagonal` | every diagonal entry of (2K - 4I)(2K - 10I)(2K - 12I)(2K - 16I) is 2400, so the projector onto im Lambda has diagonal 11/16 |
+| `rotations_orthogonal` | the six infinitesimal rotations are mutually orthogonal |
+| `one_direction` | one displaced direction, rotations removed: |Lambda tau|_1^2 / |tau|_2^2 = 96/11 |
+| `stress_on_tangent` | every root lies in eight tight pairs, and 1^T Lambda' 2P = 0: the tight inner products of a tangent vector sum to zero (thm:local-uniqueness) |
+| `radius_arithmetic` | 12^2 * 11/16 = 99 and 99 + 1/4 = 397/4, the constant of thm:local-uniqueness |
+
+### D4NearContact.lean
+
+| theorem | statement |
+| --- | --- |
+| `division_exact` | p_2 has degree 16 and is divisible by (u+1)(u+1/2)^2 u^2 (u-1/2), with a quotient q of degree 10 |
+| `minus_q_lower_bound` | -q >= 2.62e-4 on [-1, 1/2] |
+| `p2_factorisation` | p_2 = f (-q), f(u) = (u+1)(u+1/2)^2 u^2 (1/2-u) |
+| `f_lower_bound` | f >= 1.12e-8 on [-1+delta, -1/2-delta], [-1/2+delta, -delta] and [delta, 1/2-delta], delta = 3e-4 |
+| `minors_within_one` | (row + 2 delta sqrt k)^k - row^k < 1 for k = 1..5, row = (8 + 3 (1 + 2 delta)^2)^(1/2) |
+| `dW_bound` | 2 D / (6 - D)^(1/2) + sqrt 24 D / 6 <= 0.0112709 < 1/48, D = 23 delta |
+| `assembly` | |p_2'| <= 0.22573 on [1/2, 1/2 + 1/1000]; E(24, kappa*) < 2.62e-4 * 1.12e-8; E(25, kappa*) < 1; kappa* < delta; 1/2 - 2/(2 + epsilon_0)^2 <= kappa*; epsilon_0 = 4e-26 |
+| `rigidity_roots`, `rigidity_constants` | the rational square-root bounds behind estimate (a); its constants 2.1283 and 9.49; the bound 2.38 (1 + delta) S and Theta <= 0.014 at S = 4e-3 |
+| `bracket_at_Smax`, `bracket_at_Sl` | the bracket of step 2 is positive at S = 24 epsilon_0 and at least 1/10 at S = 4e-3, with alpha > 2/3 |
+| `bracket_decreasing_on_grid` | the bracket decreases on S = k 10^-5, k = 1..400 |
+
+## What is not proved
+
+Nothing else in the paper. The theorems of `certificate/`,
+`cardinality/` and `count/` are that programs return true; the mathematics that makes the
+programs proofs (Taylor's theorem on a box, the monotonicity of omega and of
+the shares fr, the integration of the Gamma terms, Schoenberg's theorem and
+the positivity of the three-point kernels of Bachoc and Vallentin, the
+counting argument of thm:kissing-stable) is argued in the paper, and the closed
+forms of the constants A_*, omega, omega', omega'', the slab constant and the
+cell integrals of A are evaluated in interval and ball arithmetic by
+`multi_cap/certificate_check.py` and `multi_cap/labelled_certificate_check.py`
+and enter the modules `D4CertMain` and `D4LabelledMain` only as tables of
+dyadic bounds; `D4OmegaMain` and `D4OmegaRegionI` compute them inside Lean
+from simplified closed forms whose derivation from the lens integral is the
+paper's.  The two bounds B_3 and B_4 of
+part A of the explicit epsilon_0 enter `D4NearContact.lean` the same way. The polytope volumes in R^4, the cap measures on
+S^3, the Bernstein certificates and the analytic half of the cap inequality
+(the cap formula and the monotonicity of the divided difference) are outside what can
+be formalised without a substantial library of convex geometry that does not
+presently exist. The three coordinate inequalities that make up the analytic
+half of prop:meet22 and prop:meet21 are also not formalised; they are short
+enough to read in the paper, and formalising them would need real analysis
+and hence Mathlib, which these files deliberately avoid. The fact that the
+120 listed vectors are the vertices of the 600-cell, rather than some other
+set of 120 unit vectors with the same inner-product table, is likewise a
+statement about the real numbers and is left to the paper; every claim of
+prop:cell600 about those 120 vectors is checked. `roots_inner` is
+the conclusion of Lemma 5.1 of de Laat, Leijenhorst and de Muinck Keizer for
+the root system itself, not their theorem, which is the converse
+classification; of the verification of their certificate, `D4InnerProducts.lean`
+formalises the last step, `multi_cap/llm24_certificate_check.py` repeats four
+more in exact and ball arithmetic, and the two that remain, the construction
+of their zonal matrices and the polynomial identities that use them, are
+repeated in `zonal/` in exact rational arithmetic. None of that part is in
+Lean: it is Python and C, and it is checked against the independent facts
+listed in `zonal/README.md`.

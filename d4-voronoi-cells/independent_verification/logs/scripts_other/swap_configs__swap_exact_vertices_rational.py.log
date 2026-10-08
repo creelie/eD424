@@ -1,0 +1,5 @@
+$ (cd swap_configs && swap_exact_vertices_rational.py)
+u1(t) = Matrix([[(2*sqrt(6)*t - 3*sqrt(2)*(t**2 - 1))/(6*(t**2 + 1)), (-sqrt(6)*t/3 + sqrt(2)*(3 - 3*t**2)/6)/(t**2 + 1), 2*sqrt(6)*t/(3*(t**2 + 1)), 0]])
+u2(t) = Matrix([[(2*sqrt(6)*t - 3*sqrt(2)*(t**2 - 1))/(6*(t**2 + 1)), 2*sqrt(6)*t/(3*(t**2 + 1)), (-sqrt(6)*t/3 + sqrt(2)*(3 - 3*t**2)/6)/(t**2 + 1), 0]])
+ALL 33 exact vertices (rational-t form) computed in 25.3s
+max numeric cross-check error: 3.1401849173675503e-16

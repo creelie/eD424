@@ -1,0 +1,13 @@
+28 with at most 16 centres within 2.0161 (case28_lo16.json), three-point degree 8, three rounds, from the samples of the certificate of prop:count28-few (RESUME=c28lo13b_d8_r1.npz, KEEP_BASE=1, TCOPLANAR=24, TSYM=24, REFINE=100, THREADS=4).  The certificate of c28lo13b gives, with the margins of combo28_squeeze_check.log, 3.104750 at 15 close with 4 beyond 2.35 and 3.104002 at 16 close with 1 beyond; a certificate built for 16 close is the next attempt.  Started Wed Oct  7 17:44:53 UTC 2026
+resumed from c28lo13b_d8_r1.npz, pruned to 5000 pair and 2500 triple samples per kind
+fixed coplanar triples per kind: {'AAA': 630, 'AAB': 686, 'AAF': 701, 'ABB': 703, 'ABF': 730, 'AFF': 741, 'BBB': 741, 'BBF': 741, 'BFF': 741, 'FFF': 741}
+fixed triples per kind with the symmetric slices: {'AAA': 1465, 'AAB': 1064, 'AAF': 1075, 'ABB': 1092, 'ABF': 730, 'AFF': 1125, 'BBB': 1580, 'BBF': 1121, 'BFF': 1124, 'FFF': 1585}
+   direct: 5898 variables, 91471 inequalities, 4299 psd rows in 48 cones, 42266415 nonzeros [26 s to build]
+   105 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 3.09593 (target 3.10330), corrected <= 3.14856  [5004 s]
+   viol: AA 6.2e-07, AB 7.0e-07, AF 2.0e-07, BB 1.6e-06, BF 4.1e-08, FF 1.9e-09, AAA 7.7e-07, AAB 1.2e-05, AAF 1.5e-05, ABB 3.0e-06, ABF 8.4e-06, AFF 1.3e-06, BBB 7.7e-06, BBF 4.6e-05, BFF 6.6e-05, FFF 1.2e-06
+   c2: {'AA': 0.069598, 'AB': 0.074302, 'AF': 0.083153, 'BB': 0.076309, 'BF': 0.081725, 'FF': 0.08728}
+   c3: {'AAA': 0.0008291, 'AAB': 0.0006396, 'AAF': 0.0003147, 'ABB': 0.0005379, 'ABF': 0.0003344, 'AFF': 0.0001044, 'BBB': 0.0005657, 'BBF': 0.0005245, 'BFF': 0.0004574, 'FFF': 0.0011323}
+   direct: 5898 variables, 113025 inequalities, 4299 psd rows in 48 cones, 53463213 nonzeros [27 s to build]
+exit 143 at Wed Oct  7 19:10:14 UTC 2026
+[stopped by hand at 19:10 UTC on 2026-10-07 at the start of round 2: round 1 gave 3.09593 on the samples, 0.0165 above the 3.07929 of the certificate for at most 13 close (c28lo13_d8b.log); that certificate, with the thresholds of the precheck at smaller margins (multi_cap/runs/combo28_squeeze_precheck.log), bounds the case 0.0154 above its sampled value (3.094670), so a certificate for all of 16 close would land near 3.111, above 3.10330.  The next run targets only the open case of 15 close with 4 beyond 2.35 (c28k15f4_d8.log)]

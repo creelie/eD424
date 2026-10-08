@@ -1,0 +1,6 @@
+$ (cd multi_cap && m24_verify_direction.py)
+d=6: directional derivative with exact omega3: -1.3125e-04  (support 123 triples)
+  step 1: rel min eig -1.94e-09, min lin 1.48e-04, objective change -1.3125e-04, stray mass 1.4e-05
+  step 10: rel min eig -2.01e-07, min lin 1.48e-03, objective change -1.3125e-03, stray mass 1.4e-04
+  step 50: rel min eig -5.15e-06, min lin 7.41e-03, objective change -6.5626e-03, stray mass 6.9e-04
+  step 200: rel min eig -9.10e-05, min lin 2.96e-02, objective change -2.6250e-02, stray mass 2.7e-03

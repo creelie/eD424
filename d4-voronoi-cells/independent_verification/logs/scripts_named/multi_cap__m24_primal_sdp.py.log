@@ -1,0 +1,2 @@
+$ (cd multi_cap && m24_primal_sdp.py)
+d=6 eps=1e-06: objective 5.985098  tau-obj 0.17998  recheck mineig 9.99e-07 minlin 7.69e-03 [optimal, 522 triples, 0s]

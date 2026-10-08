@@ -1,0 +1,21 @@
+$ python3 certify_cardinality.py cardinality_certificates/cert_d8_t0.50650.npz 1e-6 1e-5 1e-5
+certificate degree 8, t = 1013/2000 = 1/2 + 13/2000 exactly; the boxes run to 0.5065000000000001
+1. positivity:
+   f_k >= 0, F_0..F_8 positive definite (exact LDL^T)  [0s]
+2. B = 1 + f(1) + F(1,1,1) = 24.974999950  (exact rational; 425 monomials in P2)  [0s]
+3. constraint (i):
+  (i) verified: P1 <= 1.00e-06 on [-1,0.5065000000000001]; 221 intervals, largest centre value -1.349e-04  [0s]
+4. constraint (ii):
+  level  5: 0 boxes verified, 2 outside, 28 to bisect, largest centre value -2.571e-04  [0s]
+  level 10: 0 boxes verified, 75 outside, 332 to bisect, largest centre value -1.303e-04  [1s]
+  level 15: 123 boxes verified, 746 outside, 5546 to bisect, largest centre value -1.210e-04  [3s]
+  level 20: 21504 boxes verified, 3916 outside, 41260 to bisect, largest centre value -1.193e-04  [27s]
+  level 25: 112169 boxes verified, 7885 outside, 10934 to bisect, largest centre value -1.180e-04  [78s]
+  level 30: 140965 boxes verified, 8383 outside, 6032 to bisect, largest centre value -1.180e-04  [90s]
+  level 34: 150225 boxes verified, 8609 outside, 0 to bisect, largest centre value -1.180e-04  [93s]
+  (ii) verified: P2 <= 1.00e-05 on the admissible domain in [-1,0.5065000000000001]^3
+5. at |C| = 25:  24(1-e1) - 552 e2 = 23.994456  vs  B - 1 = 23.975000
+PASS: A(4, 0.5065) <= 24.  Any set of points of S^3 with pairwise inner products at most 1/2 + 0.0065 has at most 24 points
+      (a set of 25 or more would contain 25 points, and the bound excludes |C| = 25);
+      equivalently, in a unit-ball packing of R^4 at most 24 other centres lie within distance 2.013128 of any centre.
+exit 0

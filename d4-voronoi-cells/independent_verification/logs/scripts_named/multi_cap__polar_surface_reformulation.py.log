@@ -1,0 +1,50 @@
+$ (cd multi_cap && polar_surface_reformulation.py)
+Polar, surface-area and facet reformulations
+==============================================================
+[PASS] polar dual of conv(W) is the Voronoi cell (D4, vol 8, conv 2)
+       vol(conv W) = 2.00000000   vol(W-polar) = 8.00000000   product = 16.00000000
+[PASS] cell depends on W only through conv(W) (random configurations)
+       agreements: 10 of 10  [double precision]
+[PASS] D4: vol(V) = (1/4) * total facet 3-volume = 32/4 = 8
+       facets: 24   total facet 3-volume: 32.00000000 (target 32)
+       quarter of it: 8.00000000   vol(V) = 8.00000000
+       per-facet 3-volume: min 1.33333333  max 1.33333333  (octahedron 4/3 = 1.33333333)
+[PASS] surface-area identity on perturbed configurations
+       configurations tested: 19   largest discrepancy: 1.066e-14  [double precision]
+[PASS] rho(g) = sqrt((1-g)/(1+g)) is decreasing, rho(1/2) = 1/sqrt(3)
+       rho(1/2) = 0.577350269189626   1/sqrt(3) = 0.577350269189626
+[PASS] D4: every facet contains the 3-ball of radius 1/sqrt(3)
+       smallest facet inradius: 0.577350269190   1/sqrt(3) = 0.577350269190
+[PASS] perturbed configurations: facet inradius never below 1/sqrt(3)
+       configurations tested: 13   smallest inradius seen: 0.577394999408  [double precision]
+[PASS] facet-local bound at m = 24 falls short of 8
+       ball of radius 1/sqrt(3) in R^3 has volume 0.80613305 = 4pi/(9 sqrt 3)
+       m = 24 gives vol(V) >= 4.83679830 = 8 pi/(3 sqrt 3) = 4.83679830, short of 8 by 3.16320170
+[PASS] square-antiprism facet is admissible and smaller than 4/3
+       all eight directions at |p| = sqrt(3), largest normalised pairwise inner product 0.333333333333 (bound 1/3)
+       facet 3-volume 1.2940836646   closed form 16 sqrt(2) - 64/3 = 1.2940836646   octahedron 4/3 = 1.3333333333
+[PASS] the corresponding nine directions in R^4 are packing-valid
+       largest pairwise inner product among the nine: 0.500000000000 (bound 1/2)
+[PASS] ceiling of any facet-local bound is 96 sqrt(2) - 128
+       6 * (16 sqrt2 - 64/3) = 96 sqrt2 - 128 = 7.764502, short of 8 by 0.235498
+       and below the covering bound 7.798989 as well
+[PASS] V_c contains the unit ball, so vol(V_c) >= pi^2/2
+       pi^2/2 = 4.93480220, short of 8 by 3.06519780; this is the stronger of the two unconditional bounds
+[PASS] D4: a facet has exactly 8 tight neighbours, projected pairwise Gram value at most 1/3
+       tight neighbours: 8   squared norm of each projection: 3/2
+       distinct projected Gram values: [Fraction(-1, 1), Fraction(-1, 3), Fraction(1, 3)]   maximum: 1/3
+[PASS] those 8 directions cut out the regular octahedron of 3-volume 4/3
+       computed 3-volume: 1.333333333333   4/3 = 1.333333333333
+[PASS] adding an admissible direction never increases the cell volume
+       configurations tested: 15  [double precision]
+[PASS] polar volume integral reproduces vol(V) = 8
+       (pi^2/2) * mean(h^-4) = 7.999793   (Monte Carlo, N = 4000000)
+[PASS] Jensen bound is strictly below 8 at the root configuration
+       mean support value hbar = 0.893719, threshold (pi^2/16)^(1/4) = 0.886227
+       (pi^2/2) hbar^-4 = 7.735088, short of 8 by 0.264912; the loss is strict
+       because h is not constant on the sphere, so no bound of this shape can be sharp
+[PASS] Mahler-type bound has slack 3/2 at the root configuration
+       vol(conv W) * vol(V) = 16.000000, against the conjectural lower bound 4^4/4! = 10.666667
+       dividing by vol(conv W) = 2.000000 gives only 5.333333
+==============================================================
+18 of 18 checks passed

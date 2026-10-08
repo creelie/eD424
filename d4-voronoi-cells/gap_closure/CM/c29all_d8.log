@@ -1,0 +1,13 @@
+   51 type-count vectors
+/home/claude/d4-voronoi-cells/gap_closure/CM/combo_gen2.py:189: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', max_iter=500)
+d3=8 round 1: optimal_inaccurate  bound 3.02868 (target 3.10330), corrected <= 4.58827  [1797 s]
+   viol: AA 1.5e-06, AB 2.4e-06, AF 2.9e-08, BB -1.7e-07, BF 8.9e-06, FF -1.6e-07, AAA 1.3e-04, AAB 4.3e-04, AAF 4.0e-04, ABB 5.1e-04, ABF 1.1e-03, AFF 4.2e-04, BBB 1.2e-04, BBF 2.4e-04, BFF 1.8e-04, FFF 1.2e-04
+   c2: {'AA': -0.034446, 'AB': -0.016726, 'AF': 0.001486, 'BB': 0.005162, 'BF': 0.016358, 'FF': 0.037284}
+   c3: {'AAA': 0.0031644, 'AAB': 0.0026022, 'AAF': 0.0017723, 'ABB': 0.0018497, 'ABF': 0.0012998, 'AFF': 0.0001908, 'BBB': 0.001049, 'BBF': 0.0007832, 'BFF': -0.0004731, 'FFF': 0.0061492}
+   51 type-count vectors
+d3=8 round 2: optimal_inaccurate  bound 3.05678 (target 3.10330), corrected <= 3.55260  [2438 s]
+   viol: AA 6.8e-09, AB -5.0e-08, AF -1.4e-08, BB -5.5e-07, BF -1.6e-08, FF -7.9e-08, AAA 8.3e-06, AAB 1.5e-05, AAF 5.8e-05, ABB 7.5e-05, ABF 7.1e-04, AFF 2.7e-04, BBB 2.8e-05, BBF 1.5e-04, BFF 2.3e-04, FFF 8.5e-05
+   c2: {'AA': -0.011138, 'AB': -0.007056, 'AF': 0.002521, 'BB': -0.000296, 'BF': 0.011676, 'FF': 0.02518}
+   c3: {'AAA': 0.0012079, 'AAB': 0.0012222, 'AAF': 0.0009323, 'ABB': 0.0010751, 'ABF': 0.0006731, 'AFF': -4.92e-05, 'BBB': 0.0009165, 'BBF': 0.0005384, 'BFF': -0.0003029, 'FFF': 0.0064727}
+   51 type-count vectors

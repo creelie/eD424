@@ -1,0 +1,95 @@
+MEM start part 0 of 4, s=1//125 rss=0.495 GB maxrss=0.512 GB t=0.3 s
+Generating independent sets of cardinality 0... (0.004280049s)
+Generating independent sets of cardinality 1... (3.1706e-5s)
+Generating independent sets of cardinality 2... (4.34e-6s)
+Generating independent sets of cardinality 3... (2.6979e-5s)
+Generating independent sets of cardinality 4... (2.5982e-5s)
+Preparing zonalpolmat with lambda=[0, 0] and dimension=1.... (6.112e-5s)
+Preparing zonalpolmat with lambda=[1, 0] and dimension=1.... (8.334e-6s)
+Preparing zonalpolmat with lambda=[2, 0] and dimension=2.... (2.5189e-5s)
+Preparing zonalpolmat with lambda=[2, 1] and dimension=1.... (7.5e-6s)
+Preparing zonalpolmat with lambda=[2, 2] and dimension=1.... (9.126e-6s)
+Preparing zonalpolmat with lambda=[3, 0] and dimension=2.... (2.2957e-5s)
+Preparing zonalpolmat with lambda=[3, 1] and dimension=1.... (1.2452e-5s)
+Preparing zonalpolmat with lambda=[3, 2] and dimension=1.... (7.548e-6s)
+Preparing zonalpolmat with lambda=[4, 0] and dimension=3.... (3.8009e-5s)
+Preparing zonalpolmat with lambda=[4, 1] and dimension=2.... (2.9281e-5s)
+Preparing zonalpolmat with lambda=[4, 2] and dimension=2.... (2.3109e-5s)
+Preparing zonalpolmat with lambda=[4, 3] and dimension=1.... (0.000473914s)
+Preparing zonalpolmat with lambda=[4, 4] and dimension=1.... (1.182e-5s)
+Preparing zonalpolmat with lambda=[5, 0] and dimension=3.... (3.7241e-5s)
+Preparing zonalpolmat with lambda=[5, 1] and dimension=2.... (2.1716e-5s)
+Preparing zonalpolmat with lambda=[5, 2] and dimension=2.... (1.9804e-5s)
+Preparing zonalpolmat with lambda=[5, 3] and dimension=1.... (1.6148e-5s)
+Preparing zonalpolmat with lambda=[5, 4] and dimension=1.... (8.495e-6s)
+Preparing zonalpolmat with lambda=[6, 0] and dimension=4.... (6.0689e-5s)
+Preparing zonalpolmat with lambda=[6, 1] and dimension=3.... (3.881e-5s)
+Preparing zonalpolmat with lambda=[6, 2] and dimension=3.... (4.1897e-5s)
+Preparing zonalpolmat with lambda=[6, 3] and dimension=2.... (6.8409e-5s)
+Preparing zonalpolmat with lambda=[6, 4] and dimension=2.... (2.1904e-5s)
+Preparing zonalpolmat with lambda=[6, 5] and dimension=1.... (7.803e-6s)
+Preparing zonalpolmat with lambda=[6, 6] and dimension=1.... (9.206e-6s)
+Preparing zonalpolmat with lambda=[7, 0] and dimension=4.... (6.8179e-5s)
+Preparing zonalpolmat with lambda=[7, 1] and dimension=3.... (3.5762e-5s)
+Preparing zonalpolmat with lambda=[7, 2] and dimension=3.... (0.000183078s)
+Preparing zonalpolmat with lambda=[7, 3] and dimension=2.... (2.1309e-5s)
+Preparing zonalpolmat with lambda=[7, 4] and dimension=2.... (2.2033e-5s)
+Preparing zonalpolmat with lambda=[7, 5] and dimension=1.... (6.463e-6s)
+Preparing zonalpolmat with lambda=[7, 6] and dimension=1.... (8.128e-6s)
+Preparing zonalpolmat with lambda=[8, 0] and dimension=5.... (0.000145614s)
+Preparing zonalpolmat with lambda=[8, 1] and dimension=4.... (7.1093e-5s)
+Preparing zonalpolmat with lambda=[8, 2] and dimension=4.... (6.0335e-5s)
+Preparing zonalpolmat with lambda=[8, 3] and dimension=3.... (4.3885e-5s)
+Preparing zonalpolmat with lambda=[8, 4] and dimension=3.... (4.8169e-5s)
+Preparing zonalpolmat with lambda=[8, 5] and dimension=2.... (2.3185e-5s)
+Preparing zonalpolmat with lambda=[8, 6] and dimension=2.... (2.7185e-5s)
+Preparing zonalpolmat with lambda=[9, 0] and dimension=5.... (0.000122226s)
+Preparing zonalpolmat with lambda=[9, 1] and dimension=4.... (0.000105676s)
+Preparing zonalpolmat with lambda=[9, 2] and dimension=4.... (8.9883e-5s)
+Preparing zonalpolmat with lambda=[9, 3] and dimension=3.... (4.5933e-5s)
+Preparing zonalpolmat with lambda=[9, 4] and dimension=3.... (4.5153e-5s)
+Preparing zonalpolmat with lambda=[9, 5] and dimension=2.... (2.124e-5s)
+Preparing zonalpolmat with lambda=[10, 0] and dimension=6.... (0.000197134s)
+Preparing zonalpolmat with lambda=[10, 1] and dimension=5.... (0.000117861s)
+Preparing zonalpolmat with lambda=[10, 2] and dimension=5.... (0.000191517s)
+Preparing zonalpolmat with lambda=[10, 3] and dimension=4.... (0.004183825s)
+Preparing zonalpolmat with lambda=[10, 4] and dimension=4.... (9.6622e-5s)
+Preparing zonalpolmat with lambda=[11, 0] and dimension=6.... (0.000164155s)
+Preparing zonalpolmat with lambda=[11, 1] and dimension=5.... (0.000135698s)
+Preparing zonalpolmat with lambda=[11, 2] and dimension=5.... (0.000174689s)
+Preparing zonalpolmat with lambda=[11, 3] and dimension=4.... (9.7347e-5s)
+Preparing zonalpolmat with lambda=[12, 0] and dimension=7.... (0.000264014s)
+Preparing zonalpolmat with lambda=[12, 1] and dimension=6.... (0.000193869s)
+Preparing zonalpolmat with lambda=[12, 2] and dimension=6.... (0.000172296s)
+Preparing zonalpolmat with lambda=[13, 0] and dimension=7.... (0.000223616s)
+Preparing zonalpolmat with lambda=[13, 1] and dimension=6.... (0.000184532s)
+Preparing zonalpolmat with lambda=[14, 0] and dimension=8.... (0.00033276s)
+MEM sos parts ready (m4=3679) rss=0.779 GB maxrss=0.877 GB t=125.4 s
+MEM constraint 1 samples 1-1 rss=0.782 GB maxrss=0.877 GB t=133.6 s
+MEM constraint 2 samples 1-17 rss=0.932 GB maxrss=1.051 GB t=171.8 s
+MEM constraint 3 samples 1-20 rss=1.347 GB maxrss=1.834 GB t=364.2 s
+MEM constraint 3 samples 21-40 rss=1.441 GB maxrss=1.916 GB t=565.3 s
+MEM constraint 3 samples 41-60 rss=1.368 GB maxrss=1.916 GB t=771.3 s
+MEM constraint 3 samples 61-80 rss=1.594 GB maxrss=1.931 GB t=951.9 s
+MEM constraint 3 samples 81-100 rss=1.602 GB maxrss=2.011 GB t=1141.8 s
+MEM constraint 3 samples 101-120 rss=1.626 GB maxrss=2.011 GB t=1321.4 s
+MEM constraint 3 samples 121-140 rss=1.459 GB maxrss=2.011 GB t=1525.1 s
+MEM constraint 3 samples 141-160 rss=1.652 GB maxrss=2.05 GB t=1729.7 s
+MEM constraint 3 samples 161-180 rss=1.657 GB maxrss=2.05 GB t=1925.6 s
+MEM constraint 3 samples 181-200 rss=1.51 GB maxrss=2.184 GB t=2136.6 s
+MEM constraint 3 samples 201-204 rss=1.418 GB maxrss=2.184 GB t=2201.9 s
+MEM part built rss=1.314 GB maxrss=2.184 GB t=2202.2 s
+┌ Warning: CHOLMOD version incompatibility
+│ 
+│ Julia was compiled with CHOLMOD version 4.0.4. It is
+│ currently linked with version 5.3.1.
+│ This might cause Julia to terminate when working with
+│ sparse matrix factorizations, e.g. solving systems of
+│ equations with \.
+│ 
+│ It is recommended that you use Julia with the same major
+│ version of CHOLMOD as the one used during the build, or
+│ download the generic binaries from www.julialang.org,
+│ which ship with the correct versions of all dependencies.
+└ @ SparseArrays.CHOLMOD /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/share/julia/stdlib/v1.10/SparseArrays/src/solvers/cholmod.jl:206
+[ Info: Creating 4-point sos constraint...

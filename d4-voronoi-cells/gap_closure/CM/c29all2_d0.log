@@ -1,0 +1,6 @@
+   51 type-count vectors
+d3=0 round 1: optimal  bound 3.19665 (target 3.10330), corrected <= 3.21709  [388 s]
+   viol: AA 5.0e-05, AB 1.0e-06, AF 1.1e-05, BB -7.0e-06, BF -1.4e-06, FF -4.4e-07, AAA -1.6e-11, AAB -1.0e-06, AAF -2.4e-11, ABB -3.2e-05, ABF -2.8e-06, AFF -1.6e-10, BBB -3.5e-04, BBF -2.2e-04, BFF -4.5e-05, FFF -4.2e-09
+   c2: {'AA': 0.383917, 'AB': 0.384256, 'AF': 0.385174, 'BB': 0.384344, 'BF': 0.385026, 'FF': 0.380559}
+   c3: {'AAA': 0.0, 'AAB': 1.1e-06, 'AAF': 0.0, 'ABB': 3.18e-05, 'ABF': 2.3e-06, 'AFF': 0.0, 'BBB': 0.0003471, 'BBF': 0.0002187, 'BFF': 4.8e-05, 'FFF': 0.0}
+   51 type-count vectors

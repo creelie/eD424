@@ -1,0 +1,35 @@
+$ (cd arc2_w1v2 && w1v2_identify_low2.py)
+
+=== t=0.1000 ===
+  theta=0.19900744  [UNEXPLAINED]  facets LOST=[(2, 1, 3, -1)]  GAINED=[]
+  theta=1.04719755  [universal]  facets LOST=[(0, 1, 3, -1), (1, 1, 2, -1), (0, 1, 2, -1), (1, 1, 3, -1)]  GAINED=[]
+  theta=1.15150453  [UNEXPLAINED]  facets LOST=[]  GAINED=[(2, 1, 3, -1), (0, -1, 2, 1), (1, -1, 2, 1)]
+  theta=1.56578799  [W-curve]  facets LOST=[(0, 1, 3, 1), (1, 1, 3, 1)]  GAINED=[]
+
+=== t=0.2000 ===
+  theta=0.39223149  [UNEXPLAINED]  facets LOST=[(2, 1, 3, -1)]  GAINED=[]
+  theta=1.01289202  [UNEXPLAINED]  facets LOST=[]  GAINED=[(2, 1, 3, -1), (0, -1, 2, 1), (1, -1, 2, 1)]
+  theta=1.04719755  [universal]  facets LOST=[(0, 1, 3, -1), (1, 1, 2, -1), (0, 1, 2, -1), (1, 1, 3, -1)]  GAINED=[]
+  theta=1.55066292  [W-curve]  facets LOST=[(0, 1, 3, 1), (1, 1, 3, 1)]  GAINED=[]
+
+=== t=0.3000 ===
+  theta=0.57468369  [UNEXPLAINED]  facets LOST=[(2, 1, 3, -1)]  GAINED=[]
+  theta=0.92638259  [UNEXPLAINED]  facets LOST=[]  GAINED=[(2, 1, 3, -1), (0, -1, 2, 1), (1, -1, 2, 1)]
+  theta=1.04719755  [universal]  facets LOST=[(0, 1, 3, -1), (1, 1, 2, -1), (0, 1, 2, -1), (1, 1, 3, -1)]  GAINED=[]
+  theta=1.52512056  [W-curve]  facets LOST=[(0, 1, 3, 1), (1, 1, 3, 1)]  GAINED=[]
+
+=== t=0.4636 ===
+  theta=0.84099770  [UNEXPLAINED]  facets LOST=[(2, 1, 3, -1)]  GAINED=[]
+  theta=1.04719755  [universal]  facets LOST=[(0, 1, 3, -1), (1, 1, 2, -1), (0, 1, 2, -1), (1, 1, 3, -1)]  GAINED=[]
+  theta=1.45947897  [W-curve]  facets LOST=[(0, 1, 3, 1), (1, 1, 3, 1)]  GAINED=[]
+
+=== t=0.6000 ===
+  theta=0.80298966  [UNEXPLAINED]  facets LOST=[]  GAINED=[(0, -1, 2, 1), (1, -1, 2, 1)]
+  theta=1.04719755  [universal]  facets LOST=[(0, 1, 3, -1), (1, 1, 2, -1), (0, 1, 2, -1), (1, 1, 3, -1)]  GAINED=[]
+  theta=1.37999942  [W-curve]  facets LOST=[(0, 1, 3, 1), (1, 1, 3, 1)]  GAINED=[]
+
+=== t=0.7500 ===
+  theta=0.78602520  [UNEXPLAINED]  facets LOST=[]  GAINED=[(0, -1, 2, 1), (1, -1, 2, 1)]
+  theta=1.04719755  [universal]  facets LOST=[(1, 1, 2, -1), (0, 1, 2, -1)]  GAINED=[]
+  theta=1.19659280  [UNEXPLAINED]  facets LOST=[(0, 1, 3, -1), (1, 1, 3, -1)]  GAINED=[]
+  theta=1.26335724  [W-curve]  facets LOST=[(0, 1, 3, 1), (1, 1, 3, 1)]  GAINED=[]

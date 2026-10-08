@@ -1,0 +1,23 @@
+$ (cd multi_cap && second_order_estimate.py)
+[PASS] three contact directions have circumradius at least arccos sqrt(2/3)
+       arccos sqrt(2/3) = 35.264390 deg
+       smallest circumradius over 40000 random admissible triples: 35.890955 deg
+       violations: 0
+[PASS] r_23 and r_24 lie below arccos sqrt(2/3), so the caps meet only in pairs
+       r_23 = 34.610650 deg,  r_24 = 34.098663 deg,  threshold 35.264390 deg
+[PASS] the lens formula agrees with direct sampling on S^3
+       gamma=60 deg, r=34 deg: closed form 0.019076, sampled 0.018264
+       gamma=60 deg, r=40 deg: closed form 0.131520, sampled 0.130318
+       gamma=90 deg, r=50 deg: closed form 0.050507, sampled 0.050508
+[PASS] the second-order bound is 7.997885 at m = 23 and 7.858738 at m = 24, both below 8
+       root system                m=24  r_m=34.098663 deg  close pairs 96 (all at 60 deg: True)
+           covering estimate      7.798989
+           with overlaps put back 7.858738
+       root system minus one root m=23  r_m=34.610650 deg  close pairs 88 (all at 60 deg: True)
+           covering estimate      7.916728
+           with overlaps put back 7.997885
+           at m = 23 the shortfall left is 0.002115
+==============================================================
+4 of 4 checks passed
+Counting every pairwise overlap exactly still returns less
+than 8 at twenty-three contacts.

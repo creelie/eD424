@@ -1,0 +1,25 @@
+$ (cd verification && verify_formula2.py)
+Checking that every detected breakpoint matches one of the four curves.
+
+        s  breakpoints found                               matched
+  0.04000  0.079939, 1.047198, 1.295293, 1.569996          W, universal, Y, A
+  0.08936  0.178012, 1.047198, 1.171785, 1.566799          W, universal, Y, A
+  0.13872  0.274809, 1.047198, 1.088644, 1.561144          W, universal, Y, A
+  0.18808  0.369678, 1.025907, 1.047198, 1.553005          W, Y, universal, A
+  0.23744  0.462031, 0.976230, 1.047198, 1.542343          W, Y, universal, A
+  0.28680  0.551362, 0.935892, 1.047198, 1.529105          W, Y, universal, A
+  0.33616  0.637250, 0.902689, 1.047198, 1.513229          W, Y, universal, A
+  0.38552  0.719365, 0.875197, 1.047198, 1.494640          W, Y, universal, A
+  0.43488  0.797466, 0.852437, 1.047198, 1.473252          W, Y, universal, A
+  0.48424  0.833712, 1.047198, 1.448965                    Y, universal, A
+  0.53360  0.818513, 1.047198, 1.421671                    Y, universal, A
+  0.58296  0.806468, 1.047198, 1.391251                    Y, universal, A
+  0.63232  0.797301, 1.047198, 1.067576, 1.357577          Y, universal, W, A
+  0.68168  0.790816, 1.047198, 1.124513, 1.320513          Y, universal, W, A
+  0.73104  0.786878, 1.047198, 1.177357, 1.279920          Y, universal, W, A
+  0.78040  0.785411, 1.047198, 1.226226, 1.235654          Y, universal, W, A
+
+  breakpoints detected: 61
+  unmatched:            0
+
+  RESULT: PASS

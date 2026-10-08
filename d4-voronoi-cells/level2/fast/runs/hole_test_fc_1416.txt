@@ -1,0 +1,27 @@
+ k   root system   exactly-24 run
+ 1        0.000          0.239
+ 2        0.000          0.238
+ 3        0.000          0.463
+ 4       -0.000          0.732
+ 5        0.000          6.410
+ 6       82.286         50.120
+ 7        0.000         53.899
+ 8       64.000         21.221
+ 9        0.000          6.881
+10        0.000         10.546
+11        0.000         16.881
+12       88.615         39.806
+13        0.000         37.852
+14       38.400         26.308
+15        0.000         10.064
+16       33.882         19.692
+degree  2: root system -0.00000, exactly-24 run -0.00000
+degree  3: root system -0.00000, exactly-24 run -0.00000
+degree  4: root system -0.00000, exactly-24 run -0.00000
+degree  5: root system 0.05189, exactly-24 run -0.00000
+degree  6: root system 0.05189, exactly-24 run -0.00000
+degree  7: root system 0.05197, exactly-24 run -0.00000
+degree  8: root system 0.05197, exactly-24 run -0.00000
+degree  9: root system 0.05197, exactly-24 run -0.00000
+degree 10: root system 0.05197, exactly-24 run -0.00000
+degree 11: root system 0.05197, exactly-24 run -0.00000

@@ -1,0 +1,14 @@
+24 centres as a density level (case24_all.json), three-point degree 6, two rounds: TAG=c24d6 python3 -u combo_direct.py 6 2 case24_all.json, started 13:27 UTC 2026-10-06. The round-1 certificate is multi_cap/radial_certificates/combo24_level_d6.npz; its exact check (LEVEL=3.3291, BORDER=1) passes with U(Y) <= 3.253872 (multi_cap/runs/combo24_level_check.log).
+   direct: 2373 variables, 53844 inequalities, 2253 psd rows in 40 cones, 15719871 nonzeros [5 s to build]
+   9 type-count vectors
+d3=6 round 1: optimal_inaccurate  bound 3.21901 (target 3.10330), corrected <= 3.25434  [908 s]
+   viol: AA 3.7e-08, AB -3.2e-06, AF -9.9e-04, BB -1.2e-03, BF -3.4e-03, FF -1.2e-02, AAA 1.2e-05, AAB 2.6e-05, AAF 1.5e-05, ABB 7.9e-06, ABF 4.7e-05, BBB -5.2e-03, BBF -3.8e-03
+   c2: {'AA': 0.00681, 'AB': 0.005081, 'AF': 0.001731, 'BB': -0.005685, 'BF': -0.000926, 'FF': 0.103802}
+   c3: {'AAA': 2.02e-05, 'AAB': 5.89e-05, 'AAF': 0.0002676, 'ABB': 0.0003612, 'ABF': 0.000469, 'BBB': 0.0130501, 'BBF': 0.0108316}
+   direct: 2373 variables, 67484 inequalities, 2253 psd rows in 40 cones, 21699465 nonzeros [6 s to build]
+   9 type-count vectors
+d3=6 round 2: optimal_inaccurate  bound 3.22037 (target 3.10330), corrected <= 3.53309  [797 s]
+   viol: AA 4.3e-08, AB -8.0e-05, AF -9.6e-04, BB -1.8e-03, BF -1.8e-03, FF -6.9e-03, AAA 1.8e-06, AAB 3.3e-04, AAF 3.5e-04, ABB 3.3e-04, ABF 6.0e-04, BBB -2.4e-03, BBF -1.6e-03
+   c2: {'AA': 0.004503, 'AB': 0.004477, 'AF': 0.00159, 'BB': 0.005408, 'BF': -0.003134, 'FF': 0.065501}
+   c3: {'AAA': 2.2e-05, 'AAB': 2.85e-05, 'AAF': 0.0002348, 'ABB': -3.45e-05, 'ABF': 0.0005503, 'BBB': 0.0078893, 'BBF': 0.0079194}
+PEAK_RSS_GB 3.18 exit 0 wall 1708 s

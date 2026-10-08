@@ -1,0 +1,8 @@
+28 with at most 20 centres within 2.0161 (case28_lo20.json), three-point degree 6, one round; the whole case gives 3.23113 and at most 19 gives 3.20482 at this degree; started Tue Oct  6 17:57:08 UTC 2026
+   direct: 3852 variables, 67288 inequalities, 2253 psd rows in 40 cones, 17785456 nonzeros [6 s to build]
+   105 type-count vectors
+d3=6 round 1: optimal  bound 3.21021 (target 3.10330), corrected <= 3.49125  [1072 s]
+   viol: AA 2.0e-05, AB 2.2e-06, AF 6.5e-06, BB 1.1e-04, BF 1.1e-05, FF 1.5e-08, AAA 3.5e-05, AAB 4.8e-05, AAF 1.0e-04, ABB 7.6e-05, ABF 1.8e-04, AFF 1.7e-04, BBB 2.7e-05, BBF 5.8e-05, BFF 5.3e-05, FFF 2.6e-05
+   c2: {'AA': 0.05834, 'AB': 0.058069, 'AF': 0.058617, 'BB': 0.061117, 'BF': 0.062177, 'FF': 0.062264}
+   c3: {'AAA': -0.0001684, 'AAB': 2.59e-05, 'AAF': 0.000141, 'ABB': 9.25e-05, 'ABF': 0.0001906, 'AFF': 0.0003317, 'BBB': 3.07e-05, 'BBF': 9.85e-05, 'BFF': 0.000167, 'FFF': 0.0001918}
+PEAK_RSS_GB 2.53 exit 0 wall 1076 s

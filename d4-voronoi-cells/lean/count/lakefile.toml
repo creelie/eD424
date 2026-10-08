@@ -1,0 +1,7 @@
+name = "countcertificate"
+defaultTargets = ["CountLib"]
+
+[[lean_lib]]
+name = "CountLib"
+roots = ["CountDomain", "CountData31", "Count31Main"]
+precompileModules = true

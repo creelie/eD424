@@ -1,0 +1,6 @@
+$ (cd swap_configs && swap_exact_volume.py)
+n simplices: 157
+  simplex 0/157  t=0.1s
+  simplex 40/157  t=56.7s
+  simplex 80/157  t=411.7s
+  simplex 120/157  t=541.7s

@@ -1,0 +1,9 @@
+Tue Oct  6 07:46:53 UTC 2026
+ℹ [8/9] Built Count31Main (3381s)
+info: Count31Main.lean:27:0: 'count31_pairs' depends on axioms: [propext, Classical.choice, Quot.sound, count31_pairs._native.native_decide.ax_1_1]
+Build completed successfully (9 jobs).
+
+real	56m21.532s
+user	55m22.735s
+sys	0m8.396s
+Tue Oct  6 08:43:14 UTC 2026

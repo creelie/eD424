@@ -1,0 +1,21 @@
+$ python3 hexagon_loop.py
+1. Exact part (sympy)
+   theta = 0: Gram matrix equals that of the unit D4 roots under a labelling, exactly: True
+   J1 = sqrt3 (4C^2+3)/(3C): True    J2 = sqrt3 (16C^4-8C^2+9)/(12C^2): True
+   12 - 2 sqrt3 s J1 + sqrt3 s^2 J2 - 8 (1 - s^2) = (2 - s (4C^2+3)/(2C))^2: True
+   B1, 1 - s (2 m_+ - m_-)  = (C - sqrt(3)/2)*(C + sqrt(3)/2)/(C**2 + 3/4)
+   B1, 1 - s (2 m_- - m_+)  = 1
+   V, 1 - s (2 m_+ - m_-)   = -sqrt(3)*(C*S - sqrt(3)/4)/(C**2 + 3/4)
+   V, 1 - s (2 m_- - m_+)   = sqrt(3)*(C*S + sqrt(3)/4)/(C**2 + 3/4)
+   B2, 1 - s (2 m_+ - m_-)  = 1
+   B2, 1 - s (2 m_- - m_+)  = (C - sqrt(3)/2)*(C + sqrt(3)/2)/(C**2 + 3/4)
+   each condition is 1, (C^2-3/4)/(C^2+3/4) or sqrt3 (sqrt3/4 -+ CS)/(C^2+3/4), all >= 0 on the loop: True
+   s C = 4C^2/(4C^2+3) (> 1/2 iff C^2 > 3/4, i.e. 0 < theta < pi/3): True
+2. Numerical cross-checks
+   qhull along the loop, 13 values of theta: max |vol - 8| = 8.9e-15
+   200 random (theta, psi) near the loop: qhull volume minus the bound in [-1.8e-14, 3.4e-03]
+   (zero where no slice degenerates, positive otherwise)
+   theta = 0.1: vol - 8 = -9.62e-50 at 50 digits
+   theta = 0.523599: vol - 8 = -1.07e-50 at 50 digits
+   theta = 0.9: vol - 8 = -1.18e-49 at 50 digits
+PASS

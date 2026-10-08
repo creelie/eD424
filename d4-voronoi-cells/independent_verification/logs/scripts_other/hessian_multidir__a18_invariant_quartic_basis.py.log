@@ -1,0 +1,43 @@
+$ (cd hessian_multidir && a18_invariant_quartic_basis.py)
+chi_{Sym^b(W)} values per class, b=0..4 (W = std3 (x) det):
+  b=0: [Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]
+  b=1: [Fraction(3, 1), Fraction(-1, 1), Fraction(-1, 1), Fraction(3, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)]
+  b=2: [Fraction(6, 1), Fraction(2, 1), Fraction(2, 1), Fraction(6, 1), Fraction(2, 1), Fraction(0, 1), Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+  b=3: [Fraction(10, 1), Fraction(-2, 1), Fraction(-2, 1), Fraction(10, 1), Fraction(-2, 1), Fraction(0, 1), Fraction(-2, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)]
+  b=4: [Fraction(15, 1), Fraction(3, 1), Fraction(3, 1), Fraction(15, 1), Fraction(3, 1), Fraction(1, 1), Fraction(3, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)]
+
+=== Part 1: dimension of invariant quartics Q(x0,y), by degree split ===
+  x0^4 * (deg-0 in y): mult of triv in Sym^0(W) = 1
+  x0^3 * (deg-1 in y): mult of eps_perm in Sym^1(W) = 0
+  x0^2 * (deg-2 in y): mult of triv in Sym^2(W) = 1
+  x0^1 * (deg-3 in y): mult of eps_perm in Sym^3(W) = 1
+  x0^0 * (deg-4 in y): mult of triv in Sym^4(W) = 2
+
+TOTAL dimension of the invariant-quartic space: 5
+(vs. dimension 35 for a general quartic in 4 variables)
+
+=== Part 2: explicit basis via Reynolds projection ===
+proj(y0^2)      = y0**2/3 + y1**2/3 + y2**2/3   (expect (y0^2+y1^2+y2^2)/3)
+proj(y0^4)      = y0**4/3 + y1**4/3 + y2**4/3   (expect (y0^4+y1^4+y2^4)/3)
+proj(y0^2*y1^2) = y0**2*y1**2/3 + y0**2*y2**2/3 + y1**2*y2**2/3   (expect (y0^2y1^2+y1^2y2^2+y2^2y0^2)/3)
+
+proj(y0**3, onto eps_perm) = 0
+proj(y0**2*y1, onto eps_perm) = 0
+proj(y0*y1*y2, onto eps_perm) = y0*y1*y2
+
+-> confirms: proj(y0^3), proj(y0^2 y1) onto eps_perm vanish; proj(y0 y1 y2)
+   onto eps_perm reproduces y0*y1*y2 exactly unchanged -- P3 = y0*y1*y2 is
+   already the (unique, up to scale) relative invariant of degree 3.
+
+=== Final basis, both methods agree ===
+  x0^4
+  x0^2 * S2(y),   S2  = y0^2+y1^2+y2^2
+  x0   * P3(y),   P3  = y0*y1*y2
+  S4(y)         = y0^4+y1^4+y2^4
+  S22(y)        = y0^2*y1^2+y1^2*y2^2+y2^2*y0^2
+
+Sign-definiteness of each basis element on its own: x0^4, S2, S4, S22
+are all manifestly sums of squares (>= 0 everywhere); P3 = y0*y1*y2 is
+odd degree in y and changes sign under y -> -y, so it is NOT sign-definite
+by itself -- the c3 coefficient's contribution can only be controlled in
+combination with the others, not term by term.

@@ -1,0 +1,14 @@
+25 centres as a density level (case25_all.json), three-point degree 6, two rounds: TAG=c25d6 python3 -u combo_direct.py 6 2 case25_all.json, started 14:02 UTC 2026-10-06. The round-1 certificate prechecks at 3.376844 (LEVEL=3.3274, BORDER=1, PRECHECK=1), above the two-point level 3.3274, so no exact check was run.
+   direct: 2529 variables, 54040 inequalities, 2253 psd rows in 40 cones, 15721741 nonzeros [2 s to build]
+   17 type-count vectors
+d3=6 round 1: optimal  bound 3.31304 (target 3.10330), corrected <= 3.40335  [1043 s]
+   viol: AA 2.2e-07, AB 2.6e-05, AF -6.8e-04, BB 1.7e-03, BF 4.8e-04, FF -1.1e-02, AAA 9.4e-06, AAB 1.9e-05, AAF 1.3e-05, ABB 2.8e-05, ABF 1.1e-04, BBB -5.7e-04, BBF -6.5e-04
+   c2: {'AA': 0.008466, 'AB': 0.005988, 'AF': 0.004074, 'BB': 0.006822, 'BF': -0.000931, 'FF': 0.126976}
+   c3: {'AAA': -7.8e-06, 'AAB': 0.0001102, 'AAF': 0.0003743, 'ABB': 0.0002504, 'ABF': 0.0007826, 'BBB': 0.0009832, 'BBF': 0.0018929}
+   direct: 2529 variables, 67666 inequalities, 2253 psd rows in 40 cones, 21689427 nonzeros [7 s to build]
+   17 type-count vectors
+d3=6 round 2: optimal  bound 3.31448 (target 3.10330), corrected <= 3.62071  [1182 s]
+   viol: AA 2.7e-07, AB 1.9e-07, AF -4.0e-04, BB 3.9e-04, BF -2.5e-04, FF -1.2e-02, AAA 1.7e-06, AAB 1.6e-06, AAF 4.3e-04, ABB 3.3e-04, ABF 7.9e-04, BBB 4.0e-04, BBF 4.9e-04
+   c2: {'AA': 0.057094, 'AB': 0.056875, 'AF': 0.049993, 'BB': 0.059601, 'BF': 0.049375, 'FF': 0.166006}
+   c3: {'AAA': 6.1e-06, 'AAB': 3.32e-05, 'AAF': 0.0004893, 'ABB': 0.0001042, 'ABF': 0.0006848, 'BBB': 0.0005403, 'BBF': 0.0014715}
+PEAK_RSS_GB 3.14 exit 0 wall 2229 s

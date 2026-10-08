@@ -1,0 +1,19 @@
+$ python3 cardinality_sdp.py sweep 8 2 0.5 0.51 0.52 0.53 0.55 0.58
+  d=8 t=0.50000 round 1: sampled bound 24.279223 (300+4816 pts, 14s) viol (i) 4.8e-06 (ii) 4.9e-03  -> bound at |C|=25 corrected: 26.974160
+  d=8 t=0.50000 round 2: sampled bound 24.290849 (1800+7816 pts, 27s) viol (i) 2.2e-06 (ii) 2.1e-04  -> bound at |C|=25 corrected: 24.409238
+RESULT d=8 t=0.5000 s=0.0000  sampled 24.29085  corrected@25 24.40924
+  d=8 t=0.51000 round 1: sampled bound 25.243212 (300+4800 pts, 14s) viol (i) 8.7e-07 (ii) 3.4e-03  -> bound at |C|=25 corrected: 27.140120
+  d=8 t=0.51000 round 2: sampled bound 25.263415 (1800+7800 pts, 36s) viol (i) 3.6e-06 (ii) 1.1e-04  -> bound at |C|=25 corrected: 25.326972
+RESULT d=8 t=0.5100 s=0.0100  sampled 25.26342  corrected@25 25.32697
+  d=8 t=0.52000 round 1: sampled bound 26.407226 (300+4784 pts, 16s) viol (i) 1.7e-06 (ii) 2.8e-03  -> bound at |C|=25 corrected: 27.966153
+  d=8 t=0.52000 round 2: sampled bound 26.442007 (1800+7784 pts, 41s) viol (i) 4.8e-07 (ii) 2.0e-04  -> bound at |C|=25 corrected: 26.553402
+RESULT d=8 t=0.5200 s=0.0200  sampled 26.44201  corrected@25 26.55340
+  d=8 t=0.53000 round 1: sampled bound 27.601529 (300+4768 pts, 15s) viol (i) 7.7e-05 (ii) 2.2e-03  -> bound at |C|=25 corrected: 28.836702
+  d=8 t=0.53000 round 2: sampled bound 27.615761 (1800+7768 pts, 36s) viol (i) 7.7e-07 (ii) 2.4e-03  -> bound at |C|=25 corrected: 28.945155
+RESULT d=8 t=0.5300 s=0.0300  sampled 27.61576  corrected@25 28.94516
+  d=8 t=0.55000 round 1: sampled bound 29.639793 (300+4688 pts, 15s) viol (i) 2.1e-05 (ii) 8.6e-04  -> bound at |C|=25 corrected: 30.112411
+  d=8 t=0.55000 round 2: sampled bound 29.652745 (1800+7688 pts, 33s) viol (i) 1.7e-05 (ii) 3.6e-04  -> bound at |C|=25 corrected: 29.853226
+RESULT d=8 t=0.5500 s=0.0500  sampled 29.65275  corrected@25 29.85323
+  d=8 t=0.58000 round 1: sampled bound 33.477061 (300+4656 pts, 14s) viol (i) 3.0e-06 (ii) 4.0e-03  -> bound at |C|=25 corrected: 35.662038
+  d=8 t=0.58000 round 2: sampled bound 33.494480 (1800+7656 pts, 34s) viol (i) 1.1e-06 (ii) 7.8e-04  -> bound at |C|=25 corrected: 33.925058
+RESULT d=8 t=0.5800 s=0.0800  sampled 33.49448  corrected@25 33.92506

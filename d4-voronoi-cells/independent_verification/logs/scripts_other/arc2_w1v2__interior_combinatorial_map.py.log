@@ -1,0 +1,51 @@
+$ (cd arc2_w1v2 && interior_combinatorial_map.py)
+theta=1.45, grid points=861
+  n_vertices=29: 3 pts (0.3%)
+  n_vertices=32: 219 pts (25.4%)
+  n_vertices=34: 144 pts (16.7%)
+  n_vertices=37: 453 pts (52.6%)
+  n_vertices=40: 42 pts (4.9%)
+
+ASCII map (rows = j from N down to 0, cols = i from 0 to N); each char
+codes n_vertices: 32->'.', 34->'a', 37->'b', 40->'c', other->'?':
+?                                        
+aa                                       
+aba                                      
+abba                                     
+abbba                                    
+abbbba                                   
+abbbbba                                  
+abbbbbba                                 
+aabbbbbaa                                
+aabbbbbbaa                               
+aabbbbbbbaa                              
+aabbbbbbbbaa                             
+aaabbbbbbbaaa                            
+aaabbbbbbbbaaa                           
+.aabbbbbbbbbaa.                          
+...abbbbbbbba...                         
+....bbbbbbbbb....                        
+....bbbbbbbbbb....                       
+.....bbbbbbbbb.....                      
+.....bbbbbbbbbb.....                     
+......bbbbbbbbb......                    
+.......bbbbbbbb.......                   
+.......bbbbbbbbb.......                  
+........bbbbbbbb........                 
+.........ccccccc.........                
+.......bbccccccccbb.......               
+.....bbbbbcccccccbbbbb.....              
+aa..bbbbbbbccccccbbbbbbb..aa             
+aaaabbbbbbbbcccccbbbbbbbbaaaa            
+aaabbbbbbbbbbccccbbbbbbbbbbaaa           
+aaabbbbbbbbbbbcccbbbbbbbbbbbaaa          
+aabbbbbbbbbbbbbccbbbbbbbbbbbbbaa         
+aabbbbbbbbbbbbbb.bbbbbbbbbbbbbbaa        
+aabbbbbbbbbbbbbb..bbbbbbbbbbbbbbaa       
+abbbbbbbbbbbbbb.....bbbbbbbbbbbbbba      
+abbbbbbbbbbbbbb......bbbbbbbbbbbbbba     
+abbbbbbbbbbbbb.........bbbbbbbbbbbbba    
+abbbbbbbbbbba............abbbbbbbbbbba   
+abbbbbbbbbaaa.............aaabbbbbbbbba  
+abbbbbbaaaaaaa............aaaaaaabbbbbba 
+?aaaaaaaaaaaaa.............aaaaaaaaaaaaa?

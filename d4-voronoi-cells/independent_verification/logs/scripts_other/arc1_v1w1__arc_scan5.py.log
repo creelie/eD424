@@ -1,0 +1,6 @@
+$ (cd arc1_v1w1 && arc_scan5.py)
+v1-w1 arc: global min on grid F=0.007517 at theta=0.1500, t=0.7907
+w1-v2 arc: global min on grid F=0.007517 at theta=0.1500, t=0.7801
+
+OVERALL MIN over the reduced fundamental domain (theta>0.15):
+  F = 0.007517  at theta=0.1500, t=0.7801

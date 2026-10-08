@@ -1,0 +1,17 @@
+$ (cd arc2_w1v2 && w1v2_region_setup2.py)
+subinterval 0 (t in [0.0001,0.1698]): curve orders seen = {('B', 'universal', 'C', 'W')}
+subinterval 1 (t in [0.1700,0.4635]): curve orders seen = {('B', 'C', 'universal', 'W')}
+subinterval 2 (t in [0.4637,0.6154]): curve orders seen = {('C', 'B', 'universal', 'W')}
+subinterval 3 (t in [0.6156,0.7853]): curve orders seen = {('C', 'universal', 'B', 'W')}
+
+total distinct combinatorial types (Bernstein/certificate-relevant) found: 7
+bands with >1 type across their t-samples (would indicate a missed internal crossing): 0
+
+total distinct type-ids mapped to bands: 7
+  type 0: appears in bands [(0, 0, ('B', 'universal', 'C', 'W')), (1, 0, ('B', 'C', 'universal', 'W')), (2, 0, ('C', 'B', 'universal', 'W')), (3, 0, ('C', 'universal', 'B', 'W'))]
+  type 1: appears in bands [(0, 1, ('B', 'universal', 'C', 'W')), (1, 1, ('B', 'C', 'universal', 'W'))]
+  type 2: appears in bands [(0, 2, ('B', 'universal', 'C', 'W'))]
+  type 3: appears in bands [(0, 3, ('B', 'universal', 'C', 'W')), (1, 3, ('B', 'C', 'universal', 'W')), (2, 3, ('C', 'B', 'universal', 'W')), (3, 3, ('C', 'universal', 'B', 'W'))]
+  type 4: appears in bands [(0, 4, ('B', 'universal', 'C', 'W')), (1, 4, ('B', 'C', 'universal', 'W')), (2, 4, ('C', 'B', 'universal', 'W')), (3, 4, ('C', 'universal', 'B', 'W'))]
+  type 5: appears in bands [(1, 2, ('B', 'C', 'universal', 'W')), (2, 1, ('C', 'B', 'universal', 'W')), (2, 2, ('C', 'B', 'universal', 'W')), (3, 1, ('C', 'universal', 'B', 'W'))]
+  type 6: appears in bands [(3, 2, ('C', 'universal', 'B', 'W'))]

@@ -1,0 +1,2 @@
+   direct: 4419 variables, 53844 inequalities, 4299 psd rows in 48 cones, 25424864 nonzeros [6 s to build]
+[stopped at 03:35 UTC on 2026-10-06 before round 1 finished, to free memory for (C) at 27 at degree 10]

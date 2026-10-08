@@ -1,0 +1,6 @@
+$ (cd verification && completeness_check.py)
+Checking for ANY unexplained transitions across full t in (0,pi/4):
+
+Max unexplained transitions found at any sampled t: 0
+(0 means: pi/3 + W-curve + A-curve + Y-curve fully account for the
+ combinatorial breakpoint structure at every sampled point)

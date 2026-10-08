@@ -1,0 +1,28 @@
+residual case of thm:count30: combined certificate combo30q_d8_r3.npz, two-point degree 12/4, three-point degree 8
+  [ok] dmax exceeds sqrt 6
+  [ok] A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  (t = 18.369429128, float t 18.369418979)
+  [ok] three-point blocks positive definite (exact LDL^T)  (35 blocks)
+  point terms: {'A': '0.416868', 'B': '0.390574', 'F': '0.101946'}
+  pair AA: float largest K + PAIR3 - Pi 7.277691e-02 (file c2 7.272434e-02); threshold 7.279694e-02
+  pair AB: float largest K + PAIR3 - Pi 1.183131e-02 (file c2 1.156189e-02); threshold 1.185131e-02
+  pair AF: float largest K + PAIR3 - Pi 8.462682e-02 (file c2 8.461827e-02); threshold 8.464690e-02
+  pair BB: float largest K + PAIR3 - Pi 7.182106e-03 (file c2 7.175880e-03); threshold 7.202134e-03
+  pair BF: float largest K + PAIR3 - Pi -5.111205e-03 (file c2 -5.160445e-03); threshold -5.091205e-03
+  pair FF: float largest K + PAIR3 - Pi 1.888508e-01 (file c2 1.888507e-01); threshold 1.888708e-01
+  [ok] K + PAIR3_AA <= Pi + c2 on the admissible pairs  (7702 boxes closed, 7085 set aside, Pi in Arb at 7601 corners)
+  [ok] K + PAIR3_AB <= Pi + c2 on the admissible pairs  (12087 boxes closed, 11747 set aside, Pi in Arb at 2623 corners)
+  [ok] K + PAIR3_AF <= Pi + c2 on the admissible pairs  (5936 boxes closed, 5932 set aside, Pi in Arb at 0 corners)
+  [ok] K + PAIR3_BB <= Pi + c2 on the admissible pairs  (12382 boxes closed, 12571 set aside, Pi in Arb at 976 corners)
+  [ok] K + PAIR3_BF <= Pi + c2 on the admissible pairs  (7897 boxes closed, 7963 set aside, Pi in Arb at 0 corners)
+  [ok] K + PAIR3_FF <= Pi + c2 on the admissible pairs  (1642 boxes closed, 1556 set aside, Pi in Arb at 0 corners)
+  [ok] f <= m_b on every bin  (4131 intervals, least room 8.11e-10)
+  triple AAA: float largest 8.877660e-02 on 649660 samples; threshold 8.878219e-02; 425 monomials, symmetry 2
+      level 10: 0 boxes verified, 334 to bisect [1 s]
+      level 20: 13250 boxes verified, 79776 to bisect [36 s]
+      level 30: 969033 boxes verified, 27046 to bisect [604 s]
+  [ok] TRIPLE3_AAA <= c3 on the admissible triples  (997000 boxes, largest centre value 8.8778e-02)
+  triple AAB: float largest 6.171581e-02 on 649713 samples; threshold 6.172162e-02; 425 monomials, symmetry 1
+      level 10: 0 boxes verified, 616 to bisect [1 s]
+      level 20: 42544 boxes verified, 193812 to bisect [97 s]
+      level 30: 1422187 boxes verified, 0 to bisect [956 s]
+  [ok] TRIPLE3_AAB <= c3 on the admissible triples  (1422187 boxes, largest centre value 6.1716e-02)

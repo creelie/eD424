@@ -1,0 +1,48 @@
+$ (cd hessian_multidir && c2_constant_test.py)
+G0 =
+⎡ 1   1/2  1/2   1/2   1/2   1/2 ⎤
+⎢                                ⎥
+⎢1/2   1    0    1/2   1/2    0  ⎥
+⎢                                ⎥
+⎢1/2   0    1    1/2   -1/2   0  ⎥
+⎢                                ⎥
+⎢1/2  1/2  1/2    1     0    -1/2⎥
+⎢                                ⎥
+⎢1/2  1/2  -1/2   0     1    1/2 ⎥
+⎢                                ⎥
+⎣1/2   0    0    -1/2  1/2    1  ⎦
+
+H_Omega =
+⎡64  16  16   16   16   16 ⎤
+⎢                          ⎥
+⎢16  64   0   16   16    0 ⎥
+⎢                          ⎥
+⎢16  0   64   16   -16   0 ⎥
+⎢                          ⎥
+⎢16  16  16   64    0   -16⎥
+⎢                          ⎥
+⎢16  16  -16   0   64   16 ⎥
+⎢                          ⎥
+⎣16  0    0   -16  16   64 ⎦
+
+[OK] v1,w1,v2 orthonormal and orthogonal to u0
+
+b(e_perp) components (should have b_1 = 0 exactly since u_1=u0 perp e_perp):
+  b_1 (m12) = 0
+  b_2 (m13) = a/4 + b/4 + c/4
+  b_3 (n13) = a/4 - b/4 - c/4
+  b_4 (n14) = a/4 - b/4 + c/4
+  b_5 (m23) = -a/4 + b/4 + c/4
+  b_6 (m24) = -a/4 + b/4 - c/4
+
+c2(e_perp) = b^T H_Omega b, expanded:
+28*a**2 - 40*a*b + 12*a*c + 28*b**2 + 12*b*c + 24*c**2
+
+c2(e_perp), simplified (before imposing unit constraint):
+28*a**2 - 40*a*b + 12*a*c + 28*b**2 + 12*b*c + 24*c**2
+
+As polynomial in a,b,c:
+Poly(28*a**2 - 40*a*b + 12*a*c + 28*b**2 + 12*b*c + 24*c**2, a, b, c, domain='ZZ')
+
+c2_expr - (1/3)(a^2+b^2+c^2) = 83*a**2/3 - 40*a*b + 12*a*c + 83*b**2/3 + 12*b*c + 71*c**2/3
+Identically zero (c2 constant = 1/3 on unit sphere)?  False

@@ -1,0 +1,66 @@
+$ (cd multi_cap && root_meet.py)
+(i) two roots removed
+    pairs of roots: 276
+    pairs leaving no couple whole: 0
+    orbits of pairs under the group: 4
+
+(ii) three roots removed
+    triples of roots: 2024
+    triples leaving no couple whole: 512
+    of those, by support pattern: {'star': 256, 'triangle': 256}
+    distinct support patterns: 8  (4 stars and 4 triangles expected)
+
+(iii) which of them can have all three removed roots within
+      60 degrees of one direction
+      (the length test below is the crude necessary condition;
+       the sign analysis in the proof is what leaves the 96)
+    triples passing the length test: 192
+    triples that are pairwise at 60 degrees: 96
+    the length test alone does not isolate them: False
+
+    reference star triple: (0, 4, 8) = [[np.float64(1.0), np.float64(1.0), np.float64(0.0), np.float64(0.0)], [np.float64(1.0), np.float64(0.0), np.float64(1.0), np.float64(0.0)], [np.float64(1.0), np.float64(0.0), np.float64(0.0), np.float64(1.0)]]
+    its orbit: 96 of 96; transitive: True
+
+(iv) the doorway of the reference triple, in coordinates
+    points found in the doorway: 17404
+    smallest first coordinate: 0.707106781187   (claim: at least 1/sqrt2 = 0.707106781187)
+    smallest other coordinate: 0.000000000000   (claim: at least 0)
+    smallest inner product between two of them: 0.500000000000   (claim: at least 1/2)
+    points involved in an inner product equal to 1/2: 2
+      [1. 1. 0. 0.]   is a removed root: True
+      [1. 0. 1. 0.]   is a removed root: True
+
+(v) one rung lower: four removed roots
+    orbits of four-element subsets: 31
+    orbits whose cell has circumradius above 2: 4
+      (0, 1, 4, 8): orbit  288, circumradius 2.449489743, mutual inner products [-0.0, 0.5, 0.5, 0.5, 0.5, 0.5]
+      (0, 1, 4, 12): orbit  576, circumradius 2.449489743, mutual inner products [-0.5, -0.0, 0.5, 0.5, 0.5, 0.5]
+      (0, 1, 12, 16): orbit  576, circumradius 2.449489743, mutual inner products [-0.5, -0.5, -0.0, 0.5, 0.5, 0.5]
+      (0, 3, 4, 8): orbit  288, circumradius 2.449489743, mutual inner products [-1.0, -0.5, -0.5, 0.5, 0.5, 0.5]
+
+    removed          margin   least largest pairwise inner product
+    (0, 1, 4, 8)        0.0                            0.500000000
+    (0, 1, 4, 8)        2.0                            0.538256240
+    (0, 1, 4, 8)        5.0                            0.592985847
+    (0, 1, 4, 8)       10.0                            0.676602335
+
+    (0, 1, 4, 12)       0.0                            0.500000000
+    (0, 1, 4, 12)       2.0                            0.548708588
+    (0, 1, 4, 12)       5.0                            0.618865412
+    (0, 1, 4, 12)      10.0                            0.725725166
+
+    (0, 1, 12, 16)      0.0                            0.500000000
+    (0, 1, 12, 16)      2.0                            0.548708588
+    (0, 1, 12, 16)      5.0                            0.618865412
+    (0, 1, 12, 16)     10.0                            0.725725166
+
+    (0, 3, 4, 8)        0.0                            0.500000000
+    (0, 3, 4, 8)        2.0                            0.548708588
+    (0, 3, 4, 8)        5.0                            0.618865412
+    (0, 3, 4, 8)       10.0                            0.725725166
+
+    at margin zero the minimiser is three of the removed roots;
+    a positive margin pushes the value above 1/2, so the doorways
+    at twenty roots hold two further directions and not three.
+    This part is a search over local minima and is reported as a
+    computation, not as a proof.

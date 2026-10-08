@@ -1,0 +1,128 @@
+MEM start part 3 of 4, s=1//125 rss=0.495 GB maxrss=0.512 GB t=0.3 s
+Generating independent sets of cardinality 0... (0.000102595s)
+Generating independent sets of cardinality 1... (2.6098e-5s)
+Generating independent sets of cardinality 2... (4.55e-6s)
+Generating independent sets of cardinality 3... (1.9903e-5s)
+Generating independent sets of cardinality 4... (2.924e-5s)
+Preparing zonalpolmat with lambda=[0, 0] and dimension=1.... (7.6788e-5s)
+Preparing zonalpolmat with lambda=[1, 0] and dimension=1.... (1.1927e-5s)
+Preparing zonalpolmat with lambda=[2, 0] and dimension=2.... (3.3392e-5s)
+Preparing zonalpolmat with lambda=[2, 1] and dimension=1.... (1.2103e-5s)
+Preparing zonalpolmat with lambda=[2, 2] and dimension=1.... (1.0592e-5s)
+Preparing zonalpolmat with lambda=[3, 0] and dimension=2.... (3.2955e-5s)
+Preparing zonalpolmat with lambda=[3, 1] and dimension=1.... (1.1636e-5s)
+Preparing zonalpolmat with lambda=[3, 2] and dimension=1.... (1.0815e-5s)
+Preparing zonalpolmat with lambda=[4, 0] and dimension=3.... (5.9983e-5s)
+Preparing zonalpolmat with lambda=[4, 1] and dimension=2.... (3.0784e-5s)
+Preparing zonalpolmat with lambda=[4, 2] and dimension=2.... (2.8671e-5s)
+Preparing zonalpolmat with lambda=[4, 3] and dimension=1.... (0.000517569s)
+Preparing zonalpolmat with lambda=[4, 4] and dimension=1.... (1.7868e-5s)
+Preparing zonalpolmat with lambda=[5, 0] and dimension=3.... (0.000104452s)
+Preparing zonalpolmat with lambda=[5, 1] and dimension=2.... (3.4673e-5s)
+Preparing zonalpolmat with lambda=[5, 2] and dimension=2.... (3.1065e-5s)
+Preparing zonalpolmat with lambda=[5, 3] and dimension=1.... (1.993e-5s)
+Preparing zonalpolmat with lambda=[5, 4] and dimension=1.... (1.0015e-5s)
+Preparing zonalpolmat with lambda=[6, 0] and dimension=4.... (9.9083e-5s)
+Preparing zonalpolmat with lambda=[6, 1] and dimension=3.... (5.9771e-5s)
+Preparing zonalpolmat with lambda=[6, 2] and dimension=3.... (5.6883e-5s)
+Preparing zonalpolmat with lambda=[6, 3] and dimension=2.... (8.2072e-5s)
+Preparing zonalpolmat with lambda=[6, 4] and dimension=2.... (6.8859e-5s)
+Preparing zonalpolmat with lambda=[6, 5] and dimension=1.... (1.1999e-5s)
+Preparing zonalpolmat with lambda=[6, 6] and dimension=1.... (1.1049e-5s)
+Preparing zonalpolmat with lambda=[7, 0] and dimension=4.... (9.5675e-5s)
+Preparing zonalpolmat with lambda=[7, 1] and dimension=3.... (5.7871e-5s)
+Preparing zonalpolmat with lambda=[7, 2] and dimension=3.... (6.1945e-5s)
+Preparing zonalpolmat with lambda=[7, 3] and dimension=2.... (3.1465e-5s)
+Preparing zonalpolmat with lambda=[7, 4] and dimension=2.... (3.9826e-5s)
+Preparing zonalpolmat with lambda=[7, 5] and dimension=1.... (1.2268e-5s)
+Preparing zonalpolmat with lambda=[7, 6] and dimension=1.... (1.3566e-5s)
+Preparing zonalpolmat with lambda=[8, 0] and dimension=5.... (0.000164518s)
+Preparing zonalpolmat with lambda=[8, 1] and dimension=4.... (0.000103115s)
+Preparing zonalpolmat with lambda=[8, 2] and dimension=4.... (0.000108058s)
+Preparing zonalpolmat with lambda=[8, 3] and dimension=3.... (9.6604e-5s)
+Preparing zonalpolmat with lambda=[8, 4] and dimension=3.... (8.1571e-5s)
+Preparing zonalpolmat with lambda=[8, 5] and dimension=2.... (3.2123e-5s)
+Preparing zonalpolmat with lambda=[8, 6] and dimension=2.... (3.7995e-5s)
+Preparing zonalpolmat with lambda=[9, 0] and dimension=5.... (0.000169758s)
+Preparing zonalpolmat with lambda=[9, 1] and dimension=4.... (0.000111822s)
+Preparing zonalpolmat with lambda=[9, 2] and dimension=4.... (0.000107097s)
+Preparing zonalpolmat with lambda=[9, 3] and dimension=3.... (6.4484e-5s)
+Preparing zonalpolmat with lambda=[9, 4] and dimension=3.... (6.9802e-5s)
+Preparing zonalpolmat with lambda=[9, 5] and dimension=2.... (4.9627e-5s)
+Preparing zonalpolmat with lambda=[10, 0] and dimension=6.... (0.000292541s)
+Preparing zonalpolmat with lambda=[10, 1] and dimension=5.... (0.000162494s)
+Preparing zonalpolmat with lambda=[10, 2] and dimension=5.... (0.000157503s)
+Preparing zonalpolmat with lambda=[10, 3] and dimension=4.... (0.000106023s)
+Preparing zonalpolmat with lambda=[10, 4] and dimension=4.... (0.000107779s)
+Preparing zonalpolmat with lambda=[11, 0] and dimension=6.... (0.000251927s)
+Preparing zonalpolmat with lambda=[11, 1] and dimension=5.... (0.004189342s)
+Preparing zonalpolmat with lambda=[11, 2] and dimension=5.... (0.0001031s)
+Preparing zonalpolmat with lambda=[11, 3] and dimension=4.... (6.4344e-5s)
+Preparing zonalpolmat with lambda=[12, 0] and dimension=7.... (0.000162626s)
+Preparing zonalpolmat with lambda=[12, 1] and dimension=6.... (0.000123551s)
+Preparing zonalpolmat with lambda=[12, 2] and dimension=6.... (0.000176499s)
+Preparing zonalpolmat with lambda=[13, 0] and dimension=7.... (0.000164756s)
+Preparing zonalpolmat with lambda=[13, 1] and dimension=6.... (0.000122607s)
+Preparing zonalpolmat with lambda=[14, 0] and dimension=8.... (0.000199588s)
+MEM sos parts ready (m4=3679) rss=0.767 GB maxrss=0.867 GB t=121.7 s
+MEM constraint 4 samples 41-60 rss=1.346 GB maxrss=2.024 GB t=346.6 s
+MEM constraint 4 samples 121-140 rss=1.631 GB maxrss=2.641 GB t=569.2 s
+MEM constraint 4 samples 201-220 rss=1.749 GB maxrss=2.772 GB t=793.9 s
+MEM constraint 4 samples 281-300 rss=1.792 GB maxrss=2.913 GB t=986.2 s
+MEM constraint 4 samples 361-380 rss=1.827 GB maxrss=2.913 GB t=1192.6 s
+MEM constraint 4 samples 441-460 rss=1.848 GB maxrss=2.977 GB t=1392.5 s
+MEM constraint 4 samples 521-540 rss=2.286 GB maxrss=2.977 GB t=1612.5 s
+MEM constraint 4 samples 601-620 rss=2.262 GB maxrss=3.074 GB t=1828.5 s
+MEM constraint 4 samples 681-700 rss=2.338 GB maxrss=3.074 GB t=2051.0 s
+MEM constraint 4 samples 761-780 rss=1.913 GB maxrss=3.074 GB t=2256.3 s
+MEM constraint 4 samples 841-860 rss=2.354 GB maxrss=3.074 GB t=2442.5 s
+MEM constraint 4 samples 921-940 rss=2.226 GB maxrss=3.133 GB t=2616.1 s
+MEM constraint 4 samples 1001-1020 rss=2.443 GB maxrss=3.133 GB t=2801.0 s
+MEM constraint 4 samples 1081-1100 rss=1.95 GB maxrss=3.133 GB t=2992.0 s
+MEM constraint 4 samples 1161-1180 rss=1.947 GB maxrss=3.133 GB t=3187.3 s
+MEM constraint 4 samples 1241-1260 rss=2.416 GB maxrss=3.133 GB t=3383.9 s
+MEM constraint 4 samples 1321-1340 rss=2.434 GB maxrss=3.133 GB t=3575.5 s
+MEM constraint 4 samples 1401-1420 rss=2.455 GB maxrss=3.133 GB t=3767.6 s
+MEM constraint 4 samples 1481-1500 rss=2.324 GB maxrss=3.161 GB t=3963.6 s
+MEM constraint 4 samples 1561-1580 rss=1.959 GB maxrss=3.161 GB t=4158.3 s
+MEM constraint 4 samples 1641-1660 rss=2.356 GB maxrss=3.165 GB t=4355.9 s
+MEM constraint 4 samples 1721-1740 rss=1.968 GB maxrss=3.165 GB t=4551.4 s
+MEM constraint 4 samples 1801-1820 rss=2.337 GB maxrss=3.165 GB t=4743.5 s
+MEM constraint 4 samples 1881-1900 rss=1.972 GB maxrss=3.165 GB t=4938.1 s
+MEM constraint 4 samples 1961-1980 rss=2.346 GB maxrss=3.165 GB t=5140.0 s
+MEM constraint 4 samples 2041-2060 rss=1.984 GB maxrss=3.165 GB t=5338.6 s
+MEM constraint 4 samples 2121-2140 rss=2.364 GB maxrss=3.165 GB t=5525.6 s
+MEM constraint 4 samples 2201-2220 rss=1.982 GB maxrss=3.165 GB t=5685.7 s
+MEM constraint 4 samples 2281-2300 rss=2.31 GB maxrss=3.165 GB t=5848.1 s
+MEM constraint 4 samples 2361-2380 rss=1.992 GB maxrss=3.165 GB t=6013.4 s
+MEM constraint 4 samples 2441-2460 rss=1.993 GB maxrss=3.204 GB t=6178.2 s
+MEM constraint 4 samples 2521-2540 rss=1.989 GB maxrss=3.204 GB t=6340.6 s
+MEM constraint 4 samples 2601-2620 rss=1.979 GB maxrss=3.204 GB t=6505.4 s
+MEM constraint 4 samples 2681-2700 rss=1.987 GB maxrss=3.204 GB t=6669.4 s
+MEM constraint 4 samples 2761-2780 rss=1.99 GB maxrss=3.204 GB t=6834.9 s
+MEM constraint 4 samples 2841-2860 rss=1.99 GB maxrss=3.204 GB t=6999.7 s
+MEM constraint 4 samples 2921-2940 rss=1.989 GB maxrss=3.204 GB t=7160.9 s
+MEM constraint 4 samples 3001-3020 rss=1.984 GB maxrss=3.204 GB t=7319.6 s
+MEM constraint 4 samples 3081-3100 rss=1.996 GB maxrss=3.204 GB t=7478.6 s
+MEM constraint 4 samples 3161-3180 rss=1.992 GB maxrss=3.204 GB t=7637.2 s
+MEM constraint 4 samples 3241-3260 rss=1.996 GB maxrss=3.204 GB t=7793.9 s
+MEM constraint 4 samples 3321-3340 rss=1.992 GB maxrss=3.204 GB t=7951.4 s
+MEM constraint 4 samples 3401-3420 rss=1.997 GB maxrss=3.204 GB t=8109.2 s
+MEM constraint 4 samples 3481-3500 rss=1.994 GB maxrss=3.204 GB t=8268.3 s
+MEM constraint 4 samples 3561-3580 rss=1.996 GB maxrss=3.204 GB t=8426.5 s
+MEM constraint 4 samples 3641-3660 rss=2.0 GB maxrss=3.204 GB t=8586.4 s
+MEM part built rss=1.783 GB maxrss=3.204 GB t=8586.9 s
+┌ Warning: CHOLMOD version incompatibility
+│ 
+│ Julia was compiled with CHOLMOD version 4.0.4. It is
+│ currently linked with version 5.3.1.
+│ This might cause Julia to terminate when working with
+│ sparse matrix factorizations, e.g. solving systems of
+│ equations with \.
+│ 
+│ It is recommended that you use Julia with the same major
+│ version of CHOLMOD as the one used during the build, or
+│ download the generic binaries from www.julialang.org,
+│ which ship with the correct versions of all dependencies.
+└ @ SparseArrays.CHOLMOD /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/share/julia/stdlib/v1.10/SparseArrays/src/solvers/cholmod.jl:206
+[ Info: Creating 4-point sos constraint...

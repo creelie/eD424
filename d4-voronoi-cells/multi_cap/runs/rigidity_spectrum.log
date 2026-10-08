@@ -1,0 +1,26 @@
+$ python3 rigidity_spectrum.py
+max |4N| entry: 16
+4N annihilates x(x-8)(x-20)(x-24)(x-32): True
+eigenvalue 0 of N: rank of 4N -  0I is 66, multiplicity 30
+eigenvalue 2 of N: rank of 4N -  8I is 67, multiplicity 29
+eigenvalue 5 of N: rank of 4N - 20I is 88, multiplicity  8
+eigenvalue 6 of N: rank of 4N - 24I is 75, multiplicity 21
+eigenvalue 8 of N: rank of 4N - 32I is 88, multiplicity  8
+
+The multiplicities sum to 96, so the ranks over a field of positive
+characteristic, which bound the ranks over Q from below, are met.
+The kernel of N is 30-dimensional: the 24 radial directions, on which
+P vanishes, and the 6 infinitesimal rotations.  Halving and taking
+square roots, the singular values of Lambda on the tangent space are
+0, 1, sqrt(5/2), sqrt3, 2 with multiplicities 6, 29, 8, 21, 8.
+The smallest nonzero singular value is exactly 1, the first of the
+two constants the radius of Theorem (a radius for the rigidity) is built from.
+
+2K annihilates x(x-4)(x-10)(x-12)(x-16): True
+diagonal of 7680 E0 takes the values [2400] (2400 means 11/16 on im Lambda)
+trace of the projector onto im Lambda: 66 (its rank, 72 - 6)
+So |g_p| <= (sqrt11/4) |g|_2 for every g in im Lambda and every pair p, and
+|g|_1 >= (4/sqrt11) |g|_2: the constant behind the radius 2/sqrt(397).
+
+one direction displaced, rotations removed: |Lambda tau|_1/|tau|_2 = sqrt(96/11) = 2.954196
+so nu <= 2.9542, and the radius (144/nu^2 + 1/4)^(-1/2) of this argument cannot pass 0.2443

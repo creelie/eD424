@@ -1,0 +1,282 @@
+Tue Oct  6 08:14:46 UTC 2026
+== D4Stress.lean
+'D4Stress.card_roots' does not depend on any axioms
+'D4Stress.roots_nodup' does not depend on any axioms
+'D4Stress.roots_norm' does not depend on any axioms
+'D4Stress.roots_inner' does not depend on any axioms
+'D4Stress.roots_contact' does not depend on any axioms
+'D4Stress.roots_degree' does not depend on any axioms
+'D4Stress.card_W' does not depend on any axioms
+'D4Stress.tight_count' does not depend on any axioms
+'D4Stress.cval_multiplicities' does not depend on any axioms
+'D4Stress.cval_range' does not depend on any axioms
+'D4Stress.weights_positive' does not depend on any axioms
+'D4Stress.equilibrium' does not depend on any axioms
+'D4Stress.pair_ceiling' does not depend on any axioms
+'D4Stress.deletion_shortfall' does not depend on any axioms
+'D4Stress.deletion_surplus' does not depend on any axioms
+'D4Stress.tight_count24' does not depend on any axioms
+'D4Stress.equilibrium24' does not depend on any axioms
+== D4Meet.lean
+'D4Meet.card_roots' does not depend on any axioms
+'D4Meet.roots_nodup' does not depend on any axioms
+'D4Meet.support_wellposed' does not depend on any axioms
+'D4Meet.support_fibres' does not depend on any axioms
+'D4Meet.couples_cover' does not depend on any axioms
+'D4Meet.two_supports_leave_a_couple' does not depend on any axioms
+'D4Meet.two_roots_leave_a_couple' does not depend on any axioms
+'D4Meet.bad_triples_count' does not depend on any axioms
+'D4Meet.bad_triples_distinct' does not depend on any axioms
+'D4Meet.bad_triples_star_or_triangle' does not depend on any axioms
+'D4Meet.bad_triples_split' does not depend on any axioms
+'D4Meet.bad_root_triple_count' does not depend on any axioms
+'D4Meet.tight_triangle_count' does not depend on any axioms
+'D4Meet.tight_triangle_count_div' does not depend on any axioms
+'D4Meet.no_tight_quadruple' does not depend on any axioms
+'D4Meet.starTriple_tight' does not depend on any axioms
+'D4Meet.kept21_card' does not depend on any axioms
+'D4Meet.kept21_lower_block' does not depend on any axioms
+'D4Meet.kept21_upper_block' does not depend on any axioms
+'D4Meet.had2_permutes' does not depend on any axioms
+'D4Meet.had2_isometry' does not depend on any axioms
+'D4Meet.had2_triangle_to_star' does not depend on any axioms
+'D4Meet.deletion_tight_pairs' does not depend on any axioms
+== D4Certificate.lean
+'f_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F0_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F1_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F2_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F3_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F4_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F5_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F6_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F7_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'F8_posdef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bound_exceeds' depends on axioms: [propext, Classical.choice, Quot.sound]
+== D4InnerProducts.lean
+'D4InnerProducts.p2_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.q_nonzero_at_the_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.division_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4InnerProducts.sturm_no_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+== D4RootLattices.lean
+'D4RootLattices.main' depends on axioms: [propext, D4RootLattices.main._native.native_decide.ax_1_1]
+'D4RootLattices.max_roots' depends on axioms: [propext, D4RootLattices.max_roots._native.native_decide.ax_1_1]
+'D4RootLattices.rank4_top_counts' depends on axioms: [propext,
+ D4RootLattices.rank4_top_counts._native.native_decide.ax_1_1]
+'D4RootLattices.candidates_count' depends on axioms: [propext,
+ D4RootLattices.candidates_count._native.native_decide.ax_1_1]
+== D4Closure.lean
+'D4Closure.holes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.inversion_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.four_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.centroid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.amax_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4Closure.triple_counts' does not depend on any axioms
+'D4Closure.verts_are_vertices' does not depend on any axioms
+'D4Closure.three_pairs_each' depends on axioms: [propext]
+'D4Closure.orthogonal_pairs' depends on axioms: [propext]
+'D4Closure.no_kill_one_two' depends on axioms: [propext]
+'D4Closure.killing_triples' depends on axioms: [propext]
+== D4SecondOrder.lean
+'D4SecondOrder.pure_push_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4SecondOrder.one_centre_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4SecondOrder.root_system' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.root_system._native.native_decide.ax_1_1]
+'D4SecondOrder.bases_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.bases_orthogonal._native.native_decide.ax_1_1]
+'D4SecondOrder.form_on_pushouts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.form_on_pushouts._native.native_decide.ax_1_1]
+'D4SecondOrder.eta_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.eta_identity._native.native_decide.ax_1_1]
+'D4SecondOrder.certificate_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.certificate_data._native.native_decide.ax_1_1]
+'D4SecondOrder.copositive_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.copositive_certificate._native.native_decide.ax_1_1]
+'D4SecondOrder.one_centre_rays' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.one_centre_rays._native.native_decide.ax_1_1]
+'D4SecondOrder.tilt_block' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondOrder.tilt_block._native.native_decide.ax_1_1]
+== D4HexagonLoop.lean
+'D4HexagonLoop.perfect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HexagonLoop.closed_forms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.closed_forms._native.native_decide.ax_1_1]
+'D4HexagonLoop.key_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.key_identity._native.native_decide.ax_1_1]
+'D4HexagonLoop.edge_conditions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.edge_conditions._native.native_decide.ax_1_1]
+'D4HexagonLoop.gram_at_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.gram_at_zero._native.native_decide.ax_1_1]
+== D4SecondCode.lean
+'D4SecondCode.on_sphere' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondCode.on_sphere._native.native_decide.ax_1_1]
+'D4SecondCode.slack_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondCode.slack_bound._native.native_decide.ax_1_1]
+'D4SecondCode.far_from_roots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4SecondCode.far_from_roots._native.native_decide.ax_1_1]
+== D4NearContact.lean
+135
+133
+'D4NearContact.division_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.division_exact._native.native_decide.ax_1_1]
+'D4NearContact.minus_q_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.minus_q_lower_bound._native.native_decide.ax_1_1]
+'D4NearContact.p2_factorisation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.p2_factorisation._native.native_decide.ax_1_1]
+'D4NearContact.f_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.f_lower_bound._native.native_decide.ax_1_1]
+'D4NearContact.minors_within_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.minors_within_one._native.native_decide.ax_1_1]
+'D4NearContact.dW_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.dW_bound._native.native_decide.ax_1_1]
+'D4NearContact.assembly' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.assembly._native.native_decide.ax_1_1]
+'D4NearContact.rigidity_roots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.rigidity_roots._native.native_decide.ax_1_1]
+'D4NearContact.rigidity_constants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.rigidity_constants._native.native_decide.ax_1_1]
+'D4NearContact.bracket_at_Smax' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.bracket_at_Smax._native.native_decide.ax_1_1]
+'D4NearContact.bracket_at_Sl' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.bracket_at_Sl._native.native_decide.ax_1_1]
+'D4NearContact.bracket_decreasing_on_grid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4NearContact.bracket_decreasing_on_grid._native.native_decide.ax_1_1]
+== D4Rigidity.lean
+'D4Rigidity.sizes' depends on axioms: [propext, Quot.sound, D4Rigidity.sizes._native.native_decide.ax_1_1]
+'D4Rigidity.n4_annihilated' depends on axioms: [propext,
+ Quot.sound,
+ D4Rigidity.n4_annihilated._native.native_decide.ax_1_1]
+'D4Rigidity.n4_ranks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Rigidity.n4_ranks._native.native_decide.ax_1_1]
+'D4Rigidity.multiplicities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Rigidity.multiplicities._native.native_decide.ax_1_1]
+'D4Rigidity.k2_annihilated' depends on axioms: [propext,
+ Quot.sound,
+ D4Rigidity.k2_annihilated._native.native_decide.ax_1_1]
+'D4Rigidity.image_diagonal' depends on axioms: [propext,
+ Quot.sound,
+ D4Rigidity.image_diagonal._native.native_decide.ax_1_1]
+'D4Rigidity.rotations_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Rigidity.rotations_orthogonal._native.native_decide.ax_1_1]
+'D4Rigidity.one_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Rigidity.one_direction._native.native_decide.ax_1_1]
+'D4Rigidity.stress_on_tangent' depends on axioms: [propext,
+ Quot.sound,
+ D4Rigidity.stress_on_tangent._native.native_decide.ax_1_1]
+'D4Rigidity.radius_arithmetic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Rigidity.radius_arithmetic._native.native_decide.ax_1_1]
+== D4Cap.lean
+(303, 0.997550)
+(3, 19, 1)
+'D4Cap.vertex_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.vertex_counts._native.native_decide.ax_1_1]
+'D4Cap.volumes' depends on axioms: [propext, Classical.choice, Quot.sound, D4Cap.volumes._native.native_decide.ax_1_1]
+'D4Cap.cross_polytope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.cross_polytope._native.native_decide.ax_1_1]
+'D4Cap.fourth_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.fourth_derivative._native.native_decide.ax_1_1]
+'D4Cap.brackets' depends on axioms: [propext, Classical.choice, Quot.sound, D4Cap.brackets._native.native_decide.ax_1_1]
+'D4Cap.case_identities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.case_identities._native.native_decide.ax_1_1]
+'D4Cap.case_signs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.case_signs._native.native_decide.ax_1_1]
+'D4Cap.endpoint_integers' depends on axioms: [D4Cap.endpoint_integers._native.native_decide.ax_1_1]
+'D4Cap.box_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.box_certificate._native.native_decide.ax_1_1]
+== D4HoleBudget.lean
+'D4HoleBudget.q_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.design4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.roots_frame' depends on axioms: [propext]
+'D4HoleBudget.h_at_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.h_signs_all_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.table_iii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HoleBudget.cap_below_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+== D4DesignBudget.lean
+'D4DesignBudget.p_negative_below_th' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4DesignBudget.threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4DesignBudget.roots_design' depends on axioms: [propext, Classical.choice, Quot.sound]
+== D4A18.lean
+'D4A18.stab_count' depends on axioms: [propext]
+'D4A18.congruent_from5' depends on axioms: [propext]
+'D4A18.congruent_from12' depends on axioms: [propext]
+all fifteen files check
+
+real	6m22.760s
+user	5m13.465s
+sys	1m5.132s
+Tue Oct  6 08:21:09 UTC 2026

@@ -1,0 +1,10 @@
+pages: Pages:           147
+LaTeX warnings: 0
+overfull boxes: 0
+undefined refs/cites: 0
+
+diff of pdftotext output, shipped paper/D4.pdf vs rebuilt:
+24c24
+<     Date: September 21, 2026.
+---
+>     Date: September 24, 2026.

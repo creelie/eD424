@@ -1,0 +1,27 @@
+(1) exact constants
+    cap = pi^2/2 - 4 pi/3                                        PASS
+    omega(1/2) = pi(9 pi + 26 sqrt3 - 72)/54                     PASS
+    omega3 = pi^2/16 - pi + 13 sqrt3 pi/27 - 1/12                PASS
+    tau = 8 - 32 pi + 10 pi^2                                    PASS
+    cap 0.746011995758  omega(1/2) 0.076076277067  omega3 0.011856703150  tau 6.165079096020
+(2) Monte Carlo in R^4
+    cap: MC 0.74981 +- 0.00344 vs 0.746012                       PASS
+    pair at 1/2: MC 0.07536 +- 0.00110 vs 0.076076               PASS
+    triple at 1/2: MC 0.01192 +- 0.00044 vs 0.011857             PASS
+    pair at 0.3: MC 0.01890 +- 0.00055 vs 0.019492               PASS
+(3) D4 combinatorics, exact
+    positive integer inner products between roots are all 1      PASS
+    no four roots pairwise at inner product 1                    PASS
+    det of Gram I+J of order 4 is 5, not 4 k^2                   PASS
+    96 pairs at 1/2 and 96 triangles                             PASS
+    24 vertices of the 24-cell lie in the cell and have norm sqrt 2 PASS
+(4) independent quadrature of omega_3(1/2,1/2,1/2)
+    quadrature 0.011856798 vs 0.011856703                        PASS
+(5) the degree-6 pseudo-configuration (floating point)
+    p >= 0 and sum p = 1                                         PASS
+    admissible triples (u,v,t <= 1/2, Gram PSD)                  PASS
+    linear constraints, least value 1.845e-01                    PASS
+    every block positive definite on its range (least rel. eigenvalue 4.53e-08) PASS
+    objective 5.985099 below tau 6.165079 by 0.1800              PASS
+
+ALL PASS

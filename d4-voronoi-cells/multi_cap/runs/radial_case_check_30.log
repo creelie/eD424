@@ -1,0 +1,35 @@
+statement (C) at M = 30: two-point certificates, degree 12 in the angle and 4 in the distance, one per case
+  [PASS] dmax exceeds sqrt 6
+  [PASS] the case tree covers every packing (each split is into N(r) < c and N(r) >= c): 5 leaves
+  [PASS] one certificate per leaf, in order
+leaf 1: 0 <= N(2.0161) <= 21, 0 <= N(2.1) <= 21
+  [PASS]   edges as in the case
+  [PASS]   A_k and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T): t = 7.096730038
+  [PASS]   K <= Pi on the admissible domain: 86540 boxes closed, 78403 dropped, 70733 values of Pi in Arb [8 s]
+  [PASS]   f <= m_b on every bin: 478 intervals, least room 4.67e-08
+  [PASS]   s >= 0
+  [PASS]   largest sum_b n_b m_b over the case, plus t/2, below the target: [3.0617405 +/- 3.17e-8] < [3.1033050 +/- 4.88e-8]
+leaf 2: 0 <= N(2.0161) <= 24, 22 <= N(2.1) <= 24, 22 <= N(2.4) <= 24
+  [----]   residual case: no certificate; a counterexample at this count must lie here
+leaf 3: 0 <= N(2.0161) <= 23, 22 <= N(2.1) <= 23, 22 <= N(2.2) <= 23, 25 <= N(2.4) <= 30
+  [PASS]   edges as in the case
+  [PASS]   A_k and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T): t = 5.648084439
+  [PASS]   K <= Pi on the admissible domain: 6587516 boxes closed, 5367269 dropped, 4550598 values of Pi in Arb [441 s]
+  [PASS]   f <= m_b on every bin: 525 intervals, least room 3.70e-09
+  [PASS]   s >= 0
+  [PASS]   largest sum_b n_b m_b over the case, plus t/2, below the target: [3.0991693 +/- 1.96e-8] < [3.1033050 +/- 4.88e-8]
+leaf 4: 0 <= N(2.0161) <= 23, 22 <= N(2.1) <= 23, 24 <= N(2.2) <= 30, 25 <= N(2.4) <= 30
+  [PASS]   edges as in the case
+  [PASS]   A_k and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T): t = 15.849441428
+  [PASS]   K <= Pi on the admissible domain: 133541071 boxes closed, 132548103 dropped, 10902927 values of Pi in Arb [3977 s]
+  [PASS]   f <= m_b on every bin: 940 intervals, least room 2.54e-09
+  [PASS]   s >= 0
+  [PASS]   largest sum_b n_b m_b over the case, plus t/2, below the target: [3.0967589 +/- 3.21e-8] < [3.1033050 +/- 4.88e-8]
+leaf 5: 0 <= N(2.0161) <= 24, 24 <= N(2.1) <= 30, 25 <= N(2.4) <= 30
+  [PASS]   edges as in the case
+  [PASS]   A_k and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T): t = 18.981583071
+  [PASS]   K <= Pi on the admissible domain: 44761662 boxes closed, 44276229 dropped, 14102976 values of Pi in Arb [2011 s]
+  [PASS]   f <= m_b on every bin: 602 intervals, least room 1.54e-07
+  [PASS]   s >= 0
+  [PASS]   largest sum_b n_b m_b over the case, plus t/2, below the target: [3.0845308 +/- 5.00e-8] < [3.1033050 +/- 4.88e-8]
+PASS: a packing with exactly 30 centres within sqrt 6 of a centre and T <= 8 there lies in the residual case: 0 <= N(2.0161) <= 24, 22 <= N(2.1) <= 24, 22 <= N(2.4) <= 24 [3979 s]

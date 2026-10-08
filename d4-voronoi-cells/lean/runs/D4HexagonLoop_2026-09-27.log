@@ -1,0 +1,19 @@
+$ lean D4HexagonLoop.lean   # 2026-09-27, Lean 4.34.0-rc2
+'D4HexagonLoop.perfect_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'D4HexagonLoop.closed_forms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.closed_forms._native.native_decide.ax_1_1]
+'D4HexagonLoop.key_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.key_identity._native.native_decide.ax_1_1]
+'D4HexagonLoop.edge_conditions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.edge_conditions._native.native_decide.ax_1_1]
+'D4HexagonLoop.gram_at_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4HexagonLoop.gram_at_zero._native.native_decide.ax_1_1]
+exit 0; elapsed 1.1 s

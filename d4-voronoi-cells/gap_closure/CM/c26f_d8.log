@@ -1,0 +1,26 @@
+resumed from c26e_d8_r1.npz, pruned to 5000 pair and 2500 triple samples per kind
+   direct: 4817 variables, 51300 inequalities, 4299 psd rows in 48 cones, 24678290 nonzeros [6 s to build]
+   33 type-count vectors
+d3=8 round 1: optimal_inaccurate  bound 3.23978 (target 3.10330), corrected <= 6.02415  [1109 s]
+   viol: AA 4.1e-08, AB 5.7e-04, AF 3.8e-02, BB 1.8e-04, BF -9.6e-05, FF 3.6e-01, AAA 3.1e-05, AAB 3.1e-04, AAF 8.6e-04, ABB 4.3e-04, ABF 9.7e-04, AFF 1.8e-03, BBB 1.2e-04, BBF 9.9e-04, BFF 1.4e-03
+   c2: {'AA': -0.034485, 'AB': -0.016012, 'AF': -0.039027, 'BB': -0.0016, 'BF': -0.023201, 'FF': -0.059239}
+   c3: {'AAA': 0.0022067, 'AAB': 0.001461, 'AAF': 0.0025045, 'ABB': 0.000884, 'ABF': 0.001846, 'AFF': 0.0035043, 'BBB': 0.0004779, 'BBF': 0.0013911, 'BFF': 0.0037429}
+   direct: 4817 variables, 74700 inequalities, 4299 psd rows in 48 cones, 36648518 nonzeros [9 s to build]
+   33 type-count vectors
+d3=8 round 2: optimal_inaccurate  bound 3.24308 (target 3.10330), corrected <= 3.41559  [1642 s]
+   viol: AA 2.9e-08, AB 9.9e-06, AF -2.3e-05, BB 1.5e-07, BF -3.4e-04, FF 8.5e-03, AAA 1.1e-05, AAB 1.9e-05, AAF 1.2e-05, ABB 6.2e-05, ABF 3.2e-04, AFF 1.3e-04, BBB 1.9e-05, BBF 2.0e-04, BFF -2.9e-04
+   c2: {'AA': -0.027094, 'AB': -0.011658, 'AF': -0.011639, 'BB': -0.000901, 'BF': 0.001443, 'FF': 0.008933}
+   c3: {'AAA': 0.0018388, 'AAB': 0.0011943, 'AAF': 0.0013474, 'ABB': 0.0007451, 'ABF': 0.000781, 'AFF': 0.0006917, 'BBB': 0.0004879, 'BBF': 0.0004326, 'BFF': 0.000989}
+   direct: 4817 variables, 77400 inequalities, 4299 psd rows in 48 cones, 37850606 nonzeros [10 s to build]
+   33 type-count vectors
+d3=8 round 3: optimal_inaccurate  bound 3.24484 (target 3.10330), corrected <= 4.95131  [1740 s]
+   viol: AA 1.3e-05, AB 1.9e-05, AF 3.2e-02, BB 7.0e-04, BF 2.3e-03, FF 1.6e-01, AAA 6.2e-06, AAB 1.1e-05, AAF 1.7e-05, ABB 6.7e-05, ABF 7.6e-05, AFF 1.6e-04, BBB 9.9e-06, BBF 4.1e-05, BFF -1.9e-04
+   c2: {'AA': -0.02204, 'AB': -0.010108, 'AF': -0.040841, 'BB': -0.002052, 'BF': -0.030993, 'FF': -0.086798}
+   c3: {'AAA': 0.001409, 'AAB': 0.0009172, 'AAF': 0.0022913, 'ABB': 0.0005871, 'ABF': 0.0018683, 'AFF': 0.0043339, 'BBB': 0.0004176, 'BBF': 0.0016217, 'BFF': 0.0047163}
+   direct: 4817 variables, 77400 inequalities, 4299 psd rows in 48 cones, 37851112 nonzeros [9 s to build]
+   33 type-count vectors
+d3=8 round 4: optimal_inaccurate  bound 3.24529 (target 3.10330), corrected <= 3.65789  [1572 s]
+   viol: AA 1.8e-08, AB 2.6e-04, AF 1.6e-03, BB 3.5e-04, BF 4.7e-04, FF 1.9e-03, AAA 1.7e-06, AAB 4.4e-06, AAF 2.0e-04, ABB 1.2e-05, ABF 5.6e-04, AFF 3.8e-03, BBB 5.7e-06, BBF 4.5e-04, BFF 1.1e-03
+   c2: {'AA': -0.022294, 'AB': -0.009204, 'AF': -0.014082, 'BB': -0.000395, 'BF': -0.003197, 'FF': -0.011628}
+   c3: {'AAA': 0.0015277, 'AAB': 0.0009822, 'AAF': 0.0013253, 'ABB': 0.0006152, 'ABF': 0.0008519, 'AFF': 0.0014384, 'BBB': 0.0004258, 'BBF': 0.0005799, 'BFF': 0.0018069}
+   direct: 4817 variables, 77400 inequalities, 4299 psd rows in 48 cones, 37860850 nonzeros [9 s to build]

@@ -1,0 +1,14 @@
+$ (cd multi_cap && m24_descent_sweep.py)
+degree  6   table -1.57000e-04   exact -1.57050e-04
+degree  8   table -1.09300e-04   exact -1.09510e-04
+degree 10   table -8.67700e-05   exact -8.68510e-05
+degree 12   table -7.90300e-05   exact -7.89180e-05
+degree 14   table -7.83000e-05   exact -7.83080e-05
+
+fit  |derivative| = L + C q^d   with
+     L = 7.4515e-05    C = 1.2282e-03    q = 0.6380
+     residuals [-2.62e-07  1.30e-06 -1.38e-06 -1.18e-06  1.52e-06]
+     leave-one-out L in [7.107e-05, 7.697e-05]
+
+The improvement available at the root configuration does not tend
+to zero with the degree, so no three-point certificate reaches tau.

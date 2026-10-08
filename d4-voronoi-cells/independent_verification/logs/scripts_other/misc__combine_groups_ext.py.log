@@ -1,0 +1,8 @@
+$ (cd misc && combine_groups_ext.py)
+cancel(extension=[sqrt3]) failed after 241.3s: CoercionFailed: zoo is not in any domain
+falling back to per-term cancellation without the extension
+per-term fallback done in 80.3s
+size (chars): 131540
+numerator degree in t: 471
+denominator degree in t: 471
+saved.

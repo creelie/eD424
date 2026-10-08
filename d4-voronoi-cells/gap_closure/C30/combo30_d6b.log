@@ -1,0 +1,14 @@
+/home/claude/d4-voronoi-cells/gap_closure/C30/combo30.py:145: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL', max_iter=500)
+d3=6 round 1: optimal_inaccurate  bound 3.07593 (target 3.10330), corrected <= 3.52809  [1479 s]
+   viol: AA -1.3e-07, AB 6.8e-06, AF 2.5e-08, BB 3.1e-06, BF -6.0e-08, FF -2.0e-08, AAA 2.8e-05, AAB 7.7e-05, AAF 1.6e-04, ABB 1.1e-04, ABF 2.9e-04, AFF 2.2e-04, BBF 6.8e-05, BFF 1.3e-04, FFF 4.6e-05
+   c2: {'AA': 0.093073, 'AB': 0.058607, 'AF': 0.099842, 'BB': 0.029101, 'BF': 0.016212, 'FF': 0.289288}
+   c3: {'AAA': 0.0829348, 'AAB': 0.0614086, 'AAF': -0.2161565, 'ABB': 0.0397499, 'ABF': -0.1292351, 'AFF': 0.3994231, 'BBF': -0.0425392, 'BFF': 0.0523135, 'FFF': 0.2708461}
+d3=6 round 2: optimal_inaccurate  bound 3.09673 (target 3.10330), corrected <= 3.13915  [1718 s]
+   viol: AA -2.0e-07, AB 4.8e-08, AF -1.4e-08, BB -9.9e-06, BF -3.1e-07, FF -1.2e-07, AAA 5.7e-06, AAB 6.3e-06, AAF 6.5e-06, ABB 2.9e-05, ABF 3.8e-05, AFF 2.9e-05, BBF 2.0e-05, BFF 3.4e-05, FFF 1.2e-05
+   c2: {'AA': 0.048657, 'AB': 0.03809, 'AF': 0.037645, 'BB': 0.031181, 'BF': 0.013417, 'FF': 0.302192}
+   c3: {'AAA': 0.034403, 'AAB': 0.0284802, 'AAF': -0.086453, 'ABB': 0.0225445, 'ABF': -0.0621134, 'AFF': 0.1391191, 'BBF': -0.0382803, 'BFF': 0.0427965, 'FFF': 0.2766453}
+d3=6 round 3: optimal_inaccurate  bound 3.09907 (target 3.10330), corrected <= 3.11601  [2533 s]
+   viol: AA -1.3e-07, AB 5.3e-08, AF 3.5e-08, BB -5.7e-06, BF -5.5e-08, FF -1.4e-07, AAA 1.1e-06, AAB 8.3e-06, AAF 2.2e-06, ABB 6.4e-06, ABF 2.1e-05, AFF 6.6e-06, BBF 1.5e-05, BFF 7.8e-06, FFF 1.3e-06
+   c2: {'AA': 0.040851, 'AB': 0.048858, 'AF': -0.051816, 'BB': 0.06099, 'BF': -0.023219, 'FF': 1.303943}
+   c3: {'AAA': 0.0054711, 'AAB': 0.0125861, 'AAF': 0.0110773, 'ABB': 0.0196798, 'ABF': -0.0165531, 'AFF': -0.1785528, 'BBF': -0.0447752, 'BFF': -0.0671565, 'FFF': 1.2574599}

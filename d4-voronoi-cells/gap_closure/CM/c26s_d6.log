@@ -1,0 +1,7 @@
+   direct: 2771 variables, 40824 inequalities, 2253 psd rows in 40 cones, 12877977 nonzeros [4 s to build]
+   33 type-count vectors
+d3=6 round 1: optimal  bound 3.30766 (target 3.10330), corrected <= 5.93660  [553 s]
+   viol: AA 1.5e-05, AB 3.0e-04, AF -1.5e-06, BB 4.0e-04, BF -4.6e-04, FF -8.3e-03, AAA 2.4e-04, AAB 1.7e-03, AAF 1.2e-03, ABB 4.7e-04, ABF 1.2e-03, AFF 1.5e-03, BBB 3.7e-05, BBF 7.4e-05, BFF -4.6e-05
+   c2: {'AA': 0.147925, 'AB': 0.147488, 'AF': 0.14605, 'BB': 0.144011, 'BF': 0.146084, 'FF': 0.156769}
+   c3: {'AAA': -4.95e-05, 'AAB': 2.4e-06, 'AAF': 0.00015, 'ABB': 0.0001939, 'ABF': 0.0001906, 'AFF': 2.99e-05, 'BBB': 0.0007285, 'BBF': 0.0003635, 'BFF': 0.0021492}
+   direct: 2771 variables, 45900 inequalities, 2253 psd rows in 40 cones, 14686597 nonzeros [4 s to build]

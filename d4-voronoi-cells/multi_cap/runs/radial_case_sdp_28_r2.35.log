@@ -1,0 +1,12 @@
+leaf 1 [0 <= N(2.35) <= 23]
+/tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/c29/M28_47_20_c24/radial_case_sdp.py:139: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='CLARABEL')
+    round 0: bound 3.09809, largest K - Pi between the samples 5.27e-07, against half the margin 5.53e-06
+    round 1: bound 3.09809, largest K - Pi between the samples -2.93e-06, against half the margin 2.07e-06
+    round 2: bound 3.09810, largest K - Pi between the samples -8.58e-06, against half the margin -3.58e-06
+leaf 2 [24 <= N(2.35) <= 28] (residual, not certified)
+wrote radial_certificates/case_28.json [265 s]
+
+real	4m26.607s
+user	3m33.073s
+sys	1m8.440s

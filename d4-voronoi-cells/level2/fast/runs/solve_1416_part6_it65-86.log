@@ -1,0 +1,240 @@
+MEM loaded rss=4.825408 GB threads=4 mode=fast prec=128 K=7 levels=7 cholK=8 cholL=10
+WARM start from the checkpoint after iteration 51 (/tmp/claude-0/-home-claude-d4-voronoi-cells/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/l2fast/ckpt_1416_warm64.jls)
+ iter  time(s)           μ       P-obj       D-obj        gap    P-error    p-error    d-error        α_p        α_d       beta
+      CHOLSTAT min pivot^2/S_ii = 6.415114894699913e-14 at row 3890
+    1    931.7   1.154e+07   2.303e+01   5.698e+10   1.00e+00   1.36e-20   0.00e+00   2.61e-16   1.00e+00   1.00e+00   1.00e-01
+      PROF R=1.4 Xinv=0.9 schur=708.3 cholS=35.8 res=37.3 pred=66.8 corr=64.7 alpha=13.8 rss=10.19GB
+      CKPT iteration 1 saved in 4.2 s
+      CHOLSTAT min pivot^2/S_ii = 6.41456213471426e-14 at row 3890
+    2   1866.3   1.154e+06   2.303e+01   5.698e+09   1.00e+00   2.22e-20   0.00e+00   2.31e-17   1.00e+00   1.00e+00   1.00e-01
+      PROF R=1.3 Xinv=0.7 schur=719.1 cholS=32.6 res=36.4 pred=67.0 corr=67.8 alpha=3.5 rss=10.18GB
+      CKPT iteration 2 saved in 4.1 s
+      CHOLSTAT min pivot^2/S_ii = 6.414064499454011e-14 at row 3890
+    3   2802.1   1.154e+05   2.303e+01   5.699e+08   1.00e+00   1.20e-20   0.00e+00   2.06e-18   1.00e+00   1.00e+00   1.00e-01
+      PROF R=1.4 Xinv=0.7 schur=730.6 cholS=32.5 res=36.9 pred=63.1 corr=62.6 alpha=3.4 rss=10.18GB
+      CKPT iteration 3 saved in 3.8 s
+      CHOLSTAT min pivot^2/S_ii = 6.413616426457515e-14 at row 3890
+    4   3722.3   1.154e+04   2.303e+01   5.699e+07   1.00e+00   1.88e-20   0.00e+00   1.82e-19   1.00e+00   1.00e+00   1.00e-01
+      PROF R=1.4 Xinv=0.7 schur=717.7 cholS=31.3 res=35.9 pred=63.3 corr=62.2 alpha=3.4 rss=10.18GB
+      CKPT iteration 4 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 6.413212338456478e-14 at row 3890
+    5   4637.4   1.155e+03   2.303e+01   5.700e+06   1.00e+00   1.98e-20   0.00e+00   1.67e-20   1.00e+00   1.00e+00   1.00e-01
+      PROF R=1.6 Xinv=0.7 schur=712.4 cholS=31.7 res=36.1 pred=62.7 corr=62.5 alpha=3.4 rss=10.19GB
+      CKPT iteration 5 saved in 3.7 s
+      CHOLSTAT min pivot^2/S_ii = 6.412841424589155e-14 at row 3890
+    6   5588.6   1.155e+02   2.303e+01   5.701e+05   1.00e+00   2.75e-20   0.00e+00   1.52e-21   1.00e+00   1.00e+00   1.00e-01
+      PROF R=1.5 Xinv=0.7 schur=736.8 cholS=32.4 res=46.5 pred=63.7 corr=61.8 alpha=3.7 rss=10.25GB
+      CKPT iteration 6 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 6.412436130983066e-14 at row 3890
+    7   6618.8   1.155e+01   2.303e+01   5.707e+04   9.99e-01   1.76e-20   0.00e+00   1.43e-22   9.99e-01   9.99e-01   1.00e-01
+      PROF R=1.6 Xinv=0.7 schur=804.1 cholS=33.9 res=36.2 pred=67.4 corr=78.7 alpha=3.7 rss=10.25GB
+      CKPT iteration 7 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 6.411360797386781e-14 at row 3890
+    8   7551.8   1.162e+00   2.303e+01   5.762e+03   9.92e-01   2.81e-20   0.00e+00   1.95e-23   9.93e-01   9.93e-01   1.00e-01
+      PROF R=1.5 Xinv=0.7 schur=722.4 cholS=32.9 res=36.3 pred=64.7 corr=66.8 alpha=3.6 rss=10.20GB
+      CKPT iteration 8 saved in 3.3 s
+      CHOLSTAT min pivot^2/S_ii = 6.403618527167906e-14 at row 3890
+    9   8851.9   1.231e-01   2.304e+01   6.310e+02   9.30e-01   3.17e-20   0.00e+00   1.13e-23   9.44e-01   9.44e-01   1.00e-01
+      PROF R=1.9 Xinv=0.7 schur=770.9 cholS=58.6 res=126.2 pred=170.8 corr=163.1 alpha=4.2 rss=10.23GB
+      CKPT iteration 9 saved in 3.8 s
+      CHOLSTAT min pivot^2/S_ii = 6.349809263661825e-14 at row 3890
+   10  10259.3   1.857e-02   2.308e+01   1.148e+02   6.65e-01   2.27e-20   0.00e+00   1.16e-23   7.73e-01   7.73e-01   1.00e-01
+      PROF R=1.5 Xinv=0.8 schur=1211.3 cholS=30.7 res=34.2 pred=60.0 corr=61.3 alpha=3.3 rss=10.23GB
+      CKPT iteration 10 saved in 3.4 s
+      CHOLSTAT min pivot^2/S_ii = 6.156796521585777e-14 at row 3890
+   11  11165.7   5.656e-03   2.327e+01   5.119e+01   3.75e-01   2.15e-20   0.00e+00   1.08e-23   5.48e-01   5.48e-01   1.00e-01
+      PROF R=1.4 Xinv=0.7 schur=706.7 cholS=32.2 res=34.6 pred=62.6 corr=60.9 alpha=3.4 rss=10.22GB
+      CKPT iteration 11 saved in 3.1 s
+      CHOLSTAT min pivot^2/S_ii = 5.835931523355519e-14 at row 3890
+   12  12070.6   2.864e-03   2.358e+01   3.772e+01   2.31e-01   3.84e-20   0.00e+00   1.02e-23   3.98e-01   3.98e-01   1.00e-01
+      PROF R=1.5 Xinv=0.7 schur=696.0 cholS=32.2 res=37.0 pred=66.7 corr=63.7 alpha=3.5 rss=10.23GB
+      CKPT iteration 12 saved in 3.5 s
+      CHOLSTAT min pivot^2/S_ii = 5.5125588583888286e-14 at row 3890
+   13  13021.2   1.839e-03   2.382e+01   3.290e+01   1.60e-01   4.46e-20   0.00e+00   8.99e-24   5.66e-01   5.66e-01   1.00e-01
+      PROF R=1.6 Xinv=0.7 schur=732.2 cholS=36.7 res=38.7 pred=67.4 corr=65.9 alpha=3.6 rss=10.27GB
+      CKPT iteration 13 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 4.7942406224821715e-14 at row 3890
+   14  14001.0   9.026e-04   2.415e+01   2.861e+01   8.45e-02   2.86e-20   0.00e+00   6.67e-24   3.61e-01   3.61e-01   1.00e-01
+      PROF R=1.6 Xinv=0.7 schur=760.6 cholS=35.1 res=38.1 pred=68.4 corr=66.7 alpha=4.3 rss=10.22GB
+      CKPT iteration 14 saved in 4.0 s
+      CHOLSTAT min pivot^2/S_ii = 4.3229792518059574e-14 at row 3890
+   15  14954.7   6.090e-04   2.428e+01   2.729e+01   5.83e-02   2.91e-20   0.00e+00   5.26e-24   5.53e-01   5.53e-01   1.00e-01
+      PROF R=1.6 Xinv=0.9 schur=740.2 cholS=34.7 res=38.7 pred=65.0 corr=64.5 alpha=3.5 rss=10.27GB
+      CKPT iteration 15 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 3.147732727375883e-14 at row 3890
+   16  15882.7   3.059e-04   2.443e+01   2.594e+01   3.00e-02   5.59e-20   0.00e+00   3.80e-24   6.72e-01   6.72e-01   1.00e-01
+      PROF R=1.7 Xinv=0.8 schur=719.1 cholS=34.5 res=36.8 pred=63.3 corr=64.1 alpha=3.6 rss=10.21GB
+      CKPT iteration 16 saved in 3.4 s
+      CHOLSTAT min pivot^2/S_ii = 1.689228340409205e-14 at row 3890
+   17  16857.1   1.209e-04   2.451e+01   2.510e+01   1.20e-02   2.66e-20   0.00e+00   2.64e-24   6.35e-01   6.35e-01   1.00e-01
+      PROF R=1.6 Xinv=0.7 schur=756.9 cholS=36.2 res=38.5 pred=66.8 corr=66.1 alpha=3.7 rss=10.22GB
+      CKPT iteration 17 saved in 3.6 s
+      CHOLSTAT min pivot^2/S_ii = 7.839687610316787e-15 at row 3890
+   18  17828.1   5.176e-05   2.453e+01   2.479e+01   5.18e-03   2.27e-20   0.00e+00   1.72e-24   7.72e-01   7.72e-01   1.00e-01
+      PROF R=1.6 Xinv=0.7 schur=750.0 cholS=34.1 res=37.4 pred=69.0 corr=70.3 alpha=3.8 rss=10.23GB
+      CKPT iteration 18 saved in 3.7 s
+      CHOLSTAT min pivot^2/S_ii = 2.527790972092854e-15 at row 3890
+   19  18839.6   1.580e-05   2.455e+01   2.463e+01   1.59e-03   2.19e-20   0.00e+00   1.57e-24   8.09e-01   8.09e-01   1.00e-01
+      PROF R=1.5 Xinv=0.7 schur=783.5 cholS=35.7 res=39.2 pred=71.2 corr=71.7 alpha=3.8 rss=10.21GB
+      CKPT iteration 19 saved in 4.0 s
+      CHOLSTAT min pivot^2/S_ii = 6.801501376119451e-16 at row 3900
+   20  20318.0   4.293e-06   2.455e+01   2.457e+01   4.31e-04   2.81e-20   0.00e+00   2.84e-24   8.98e-01   8.98e-01   1.00e-01
+      PROF R=1.6 Xinv=0.7 schur=1173.5 cholS=36.4 res=37.4 pred=66.8 corr=153.1 alpha=4.4 rss=10.27GB
+      CKPT iteration 20 saved in 4.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.2895070981590723e-16 at row 3900
+   21  21371.7   8.248e-07   2.456e+01   2.456e+01   8.29e-05   1.87e-20   0.00e+00   2.79e-24   9.39e-01   9.39e-01   1.00e-01
+      PROF R=1.6 Xinv=0.8 schur=855.2 cholS=31.6 res=34.5 pred=61.2 corr=61.0 alpha=3.5 rss=10.26GB
+      CKPT iteration 21 saved in 4.0 s
+      CHOLSTAT min pivot^2/S_ii = 1.9525886186050748e-17 at row 3900
+   22  22257.1   1.279e-07   2.456e+01   2.456e+01   1.29e-05   2.76e-20   0.00e+00   2.40e-24   9.59e-01   9.59e-01   1.00e-01
+      PROF R=1.6 Xinv=0.8 schur=685.8 cholS=30.9 res=34.4 pred=62.2 corr=61.5 alpha=3.7 rss=10.23GB
+      CKPT iteration 22 saved in 3.5 s
+
+[32439] signal (15): Terminated
+in expression starting at /tmp/claude-0/-home-claude-d4-voronoi-cells/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/l2fast/solve_fast.jl:28
+unknown function (ip: 0x7f3f69898d6f)
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+jl_gc_mark_threadfun at /usr/local/src/conda/julia-1.10.4/src/partr.c:139
+unknown function (ip: 0x7f3f6989caa3)
+unknown function (ip: 0x7f3f69929c6b)
+unknown function (ip: (nil))
+unknown function (ip: 0x7f3f69898d6f)
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /usr/local/src/conda/julia-1.10.4/src/partr.c:517
+poptask at ./task.jl:985
+wait at ./task.jl:994
+task_done_hook at ./task.jl:675
+jfptr_task_done_hook_75244.1 at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/lib/julia/sys.so (unknown line)
+jl_apply at /usr/local/src/conda/julia-1.10.4/src/julia.h:1982 [inlined]
+jl_finish_task at /usr/local/src/conda/julia-1.10.4/src/task.c:320
+start_task at /usr/local/src/conda/julia-1.10.4/src/task.c:1249
+unknown function (ip: (nil))
+unknown function (ip: 0x7f3f69898d6f)
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /usr/local/src/conda/julia-1.10.4/src/partr.c:517
+poptask at ./task.jl:985
+wait at ./task.jl:994
+task_done_hook at ./task.jl:675
+jfptr_task_done_hook_75244.1 at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/lib/julia/sys.so (unknown line)
+jl_apply at /usr/local/src/conda/julia-1.10.4/src/julia.h:1982 [inlined]
+jl_finish_task at /usr/local/src/conda/julia-1.10.4/src/task.c:320
+start_task at /usr/local/src/conda/julia-1.10.4/src/task.c:1249
+unknown function (ip: (nil))
+unknown function (ip: 0x7f3f69898d6f)
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /usr/local/src/conda/julia-1.10.4/src/partr.c:517
+poptask at ./task.jl:985
+wait at ./task.jl:994
+task_done_hook at ./task.jl:675
+jfptr_task_done_hook_75244.1 at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/lib/julia/sys.so (unknown line)
+jl_apply at /usr/local/src/conda/julia-1.10.4/src/julia.h:1982 [inlined]
+jl_finish_task at /usr/local/src/conda/julia-1.10.4/src/task.c:320
+start_task at /usr/local/src/conda/julia-1.10.4/src/task.c:1249
+unknown function (ip: (nil))
+arb_approx_dot at /workspace/srcdir/arb/arb/approx_dot.c:136
+arb_mat_approx_mul_classical at /workspace/srcdir/arb/arb_mat/approx_mul.c:74
+arb_mat_approx_mul at /workspace/srcdir/arb/arb_mat/approx_mul.c:99
+approx_mul! at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/depot/packages/Arblib/ZnCj1/src/ArbCall/ArbFunction.jl:131
+#approx_mul!#981 at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/depot/packages/Arblib/ZnCj1/src/ArbCall/ArbFunction.jl:154 [inlined]
+approx_mul! at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/depot/packages/Arblib/ZnCj1/src/ArbCall/ArbFunction.jl:154 [inlined]
+#matmul_threaded!#239 at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/depot/packages/ClusteredLowRankSolver/j27co/src/tools.jl:188
+matmul_threaded! at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/depot/packages/ClusteredLowRankSolver/j27co/src/tools.jl:175 [inlined]
+fast_lowrank! at ./none:299
+#compute_S_integrated!#1107 at ./none:350
+compute_S_integrated! at ./none:337 [inlined]
+macro expansion at ./none:1155 [inlined]
+macro expansion at ./timing.jl:395 [inlined]
+#compute_T_decomposition!#918 at ./none:1154
+compute_T_decomposition! at ./none:1147
+unknown function (ip: 0x7f3f5ebea2d6)
+macro expansion at ./none:377 [inlined]
+macro expansion at ./timing.jl:395 [inlined]
+macro expansion at ./none:376 [inlined]
+macro expansion at ./timing.jl:429 [inlined]
+macro expansion at ./none:375 [inlined]
+macro expansion at ./timing.jl:279 [inlined]
+#solvesdp#821 at ./none:320
+solvesdp at ./none:67 [inlined]
+solvesdp at ./none:67
+unknown function (ip: 0x7f3f5eb86969)
+jl_apply at /usr/local/src/conda/julia-1.10.4/src/julia.h:1982 [inlined]
+do_call at /usr/local/src/conda/julia-1.10.4/src/interpreter.c:126
+eval_value at /usr/local/src/conda/julia-1.10.4/src/interpreter.c:223
+eval_stmt_value at /usr/local/src/conda/julia-1.10.4/src/interpreter.c:174 [inlined]
+eval_body at /usr/local/src/conda/julia-1.10.4/src/interpreter.c:635
+jl_interpret_toplevel_thunk at /usr/local/src/conda/julia-1.10.4/src/interpreter.c:775
+jl_toplevel_eval_flex at /usr/local/src/conda/julia-1.10.4/src/toplevel.c:934
+jl_toplevel_eval_flex at /usr/local/src/conda/julia-1.10.4/src/toplevel.c:877
+ijl_toplevel_eval_in at /usr/local/src/conda/julia-1.10.4/src/toplevel.c:985
+eval at ./boot.jl:385 [inlined]
+include_string at ./loading.jl:2076
+_include at ./loading.jl:2136
+include at ./Base.jl:495
+jfptr_include_46340.1 at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/lib/julia/sys.so (unknown line)
+exec_options at ./client.jl:318
+_start at ./client.jl:552
+jfptr__start_82653.1 at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/lib/julia/sys.so (unknown line)
+jl_apply at /usr/local/src/conda/julia-1.10.4/src/julia.h:1982 [inlined]
+true_main at /usr/local/src/conda/julia-1.10.4/src/jlapi.c:582
+jl_repl_entrypoint at /usr/local/src/conda/julia-1.10.4/src/jlapi.c:731
+main at /home/conda/feedstock_root/build_artifacts/julia_1718579682237/work/cli/loader_exe.c:58
+unknown function (ip: 0x7f3f6982a1c9)
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/bin/julia (unknown line)
+unknown function (ip: (nil))
+Allocations: 18014726579 (Pool: 17986699476; Big: 28027103); GC: 42059
+┌ Warning: CHOLMOD version incompatibility
+│ 
+│ Julia was compiled with CHOLMOD version 4.0.4. It is
+│ currently linked with version 5.3.1.
+│ This might cause Julia to terminate when working with
+│ sparse matrix factorizations, e.g. solving systems of
+│ equations with \.
+│ 
+│ It is recommended that you use Julia with the same major
+│ version of CHOLMOD as the one used during the build, or
+│ download the generic binaries from www.julialang.org,
+│ which ship with the correct versions of all dependencies.
+└ @ SparseArrays.CHOLMOD /tmp/claude-0/-home-claude/6c6c17a8-7700-5113-9154-99c465b916f9/scratchpad/level2-fit/jlenv/share/julia/stdlib/v1.10/SparseArrays/src/solvers/cholmod.jl:206
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.SolverFailure :: Union{}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.solvesdp :: Tuple{Problem}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_primal_objective :: Tuple{Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_dual_objective :: Tuple{Any, Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_error :: Tuple{BlockDiagonals.BlockDiagonal}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_error :: Tuple{Arblib.ArbRefMatrix}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_primal_error :: Tuple{Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_dual_error :: Tuple{Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_duality_gap :: NTuple{4, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.dot_c :: Tuple{Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.calculate_res_d! :: NTuple{7, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_residuals! :: NTuple{12, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.terminate :: NTuple{9, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.check_pd_feasibility :: NTuple{4, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_residual_R! :: NTuple{6, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_S_integrated! :: NTuple{14, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_T_decomposition! :: NTuple{17, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_search_direction! :: NTuple{19, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243
+┌ Warning: Replacing docs for `ClusteredLowRankSolver.compute_step_length :: Tuple{BlockDiagonals.BlockDiagonal, BlockDiagonals.BlockDiagonal, Any, Any, Any}` in module `ClusteredLowRankSolver`
+└ @ Base.Docs docs/Docs.jl:243

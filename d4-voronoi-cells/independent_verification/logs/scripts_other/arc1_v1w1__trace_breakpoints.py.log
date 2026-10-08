@@ -1,0 +1,15 @@
+$ (cd arc1_v1w1 && trace_breakpoints.py)
+Number of breakpoints found per t (should be constant if curves are
+continuous and don't appear/disappear):
+  counts: [3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3]
+  min=3 max=4
+
+Sample rows (t, breakpoint thetas):
+  t=0.0200: [np.float64(0.04), np.float64(1.0472), np.float64(1.3734)]
+  t=0.2163: [np.float64(0.4227), np.float64(0.9962), np.float64(1.0472), np.float64(1.5472)]
+  t=0.4125: [np.float64(0.7626), np.float64(0.8622), np.float64(1.0472), np.float64(1.4833)]
+  t=0.6088: [np.float64(0.8013), np.float64(1.0472), np.float64(1.3741)]
+  t=0.8050: [np.float64(0.7856), np.float64(1.0472), np.float64(1.2122), np.float64(1.2492)]
+  t=1.0013: [np.float64(0.8095), np.float64(1.0472), np.float64(1.3999)]
+  t=1.1975: [np.float64(0.6993), np.float64(0.8815), np.float64(1.0472), np.float64(1.4995)]
+  t=1.3938: [np.float64(0.3486), np.float64(1.0387), np.float64(1.0472), np.float64(1.5551)]

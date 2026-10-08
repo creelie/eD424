@@ -1,0 +1,15 @@
+$ (cd arc2_w1v2 && w1v2_regiontop_diag.py)
+32 vertices, 8 moving, 24 fixed
+148 boundary simplices: 82 fixed-only, 66 moving
+pattern frozenset({'+e3+e4', 'u1', '+e2+e3', '-e1+e3'}): numeric=[-0.6539  0.6539  0.7603  0.6539] vs actual=[-0.6539  0.6539  0.7603  0.6539] match=True
+pattern frozenset({'-e2+e3', '+e3+e4', 'u1', '-e1+e3'}): numeric=[-0.6301 -0.6301  0.7841  0.6301] vs actual=[-0.6301 -0.6301  0.7841  0.6301] match=True
+pattern frozenset({'+e1+e3', '+e3+e4', 'u1', '-e2+e3'}): numeric=[ 0.6539 -0.6539  0.7603  0.6539] vs actual=[ 0.6539 -0.6539  0.7603  0.6539] match=True
+pattern frozenset({'+e1+e3', '+e3+e4', 'u1', '+e2+e3'}): numeric=[0.6796 0.6796 0.7346 0.6796] vs actual=[0.6796 0.6796 0.7346 0.6796] match=True
+pattern frozenset({'u1', '+e2+e3', '+e3-e4', '-e1+e3'}): numeric=[-0.0988  0.0988  1.3154 -0.0988] vs actual=[-0.0988  0.0988  1.3154 -0.0988] match=True
+pattern frozenset({'+e1+e3', 'u1', '+e2+e3', '+e3-e4'}): numeric=[ 0.0994  0.0994  1.3148 -0.0994] vs actual=[ 0.0994  0.0994  1.3148 -0.0994] match=True
+pattern frozenset({'-e2+e3', 'u1', '+e3-e4', '-e1+e3'}): numeric=[-0.0983 -0.0983  1.3159 -0.0983] vs actual=[-0.0983 -0.0983  1.3159 -0.0983] match=True
+pattern frozenset({'+e1+e3', 'u1', '+e3-e4', '-e2+e3'}): numeric=[ 0.0988 -0.0988  1.3154 -0.0988] vs actual=[ 0.0988 -0.0988  1.3154 -0.0988] match=True
+
+per-simplex check:
+
+0/66 simplices mismatched

@@ -1,0 +1,9 @@
+neighbours: 48, all at distance d = 2.613126 (2*sqrt2 = 2.828427)
+largest inner product between neighbour directions: 0.707107  (> 1/2: True)
+least distance between neighbour centres: 2.000000000  (>= 2: True)
+so this is a valid packing of 49 unit balls, every neighbour in the shell [2, 2 sqrt2)
+
+cell at the all-contact corner (all 48 radii set to 2): volume 6.593944  (< 8: True)
+  its direction set has 48 > 24 elements and inner products up to 0.7071 > 1/2,
+  so it is not a contact configuration and no result of the paper applies to it
+actual Voronoi cell of the centre in this packing:        volume 19.216162

@@ -1,0 +1,9 @@
+2026-10-05 23:53:38 machine: DESKTOP-VS7DF9S, Windows-11-10.0.26200-SP0, 16 logical cores, 15.7 GB memory (6.0 GB free), Python 3.14.3
+2026-10-05 23:53:40 numpy 2.4.3, scipy 1.17.1, clarabel 0.11.1
+2026-10-05 23:53:40 started case29_all.json at degree 10, 4 rounds, factorisation auto: log c29all_d10.log
+2026-10-05 23:53:40 started case27_all.json at degree 8, 5 rounds, factorisation auto: log c27all_d8.log
+2026-10-06 00:58:08 machine: DESKTOP-VS7DF9S, Windows-11-10.0.26200-SP0, 16 logical cores, 15.7 GB memory (3.4 GB free), Python 3.14.3
+2026-10-06 00:58:08 numpy 2.4.3, scipy 1.17.1, clarabel 0.11.1
+2026-10-06 00:58:08 started case29_t4.json at degree 8, 6 rounds, factorisation auto: log c29t4_d8.log
+2026-10-06 03:11:08 ended case29_t4.json at degree 8, exit 3221226505: d3=8 round 1: optimal_inaccurate  bound 2.88600 (target 3.10330), corrected <= 10.75538  [7866 s]
+2026-10-06 03:11:08 done

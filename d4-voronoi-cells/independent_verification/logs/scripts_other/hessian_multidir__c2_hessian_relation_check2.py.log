@@ -1,0 +1,9 @@
+$ (cd hessian_multidir && c2_hessian_relation_check2.py)
+b(v1) = [0, 1/4, 1/4, 1/4, -1/4, -1/4]
+b^T H_Omega b at e_perp=v1 (the direction of Lemma lem:c2true): 28
+Known exact value (Lemma lem:c2true, independent derivation): c2 = 1/3
+Ratio (b^T H b) / (1/3) = 84
+
+Candidate normalisations tried against the target 1/3:
+  c2_raw / D_ref=192 (Definition def:hessian's own constant) = 7/48  (target 1/3)
+  c2_raw / D_Omega(ref)=3/2 (Sec 'Normalisation of D_Omega', C001) = 56/3  (target 1/3)

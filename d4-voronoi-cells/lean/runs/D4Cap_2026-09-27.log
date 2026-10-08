@@ -1,0 +1,32 @@
+$ lean D4Cap.lean   (Sun Sep 27 03:24:55 UTC 2026)
+Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)
+(303, 0.997550)
+(3, 19, 1)
+'D4Cap.vertex_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.vertex_counts._native.native_decide.ax_1_1]
+'D4Cap.volumes' depends on axioms: [propext, Classical.choice, Quot.sound, D4Cap.volumes._native.native_decide.ax_1_1]
+'D4Cap.cross_polytope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.cross_polytope._native.native_decide.ax_1_1]
+'D4Cap.fourth_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.fourth_derivative._native.native_decide.ax_1_1]
+'D4Cap.brackets' depends on axioms: [propext, Classical.choice, Quot.sound, D4Cap.brackets._native.native_decide.ax_1_1]
+'D4Cap.case_identities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.case_identities._native.native_decide.ax_1_1]
+'D4Cap.case_signs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.case_signs._native.native_decide.ax_1_1]
+'D4Cap.endpoint_integers' depends on axioms: [D4Cap.endpoint_integers._native.native_decide.ax_1_1]
+'D4Cap.box_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ D4Cap.box_certificate._native.native_decide.ax_1_1]
+exit status 0, 10 s

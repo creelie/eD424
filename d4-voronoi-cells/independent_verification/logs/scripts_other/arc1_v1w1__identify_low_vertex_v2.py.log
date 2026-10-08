@@ -1,0 +1,19 @@
+$ (cd arc1_v1w1 && identify_low_vertex_v2.py)
+t=0.05: low-branch breakpoint theta=0.0998752538
+  disappearing vertex: (np.float64(1.34699), np.float64(-0.06723), np.float64(-0.06723), np.float64(0.06723))  facets=[]
+  disappearing vertex: (np.float64(1.34699), np.float64(-0.06723), np.float64(0.06723), np.float64(-0.06723))  facets=[]
+  appearing vertex: (np.float64(1.34698), np.float64(-0.06723), np.float64(-0.06723), np.float64(0.06723))  facets=[]
+  appearing vertex: (np.float64(1.34698), np.float64(-0.06723), np.float64(0.06723), np.float64(-0.06723))  facets=[]
+
+t=0.1: low-branch breakpoint theta=0.1990074415
+  disappearing vertex: (np.float64(0.26007), np.float64(1.41421), np.float64(0.0), np.float64(0.0))  facets=[]
+  disappearing vertex: (np.float64(1.28908), np.float64(-0.12514), np.float64(-0.12514), np.float64(-0.12514))  facets=[]
+  disappearing vertex: (np.float64(0.73502), np.float64(0.73502), np.float64(-0.6792), np.float64(-0.6792))  facets=[]
+  appearing vertex: (np.float64(0.73502), np.float64(0.73502), np.float64(-0.67919), np.float64(-0.67919))  facets=[]
+  appearing vertex: (np.float64(0.26008), np.float64(1.41421), np.float64(0.0), np.float64(0.0))  facets=[]
+  appearing vertex: (np.float64(1.28907), np.float64(-0.12514), np.float64(-0.12514), np.float64(-0.12514))  facets=[]
+
+t=0.15: low-branch breakpoint theta=0.2966808040
+  disappearing vertex: (np.float64(0.37786), np.float64(1.41421), np.float64(0.0), np.float64(0.0))  facets=[]
+  appearing vertex: (np.float64(0.37787), np.float64(1.41421), np.float64(0.0), np.float64(0.0))  facets=[]
+

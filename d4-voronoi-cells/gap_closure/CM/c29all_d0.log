@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/reductions/solvers/solving_chain_utils.py", line 31, in get_canon_backend
+    if not problem._supports_cpp():
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/utilities/performance_utils.py", line 84, in _compute_once
+    result = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 313, in _supports_cpp
+    return all(expr._all_support_cpp() for expr in self.constraints + [self.objective.expr])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/cvxpy/problems/problem.py", line 313, in <genexpr>
+    return all(expr._all_support_cpp() for expr in self.constraints + [self.objective.expr])
+               ^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError

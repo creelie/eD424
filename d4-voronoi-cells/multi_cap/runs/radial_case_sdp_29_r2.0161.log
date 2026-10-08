@@ -1,0 +1,18 @@
+leaf 1 [0 <= N(2.0161) <= 7]
+    round 0: bound 3.10124, largest K - Pi between the samples 4.00e-05, against half the margin 4.50e-05
+    round 1: bound 3.10393, largest K - Pi between the samples 2.43e-05, against half the margin 2.93e-05
+    round 2: bound 3.10396, largest K - Pi between the samples 3.56e-05, against half the margin 4.06e-05
+    round 3: bound 3.10396, largest K - Pi between the samples -6.74e-06, against half the margin -1.74e-06
+    margin (1e-05, 1e-05): bound 3.10396
+    round 0: bound 3.09891, largest K - Pi between the samples 5.36e-05, against half the margin 5.61e-05
+    round 1: bound 3.10160, largest K - Pi between the samples 3.86e-05, against half the margin 4.11e-05
+    round 2: bound 3.10163, largest K - Pi between the samples -1.95e-06, against half the margin 5.50e-07
+    round 3: bound 3.10164, largest K - Pi between the samples 1.82e-07, against half the margin 2.68e-06
+    round 4: bound 3.10165, largest K - Pi between the samples 2.54e-05, against half the margin 2.79e-05
+    round 5: bound 3.10165, largest K - Pi between the samples -4.85e-06, against half the margin -2.35e-06
+leaf 2 [8 <= N(2.0161) <= 24] (residual, not certified)
+wrote radial_certificates/case_29.json [1823 s]
+
+real	30m24.227s
+user	22m11.282s
+sys	14m37.999s

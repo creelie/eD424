@@ -1,0 +1,55 @@
+$ (cd multi_cap && pair_budget.py)
+==============================================================
+The pairwise estimate at twenty-three contacts
+==============================================================
+  r_23                              34.610650 deg
+  covering estimate                 7.916727568
+  shortfall to 8                    0.083272432
+  weight of one pair at 60 degrees  0.000922241941
+  a pair at gamma >= 2 r_23 = 69.2213 deg contributes nothing
+
+(a) the weight collapses as the pair opens up
+      gamma =  60.0 deg    w = 0.000922241941    w/w(60) = 1.00000
+      gamma =  60.5 deg    w = 0.000788707892    w/w(60) = 0.85521
+      gamma =  61.0 deg    w = 0.000667902420    w/w(60) = 0.72422
+      gamma =  62.0 deg    w = 0.000462616645    w/w(60) = 0.50162
+      gamma =  64.0 deg    w = 0.000182753447    w/w(60) = 0.19816
+      gamma =  66.0 deg    w = 0.000044878469    w/w(60) = 0.04866
+      gamma =  68.0 deg    w = 0.000002559173    w/w(60) = 0.00277
+      gamma =  69.0 deg    w = 0.000000015579    w/w(60) = 0.00002
+[PASS] the weight is strictly decreasing in the pair angle
+[PASS] half the weight is gone by 62 degrees
+       w(62)/w(60) = 0.50162
+
+(b) the deletion configuration
+      tight pairs among 23 of the roots   88
+      second-order value                  7.997884858
+[PASS] 88 tight pairs, and the estimate returns the quoted 7.997885
+       computed 7.997884858
+
+(c) what the same estimate would need
+      pairs at 60 degrees required        90.2935, so 91
+      value at 91 pairs                   8.000651584
+      value at 90 pairs                   7.999729342
+[PASS] 91 pairs at 60 degrees carry the estimate past 8
+       90 pairs give 7.999729342, 91 give 8.000651584
+
+(d) how many tight pairs the contact graph can carry
+      link condition on S^2: pairwise angle at least 70.528779 deg
+      disjoint caps of radius 35.264390 deg, area 1.152986 of 4 pi = 12.566371
+      so the degree is at most             10
+      and 23 directions carry at most      115 tight pairs
+[PASS] the elementary degree bound is 10, so at most 115 tight pairs
+
+(e) the window
+      deletion configuration              88 pairs
+      needed by the pairwise estimate     91 pairs
+      elementary ceiling                  115 pairs
+[PASS] the target lies strictly above the deletion and strictly below the ceiling
+
+==============================================================
+6 of 6 checks passed
+==============================================================
+The estimate of Proposition 7.23 falls short at the deletion
+configuration by three pairs. The deletion configuration is not
+saturated, so this says nothing about the case left open.

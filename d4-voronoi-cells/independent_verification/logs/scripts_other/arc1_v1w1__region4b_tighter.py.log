@@ -1,0 +1,81 @@
+$ (cd arc1_v1w1 && region4b_tighter.py)
+======================================================================
+Region 4b box-covering exact Bernstein certificate
+======================================================================
+vol_moving-3 reconstructed and mapped to (u,v): N 907 chars, D 501 chars, 103.8s
+exact check N(0,v)=0 (0 = matches theta->0 vanishing)
+exact check D(0,v)=-3*v**10 - 15*v**8 - 30*v**6 - 30*v**4 - 15*v**2 - 3
+
+domain: v in (0.236068,0.414214); certifying v in [0.236168,0.414114] via 60 boxes
+  box  0: v=[0.23617,0.23913] u_hi=0.44571  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  1: v=[0.23913,0.24210] u_hi=0.44450  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  2: v=[0.24210,0.24507] u_hi=0.44332  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  3: v=[0.24507,0.24803] u_hi=0.44218  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  4: v=[0.24803,0.25100] u_hi=0.44106  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  5: v=[0.25100,0.25396] u_hi=0.43997  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  6: v=[0.25396,0.25693] u_hi=0.43891  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  7: v=[0.25693,0.25989] u_hi=0.43787  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  8: v=[0.25989,0.26286] u_hi=0.43687  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box  9: v=[0.26286,0.26583] u_hi=0.43589  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 10: v=[0.26583,0.26879] u_hi=0.43494  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 11: v=[0.26879,0.27176] u_hi=0.43401  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 12: v=[0.27176,0.27472] u_hi=0.43311  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 13: v=[0.27472,0.27769] u_hi=0.43223  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 14: v=[0.27769,0.28065] u_hi=0.43138  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 15: v=[0.28065,0.28362] u_hi=0.43055  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 16: v=[0.28362,0.28659] u_hi=0.42975  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 17: v=[0.28659,0.28955] u_hi=0.42897  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 18: v=[0.28955,0.29252] u_hi=0.42821  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 19: v=[0.29252,0.29548] u_hi=0.42748  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 20: v=[0.29548,0.29845] u_hi=0.42677  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 21: v=[0.29845,0.30141] u_hi=0.42608  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 22: v=[0.30141,0.30438] u_hi=0.42541  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 23: v=[0.30438,0.30735] u_hi=0.42477  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 24: v=[0.30735,0.31031] u_hi=0.42414  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 25: v=[0.31031,0.31328] u_hi=0.42354  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 26: v=[0.31328,0.31624] u_hi=0.42296  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 27: v=[0.31624,0.31921] u_hi=0.42240  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 28: v=[0.31921,0.32218] u_hi=0.42185  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 29: v=[0.32218,0.32514] u_hi=0.42133  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 30: v=[0.32514,0.32811] u_hi=0.42083  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 31: v=[0.32811,0.33107] u_hi=0.42035  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 32: v=[0.33107,0.33404] u_hi=0.41989  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 33: v=[0.33404,0.33700] u_hi=0.41944  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 34: v=[0.33700,0.33997] u_hi=0.41902  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 35: v=[0.33997,0.34294] u_hi=0.41861  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 36: v=[0.34294,0.34590] u_hi=0.41822  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 37: v=[0.34590,0.34887] u_hi=0.41785  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 38: v=[0.34887,0.35183] u_hi=0.41750  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 39: v=[0.35183,0.35480] u_hi=0.41717  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 40: v=[0.35480,0.35776] u_hi=0.41685  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 41: v=[0.35776,0.36073] u_hi=0.41656  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 42: v=[0.36073,0.36370] u_hi=0.41627  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 43: v=[0.36370,0.36666] u_hi=0.41601  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 44: v=[0.36666,0.36963] u_hi=0.41576  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 45: v=[0.36963,0.37259] u_hi=0.41553  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 46: v=[0.37259,0.37556] u_hi=0.41532  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 47: v=[0.37556,0.37852] u_hi=0.41512  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 48: v=[0.37852,0.38149] u_hi=0.41494  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 49: v=[0.38149,0.38446] u_hi=0.41478  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 50: v=[0.38446,0.38742] u_hi=0.41463  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 51: v=[0.38742,0.39039] u_hi=0.41450  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 52: v=[0.39039,0.39335] u_hi=0.41438  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 53: v=[0.39335,0.39632] u_hi=0.41428  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 54: v=[0.39632,0.39929] u_hi=0.41420  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 55: v=[0.39929,0.40225] u_hi=0.41413  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 56: v=[0.40225,0.40522] u_hi=0.41408  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 57: v=[0.40522,0.40818] u_hi=0.41404  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 58: v=[0.40818,0.41115] u_hi=0.41401  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+  box 59: v=[0.41115,0.41411] u_hi=0.41401  N:ok(22/121 zero) D:ok(0/121 zero)  [OK]
+
+ALL 60 BOXES CERTIFIED (exact rational arithmetic, no floating point).
+Excluded margin: ~0.11% of v-range at the two ends, plus the top 0.5% of u in each box nearest the ceiling -- under ~1.3% of region 4b's area total, not itself proven here, shrinkable arbitrarily with more/narrower boxes.
+
+======================================================================
+[CERTIFICATE, region 4b, modulo a thin quantified margin] F_Omega > 0
+established for chamber C001, v1-w1 arc, essentially all of
+arctan(1/2) < t < pi/4, 0 < theta < theta_max(t). Combined with
+Theorem thm:region4a, this covers essentially all of region 4.
+Regions 5-9 and the w1-v2 arc remain completely untouched.
+Conjecture (Direction-of-Deviation Positivity) remains OPEN overall.
+======================================================================
