@@ -7,6 +7,9 @@ identifiers:
     value: 10.5281/zenodo.23239767
     description: Concept DOI (all versions)
   - type: doi
+    value: 10.5281/zenodo.23242482
+    description: Version 1.1.0
+  - type: doi
     value: 10.5281/zenodo.23239768
     description: Version 1.0.0
 authors:
