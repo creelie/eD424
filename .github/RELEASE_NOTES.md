@@ -11,26 +11,19 @@ regular 24-cell.
 The general 24-cell conjecture and the optimality of D₄ among all packings
 in R⁴ remain open and are not claimed.
 
-### New in v1.1.0
+### New in v1.1.1
 
-* The manuscript in the form submitted to Discrete & Computational Geometry:
-  a 169-word abstract, a Statements and Declarations section, the AI-use
-  statement in Appendix A, the Zenodo archive cited as data, and full DOI
-  links. The mathematics is unchanged. `scripts/build_submission.sh` writes
-  the PDF and a source zip with the figures as Fig1 and Fig2 (PDF and EPS).
-* `d4-voronoi-cells/`: a copy of the d4-voronoi-cells v2.0.0 code
-  ([doi:10.5281/zenodo.23240354](https://doi.org/10.5281/zenodo.23240354)),
-  under its own `LICENSE`, without its manuscript.
-* `crosscheck/`: the statements (G) and (C) of that code tested on 943
-  two-periodic packings. Cell volumes from the Gram matrix and from the
-  half-spaces agree to 3e-15, (G) holds wherever it applies, and packings
-  forced to have 25 centres within √6 keep T above 8. Floating point.
-* `analysis/`: two analytic approaches to (G) and (C) and where each stops.
-  Rearranging the facet regions proves only vol ≥ 7.798989 for a cell with 24
-  facets, and the Delsarte bound for the codes (C) needs is 27.7 to 35.2
-  points. Both lead to the same open step, a stability theorem for 21 to 24
-  centres within about 2.2.
-* The CI jobs now time out after 30 minutes.
+* The run logs of `crosscheck/` and `analysis/` are in the archive. Their
+  READMEs point to `runs/`, but a `.gitignore` rule had kept the logs out.
+* In the paper, the agreement of the ten vertices with the numerical
+  enumeration of Andreanov and Kallus is a footnote. Nothing else in the
+  paper changes.
+
+v1.1.0 added the manuscript in the form submitted to Discrete & Computational
+Geometry, a copy of the d4-voronoi-cells v2.0.0 code
+([doi:10.5281/zenodo.23240354](https://doi.org/10.5281/zenodo.23240354)), the
+floating-point cross-check of (G) and (C) on 943 two-periodic packings, and
+two analytic approaches to (G) and (C) with the points where each stops.
 
 ### Files
 
