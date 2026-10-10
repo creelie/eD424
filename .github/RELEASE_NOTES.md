@@ -44,4 +44,5 @@ Python (sympy). Run `verification/shell/run_all.sh`.
 
 Concept DOI (all versions):
 [10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767).
+Version 1.1.1: [10.5281/zenodo.23288720](https://doi.org/10.5281/zenodo.23288720).
 Version 1.1.0: [10.5281/zenodo.23242482](https://doi.org/10.5281/zenodo.23242482).
