@@ -30,7 +30,9 @@ unit balls in R⁴, remain open and are not claimed here.
   edge of R (Proposition 3.2).
 * Up to the integral symmetries, R has ten vertices and 1137 edges at them
   (Proposition 5.1). This finite table is the only statement that rests on
-  computation; it is exact and re-checked by four independent programs.
+  computation; it is exact, re-checked by four independent programs, and
+  proved in Lean 4 with Mathlib, every step checked by the kernel (no
+  `native_decide`; axioms `propext`, `Classical.choice`, `Quot.sound` only).
 * Bounded edges carry no packings in their interiors; on the 25 unbounded
   edges everything is explicit (Lemma 5.3, Table 5.3). The minimum 256 of
   det Q is attained at two points, both √2 D₄, by a covering lemma for two
@@ -42,12 +44,14 @@ unit balls in R⁴, remain open and are not claimed here.
 | --- | --- |
 | `paper/main.tex`, `paper/figures/` | the paper (amsart) and its TikZ figures |
 | `dist/` | compiled PDF, tex.zip (figures as PNG) and arXiv tarball |
+| `journal/JOURNAL.md` | the target journal (Discrete & Computational Geometry): scope, format and AI policy |
 | `verification/python/ryshkov2.py` | exact enumeration of R (rationals, cddlib in GMP) |
 | `verification/python/certify.py` | integer certificates in `verification/data/` |
 | `verification/python/edges.py` | candidate points and det Q at each (sympy) |
 | `verification/c/check_polyhedron.c` | minimal vectors, all extreme rays from 14-subsets, edges, orbits (int128) |
 | `verification/julia/check_candidates.jl` | candidates and det Q at each (Sturm sequences, rationals) |
 | `verification/lean/R4Check.lean` | Lean 4 kernel proof of the sign lemma; evaluation of every certificate |
+| `verification/lean_kernel/` | Proposition 5.1 in Lean 4 with Mathlib, checked by the kernel; see its README |
 | `verification/data/` | the vertex and edge tables, see `FORMAT.md` |
 | `verification/shell/run_all.sh` | runs every check |
 | `d4-voronoi-cells/` | the code for the Voronoi cell bound for all packings and the open statements (G) and (C); see its README |
@@ -61,11 +65,14 @@ scripts/build_paper.sh                 # dist/*.pdf, *-tex.zip, *-arxiv.tar.gz
 scripts/build_submission.sh            # build/submission: PDF and source zip (Fig1, Fig2 as PDF and EPS)
 verification/shell/run_all.sh          # C, Julia, Lean 4 and Python checks
 verification/shell/run_all.sh --full   # also recompute R from scratch
+verification/shell/run_all.sh --kernel # also build the kernel-checked Lean proof
+verification/lean_kernel/check.sh      # only the kernel-checked Lean proof
 ```
 
 The checks need gcc, Python 3 with sympy (and pycddlib for `--full`),
 Julia ≥ 1.6 and Lean 4 (tested with 4.9.0; no Mathlib). `JULIA` and `LEAN`
-may point to binaries that are not on `PATH`.
+may point to binaries that are not on `PATH`. The kernel-checked proof needs
+elan and pycddlib; it uses Lean 4.34.1 with Mathlib, fetched by `lake`.
 
 ## Citation
 

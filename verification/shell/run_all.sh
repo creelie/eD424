@@ -8,6 +8,9 @@
 #                                          (ryshkov2.py, cddlib) and the
 #                                          certificates (certify.py), and
 #                                          compare them with verification/data
+#   verification/shell/run_all.sh --kernel also run lean_kernel/check.sh: the
+#                                          Lean 4 proof of Proposition 5.1 with
+#                                          Mathlib, checked by the kernel
 #
 # Tools: gcc, python3 (sympy; pycddlib for --full), julia >= 1.6, lean 4.
 # Set JULIA or LEAN to point at a binary that is not on PATH.
@@ -21,7 +24,14 @@ trap 'rm -rf "$WORK"' EXIT
 JULIA="${JULIA:-$(command -v julia || true)}"
 LEAN="${LEAN:-$(command -v lean || echo "$HOME/.elan/bin/lean")}"
 FULL=0
-[ "${1:-}" = "--full" ] && FULL=1
+KERNEL=0
+for a in "$@"; do
+  case "$a" in
+    --full) FULL=1 ;;
+    --kernel) KERNEL=1 ;;
+    *) echo "unknown option $a" >&2; exit 2 ;;
+  esac
+done
 
 pass() { printf '  [ok] %s\n' "$1"; }
 fail() { printf '  [FAIL] %s\n' "$1"; exit 1; }
@@ -63,6 +73,12 @@ PY
   for f in vertices.txt edges.txt unbounded_orbits.txt; do
     cmp -s "$WORK/cert/$f" "$DATA/$f" && pass "certify.py reproduces data/$f" || fail "data/$f differs"
   done
+fi
+
+if [ "$KERNEL" = 1 ]; then
+  echo "== Lean 4 with Mathlib: Proposition 5.1 checked by the kernel"
+  "$HERE/lean_kernel/check.sh" | tee "$WORK/kernel.log" | tail -2
+  grep -q "ALL CHECKS PASSED" "$WORK/kernel.log" && pass "Lean kernel" || fail "Lean kernel"
 fi
 
 echo "ALL CHECKS PASSED"
