@@ -11,14 +11,24 @@ regular 24-cell.
 The general 24-cell conjecture and the optimality of D₄ among all packings
 in R⁴ remain open and are not claimed.
 
-### New in v1.1.1
+### New in v1.2.0
 
-* The run logs of `crosscheck/` and `analysis/` are in the archive. Their
-  READMEs point to `runs/`, but a `.gitignore` rule had kept the logs out.
-* In the paper, the agreement of the ten vertices with the numerical
-  enumeration of Andreanov and Kallus is a footnote. Nothing else in the
-  paper changes.
+* A second formal proof of Proposition 5.1, in Lean 4 with Mathlib
+  (`verification/lean_kernel/`). Every step is checked by the Lean kernel:
+  there is no `native_decide`, and the main theorem `D4.certificate` depends
+  only on the axioms `propext`, `Classical.choice` and `Quot.sound`. For the
+  ten vertices and all 1137 edges it proves membership in the polyhedron,
+  the minimal vectors, the values of det J and det Q, that each vertex is a
+  vertex and that the listed rays span its cone, the sign of det J or
+  det Q − 256 along every edge, the end points of the bounded edges up to
+  the integral symmetries, and that the unbounded edges stay in the
+  polyhedron. Run `verification/lean_kernel/check.sh`, or
+  `verification/shell/run_all.sh --kernel`.
+* The paper says so in the abstract, the introduction, the proof of
+  Proposition 5.1 and the list of checks in the appendix.
 
+v1.1.1 added the run logs of `crosscheck/` and `analysis/`, and moved the
+agreement of the ten vertices with Andreanov and Kallus into a footnote.
 v1.1.0 added the manuscript in the form submitted to Discrete & Computational
 Geometry, a copy of the d4-voronoi-cells v2.0.0 code
 ([doi:10.5281/zenodo.23240354](https://doi.org/10.5281/zenodo.23240354)), the
@@ -38,7 +48,9 @@ of two-periodic packings (Proposition 5.1), is exact and re-checked by four
 independent programs: C (integers, including all extreme rays from
 14-subsets of minimal vectors), Julia (rationals, Sturm sequences), Lean 4
 (kernel proof of the sign lemma and evaluation of every certificate) and
-Python (sympy). Run `verification/shell/run_all.sh`.
+Python (sympy). Run `verification/shell/run_all.sh`. A fifth check,
+`verification/lean_kernel/`, proves the same table in Lean 4 with Mathlib with
+every step checked by the kernel.
 
 ### Citation
 
