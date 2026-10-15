@@ -12,7 +12,7 @@ on:
       tag:
         description: "Release tag, e.g. v1.0.0"
         required: true
-        default: "v1.2.0"
+        default: "v2.0.0"
       target:
         description: "Branch or commit to tag"
         required: true
@@ -30,18 +30,22 @@ jobs:
           ref: ${{ inputs.target }}
       - name: Check the release files
         run: |
-          for f in dist/densest-two-translates-d4.pdf \
-                   dist/densest-two-translates-d4-tex.zip \
-                   dist/densest-two-translates-d4-arxiv.tar.gz; do
+          N=Musin24CellConjectureTwoTranslates
+          for f in "dist/${N}_final2.pdf" \
+                   "dist/${N}_final2-tex.zip" \
+                   "dist/${N}_final2-arxiv.tar.gz" \
+                   "preprint$N/$N.pdf" \
+                   "Master${N}_masterzipfinal2.zip"; do
             test -s "$f" || { echo "missing $f"; exit 1; }
           done
+          test "$(ls "preprint$N")" = "$N.pdf" || { echo "preprint$N must hold only the PDF"; exit 1; }
       - name: Publish the release
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ inputs.tag }}
           TARGET: ${{ inputs.target }}
         run: |
-          gh release create "$TAG" dist/* \
+          gh release create "$TAG" dist/* Master*_masterzipfinal2.zip \
             --target "$TARGET" \
             --title "$TAG: Densest packings of two translates of a lattice in four dimensions" \
             --notes-file .github/RELEASE_NOTES.md

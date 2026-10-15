@@ -33,25 +33,31 @@
 \newcommand{\adj}{\operatorname{adj}}
 \newcommand{\GL}{\mathrm{GL}}
 \newcommand{\cand}{\mathcal{C}}
-\hypersetup{pdftitle={Densest packings of two translates of a lattice in four dimensions},pdfauthor={Deep Bhattacharjee}}
+\hypersetup{pdftitle={Densest packings of two translates of a lattice in four dimensions},pdfauthor={Deep Bhattacharjee and Ushashi Bhattacharya}}
 \providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\newcommand{\zenodoID}{10.5281/zenodo.23239767}
+\newcommand{\preprintURL}{https://github.com/creelie/eD424/blob/main/preprintMusin24CellConjectureTwoTranslates/Musin24CellConjectureTwoTranslates.pdf}
 
+
+\raggedbottom
 \begin{document}
 
 \title[Packings of two lattice translates in four dimensions]{Densest packings of two translates\\ of a lattice in four dimensions}
 
 \author{Deep Bhattacharjee}
 \address{Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL),\newline Bhubaneswar, Odisha 751030, India}
-\email{d.bhattacharjee@erl-forschung.de}
 \email{itsdeep@live.com}
-\urladdr{https://orcid.org/0000-0003-0466-750X}
-\thanks{Corresponding author: \href{mailto:d.bhattacharjee@erl-forschung.de}{d.bhattacharjee@erl-forschung.de}; ORCID \href{https://orcid.org/0000-0003-0466-750X}{\mbox{0000-0003-0466-750X}}}
+\email{d.bhattacharjee@erl-forschung.de}
+\author{Ushashi Bhattacharya}
+\address{Formerly, National Taiwan University, Taipei 106319, Taiwan}
+\email{rai.bhattacharya.in@gmail.com}
+\thanks{Corresponding author: Deep Bhattacharjee. ORCID iDs: Deep Bhattacharjee \href{https://orcid.org/0000-0003-0466-750X}{\mbox{0000-0003-0466-750X}}; Ushashi Bhattacharya \href{https://orcid.org/0009-0002-2254-3914}{\mbox{0009-0002-2254-3914}}.}
 
 \subjclass[2020]{Primary 52C17; Secondary 11H31, 11H55}
 \keywords{sphere packing, periodic packing, $D_4$ lattice, $24$-cell, Voronoi cell, Ryshkov polyhedron}
 
 \begin{abstract}
-Let $\Lambda$ be a lattice in $\R^4$ and $b$ a vector outside $\Lambda$ such that any two distinct points of $\Lambda\cup(\Lambda+b)$ are at distance at least $2$. We prove that the covolume of $\Lambda$ is at least $16$, with equality only when $\Lambda\cup(\Lambda+b)$ is congruent to $\sqrt2\,D_4$. Thus no packing of unit balls whose centres form two translates of a lattice in $\R^4$ is denser than the $D_4$ lattice packing, and every Voronoi cell of such a packing has volume at least $8$, the volume of the regular $24$-cell, as Musin's $24$-cell conjecture predicts. The packing condition on the Gram matrix of a basis of $\Lambda$ together with $b$ cuts out a locally finite polyhedron. The concavity of $\log\det$ and of a Schur complement reduces the problem to the vertices and edges of this polyhedron. Up to integral symmetries it has ten vertices and $1137$ edges at them. This finite table is computed in exact arithmetic, re-checked by four independent programs and proved in Lean~4 with every step checked by the kernel; every other step is proved by hand.
+We prove that no packing of unit balls in $\R^4$ whose centres form two translates of a lattice is denser than the $D_4$ lattice packing, and that $\sqrt2\,D_4$ is the only such packing of this density. Hence every Voronoi cell of such a packing has volume at least that of the regular $24$-cell, which is Musin's $24$-cell conjecture for these packings.
 \end{abstract}
 
 \maketitle
@@ -71,6 +77,13 @@ In a packing of unit balls in $\R^4$ whose centres form two translates of a latt
 \end{corollary}
 
 For a single lattice the bound of Corollary~\ref{cor:cells} is the theorem of Korkine and Zolotarev, so Corollary~\ref{cor:cells} proves the $24$-cell conjecture for all packings whose centres form at most two translates of a lattice.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/translates}
+\caption{Two translates of a lattice, drawn in three dimensions: the points of $\Lambda$ and of $\Lambda+b$, with a cell spanned by a basis of $\Lambda$. Such a set is described by the Gram matrix of the basis together with $b$. In four dimensions the densest packing of unit balls centred at such a set is $\sqrt2\,D_4$ (Theorem~\ref{thm:main}).}
+\label{fig:translates}
+\end{figure}
 
 \subsection*{Method}
 A two-periodic set is encoded by the $5\times5$ Gram matrix $J$ of a basis of $\Lambda$ together with $b$. The packing condition becomes infinitely many linear inequalities $J[k]\ge4$, which cut out a locally finite polyhedron $\Rk$ (Section~\ref{sec:polyhedron}); packings are the points of $\Rk$ where $\det J=0$, and the quantity to minimise is $\det Q$, where $Q$ is the upper left $4\times4$ block of $J$. Proposition~\ref{prop:descent} shows that every packing can be moved, without increasing $\det Q$, to a vertex of $\Rk$ or to a point of an edge of $\Rk$. The argument uses only the concavity of $\log\det Q$ and of the Schur complement of $Q$ in $J$; it replaces the analysis of local optimality conditions and of ``fluid'' packings in~\cite[Theorem~3]{AK2020}.
@@ -471,27 +484,31 @@ Let the centres be $P=\Lambda\cup(\Lambda+b)$, $b\notin\Lambda$; if $b\in\Lambda
 
 \section{Computation and verification}\label{app:verification}
 
-The computation behind Proposition~\ref{prop:computation} follows~\cite{AK2020} and Voronoi's algorithm~\cite{Voronoi1908,Schuermann2009}, in exact arithmetic throughout. All files are archived with the paper~\cite{Bhattacharjee2026}; the script \nolinkurl{verification/shell/run_all.sh} runs every check. The author used Claude (Anthropic), an AI system, for programming, computation and drafting; the author checked the mathematics and is responsible for the content.
+The computation behind Proposition~\ref{prop:computation} follows~\cite{AK2020} and Voronoi's algorithm~\cite{Voronoi1908,Schuermann2009}, in exact arithmetic throughout. The programs, the data and the certificates are archived at Zenodo~\cite{Bhattacharjee2026}.
 
-\subsection*{Enumeration} Starting from $J_0$, for each new vertex $J$ the program \texttt{ryshkov2.py} (Python, rational arithmetic) computes $\Min(J)$ by the enumeration method of Fincke and Pohst, applied to the forms of Lemma~\ref{lem:sigma}(1) with rational bounds for the square roots; computes the extreme rays of $C_J$ with \texttt{cddlib} in GMP rational arithmetic; for each ray $Y$ decides whether $t^*=\infty$ and otherwise finds $t^*$ exactly (by the sign pattern of $Q(Y)$, a unimodular reduction of its kernel, and a descent through crossing points $t=(J[k]-4)/(-Y[k])$); and tests $\Gamma$-equivalence of $J+t^*Y$ with the known vertices by a backtracking search over images of minimal vectors. The search closes after ten classes and $1137$ rays, and \texttt{certify.py} writes the certificates of Proposition~\ref{prop:computation} as integer tables.
+\subsection*{Enumeration} Starting from $J_0$, for each new vertex $J$ we compute $\Min(J)$ in rational arithmetic by the enumeration method of Fincke and Pohst, applied to the forms of Lemma~\ref{lem:sigma}(1) with rational bounds for the square roots; we compute the extreme rays of $C_J$ by the double description method in exact rational arithmetic; for each ray $Y$ we decide whether $t^*=\infty$ and otherwise find $t^*$ exactly (by the sign pattern of $Q(Y)$, a unimodular reduction of its kernel, and a descent through crossing points $t=(J[k]-4)/(-Y[k])$); and we test $\Gamma$-equivalence of $J+t^*Y$ with the known vertices by a backtracking search over images of minimal vectors. The search closes after ten classes and $1137$ rays, and the certificates of Proposition~\ref{prop:computation} are written as integer tables.
 
 \subsection*{Independent checks}
 \begin{enumerate}
-\item \textbf{C} (\texttt{check\_polyhedron.c}, integers with overflow traps): recomputes $\Min(J_i)$ and checks $\min_{\M^*}J_i=4$ and rank $15$; recomputes all extreme rays of each $C_{J_i}$ from all $14$-element subsets of $\Min(J_i)$, independently of \texttt{cddlib}, and compares them with the list; for every bounded edge checks $\min_{\M^*}(J_i+t^*Y)=4$, rank $15$, $T\in\Gamma$ and $T^{\mathsf T}J_jT=J_i+t^*Y$; for every unbounded edge checks $Y=X_{u,a}$.
-\item \textbf{Julia} (\texttt{check\_candidates.jl}, rational arithmetic): without using the concavity argument of Proposition~\ref{prop:candidates}, isolates with Sturm sequences all roots of $\det(J_i+tY)$ in $(0,t^*)$ on all $1137$ edges, decides the sign of $\det Q-256$ at each, and checks that the points with $\det Q=256$ are $J_0$ and the point $J_1+2X_{e_1,-1}$ (up to the orbit). It finds $21$ edge points, as in Table~\ref{tab:unbounded}.
-\item \textbf{Lean~4} (\texttt{R4Check.lean}): proves the integer inequality of Lemma~\ref{lem:Xua} in the kernel, and checks by evaluation the invariants of Table~\ref{tab:vertices}, the minimal vectors, the $1112$ relations $T^{\mathsf T}J_jT=J_i+t^*Y$ with $T\in\Gamma$, the $25$ identities $Y=X_{u,a}$, and the orbit decomposition of the unbounded edges in Table~\ref{tab:unbounded}.
-\item \textbf{Python} (\texttt{edges.py}, \texttt{sympy}): repeats the candidate analysis of the Julia check with exact real-root isolation.
-\item \textbf{Lean~4 with Mathlib} (\nolinkurl{verification/lean_kernel}): a formal proof in which every step is checked by the kernel, with no evaluation by compiled code, and which uses only the axioms \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}. For ten representatives of the classes of Table~\ref{tab:vertices}, computed by a second enumeration program, it proves: $J\in\Rk$; the vectors $k\in\M^*$ with $J[k]=4$ are the listed ones; the values of $\det J$ and $\det Q$; $J$ is a vertex; and every $X\in\Sym_5$ with $X[k]\ge0$ on $\Min(J)$ is a nonnegative combination of the listed rays, by a certificate for every $14$-element subset of $\Min(J)$. For each of the $1137$ edges $J+tY$ at them it proves that $\det(J+tY)>0$ or $\det Q(J+tY)\ge256$ for $0\le t\le t^*$ (for all $t\ge0$ if $t^*=\infty$), with $\det(J+tY)=0$ and $\det Q(J+tY)=256$ only at the listed points; that $J+t^*Y=T^{\mathsf T}J_jT$ with $T\in\Gamma$ and $J+tY\notin\Rk$ for $t>t^*$; and that $Y[k]\ge0$ for all $k\in\M^*$ if $t^*=\infty$. With Corollary~\ref{cor:closure}, this gives Proposition~\ref{prop:computation} and the bound of Proposition~\ref{prop:candidates} without the concavity argument.
+\item In C, with integers and overflow traps: we recompute $\Min(J_i)$ and check $\min_{\M^*}J_i=4$ and rank $15$; we recompute all extreme rays of each $C_{J_i}$ from all $14$-element subsets of $\Min(J_i)$, independently of the double description method, and compare them with the list; for every bounded edge we check $\min_{\M^*}(J_i+t^*Y)=4$, rank $15$, $T\in\Gamma$ and $T^{\mathsf T}J_jT=J_i+t^*Y$; for every unbounded edge we check $Y=X_{u,a}$.
+\item In Julia, in rational arithmetic and without the concavity argument of Proposition~\ref{prop:candidates}: we isolate with Sturm sequences all roots of $\det(J_i+tY)$ in $(0,t^*)$ on all $1137$ edges, decide the sign of $\det Q-256$ at each, and check that the points with $\det Q=256$ are $J_0$ and the point $J_1+2X_{e_1,-1}$ (up to the orbit). There are $21$ edge points, as in Table~\ref{tab:unbounded}.
+\item In Lean~4 without Mathlib: the integer inequality of Lemma~\ref{lem:Xua} is proved in the kernel, and the invariants of Table~\ref{tab:vertices}, the minimal vectors, the $1112$ relations $T^{\mathsf T}J_jT=J_i+t^*Y$ with $T\in\Gamma$, the $25$ identities $Y=X_{u,a}$ and the orbit decomposition of the unbounded edges in Table~\ref{tab:unbounded} are checked by evaluation.
+\item In Python, with exact real-root isolation: the candidate analysis of the Julia check is repeated.
+\item In Lean~4 with Mathlib: a formal proof in which every step is checked by the kernel, with no evaluation by compiled code, and which uses only the axioms of propositional extensionality, choice and quotient soundness. For ten representatives of the classes of Table~\ref{tab:vertices}, computed by a second enumeration, it proves: $J\in\Rk$; the vectors $k\in\M^*$ with $J[k]=4$ are the listed ones; the values of $\det J$ and $\det Q$; $J$ is a vertex; and every $X\in\Sym_5$ with $X[k]\ge0$ on $\Min(J)$ is a nonnegative combination of the listed rays, by a certificate for every $14$-element subset of $\Min(J)$. For each of the $1137$ edges $J+tY$ at them it proves that $\det(J+tY)>0$ or $\det Q(J+tY)\ge256$ for $0\le t\le t^*$ (for all $t\ge0$ if $t^*=\infty$), with $\det(J+tY)=0$ and $\det Q(J+tY)=256$ only at the listed points; that $J+t^*Y=T^{\mathsf T}J_jT$ with $T\in\Gamma$ and $J+tY\notin\Rk$ for $t>t^*$; and that $Y[k]\ge0$ for all $k\in\M^*$ if $t^*=\infty$. With Corollary~\ref{cor:closure}, this gives Proposition~\ref{prop:computation} and the bound of Proposition~\ref{prop:candidates} without the concavity argument.
 \end{enumerate}
-Floating-point numbers appear only in the C program, to choose enumeration boxes, which are widened by two units in every coordinate; every decision is made in integer arithmetic. The Gram determinants $144+64\sqrt5$ and $320$ of the non-maximal candidates agree with the densities $2/\sqrt{144+64\sqrt5}$ and $1/(4\sqrt5)$ reported in~\cite[\S4.2]{AK2020}.
+Floating-point numbers appear only in the first check, to choose enumeration boxes, which are widened by two units in every coordinate; every decision is made in integer arithmetic. The Gram determinants $144+64\sqrt5$ and $320$ of the non-maximal candidates agree with the densities $2/\sqrt{144+64\sqrt5}$ and $1/(4\sqrt5)$ reported in~\cite[\S4.2]{AK2020}.
+
+\section*{Acknowledgements}
+
+The authors used the generative AI tool Claude (Anthropic), through Claude Code, to assist with the proofs, the Lean formalization, the computations and the preparation of this article. The authors reviewed and edited the content and take full responsibility for it.
 
 \section*{Statements and Declarations}
 
-\subsection*{Funding} No funding was received for conducting this study.
+\subsection*{Competing interests} None.
 
-\subsection*{Competing interests} The author has no competing interests to declare that are relevant to the content of this article.
+\subsection*{Funding} None.
 
-\subsection*{Data and code availability} The code, the data and the certificates of Appendix~\ref{app:verification} are available at \url{https://github.com/creelie/eD424} and are archived on Zenodo~\cite{Bhattacharjee2026}.
+\subsection*{Data availability} {\raggedright Deep Bhattacharjee computed the Lean formalization and the Julia, C, shell and Python computations with the help of AI assistance (Claude, Anthropic). The Lean formalization of the finite part of the proof, together with the programs, the data and the certificates of Appendix~\ref{app:verification}, is archived at Zenodo~\cite{Bhattacharjee2026}, doi:\href{https://doi.org/\zenodoID}{\zenodoID}. The paper is available at \url{\preprintURL}.\par}
 
 {\raggedright
 \begin{thebibliography}{99}
@@ -500,7 +517,7 @@ Floating-point numbers appear only in the C program, to choose enumeration boxes
 A.~Andreanov and Y.~Kallus, \emph{Locally optimal 2-periodic sphere packings}, Discrete Comput. Geom. \textbf{63} (2020), 182--208. \doi{10.1007/s00454-019-00150-6}
 
 \bibitem{Bhattacharjee2026}
-D.~Bhattacharjee, \emph{Densest packings of two translates of a lattice in four dimensions: paper, code and certificates}, Zenodo, 2026. \doi{10.5281/zenodo.23239767}
+D.~Bhattacharjee and U.~Bhattacharya, \emph{Densest packings of two translates of a lattice in four dimensions: Lean formalization, programs and certificates}, Zenodo, 2026. \doi{\zenodoID}
 
 \bibitem{Cassels1959}
 J.~W.~S. Cassels, \emph{An Introduction to the Geometry of Numbers}, Grundlehren Math. Wiss. 99, Springer, Berlin, 1959. \doi{10.1007/978-3-642-62035-5}

@@ -1,9 +1,13 @@
 # Densest packings of two translates of a lattice in four dimensions
 
-**Deep Bhattacharjee**
+**Deep Bhattacharjee** (corresponding author) and **Ushashi Bhattacharya**
 
 This repository holds the paper and all code and certificates for the
 following theorem.
+
+* Paper (PDF): [`preprintMusin24CellConjectureTwoTranslates/Musin24CellConjectureTwoTranslates.pdf`](preprintMusin24CellConjectureTwoTranslates/Musin24CellConjectureTwoTranslates.pdf)
+* Everything in one file: [MasterMusin24CellConjectureTwoTranslates_masterzipfinal2.zip](https://github.com/creelie/eD424/raw/main/MasterMusin24CellConjectureTwoTranslates_masterzipfinal2.zip)
+* Lean formalization, programs and certificates on Zenodo: [doi:10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767) (all versions)
 
 > **Theorem.** Let Λ ⊂ R⁴ be a lattice and b ∈ R⁴ \ Λ such that distinct
 > points of P = Λ ∪ (Λ + b) are at distance at least 2. Then covol(Λ) ≥ 16,
@@ -43,7 +47,9 @@ unit balls in R⁴, remain open and are not claimed here.
 | Path | Contents |
 | --- | --- |
 | `paper/main.tex`, `paper/figures/` | the paper (amsart) and its TikZ figures |
-| `dist/` | compiled PDF, tex.zip (figures as PNG) and arXiv tarball |
+| `preprintMusin24CellConjectureTwoTranslates/` | the paper as a PDF, the only file in the folder |
+| `dist/` | `Musin24CellConjectureTwoTranslates_final2.pdf`, `_final2-tex.zip` (figures as PNG) and `_final2-arxiv.tar.gz` |
+| `MasterMusin24CellConjectureTwoTranslates_masterzipfinal2.zip` | every file of the repository with `dist/` and the preprint folder |
 | `journal/JOURNAL.md` | the target journal (Discrete & Computational Geometry): scope, format and AI policy |
 | `verification/python/ryshkov2.py` | exact enumeration of R (rationals, cddlib in GMP) |
 | `verification/python/certify.py` | integer certificates in `verification/data/` |
@@ -61,8 +67,8 @@ unit balls in R⁴, remain open and are not claimed here.
 ## Reproduce
 
 ```sh
-scripts/build_paper.sh                 # dist/*.pdf, *-tex.zip, *-arxiv.tar.gz
-scripts/build_submission.sh            # build/submission: PDF and source zip (Fig1, Fig2 as PDF and EPS)
+scripts/build_paper.sh                 # dist/, the preprint folder and the master zip
+scripts/build_submission.sh            # build/submission: PDF and source zip (Fig1 to Fig3 as PDF and EPS)
 verification/shell/run_all.sh          # C, Julia, Lean 4 and Python checks
 verification/shell/run_all.sh --full   # also recompute R from scratch
 verification/shell/run_all.sh --kernel # also build the kernel-checked Lean proof
@@ -76,10 +82,11 @@ elan and pycddlib; it uses Lean 4.34.1 with Mathlib, fetched by `lake`.
 
 ## Citation
 
-Deep Bhattacharjee, *Densest packings of two translates of a lattice in four
-dimensions*, Zenodo, 2026.
+Deep Bhattacharjee and Ushashi Bhattacharya, *Densest packings of two
+translates of a lattice in four dimensions*, Zenodo, 2026.
 [doi:10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767)
-(all versions; v1.1.1 is
+(all versions; v2.0.0, which adds the second author, gets its DOI when it
+is published; v1.1.1 is
 [doi:10.5281/zenodo.23288720](https://doi.org/10.5281/zenodo.23288720), v1.1.0 is
 [doi:10.5281/zenodo.23242482](https://doi.org/10.5281/zenodo.23242482) and v1.0.0 is
 [doi:10.5281/zenodo.23239768](https://doi.org/10.5281/zenodo.23239768)).

@@ -1,6 +1,6 @@
 {
   "title": "Densest packings of two translates of a lattice in four dimensions",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "upload_type": "publication",
   "publication_type": "preprint",
   "creators": [
@@ -8,9 +8,14 @@
       "name": "Bhattacharjee, Deep",
       "orcid": "0000-0003-0466-750X",
       "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    },
+    {
+      "name": "Bhattacharya, Ushashi",
+      "orcid": "0009-0002-2254-3914",
+      "affiliation": "Formerly, National Taiwan University, Taipei 106319, Taiwan"
     }
   ],
-  "description": "<p>Let &Lambda; be a lattice in R<sup>4</sup> and b a vector not in &Lambda; such that distinct points of &Lambda; &cup; (&Lambda; + b) are at distance at least 2. We prove that the covolume of &Lambda; is at least 16, with equality only when &Lambda; &cup; (&Lambda; + b) is congruent to &radic;2 D<sub>4</sub>. Thus no packing of unit balls whose centres form two translates of a lattice is denser than the D<sub>4</sub> lattice packing, and every Voronoi cell of such a packing has volume at least 8, the volume of the regular 24-cell.</p><p>The archive contains the paper (PDF, LaTeX sources with PNG figures, arXiv tarball), the exact enumeration of the polyhedron of two-periodic packings, the integer certificates, independent checks in C, Julia, Lean 4 and Python, and a proof of the vertex and edge table in Lean 4 with Mathlib in which every step is checked by the kernel.</p><p>Version 1.2.0 adds the kernel-checked Lean 4 proof of Proposition 5.1 (verification/lean_kernel): no native_decide, and the main theorem depends only on the axioms propext, Classical.choice and Quot.sound. Version 1.1.1 added the run logs of crosscheck/ and analysis/, which the earlier versions left out, and moved the comparison with the numerical enumeration of Andreanov and Kallus into a footnote of the paper. Version 1.1.0 added the manuscript in the form submitted to Discrete &amp; Computational Geometry, a copy of the d4-voronoi-cells v2.0.0 code (doi:10.5281/zenodo.23240354) under its own licence, a floating-point test of the statements (G) and (C) of that code on two-periodic packings, and a record of two analytic approaches to (G) and (C) with the points where each stops. The general 24-cell conjecture remains open and is not claimed.</p>",
+  "description": "<p>Let &Lambda; be a lattice in R<sup>4</sup> and b a vector not in &Lambda; such that distinct points of &Lambda; &cup; (&Lambda; + b) are at distance at least 2. We prove that the covolume of &Lambda; is at least 16, with equality only when &Lambda; &cup; (&Lambda; + b) is congruent to &radic;2 D<sub>4</sub>. Thus no packing of unit balls whose centres form two translates of a lattice is denser than the D<sub>4</sub> lattice packing, and every Voronoi cell of such a packing has volume at least 8, the volume of the regular 24-cell.</p><p>The archive contains the paper (PDF, LaTeX sources with PNG figures, arXiv tarball), the exact enumeration of the polyhedron of two-periodic packings, the integer certificates, independent checks in C, Julia, Lean 4 and Python, the paper in preprintMusin24CellConjectureTwoTranslates/ and a master zip of the whole repository, and a proof of the vertex and edge table in Lean 4 with Mathlib in which every step is checked by the kernel.</p><p>Version 2.0.0 adds Ushashi Bhattacharya as second author (Deep Bhattacharjee is the corresponding author), a two-sentence abstract, a figure of two translates of a lattice, a section of statements and declarations, and files named after the conjecture. It also carries the changes prepared as version 1.2.0, which was not released on its own: a proof of Proposition 5.1 in Lean 4 with Mathlib in which every step is checked by the kernel (verification/lean_kernel), with no native_decide and only the axioms propext, Classical.choice and Quot.sound. Version 1.1.1 added the run logs of crosscheck/ and analysis/, which the earlier versions left out, and moved the comparison with the numerical enumeration of Andreanov and Kallus into a footnote of the paper. Version 1.1.0 added the manuscript in the form submitted to Discrete &amp; Computational Geometry, a copy of the d4-voronoi-cells v2.0.0 code (doi:10.5281/zenodo.23240354) under its own licence, a floating-point test of the statements (G) and (C) of that code on two-periodic packings, and a record of two analytic approaches to (G) and (C) with the points where each stops. The general 24-cell conjecture remains open and is not claimed.</p>",
   "keywords": [
     "sphere packing",
     "periodic packing",
@@ -37,5 +42,5 @@
       "scheme": "doi"
     }
   ],
-  "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
+  "notes": "Corresponding author: Deep Bhattacharjee, itsdeep@live.com (primary), d.bhattacharjee@erl-forschung.de (secondary). Ushashi Bhattacharya: rai.bhattacharya.in@gmail.com."
 }
