@@ -7,8 +7,8 @@
 | ISSN | 0179-5376 (print), 1432-0444 (electronic) |
 | Homepage | https://link.springer.com/journal/454 |
 | Submission | Editorial Manager, https://www.editorialmanager.com/dcge |
-| Manuscript | `dist/densest-two-translates-d4.pdf` (13 pages, `amsart`) |
-| Source files | `scripts/build_submission.sh` writes `build/submission/`: the PDF and a source zip with `main.tex` and the figures as Fig1, Fig2 (PDF and EPS) |
+| Manuscript | `dist/Musin24CellConjectureTwoTranslates_final2.pdf` (13 pages, `amsart`) |
+| Source files | `dist/Musin24CellConjectureTwoTranslates_final2-tex.zip` (figures as PNG); or `scripts/build_submission.sh`, which writes `build/submission/` with the PDF and a source zip holding `main.tex` and the figures as Fig1 to Fig3 (PDF and EPS) |
 
 ## Scope fit
 
@@ -28,12 +28,19 @@ MSC 2020: primary 52C17; secondary 11H31, 11H55.
 
 - 13 pages; the journal sets no page limit.
 - One source file `main.tex` with the references in `thebibliography`.
-- Title page: title, author, affiliation, e-mail address and ORCID. Six
+- Two authors: Deep Bhattacharjee (corresponding author) and Ushashi
+  Bhattacharya, with affiliations, e-mail addresses and ORCID iDs. Six
   keywords (the guidelines ask for 4 to 6) and the MSC codes are in the
   first-page footnote.
-- The abstract has 180 words; Springer asks for 150 to 250.
-- The section "Statements and Declarations" has funding, competing interests,
-  and data and code availability, as the guidelines require.
+- The abstract has two sentences (61 words). Springer's guidelines ask for
+  150 to 250 words; the authors chose a short abstract, so lengthen it only if
+  the editor asks.
+- Three figures: two translates of a lattice, the descent to the vertices and
+  edges of the polyhedron, and the graph of the ten vertex classes.
+- The section "Statements and Declarations" has competing interests (none),
+  funding (none) and data availability (who computed what, the Zenodo DOI of
+  the Lean formalization and the link to the PDF in
+  `preprintMusin24CellConjectureTwoTranslates/`), as the guidelines require.
 - Supplementary material: the Zenodo record of the repository,
   doi:10.5281/zenodo.23239767 (all versions), cited in the paper.
 
@@ -43,6 +50,7 @@ MSC 2020: primary 52C17; secondary 11H31, 11H55.
   criteria, and their use is documented in the Methods section or a suitable
   alternative part of the manuscript (DCG submission guidelines,
   https://link.springer.com/journal/454/submission-guidelines).
-- Appendix A of the paper says that the author used Claude (Anthropic) for
-  programming, computation and drafting, checked the mathematics and is
-  responsible for the content.
+- The acknowledgements say that the authors used Claude (Anthropic),
+  through Claude Code, for the proofs, the Lean formalization, the
+  computations and the preparation of the article, and take full
+  responsibility for it; the data availability statement repeats it.
