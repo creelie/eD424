@@ -7,7 +7,7 @@ following theorem.
 
 * Paper (PDF): [`preprintMusin24CellConjectureTwoTranslates/Musin24CellConjectureTwoTranslates.pdf`](preprintMusin24CellConjectureTwoTranslates/Musin24CellConjectureTwoTranslates.pdf)
 * Everything in one file: [MasterMusin24CellConjectureTwoTranslates_masterzipfinal2.zip](https://github.com/creelie/eD424/raw/main/MasterMusin24CellConjectureTwoTranslates_masterzipfinal2.zip)
-* Lean formalization, programs and certificates on Zenodo: [doi:10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767) (all versions)
+* Lean formalization, programs and certificates on Zenodo: [doi:10.5281/zenodo.23387006](https://doi.org/10.5281/zenodo.23387006) (version 2.0.0; all versions: [doi:10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767))
 
 > **Theorem.** Let Λ ⊂ R⁴ be a lattice and b ∈ R⁴ \ Λ such that distinct
 > points of P = Λ ∪ (Λ + b) are at distance at least 2. Then covol(Λ) ≥ 16,
@@ -85,8 +85,8 @@ elan and pycddlib; it uses Lean 4.34.1 with Mathlib, fetched by `lake`.
 Deep Bhattacharjee and Ushashi Bhattacharya, *Densest packings of two
 translates of a lattice in four dimensions*, Zenodo, 2026.
 [doi:10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767)
-(all versions; v2.0.0, which adds the second author, gets its DOI when it
-is published; v1.1.1 is
+(all versions; v2.0.0 is
+[doi:10.5281/zenodo.23387006](https://doi.org/10.5281/zenodo.23387006), v1.1.1 is
 [doi:10.5281/zenodo.23288720](https://doi.org/10.5281/zenodo.23288720), v1.1.0 is
 [doi:10.5281/zenodo.23242482](https://doi.org/10.5281/zenodo.23242482) and v1.0.0 is
 [doi:10.5281/zenodo.23239768](https://doi.org/10.5281/zenodo.23239768)).
