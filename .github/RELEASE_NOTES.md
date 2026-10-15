@@ -71,5 +71,6 @@ every step checked by the kernel.
 
 Deep Bhattacharjee and Ushashi Bhattacharya. Concept DOI (all versions):
 [10.5281/zenodo.23239767](https://doi.org/10.5281/zenodo.23239767).
+Version 2.0.0: [10.5281/zenodo.23387006](https://doi.org/10.5281/zenodo.23387006).
 Version 1.1.1: [10.5281/zenodo.23288720](https://doi.org/10.5281/zenodo.23288720).
 Version 1.1.0: [10.5281/zenodo.23242482](https://doi.org/10.5281/zenodo.23242482).
